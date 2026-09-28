@@ -8,7 +8,7 @@
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
-<div class="topbar"><span>Bengaluru, India · US and international clients</span><a href="tel:+919113214395">+91 91132 14395</a></div>
+<div class="topbar"><span>Bengaluru, India · Wyoming, USA</span><a href="tel:+919113214395">+91 91132 14395</a><a href="mailto:contact@prasaip.com">contact@prasaip.com</a></div>
 <header class="header">
 <a class="logo" href="<?php echo esc_url(home_url('/')); ?>" aria-label="PRASA IP home"><img src="<?php echo esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo.webp'); ?>" alt="PRASA IP" width="632" height="395"></a>
 <button class="menu" aria-expanded="false" aria-controls="nav">Menu</button>
