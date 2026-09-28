@@ -41,6 +41,15 @@ function prasa_ip_static_file_for_current_request() {
         $map = prasa_ip_static_map();
         return isset($map[$slug]) ? $map[$slug] : false;
     }
+    // Serve mapped pages even where the matching WordPress post does not exist,
+    // so .com and .in can share one theme.
+    if (is_404()) {
+        $path = isset($_SERVER['REQUEST_URI']) ? trim((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH), '/') : '';
+        $map = prasa_ip_static_map();
+        if ($path !== '' && strpos($path, '/') === false && isset($map[$path])) {
+            return $map[$path];
+        }
+    }
     return false;
 }
 
@@ -86,8 +95,11 @@ function prasa_ip_render_static($file) {
         $html = str_replace($publisher, $with_logo, $html);
     }
     // Rank Math supplies these tags. Keep one authoritative set in the rendered head.
-    $html = preg_replace('/<meta\\s+(?:name="(?:description|robots|twitter:card)"|property="og:(?:type|title|description|url)")\\s+[^>]*>/i', '', $html);
-    $html = preg_replace('/<link\\s+rel="canonical"\\s+[^>]*>/i', '', $html);
+    // Without a WordPress post, Rank Math has no tags to supply, so keep the page's own.
+    if (!is_404()) {
+        $html = preg_replace('/<meta\\s+(?:name="(?:description|robots|twitter:card)"|property="og:(?:type|title|description|url)")\\s+[^>]*>/i', '', $html);
+        $html = preg_replace('/<link\\s+rel="canonical"\\s+[^>]*>/i', '', $html);
+    }
 
     ob_start();
     wp_head();
