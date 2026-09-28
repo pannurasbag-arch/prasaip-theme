@@ -27,6 +27,8 @@ function prasa_ip_static_map() {
         'us-ai-patent-inventorship-2026' => 'us-ai-patent-inventorship-2026.html',
         'us-patent-eligibility-declarations' => 'us-patent-eligibility-declarations.html',
         'euipo-trademark-design-changes-2026' => 'euipo-trademark-design-changes-2026.html',
+        'sep-evidence-india-bansal-philips-claim-mapping' => 'sep-evidence-india-bansal-philips-claim-mapping.html',
+        'duo-vs-duo-trademark-india-confusion-priority' => 'duo-vs-duo-trademark-india-confusion-priority.html',
     );
 }
 
@@ -65,6 +67,12 @@ function prasa_ip_render_static($file) {
         return;
     }
     add_filter('rank_math/frontend/disable', '__return_true');
+    // Homepage search description naming both firm entities, as approved for .in.
+    if (basename($file) === 'index.html') {
+        add_filter('rank_math/frontend/description', function () {
+            return 'PRASA IP LLP in India and PRASA IP LLC in the United States support patents, trademarks, designs, copyright and IP portfolios across India, the US and Europe.';
+        }, 99);
+    }
     remove_action('wp_head', 'rel_canonical');
     remove_action('wp_head', 'wp_shortlink_wp_head');
     remove_action('wp_head', 'wp_robots', 1);
