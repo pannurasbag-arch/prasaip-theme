@@ -231,3 +231,10 @@ add_filter('template_include', function ($template) {
     }
     return $template;
 }, PHP_INT_MAX);
+
+// List the theme's page sitemap in Rank Math's sitemap index, so pages without a WordPress post are still discovered.
+add_filter('rank_math/sitemap/index', function ($xml) {
+    $file = get_template_directory() . '/static/sitemap.xml';
+    $lastmod = is_readable($file) ? gmdate('c', filemtime($file)) : gmdate('c');
+    return $xml . '<sitemap><loc>' . esc_url(get_template_directory_uri() . '/static/sitemap.xml') . '</loc><lastmod>' . $lastmod . '</lastmod></sitemap>';
+});
