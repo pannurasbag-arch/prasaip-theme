@@ -95,8 +95,8 @@ function prasa_ip_render_static($file) {
         $html = str_replace($publisher, $with_logo, $html);
     }
     // Rank Math supplies these tags. Keep one authoritative set in the rendered head.
-    // Without a WordPress post, Rank Math has no tags to supply, so keep the page's own.
-    if (!is_404()) {
+    // Keep the page's own tags unless Rank Math is active and has a post to describe.
+    if (!is_404() && defined('RANK_MATH_VERSION')) {
         $html = preg_replace('/<meta\\s+(?:name="(?:description|robots|twitter:card)"|property="og:(?:type|title|description|url)")\\s+[^>]*>/i', '', $html);
         $html = preg_replace('/<link\\s+rel="canonical"\\s+[^>]*>/i', '', $html);
     }
