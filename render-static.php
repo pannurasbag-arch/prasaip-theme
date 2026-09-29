@@ -216,6 +216,10 @@ function prasa_ip_legacy_redirects() {
     $path = trim((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH), '/');
     $map = array(
         'navigating-the-patent-registration-process' => 'patent-filing-procedure-in-india-step-by-step-guide',
+        'what-is-intellectual-property-rights-and-how-does-it-protect-you' => 'types-of-intellectual-property-protection',
+        'intellectual-property-rights-in-india-a-detailed-overview' => 'types-of-intellectual-property-protection',
+        'understanding-ip-ipr-2025-intellectual-property-rights-definition' => 'types-of-intellectual-property-protection',
+        'navigating-patents-filing-in-bengaluru' => 'ip-law-firm-bengaluru',
     );
     if (isset($map[$path])) {
         wp_safe_redirect(home_url('/' . $map[$path] . '/'), 301);
