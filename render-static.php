@@ -32,6 +32,8 @@ function prasa_ip_static_map() {
         'patent-filing-procedure-in-india-step-by-step-guide' => 'patent-filing-procedure-in-india-step-by-step-guide.html',
         'types-of-intellectual-property-protection' => 'types-of-intellectual-property-protection.html',
         'india-patent-filing-for-foreign-applicants' => 'india-patent-filing-for-foreign-applicants.html',
+        'startup-ip-budget-patents-trademarks' => 'startup-ip-budget-patents-trademarks.html',
+        'when-to-file-pct-application' => 'when-to-file-pct-application.html',
     );
 }
 
