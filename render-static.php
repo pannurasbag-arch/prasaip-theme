@@ -29,6 +29,9 @@ function prasa_ip_static_map() {
         'euipo-trademark-design-changes-2026' => 'euipo-trademark-design-changes-2026.html',
         'sep-evidence-india-bansal-philips-claim-mapping' => 'sep-evidence-india-bansal-philips-claim-mapping.html',
         'duo-vs-duo-trademark-india-confusion-priority' => 'duo-vs-duo-trademark-india-confusion-priority.html',
+        'patent-filing-procedure-in-india-step-by-step-guide' => 'patent-filing-procedure-in-india-step-by-step-guide.html',
+        'types-of-intellectual-property-protection' => 'types-of-intellectual-property-protection.html',
+        'india-patent-filing-for-foreign-applicants' => 'india-patent-filing-for-foreign-applicants.html',
     );
 }
 
@@ -86,6 +89,34 @@ function prasa_ip_render_static($file) {
         add_filter('rank_math/frontend/description', $use_own_description, 99);
         add_filter('rank_math/opengraph/facebook/og_description', $use_own_description, 99);
         add_filter('rank_math/opengraph/twitter/twitter_description', $use_own_description, 99);
+    }
+    // Older WordPress posts may carry a custom Rank Math canonical or title. The static page is authoritative.
+    if (preg_match('/<link\\s+rel="canonical"\\s+href="([^"]+)"/i', $raw, $canonical_match)) {
+        $own_canonical = $canonical_match[1];
+        $use_own_canonical = function () use ($own_canonical) {
+            return $own_canonical;
+        };
+        add_filter('rank_math/frontend/canonical', $use_own_canonical, 99);
+        add_filter('rank_math/opengraph/url', $use_own_canonical, 99);
+    }
+    if (preg_match('/<title>([^<]*)<\/title>/i', $raw, $title_match)) {
+        $own_title = html_entity_decode($title_match[1], ENT_QUOTES, 'UTF-8');
+        $use_own_title = function () use ($own_title) {
+            return $own_title;
+        };
+        add_filter('rank_math/opengraph/facebook/og_title', $use_own_title, 99);
+        add_filter('rank_math/opengraph/twitter/twitter_title', $use_own_title, 99);
+    }
+    // Where the page carries its own Article schema, drop Rank Math's post schema to avoid a second article.
+    if (strpos($raw, '"@type":"Article"') !== false) {
+        add_filter('rank_math/json_ld', function ($data) {
+            foreach ($data as $key => $node) {
+                if (is_array($node) && isset($node['@type']) && in_array($node['@type'], array('Article', 'BlogPosting', 'NewsArticle'), true)) {
+                    unset($data[$key]);
+                }
+            }
+            return $data;
+        }, 100);
     }
     remove_action('wp_head', 'rel_canonical');
     remove_action('wp_head', 'wp_shortlink_wp_head');
@@ -168,3 +199,19 @@ function prasa_ip_breadcrumb_schema($raw) {
     $schema = array('@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => $items);
     return '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '</script>';
 }
+
+// Permanent redirects for older posts whose topic is now covered by a fuller page.
+function prasa_ip_legacy_redirects() {
+    if (!isset($_SERVER['REQUEST_URI'])) {
+        return;
+    }
+    $path = trim((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH), '/');
+    $map = array(
+        'navigating-the-patent-registration-process' => 'patent-filing-procedure-in-india-step-by-step-guide',
+    );
+    if (isset($map[$path])) {
+        wp_safe_redirect(home_url('/' . $map[$path] . '/'), 301);
+        exit;
+    }
+}
+add_action('template_redirect', 'prasa_ip_legacy_redirects', 1);
