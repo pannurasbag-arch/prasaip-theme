@@ -145,6 +145,10 @@ function prasa_ip_render_static($file) {
     ob_start();
     wp_head();
     $head = ob_get_clean();
+    // Make sure the printed canonical is the page's own, whatever a plugin stored for an older post.
+    if (isset($own_canonical)) {
+        $head = preg_replace('/<link\\s+rel="canonical"\\s+href="[^"]*"\\s*\\/?>/i', '<link rel="canonical" href="' . esc_url($own_canonical) . '" />', $head);
+    }
     // Rank Math HTML-escapes ampersands even inside its JSON-LD script.
     $head = str_replace('"name":"PRASA IP (IP ATTORNEYS &amp; ADVOCATES)"', '"name":"PRASA IP (IP ATTORNEYS & ADVOCATES)"', $head);
     $html = str_replace('</head>', $head . '</head>', $html);
