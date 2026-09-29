@@ -107,16 +107,20 @@ function prasa_ip_render_static($file) {
         add_filter('rank_math/opengraph/facebook/og_title', $use_own_title, 99);
         add_filter('rank_math/opengraph/twitter/twitter_title', $use_own_title, 99);
     }
-    // Where the page carries its own Article schema, drop Rank Math's post schema to avoid a second article.
-    if (strpos($raw, '"@type":"Article"') !== false) {
+    // Rank Math's post schema describes the old post body. Keep only the site level nodes.
+    if (!is_front_page()) {
         add_filter('rank_math/json_ld', function ($data) {
             foreach ($data as $key => $node) {
-                if (is_array($node) && isset($node['@type']) && in_array($node['@type'], array('Article', 'BlogPosting', 'NewsArticle'), true)) {
+                if (is_array($node) && isset($node['@type']) && in_array($node['@type'], array('Article', 'BlogPosting', 'NewsArticle', 'FAQPage'), true)) {
                     unset($data[$key]);
                 }
             }
             return $data;
         }, 100);
+    }
+    // A mapped page without a WordPress post reaches here as a 404. Rank Math would mark it noindex, so its head output is skipped and the page's own tags are used.
+    if (is_404()) {
+        remove_all_actions('rank_math/head');
     }
     remove_action('wp_head', 'rel_canonical');
     remove_action('wp_head', 'wp_shortlink_wp_head');
@@ -215,3 +219,11 @@ function prasa_ip_legacy_redirects() {
     }
 }
 add_action('template_redirect', 'prasa_ip_legacy_redirects', 1);
+
+// Page builders can assign their own template to older posts. Mapped pages always use the theme's static renderer.
+add_filter('template_include', function ($template) {
+    if (!is_front_page() && is_singular() && prasa_ip_static_file_for_current_request()) {
+        return get_template_directory() . '/single.php';
+    }
+    return $template;
+}, PHP_INT_MAX);
