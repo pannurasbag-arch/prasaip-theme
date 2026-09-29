@@ -76,16 +76,22 @@ function prasa_ip_render_static($file) {
         return;
     }
     add_filter('rank_math/frontend/disable', '__return_true');
-    // Homepage search description naming both firm entities, as approved for .in.
-    if (basename($file) === 'index.html') {
-        add_filter('rank_math/frontend/description', function () {
-            return 'PRASA IP LLP in India and PRASA IP LLC in the United States support patents, trademarks, designs, copyright and IP portfolios across India, the US and Europe.';
-        }, 99);
+    $raw = file_get_contents($path);
+    // Use each page's own curated description wherever Rank Math prints one.
+    if (preg_match('/<meta\\s+name="description"\\s+content="([^"]*)"/i', $raw, $desc_match)) {
+        $own_description = html_entity_decode($desc_match[1], ENT_QUOTES, 'UTF-8');
+        $use_own_description = function () use ($own_description) {
+            return $own_description;
+        };
+        add_filter('rank_math/frontend/description', $use_own_description, 99);
+        add_filter('rank_math/opengraph/facebook/og_description', $use_own_description, 99);
+        add_filter('rank_math/opengraph/twitter/twitter_description', $use_own_description, 99);
     }
     remove_action('wp_head', 'rel_canonical');
     remove_action('wp_head', 'wp_shortlink_wp_head');
     remove_action('wp_head', 'wp_robots', 1);
-    $html = prasa_ip_transform_static_html(file_get_contents($path));
+    $html = prasa_ip_transform_static_html($raw);
+    $html = str_replace('</head>', prasa_ip_breadcrumb_schema($raw) . '</head>', $html);
     // Identify the publisher in the Article schema with the same logo shown on the site.
     if (strpos($html, '"@type":"Article"') !== false) {
         $publisher = '"publisher":{"@type":"LegalService","name":"PRASA IP"}';
@@ -134,4 +140,31 @@ function prasa_ip_extract_static_content($file, $element) {
         return $match[1];
     }
     return '';
+}
+
+// BreadcrumbList structured data built from the page's visible breadcrumb trail.
+function prasa_ip_breadcrumb_schema($raw) {
+    if (!preg_match('/<p class="breadcrumbs">(.*?)<\/p>/s', $raw, $trail)) {
+        return '';
+    }
+    if (!preg_match('/<link\\s+rel="canonical"\\s+href="([^"]+)"/i', $raw, $canonical)) {
+        return '';
+    }
+    $base = 'https://www.prasaip.com/';
+    $items = array();
+    $position = 1;
+    preg_match_all('/<a href="([a-z0-9-]+)\.html[^"]*">([^<]+)<\/a>/i', $trail[1], $links, PREG_SET_ORDER);
+    foreach ($links as $link) {
+        $slug = $link[1] === 'index' ? '' : ($link[1] === 'firm' ? 'about-us' : $link[1]);
+        $items[] = array('@type' => 'ListItem', 'position' => $position++, 'name' => html_entity_decode(trim($link[2]), ENT_QUOTES, 'UTF-8'), 'item' => $base . ($slug ? $slug . '/' : ''));
+    }
+    $current = trim(html_entity_decode(strip_tags(preg_replace('/.*<\/a>/s', '', $trail[1])), ENT_QUOTES, 'UTF-8'), " /\t\n\r");
+    if ($current !== '') {
+        $items[] = array('@type' => 'ListItem', 'position' => $position, 'name' => $current, 'item' => $canonical[1]);
+    }
+    if (count($items) < 2) {
+        return '';
+    }
+    $schema = array('@context' => 'https://schema.org', '@type' => 'BreadcrumbList', 'itemListElement' => $items);
+    return '<script type="application/ld+json">' . wp_json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '</script>';
 }
