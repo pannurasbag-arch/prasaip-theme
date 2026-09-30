@@ -20,7 +20,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 11 | open | |
 | 12 | open | |
 | 13 | open | |
-| 14 | open | |
+| 14 | open | Update 30 Sep 2026: Third Circuit affirmed (reported 29 Sep 2026), opinion under seal. See item 36. |
 | 15 | open | |
 | 16 | open | |
 | 17 | open | |
@@ -41,6 +41,16 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 32 | open | |
 | 33 | open | |
 | 34 | open | |
+| 35 | drafted | draft/2026-09-30-upc-opt-out-sidel-v-omnia (30 Sep 2026), awaiting owner approval |
+| 36 | open | |
+| 37 | open | |
+| 38 | open | |
+| 39 | open | |
+| 40 | open | |
+| 41 | open | |
+| 42 | open | |
+| 43 | open | |
+| 44 | open | |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -88,6 +98,16 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 32 | 6 Nov 2025 | US (CAFC) | Procedure | In re Motorola: mandamus against discretionary denial refused | Tue | Medium |
 | 33 | 4 Nov 2025 | UK (High Court) | Copyright / TM / AI | Getty Images v Stability AI | Wed | High |
 | 34 | 17 Oct 2025 | US (USPTO) | Procedure | PTAB IPR institution NPRM and Director-led institution | Tue | High |
+| 35 | 21 Sep 2026 | UPC (CoA) | Patent / procedure | Sidel v Omnia: pre grant DNI blocks later opt out | Wed | High |
+| 36 | 29 Sep 2026 | US (3d Cir.) | Copyright / AI | Thomson Reuters v Ross: fair use rejected on appeal | Fri | High |
+| 37 | 16 Sep 2026 | US (9th Cir.) | Copyright / AI | Doe v GitHub: DMCA s.1202(b) output claims fail | Fri | High |
+| 38 | 21 Sep 2026 | India (SC) | Trade mark / jurisdiction | ISDS v Khemka: larger bench on commercial court TM suits | Thu | High |
+| 39 | 16 to 29 Sep 2026 | US (USPTO) | Procedure | PTAB merits institution may return to panels | Tue | High |
+| 40 | 23 Sep 2026 | India (Delhi HC) | Patent | ITC v Philip Morris: heat not burn patent upheld | Mon | Medium |
+| 41 | 24 Sep 2026 | US (Congress) | Copyright | DEFEND IP Act: site blocking bill | Fri | Medium |
+| 42 | 29 Sep 2026 | WIPO | Innovation policy | Global Innovation Index 2026 | Fri | Medium |
+| 43 | 17 Sep 2026 | US (CAFC, nonprec.) | Patent / fees | Carnegie v Fenix Diamonds: s.285 fees affirmed | Tue | Medium |
+| 44 | 16 and 18 Sep 2026 | India (Bom HC, Cal HC DB) | Trade mark | ICE CREAM ROCKS refusal; Gold Stag v Gold Flake | Thu | Medium |
 
 ---
 
@@ -451,6 +471,109 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 - **Primary:** Not opened (Federal Register 2025-19580: https://www.federalregister.gov/documents/2025/10/17/2025-19580/revision-to-rules-of-practice-before-the-patent-trial-and-appeal-board)
 - **Secondary:** https://www.morganlewis.com/pubs/2025/10/uspto-proposes-new-institution-rules-and-director-takes-over-merits-based-institution-decisions ; status: https://www.iplawwatch.com/2026/08/03/usptos-ptab-rulemaking-signals-a-major-shift-in-ipr-practice/
 - **Day:** Tue · **Priority:** High
+
+
+## Detailed entries added 30 September 2026 (weekday scan)
+
+### 35. Sidel Participations v Omnia Technologies (UPC_CoA_90/2026)
+- **Date:** 21 September 2026
+- **Jurisdiction:** UPC, Court of Appeal (Panel 3: Voß presiding, van den Broek, Sabotier as judge rapporteur)
+- **Area:** Patent / UPC procedure
+- **Summary:** An action for a declaration of noninfringement filed on 3 March 2026, before EP 4 594 194 and EP 4 624 351 were granted, fell within UPC competence under Art 32(1)(b). Whether filing before grant is admissible is a separate question for the main proceedings, not a Rule 19 objection. The action made Sidel's later opt outs (2 and 8 April 2026) ineffective under Art 83(3). The appeal was dismissed.
+- **Why it matters:** Applicants who want to stay out of the UPC must opt out while applications are pending. Competitors can fix the UPC forum before grant.
+- **Primary (opened):** https://www.unifiedpatentcourt.org/sites/default/files/files/api_order/d9462822-4752-49cf-823d-2fb0f0524bfa.pdf
+- **Secondary:** https://www.mewburn.com/forward/upc-weekly-how-early-is-too-early-for-upc-actions-and-upc-opt-outs
+- **Day:** Wed · **Priority:** High
+
+### 36. Thomson Reuters v Ross Intelligence (3d Cir. No. 25-2153): appeal decided
+- **Date:** Reported 29 September 2026. One secondary report says 24 September, which is a Thursday, so check the date.
+- **Jurisdiction:** US, Third Circuit (opinion by Montgomery-Reeves J)
+- **Area:** Copyright / AI
+- **Summary:** The court affirmed summary judgment. Westlaw headnotes are copyrightable, and Ross's use of them to train a competing AI legal research tool was not fair use. The opinion is under seal pending redactions.
+- **Why it matters:** This is the first US appellate ruling on fair use in AI training, and it contrasts with ANI v OpenAI (item 8).
+- **Primary:** Not opened. The opinion is sealed, so wait until the public opinion is released before writing.
+- **Secondary:** https://chatgptiseatingtheworld.com/2026/09/29/third-circuit-affirms-summary-judgment-rejection-of-fair-use-defense-by-ross-intelligence-opinion-under-seal-for-now/ ; https://copyrightlately.com/thomson-reuters-v-ross-third-circuit/
+- **Day:** Fri (or Tue) · **Priority:** High
+
+### 37. Doe v GitHub (9th Cir.)
+- **Date:** 16 September 2026
+- **Jurisdiction:** US, Ninth Circuit
+- **Area:** Copyright / DMCA / AI
+- **Summary:** On interlocutory appeal, the court affirmed dismissal of the DMCA s.1202(b) claims against Copilot. Section 1202(b) concerns CMI removed from existing works, and Copilot's outputs never carried that CMI. Two open source licence contract claims survive.
+- **Why it matters:** It narrows a common claim brought against AI developers over outputs.
+- **Primary:** Not opened (Ninth Circuit opinion)
+- **Secondary:** https://www.haynesboone.com/news/alerts/ai-legal-news-ninth-circuit-rejects-dmca-section-1202(b)-theory ; https://www.authorsalliance.org/2026/09/23/resolving-an-interlocutory-appeal-ninth-circuit-affirms-dismissal-of-section-1202-dmca-claims-in-ongoing-doe-v-github-litigation/
+- **Day:** Fri · **Priority:** High
+
+### 38. I.S.D.S. Pvt Ltd v Khemka Food Products (SLP(C) 6793/2026): larger bench reference
+- **Date:** 21 September 2026
+- **Jurisdiction:** India, Supreme Court (Pardiwala and Vinod Chandran JJ)
+- **Area:** Trade mark / jurisdiction
+- **Summary:** The Court referred to a larger bench whether a Civil Judge (Senior Division) notified as a Commercial Court can try trade mark infringement suits, given that s.134 of the Trade Marks Act bars suits in courts inferior to a District Court.
+- **Why it matters:** Suits pending before notified civil judge commercial courts in several states may be affected.
+- **Primary:** Not opened (SC order)
+- **Secondary:** https://www.livelaw.in/supreme-court/can-civil-judge-notified-as-commercial-court-hear-trademark-infringement-suits-supreme-court-refers-to-larger-bench-551142 ; https://www.barandbench.com/news/litigation/can-civil-courts-hear-trademark-suits-supreme-court-refers-issue-to-larger-bench
+- **Day:** Thu · **Priority:** High
+
+### 39. USPTO: PTAB merits institution decisions may return to panels; Senate oversight hearing
+- **Date:** 16 to 29 September 2026
+- **Jurisdiction:** US, USPTO / Senate IP Subcommittee
+- **Area:** Patent procedure
+- **Summary:** Director Squires reportedly told PTAB judges he would return merits institution decisions to panels. At the 29 September hearing he said the Office is considering this, that the IPR final rule is still at OIRA, and that fee setting authority expires on 12 December.
+- **Why it matters:** IPR institution rates and challenge strategy may shift. Wait for a formal memo before writing.
+- **Primary:** Not opened (no formal memo found)
+- **Secondary:** https://ipwatchdog.com/2026/09/29/senate-ip-subcommittee-focuses-on-fee-setting-ptab-rule-in-uspto-oversight-hearing/ ; https://ipwatchdog.com/2026/09/16/uspto-pivot-ptab-oversight-raises-questions-about-ptab-control/
+- **Day:** Tue · **Priority:** High
+
+### 40. ITC Ltd v Philip Morris Products SA (CA(COMM.IPD-PAT) 24/2025)
+- **Date:** 23 September 2026
+- **Jurisdiction:** India, Delhi High Court (Jyoti Singh J)
+- **Area:** Patent (post grant opposition appeal)
+- **Summary:** The court dismissed ITC's appeal and upheld IN 384250, PMI's heat not burn patent, affirming the Controller's rejection of the post grant opposition on novelty and inventive step.
+- **Why it matters:** A reasoned IPD ruling on inventive step in consumer device technology.
+- **Primary:** Not opened
+- **Secondary:** https://www.livelawbiz.com/patent/delhi-high-court-dismisses-itc-challenge-to-philip-morris-heat-not-burn-cigarette-patent-551498
+- **Day:** Mon · **Priority:** Medium
+
+### 41. DEFEND IP Act introduced (US site blocking bill)
+- **Date:** 24 September 2026
+- **Jurisdiction:** US, Congress (Reps Lofgren and Cline; Senate companion reported)
+- **Area:** Copyright / online piracy
+- **Summary:** The bill would allow court ordered blocking of large foreign piracy sites without mandating a blocking technology.
+- **Why it matters:** It parallels India's dynamic injunction practice.
+- **Primary:** Not opened (bill text)
+- **Secondary:** https://ipwatchdog.com/2026/09/25/bites-barks-defend-ip-act-introduced-to-target-foreign-piracy-sites-judge-rogers-dissents-from-dc-circ/
+- **Day:** Fri · **Priority:** Medium
+
+### 42. WIPO Global Innovation Index 2026
+- **Date:** 29 September 2026
+- **Jurisdiction:** WIPO
+- **Area:** Innovation policy
+- **Summary:** Switzerland, Sweden and the US rank top three. The theme is deep science entrepreneurship. India's rank needs checking against the report.
+- **Why it matters:** A benchmark for startup and client communications.
+- **Primary (opened):** https://www.wipo.int/web-publications/global-innovation-index-2026/en/gii-2026-at-a-glance.html
+- **Secondary:** https://www.wipo.int/en/web/global-innovation-index
+- **Day:** Fri · **Priority:** Medium
+
+### 43. Carnegie Institution v Fenix Diamonds (Fed. Cir. No. 24-1804, nonprecedential)
+- **Date:** 17 September 2026
+- **Jurisdiction:** US, Federal Circuit
+- **Area:** Patent / attorney fees
+- **Summary:** The court affirmed a fee award of about USD 3.2m under s.285 for objectively baseless infringement claims over lab grown diamond processes.
+- **Why it matters:** It shows fee exposure for weak assertions, including by research institutions.
+- **Primary:** Not opened (https://www.cafc.uscourts.gov/09-17-2026-24-1804-carnegie-institution-of-washington-v-fenix-diamonds-llc-opinion-24-1804-opinion-9-17-2026_2756949/)
+- **Secondary:** https://patentlyo.com/patent/2026/09/objective-baselessness-in-carnegie-v-fenix-diamonds.html
+- **Day:** Tue · **Priority:** Medium
+
+### 44. Graviss Foods v Registrar ("ICE CREAM ROCKS") and Pravin Kumar v ITC ("Gold Stag" v "Gold Flake")
+- **Date:** 16 September 2026 (Bombay HC, Sundaresan J) and 18 September 2026 (Calcutta HC Division Bench)
+- **Jurisdiction:** India
+- **Area:** Trade mark
+- **Summary:** Bombay HC upheld refusal of ICE CREAM ROCKS as descriptive and generic. Calcutta HC upheld an injunction against IJM Gold Stag cigarettes as deceptively similar to Gold Flake.
+- **Why it matters:** Recent authorities on descriptiveness and deceptive similarity for Thursday pieces.
+- **Primary:** Not opened
+- **Secondary:** https://www.livelawbiz.com/digests/weekly-digests/livelawbiz-ipr-weekly-digest-september-14-september-20-2026-550987
+- **Day:** Thu · **Priority:** Medium
 
 ---
 
