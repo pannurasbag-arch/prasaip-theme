@@ -149,3 +149,11 @@ a,button,summary,[role="button"]{cursor:pointer!important}
   .logo{padding-right:0}.logo:after{display:none}
   .menu{border-color:#d7ad4d;color:#761344;background:#fffaf0}
 }
+/* Articles carried over from the earlier website. */
+.legacy-article img{max-width:100%;height:auto;border-radius:12px;margin:12px 0}
+.legacy-article h2{margin-top:38px;color:#3d1729;font:700 clamp(24px,2.4vw,30px)/1.25 Manrope,sans-serif}
+.legacy-article h3{color:#761344}
+.legacy-article table{width:100%;border-collapse:collapse;margin:20px 0;font-size:15px}
+.legacy-article th,.legacy-article td{padding:10px 12px;border:1px solid #e4dce1;text-align:left;vertical-align:top}
+.legacy-article th{background:#f8f3ed;color:#3d1729}
+.legacy-note{padding:14px 18px;background:#fff7df;border-left:4px solid #b78621;font-size:15px}

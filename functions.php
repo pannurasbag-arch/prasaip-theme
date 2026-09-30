@@ -4,6 +4,7 @@ if (!defined('ABSPATH')) {
 }
 
 require_once get_template_directory() . '/render-static.php';
+require_once get_template_directory() . '/render-legacy.php';
 
 function prasa_ip_setup() {
     add_theme_support('post-thumbnails');
@@ -23,7 +24,8 @@ function prasa_ip_ga4_tag() {
 add_action('wp_head', 'prasa_ip_ga4_tag', 20);
 
 function prasa_ip_assets() {
-    if (prasa_ip_static_file_for_current_request()) {
+    // Static and legacy renders link the stylesheet and script themselves.
+    if (prasa_ip_static_file_for_current_request() || prasa_ip_is_legacy_request()) {
         return;
     }
     wp_enqueue_style('prasa-ip-static', get_template_directory_uri() . '/static/styles.css', array(), '1.0.0');
@@ -38,7 +40,7 @@ add_action('wp_enqueue_scripts', 'prasa_ip_assets');
  * weight and Elementor initialization errors without deactivating plugins.
  */
 function prasa_ip_remove_legacy_builder_assets() {
-    if (!prasa_ip_static_file_for_current_request()) {
+    if (!prasa_ip_static_file_for_current_request() && !prasa_ip_is_legacy_request()) {
         return;
     }
 
