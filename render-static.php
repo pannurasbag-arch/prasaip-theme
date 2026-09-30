@@ -34,6 +34,7 @@ function prasa_ip_static_map() {
         'india-patent-filing-for-foreign-applicants' => 'india-patent-filing-for-foreign-applicants.html',
         'startup-ip-budget-patents-trademarks' => 'startup-ip-budget-patents-trademarks.html',
         'when-to-file-pct-application' => 'when-to-file-pct-application.html',
+        'upc-opt-out-sidel-v-omnia' => 'upc-opt-out-sidel-v-omnia.html',
     );
 }
 
