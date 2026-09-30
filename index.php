@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php prasa_ip_legacy_header(); ?>
 <main class="content-page"><div class="wrap">
 <section class="article"><p class="eyebrow">PRASA IP INSIGHTS</p><h1><?php echo is_archive() ? esc_html(get_the_archive_title()) : 'Insights'; ?></h1></section>
 <div class="blog-grid">
@@ -8,5 +8,5 @@
 </div>
 <?php the_posts_pagination(); ?>
 </div></main>
-<?php get_footer();
+<?php prasa_ip_legacy_footer();
 

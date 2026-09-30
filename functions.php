@@ -165,3 +165,21 @@ add_filter('rank_math/json_ld', function ($data) {
     unset($node);
     return $data;
 }, 99);
+
+// Remove leftover builder font and icon stylesheets at print time on redesigned routes.
+add_filter('print_styles_array', function ($handles) {
+    if (is_admin() || (!prasa_ip_static_file_for_current_request() && !prasa_ip_is_legacy_request())) {
+        return $handles;
+    }
+    global $wp_styles;
+    $markers = array('/plugins/elementor/', '/plugins/elementskit-lite/', '/plugins/metform/', '/plugins/header-footer-elementor/', '/plugins/tecz-core/', '/plugins/wp-custom-cursors/', '/uploads/elementor/');
+    return array_values(array_filter((array) $handles, function ($handle) use ($wp_styles, $markers) {
+        $src = isset($wp_styles->registered[$handle]) ? (string) $wp_styles->registered[$handle]->src : '';
+        foreach ($markers as $marker) {
+            if ($src && strpos($src, $marker) !== false) {
+                return false;
+            }
+        }
+        return true;
+    }));
+}, PHP_INT_MAX);
