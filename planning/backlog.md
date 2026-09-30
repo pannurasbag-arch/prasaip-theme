@@ -52,6 +52,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 43 | open | |
 | 44 | open | |
 | 45 | open | Target 15 Oct 2026 |
+| 46 | open | Target 1 Oct 2026, owner asked for it as the next blog |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -110,6 +111,7 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 43 | 17 Sep 2026 | US (CAFC, nonprec.) | Patent / fees | Carnegie v Fenix Diamonds: s.285 fees affirmed | Tue | Medium |
 | 44 | 16 and 18 Sep 2026 | India (Bom HC, Cal HC DB) | Trade mark | ICE CREAM ROCKS refusal; Gold Stag v Gold Flake | Thu | Medium |
 | 45 | 9 Sep 2026 (launch 23 Oct) | Global | Trade mark | OWNER REQUEST: DUO v DUO part 2, Duolingo's Duo and Apple's iPhone Duo. Target date Thu 15 Oct 2026 | Thu | High |
+| 46 | 29 Sep 2026 | India (SC) | Patent term | OWNER REQUEST: Gunjan Sinha v Union of India, SC to examine patent term lost to grant delay (s.53). Target date Thu 1 Oct 2026 (NEXT ARTICLE) | Mon | High |
 
 ---
 
@@ -588,6 +590,25 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 - **Analysis to cover (jurisdiction perspective rule: India, US, EU, UK):** a mascot name used as a character and brand asset versus a product model name used with the house mark iPhone; overlap in class 9 (software and apps versus phones) and class 41 (education); how the house mark and trade dress reduce confusion; strength of a common word like duo; famous mark and dilution arguments (US Lanham Act s.43(c), EU Art 9(2)(c) EUTMR, India s.29(4)); non use and abandonment of a discontinued product name (US three year presumption, EU and India five years, India s.47); honest concurrent use and coexistence agreements; how large companies clear a product name that others already use; practical lessons for startups naming products.
 - **Illustration:** original shapes only. No owl resembling Duolingo's character, no Apple, Microsoft or Duolingo logos or product likenesses.
 - **Day:** Thu · **Priority:** High
+
+### 46. OWNER REQUEST: Patent term adjustment in India. Supreme Court to examine Gunjan Sinha @ Kanishk Sinha & Anr v Union of India & Anr
+- **Target date:** Thursday 1 October 2026. The owner asked for this as the NEXT blog, ahead of every other item. It overrides the Thursday trade mark lens.
+- **Owner's framing:** "Patent Term Adjustment in India: Supreme Court to Examine a Significant Question. Can a patentee lose several years of patent exclusivity because of delays in the examination and grant process?"
+- **Facts found on 1 October 2026 (verify each against the primary record before writing):**
+  - Supreme Court order of 29 September 2026, Bench of Justice P.S. Narasimha and Justice Alok Aradhe: notice issued on the special leave petition, next listing reported as 26 October 2026. Advocate Kruttika Vijay reported as amicus curiae (appointed 21 September 2026). Case number not yet confirmed. Try the Supreme Court website case status and the order PDF.
+  - Patent IN 254875, "A Fuel Cell System and an Efficient Eco-Friendly Vehicle Mounted with Fuel Cell System". Filed 2 May 2005, granted 28 December 2012, about seven and a half years later.
+  - Calcutta High Court, single judge (Sabyasachi Bhattacharyya J), 7 May 2024: writ dismissed, section 53 held intra vires. Primary: https://indiankanoon.org/doc/195938980/
+  - Calcutta High Court Division Bench (Chief Justice T.S. Sivagnanam and Chaitali Chatterjee Das J), 22 April 2025: appeal dismissed. Section 53 (term) and section 11A(7) (rights from publication, no suit until grant) "operate in two different fields". Any change is for the legislature. Primary: https://indiankanoon.org/doc/130670198/
+  - Secondary: https://www.livelawbiz.com/patent/should-20-year-patent-term-start-from-filing-or-grant-despite-delay-in-grant-supreme-court-to-decide-552317 ; https://www.livelaw.in/top-stories/s-53-patents-act-should-patent-term-be-counted-from-date-of-grant-if-there-was-delay-in-deciding-application-supreme-court-to-decide-552272 ; https://www.sc-ip.in/post/gunjan-sinha-kanishk-sinha-anr-v-union-of-india-ors
+- **Frame it accurately:** the Supreme Court has only issued notice. It has not decided anything. Do not predict the outcome. Explain what is at stake and what the High Court held.
+- **Analysis to cover (jurisdiction perspective rule):**
+  - India: section 53 term from filing date; section 11A(7) provisional rights and damages only after grant; no patent term adjustment or extension in the Act; TRIPS Article 33 (minimum 20 years from filing) as a floor, not a bar on adjustment; Article 14 and 19(1)(g) arguments as framed by the petitioners; practical mitigation (early request for examination, expedited examination in Form 18A, prompt FER replies, early publication in Form 9).
+  - United States: patent term adjustment under 35 U.S.C. 154(b) for USPTO delays (A, B and C delays, reduced for applicant delay) and patent term extension under 35 U.S.C. 156 for regulatory review.
+  - Europe: no adjustment for EPO delay. Supplementary protection certificates compensate only for regulatory approval delay for medicines and plant protection products (up to five years, plus six months paediatric).
+  - Japan and China: both now adjust term for unreasonable examination delay (Japan since the 2020 amendments linked to CPTPP, China since the 2021 Patent Law amendment, Article 42), and both have regulatory extensions for drugs. Verify the exact triggers before stating them.
+  - What a ruling for the petitioners might mean, as options only: reading in an adjustment, directing legislative consideration, or upholding section 53. Link to /patent-filing-procedure-in-india-step-by-step-guide/ and /when-to-file-pct-application/.
+- **Illustration:** original shapes, for example a timeline where a grant arrives late on a 20 year bar.
+- **Day:** Mon lens, but drafted on 1 October as the owner requested · **Priority:** High
 
 ---
 
