@@ -51,6 +51,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 42 | open | |
 | 43 | open | |
 | 44 | open | |
+| 45 | open | Target 15 Oct 2026 |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -108,6 +109,7 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 42 | 29 Sep 2026 | WIPO | Innovation policy | Global Innovation Index 2026 | Fri | Medium |
 | 43 | 17 Sep 2026 | US (CAFC, nonprec.) | Patent / fees | Carnegie v Fenix Diamonds: s.285 fees affirmed | Tue | Medium |
 | 44 | 16 and 18 Sep 2026 | India (Bom HC, Cal HC DB) | Trade mark | ICE CREAM ROCKS refusal; Gold Stag v Gold Flake | Thu | Medium |
+| 45 | 9 Sep 2026 (launch 23 Oct) | Global | Trade mark | OWNER REQUEST: DUO v DUO part 2, Duolingo's Duo and Apple's iPhone Duo. Target date Thu 15 Oct 2026 | Thu | High |
 
 ---
 
@@ -574,6 +576,18 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 - **Primary:** Not opened
 - **Secondary:** https://www.livelawbiz.com/digests/weekly-digests/livelawbiz-ipr-weekly-digest-september-14-september-20-2026-550987
 - **Day:** Thu · **Priority:** Medium
+
+### 45. OWNER REQUEST: "Duo" again. Duolingo's owl, Apple's iPhone Duo (and Microsoft's Surface Duo)
+- **Target date:** draft on Thursday 15 October 2026 (the day before iPhone Duo pre orders open on 16 October; release 23 October). Do not draft earlier unless the owner asks. If 15 October is missed, draft at the next run.
+- **Requested by:** the owner on 30 September 2026, as a follow up to the published article /duo-vs-duo-trademark-india-confusion-priority/ (Duo Security, Google Duo, Apple Corps v Apple Computer). Link to it and do not repeat its content.
+- **Facts verified on 30 September 2026 (reverify before writing):**
+  - Apple announced iPhone Duo, its first foldable iPhone, on 9 September 2026. Pre orders 16 October, availability 23 October 2026, from USD 1,999. Primary: https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/
+  - Earlier reports expected the names "iPhone Fold" and then "iPhone Ultra". Secondary: https://en.wikipedia.org/wiki/IPhone_Duo ; https://gizmodo.com/iphone-duo-2000808898
+  - Microsoft sold the Surface Duo (2020) and Surface Duo 2 (2021), dual screen Android phones, and cancelled the line in 2023. Apple itself sold the PowerBook Duo from 1992. Secondary: https://www.engadget.com/2267884/apple-iphone-duo-vs-microsoft-surface-duo-comparison/ ; https://www.windowscentral.com/hardware/surface/first-it-was-neo-and-now-its-iphone-duo-apple-keeps-robbing-microsoft-of-its-surface-device-names-and-im-mad-about-it
+  - Duolingo's owl mascot is named Duo. Duolingo's main registrations found are for DUOLINGO and its owl designs. A standalone DUO word registration by Duolingo was NOT confirmed. Check USPTO, EUIPO and IP India registers directly and state only what the registers show. Do not claim any dispute, opposition or filing between Apple, Duolingo or Microsoft unless a primary record is opened.
+- **Analysis to cover (jurisdiction perspective rule: India, US, EU, UK):** a mascot name used as a character and brand asset versus a product model name used with the house mark iPhone; overlap in class 9 (software and apps versus phones) and class 41 (education); how the house mark and trade dress reduce confusion; strength of a common word like duo; famous mark and dilution arguments (US Lanham Act s.43(c), EU Art 9(2)(c) EUTMR, India s.29(4)); non use and abandonment of a discontinued product name (US three year presumption, EU and India five years, India s.47); honest concurrent use and coexistence agreements; how large companies clear a product name that others already use; practical lessons for startups naming products.
+- **Illustration:** original shapes only. No owl resembling Duolingo's character, no Apple, Microsoft or Duolingo logos or product likenesses.
+- **Day:** Thu · **Priority:** High
 
 ---
 
