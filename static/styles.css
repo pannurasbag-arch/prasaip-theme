@@ -104,3 +104,48 @@ a,button,summary,[role="button"]{cursor:pointer!important}
 .sidebar .button{color:#761344}
 .menu{border-radius:999px}
 
+/* Header refresh: ivory card with gold framing, gold accents and a wine call to action. */
+.header{
+  background:linear-gradient(180deg,#fff 0%,#fffaf0 100%);
+  border:1px solid #e6cf92;
+  border-top:0;
+  border-radius:0 0 22px 22px;
+  box-shadow:0 12px 30px rgba(79,23,48,.10),inset 0 -1px 0 rgba(255,255,255,.9);
+}
+.header:after{
+  content:"";position:absolute;left:28px;right:28px;bottom:-1px;height:3px;border-radius:3px;
+  background:linear-gradient(90deg,rgba(183,134,33,0),#b78621 18%,#f1d486 50%,#b78621 82%,rgba(183,134,33,0));
+  pointer-events:none;
+}
+.logo{position:relative;padding-right:26px}
+.logo:after{
+  content:"";position:absolute;right:0;top:14%;bottom:14%;width:1px;
+  background:linear-gradient(180deg,rgba(183,134,33,0),#c99b38,rgba(183,134,33,0));
+}
+.header nav{align-items:center}
+.header nav>a,.nav-group>button{color:#3d1729;transition:color .2s ease}
+.header nav>a:hover,.nav-group>button:hover,.nav-group:focus-within>button{color:#761344}
+.header nav a:after{height:2px;border-radius:2px;background:linear-gradient(90deg,#b78621,#f1d486)}
+.nav-group>button span{display:inline-block;margin-left:4px;color:#b78621;transition:transform .2s ease}
+.nav-group:hover>button span,.nav-group.open>button span{transform:rotate(180deg)}
+.dropdown{border-radius:0 0 14px 14px;border:1px solid #efe1bd;border-top:3px solid #b78621}
+.header-cta{
+  white-space:nowrap;padding:13px 26px;
+  border:1.5px solid #d7ad4d;
+  background:linear-gradient(135deg,#8a1a52,#5f0f36);
+  color:#f8e3a6;
+  box-shadow:0 10px 24px rgba(95,15,54,.22),inset 0 1px 0 rgba(255,255,255,.12);
+}
+.header-cta:after{content:"→";display:inline-block;margin-left:10px;transition:transform .2s ease}
+.header-cta:hover{
+  background:linear-gradient(135deg,#f1d486,#d7ad4d);
+  border-color:#b78621;color:#4a0b2a;
+  box-shadow:0 12px 28px rgba(183,134,33,.28);
+}
+.header-cta:hover:after{transform:translateX(4px)}
+@media(max-width:1180px){
+  .header{border-radius:0 0 16px 16px;border-left:0;border-right:0}
+  .header:after{left:12px;right:12px}
+  .logo{padding-right:0}.logo:after{display:none}
+  .menu{border-color:#d7ad4d;color:#761344;background:#fffaf0}
+}
