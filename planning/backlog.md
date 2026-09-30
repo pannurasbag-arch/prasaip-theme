@@ -41,7 +41,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 32 | open | |
 | 33 | open | |
 | 34 | open | |
-| 35 | drafted | draft/2026-09-30-upc-opt-out-sidel-v-omnia (30 Sep 2026), awaiting owner approval |
+| 35 | published | https://www.prasaip.com/upc-opt-out-sidel-v-omnia/ (30 Sep 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7510914639107510272/ |
 | 36 | open | |
 | 37 | open | |
 | 38 | open | |
