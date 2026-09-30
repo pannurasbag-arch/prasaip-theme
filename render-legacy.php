@@ -65,6 +65,10 @@ function prasa_ip_clean_legacy_content($post) {
     // Remove widgets that are not part of the article body.
     $source = preg_replace('#<(script|style|form|nav|svg|iframe|noscript|button)[^>]*>.*?</\1\s*>#is', '', $source);
     $source = preg_replace('#<div[^>]+elementor-widget-(?:page-title|hfe-breadcrumbs-widget|social-icons|share-buttons|post-navigation|posts|form|metform|icon-list)[^>]*>.*?</div>\s*</div>#is', '', $source);
+    $source = preg_replace('#<ul[^>]*breadcrumb[^>]*>.*?</ul>#is', '', $source);
+    // Keep accordion questions as headings once the builder markup is removed.
+    $source = preg_replace('#<span[^>]*(?:ekit-accordion-title|elementor-accordion-title|e-n-accordion-item-title-text)[^>]*>(.*?)</span>#is', '<h3>$1</h3>', $source);
+    $source = preg_replace('#<(?:div|a)[^>]*elementor-tab-title[^>]*>(.*?)</(?:div|a)>#is', '<h3>$1</h3>', $source);
     $allowed = array(
         'p' => array(), 'br' => array(), 'strong' => array(), 'b' => array(), 'em' => array(), 'i' => array(),
         'h2' => array(), 'h3' => array(), 'h4' => array(), 'ul' => array(), 'ol' => array(), 'li' => array(),
@@ -111,9 +115,10 @@ function prasa_ip_render_legacy_singular() {
     $post = get_queried_object();
     $home = trailingslashit(home_url('/'));
     $is_post = ($post instanceof WP_Post) && $post->post_type === 'post';
-    prasa_ip_legacy_header();
+    // Build the content first, so any builder assets it enqueues are removed before the head is printed.
     $title = get_the_title($post);
     $content = prasa_ip_clean_legacy_content($post);
+    prasa_ip_legacy_header();
     $published = get_the_date('j F Y', $post);
     $modified = get_the_modified_date('j F Y', $post);
     $crumb = $is_post ? '<a href="' . esc_url($home . 'knowledge-centre/') . '">Insights</a> / Article' : '<a href="' . esc_url($home) . '">Home</a> / ' . esc_html($title);
