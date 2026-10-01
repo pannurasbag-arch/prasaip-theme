@@ -53,6 +53,8 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 44 | open | |
 | 45 | open | Target 15 Oct 2026 |
 | 46 | published | https://www.prasaip.com/patent-term-adjustment-india-supreme-court/ (1 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511477180065984512/ |
+| 55 | open | OWNER REQUEST. Target 2 Oct 2026 (next article) |
+| 56 | open | OWNER REQUEST. Target 5 Oct 2026 (article after item 55) |
 | 47 | open | |
 | 48 | open | |
 | 49 | open | |
@@ -128,6 +130,8 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 52 | 23 Sep 2026 | India (Delhi HC) | Trade mark / renewal | Punam Chand Kedia: HMP renewal revived for lack of O-3 notice | Thu | Medium |
 | 53 | 29 Sep 2026 | India (Delhi HC) | Personality rights / AI | Vikas Divyakirti v Meta: deepfake takedown | Thu | Medium |
 | 54 | 29 Sep 2026 | China (Shanghai No. 1 IPC) | AI / voice rights | AI voice cloning liability, burden on developer | Fri | Medium |
+| 55 | Jul 2025 (verify) | India (CGPDTM) | Patent / AI | OWNER REQUEST: Indian Patent Office AI and CRI guidelines. What they say, who benefits, applicant and attorney checklist. Target Fri 2 Oct 2026 | Mon | High |
+| 56 | Evergreen | India, US, Europe | Patent drafting | OWNER REQUEST: What will this claim actually let the client do? Commercially useful claims. Target Mon 5 Oct 2026 | Fri | High |
 
 ---
 
@@ -711,6 +715,28 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 - **Day:** Fri · **Priority:** Medium
 
 ---
+
+## OWNER REQUESTS added 1 October 2026
+
+### 55. OWNER REQUEST: AI guidelines of the Indian Patent Office. What they say, who benefits, and what applicants and attorneys should keep in mind
+- **Target date:** Friday 2 October 2026. This is the NEXT article, ahead of every other item and whatever the weekday lens.
+- **Requested by:** the owner on 1 October 2026.
+- **Identify the document first:** the most likely source is the Guidelines for Examination of Computer Related Inventions (CRI Guidelines) 2025, released by CGPDTM (PIB release https://www.pib.gov.in/PressReleasePage.aspx?PRID=2149719). Check ipindia.gov.in for any later AI specific guideline, draft or office order in 2026 (including the draft Patent Manual 2026, item 5, and T-Mobile v Controller, item 6) and use the latest official text. Open and quote the official PDF, not summaries.
+- **Secondary leads (not opened):** https://www.aippi.org/news/decoding-cri-guidelines-2025/ ; https://www.mirandah.com/indias-2025-cri-guidelines-a-new-era-for-software-and-ai-patent-examination/ ; https://www.lexology.com/library/detail.aspx?g=c04b7fdd-150d-41a1-9501-343363f8cfa3
+- **Cover:** what the guidelines say about AI, machine learning and neural network inventions (section 3(k), "per se", technical effect and technical contribution, training data, sufficiency and enablement, examples given); how they reflect Delhi HC case law (Ferid Allani, Microsoft v Controller, Blackberry, Raytheon and later rulings, verified); who benefits (AI developers and startups with genuine technical solutions, foreign applicants aligning EP and US filings, examiners and applicants through consistency) and who does not (business method or pure algorithm claims); practical checklist for applicants and attorneys (claim the technical problem and effect, describe architecture, data pipeline and hardware interaction, disclose training and model details enough for sufficiency, avoid result only claims, FER strategy, inventorship stays human). Short comparison with EPO (G 1/19, COMVIK, Guidelines G-II 3.3.1), US (Alice, USPTO 2024 AI SME update, SMED memos) and UK (Emotional Perception, item 26).
+- **Link:** /patent-services/, /patent-filing-procedure-in-india-step-by-step-guide/, /recentive-ai-patent-eligibility/, /us-ai-patent-inventorship-2026/.
+- **Image:** realistic Blender render per the standing image rule. No logos, no readable real documents.
+- **Day:** Mon lens, drafted Fri 2 Oct as the owner requested · **Priority:** High
+
+### 56. OWNER REQUEST: "What will this claim actually let the client do?" Drafting claims for commercial value
+- **Target date:** Monday 5 October 2026, the article after item 55. Do not draft earlier unless the owner asks. If missed, draft at the next run.
+- **Requested by:** the owner on 1 October 2026, with a sample practitioner reflection as inspiration. Write something in that spirit but NOT the same text: original wording, structure and examples, in the firm's voice. Do not copy or closely paraphrase the sample.
+- **Theme:** beyond novelty, inventive step and support, ask what the claim lets the client do. What it stops a competitor doing. How easily it can be designed around. Whether infringement can be detected. Whether it covers only the embodiment or anticipates where the technology and business are going. How it fits with the other claims and the portfolio. Why the broadest claim is not always the most useful. Why the commercially important feature may not be the most scientifically interesting.
+- **Make it practical and grounded:** illustrate with neutral invented examples (clearly hypothetical, no real products or companies). Tie to law where accurate: direct versus indirect infringement and divided infringement (India s.48, US s.271, UPC Art 25 and 26), claim interpretation (India purposive construction, US Phillips, EPO G 1/24 and Art 69 Protocol), detectability and evidence (link to /sep-evidence-india-bansal-philips-claim-mapping/), claim sets and divisionals across India, US and EPO, method versus product and product by process claims, Indian s.10(4) and s.59 limits on later amendment. Include a short claim review checklist.
+- **This is an evergreen practice article.** It does not need a new judgment, but every legal statement must be verified from primary sources and the reviewer step still applies.
+- **Link:** /patent-services/, /patent-filing-procedure-in-india-step-by-step-guide/, /international-patent-support/, /epo-g1-24-claim-interpretation/.
+- **Image:** realistic Blender render per the standing image rule.
+- **Day:** Mon or Fri lens · **Priority:** High
 
 ## Notes
 
