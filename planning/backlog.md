@@ -52,7 +52,15 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 43 | open | |
 | 44 | open | |
 | 45 | open | Target 15 Oct 2026 |
-| 46 | open | Target 1 Oct 2026, owner asked for it as the next blog |
+| 46 | drafted | Branch draft/2026-10-01-patent-term-adjustment-india-supreme-court (1 Oct 2026). Awaiting owner approval. SC order PDF not located, SC facts rest on LiveLaw and LiveLawBiz. |
+| 47 | open | |
+| 48 | open | |
+| 49 | open | |
+| 50 | open | |
+| 51 | open | |
+| 52 | open | |
+| 53 | open | |
+| 54 | open | |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -112,6 +120,14 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 44 | 16 and 18 Sep 2026 | India (Bom HC, Cal HC DB) | Trade mark | ICE CREAM ROCKS refusal; Gold Stag v Gold Flake | Thu | Medium |
 | 45 | 9 Sep 2026 (launch 23 Oct) | Global | Trade mark | OWNER REQUEST: DUO v DUO part 2, Duolingo's Duo and Apple's iPhone Duo. Target date Thu 15 Oct 2026 | Thu | High |
 | 46 | 29 Sep 2026 | India (SC) | Patent term | OWNER REQUEST: Gunjan Sinha v Union of India, SC to examine patent term lost to grant delay (s.53). Target date Thu 1 Oct 2026 (NEXT ARTICLE) | Mon | High |
+| 47 | 24 Sep 2026 | India (Delhi HC) | Patent / pharma | Incyte v Melody: ex parte ruxolitinib injunction | Mon | High |
+| 48 | 29 Sep 2026 | US (USPTO) | Patent / s.101 | USPTO SMED memo and flowchart | Tue | Medium |
+| 49 | 16 Sep 2026 | US (SCOTUS petition) | Patent / IPR | Kahoot v Interstellar: amici attack "settled expectations" | Tue | Medium |
+| 50 | 24 Sep 2026 | Germany (Munich RC) | Patent / semiconductors | YMTC wins NAND injunctions against Micron | Wed | Medium |
+| 51 | 28 Sep 2026 | UPC (Milan CD) | Patent / pharma procedure | Sandoz v Novo: semaglutide "divisional game" hearing | Wed | Medium |
+| 52 | 23 Sep 2026 | India (Delhi HC) | Trade mark / renewal | Punam Chand Kedia: HMP renewal revived for lack of O-3 notice | Thu | Medium |
+| 53 | 29 Sep 2026 | India (Delhi HC) | Personality rights / AI | Vikas Divyakirti v Meta: deepfake takedown | Thu | Medium |
+| 54 | 29 Sep 2026 | China (Shanghai No. 1 IPC) | AI / voice rights | AI voice cloning liability, burden on developer | Fri | Medium |
 
 ---
 
@@ -609,6 +625,90 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
   - What a ruling for the petitioners might mean, as options only: reading in an adjustment, directing legislative consideration, or upholding section 53. Link to /patent-filing-procedure-in-india-step-by-step-guide/ and /when-to-file-pct-application/.
 - **Illustration:** original shapes, for example a timeline where a grant arrives late on a 20 year bar.
 - **Day:** Mon lens, but drafted on 1 October as the owner requested · **Priority:** High
+
+---
+
+## Detailed entries added 1 October 2026 (weekday scan)
+
+### 47. Incyte Holdings Corp v Melody Healthcare (CS(COMM) 1054/2026)
+- **Date:** 24 September 2026 (order, reported 28 September 2026)
+- **Jurisdiction:** India, Delhi High Court (Vikas Mahajan J)
+- **Area:** Patent / pharma injunction
+- **Summary:** Ex parte ad interim injunction against a generic API maker over IN 269841 (ruxolitinib), which expires on 12 December 2026. Incyte relied on Melody's product listing, a supplier directory listing and a manufacturing licence. The court restrained manufacture, stockpiling, import, sale and export.
+- **Why it matters:** Shows ex parte relief against stockpiling in the last months of a patent term. Relevant to launch planning at expiry.
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/09/28/incyte-melody-703058.pdf
+- **Secondary:** https://www.livelawbiz.com/amp/patent/delhi-hc-temporarily-restrains-melody-healthcare-from-selling-ruxolitinib-products-in-incyte-patent-case-552133
+- **Day:** Mon · **Priority:** High
+
+### 48. USPTO updated memorandum and flowcharts on Subject Matter Eligibility Declarations (SMEDs)
+- **Date:** 29 September 2026
+- **Jurisdiction:** US, USPTO
+- **Area:** Patent / s.101 practice
+- **Summary:** Supplements the 30 April 2026 Director's memo with two flowcharts (formalities and merits) and applicant best practices. The USPTO says it announces no new practice.
+- **Why it matters:** A structured evidence route for software and AI applicants facing s.101 rejections. Possible update to /us-patent-eligibility-declarations/.
+- **Primary (opened):** https://www.uspto.gov/subscription-center/2026/uspto-issues-updated-memorandum-subject-matter-eligibility-declarations (memo PDF not opened)
+- **Secondary:** https://ipwatchdog.com/2026/09/29/uspto-flowchart-subject-matter-eligibility-declarations-raises-questions-practitioners/ ; https://patentlyo.com/patent/2026/09/tie-goes-to-the-applicant-the-usptos-smed-flowchart.html
+- **Day:** Tue · **Priority:** Medium
+
+### 49. Kahoot! AS v Interstellar Inc (No. 26-198): amici urge review of "settled expectations"
+- **Date:** 16 September 2026 (amicus briefs)
+- **Jurisdiction:** US, Supreme Court (cert petition)
+- **Area:** Patent / IPR institution
+- **Summary:** The petition asks whether the USPTO's settled expectations basis for denying IPR of older patents is authorised by the AIA. TSMC with GlobalFoundries, the PTAB Bar Association and 38 professors filed amicus briefs. Google's petition No. 25-1230 raises a related reviewability question. Orders from the 28 September conference pending.
+- **Why it matters:** Main vehicle for testing discretionary denial. Wait for the cert decision before writing.
+- **Primary (opened):** https://www.supremecourt.gov/DocketPDF/26/26-198/424587/20260916171508464_Brief%20for%20TSMC%20as%20Amicus%20Curiae.pdf
+- **Secondary:** https://ipwatchdog.com/2026/09/20/amici-tell-justices-to-rein-in-usptos-settled-expectations-doctrine/
+- **Day:** Tue · **Priority:** Medium
+
+### 50. YMTC v Micron (Regional Court Munich I)
+- **Date:** 24 September 2026
+- **Jurisdiction:** Germany, Regional Court Munich I (7th Civil Chamber)
+- **Area:** Patent (utility models) / semiconductors
+- **Summary:** Two German utility models found valid and infringed, with injunctions granted against Micron. Further claims adjourned to 2027. Parallel proceedings at the UPC, UK, US and China.
+- **Why it matters:** Utility models as a fast injunction route in multi forum tech disputes.
+- **Primary:** Not opened (Munich judgments not published online)
+- **Secondary:** https://www.juve-patent.com/cases/ymtc-wins-first-round-in-micron-case-over-nand-technology/
+- **Day:** Wed · **Priority:** Medium
+
+### 51. Sandoz v Novo Nordisk (UPC Milan central division, semaglutide EP 3 689 365)
+- **Date:** 28 September 2026 (hearing on a preliminary objection, no decision yet)
+- **Jurisdiction:** UPC, Milan central division
+- **Area:** Patent / pharma procedure
+- **Summary:** Sandoz seeks revocation and an order stopping Novo from abandoning the patent before a validity ruling. Novo objects that the UPC lacks power to make such an order.
+- **Why it matters:** Could limit the "divisional game". Track until a decision issues.
+- **Primary:** Not opened (no order published)
+- **Secondary:** https://juve-patent.com/cases/divisional-game-under-scrutiny-as-upc-proceedings-over-semaglutide-kick-off-in-milan
+- **Day:** Wed · **Priority:** Medium
+
+### 52. Punam Chand Kedia v Registrar of Trade Marks ("HMP" renewal), W.P.(C)-IPD 44/2025
+- **Date:** 23 September 2026 (reported 30 September 2026)
+- **Jurisdiction:** India, Delhi High Court (Vikas Mahajan J)
+- **Area:** Trade mark / renewal
+- **Summary:** Renewal was refused as time barred. The Registry's dispatch log did not prove that the O-3 notice under s.25(3) and Rule 64(1) was sent. The court allowed a fresh TM-R within two weeks.
+- **Why it matters:** Practical route to revive marks removed for non renewal where the notice was not proved.
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/09/30/punam-chand-kedia-703521.pdf
+- **Secondary:** https://www.livelawbiz.com/amp/trademark/delhi-high-court-permits-fresh-trademark-renewal-filing-after-registry-fails-to-prove-dispatch-of-expiry-notice-552520
+- **Day:** Thu · **Priority:** Medium
+
+### 53. Dr Vikas Divyakirti v Meta Platforms (CS(COMM) 1015/2026)
+- **Date:** 29 September 2026
+- **Jurisdiction:** India, Delhi High Court (Bhambhani J)
+- **Area:** Personality rights / deepfakes / copyright
+- **Summary:** Takedown ordered for fake profiles, deepfake endorsements and straight reposts of lectures. Recut clips with misleading captions were left for a fair dealing assessment.
+- **Why it matters:** Category based personality rights orders. Pairs with item 4 (Alakh Pandey).
+- **Primary:** Not opened
+- **Secondary:** https://www.livelawbiz.com/amp/personality-rights/ai-tools-worse-than-a-gun-delhi-hc-orders-takedown-of-content-infringing-drishti-ias-founders-personality-rights-552228
+- **Day:** Thu · **Priority:** Medium
+
+### 54. Ms Wang v Company A (Shanghai No. 1 Intermediate People's Court): AI voice cloning
+- **Date:** 29 September 2026
+- **Jurisdiction:** China
+- **Area:** AI / voice and personality rights
+- **Summary:** Appeal upheld liability for training on and synthesising a voice actor's voice without consent. After a showing of access and high acoustic similarity, the burden moved to the platform to prove lawful training data. RMB 50,000 damages.
+- **Why it matters:** Burden shifting on training data. Useful comparison for Indian personality rights cases.
+- **Primary:** Not opened
+- **Secondary:** https://natlawreview.com/article/shanghai-first-intermediate-peoples-court-holds-ai-voice-cloning-platform-liable
+- **Day:** Fri · **Priority:** Medium
 
 ---
 
