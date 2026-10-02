@@ -69,6 +69,9 @@ function prasa_ip_transform_static_html($html) {
         array('href="' . esc_url($base . 'styles.css?ver=20261002') . '"', 'src="' . esc_url($base . 'script.js?ver=20260928') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
         $html
     );
+    // Theme v2: serif display face and one shared footer for every page.
+    $html = str_replace('family=Manrope:wght@400;600;700;800', 'family=Manrope:wght@400;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400', $html);
+    $html = preg_replace('#<footer>.*?</footer>#s', prasa_ip_site_footer(), $html, 1);
     $html = preg_replace_callback('/href="([a-z0-9-]+)\.html(#[^"]*)?"/i', function ($match) use ($home) {
         $slug = $match[1] === 'index' ? '' : ($match[1] === 'firm' ? 'about-us' : $match[1]);
         $fragment = isset($match[2]) ? $match[2] : '';
@@ -247,3 +250,14 @@ add_filter('rank_math/sitemap/index', function ($xml) {
     $lastmod = is_readable($file) ? gmdate('c', filemtime($file)) : gmdate('c');
     return $xml . '<sitemap><loc>' . esc_url(get_template_directory_uri() . '/static/sitemap.xml') . '</loc><lastmod>' . $lastmod . '</lastmod></sitemap>';
 });
+
+function prasa_ip_site_footer() {
+    $logo = esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo.webp');
+    return '<footer class="site-footer">'
+        . '<div><img src="' . $logo . '" alt="PRASA IP" width="632" height="395" decoding="async"><p class="footer-tagline">Your Creativity, Our Protection</p><p>Patent, trade mark and IP services for technology companies, research institutions, startups and inventors.</p></div>'
+        . '<div><h2>India office</h2><p>PRASA IP LLP<br>481, 5th Cross Road, Kothanur Main Road, RBI Layout, JP Nagar 7th Phase, Bengaluru, Karnataka 560078</p></div>'
+        . '<div><h2>US office</h2><p>PRASA IP LLC<br>30 N Gould Street, STE R, Sheridan, Wyoming 82801</p><p><a href="tel:+919113214395">+91 91132 14395</a><br><a href="mailto:contact@prasaip.com">contact@prasaip.com</a></p></div>'
+        . '<nav aria-label="Firm and legal"><h2>Firm</h2><a href="patent-services.html">Patents</a><a href="trademark-services.html">Trade marks</a><a href="knowledge-centre.html">Insights</a><a href="firm.html">About</a><a href="careers.html">Careers</a></nav>'
+        . '<div class="footer-base"><span>&copy; ' . gmdate('Y') . ' PRASA IP. All rights reserved.</span><span><a href="privacy-policy.html">Privacy</a> &nbsp; <a href="terms-of-use.html">Terms</a> &nbsp; <a href="disclaimer.html">Disclaimer</a></span></div>'
+        . '</footer>';
+}
