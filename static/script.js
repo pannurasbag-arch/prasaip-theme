@@ -82,3 +82,27 @@ if(!reduceMotion&&'IntersectionObserver' in window){
 
   elements.forEach(element=>observer.observe(element));
 }
+
+// Hide the header while scrolling down; show it on scroll up, near the top, or when the pointer reaches the top edge.
+(function () {
+  var header = document.querySelector('.header');
+  if (!header) return;
+  var lastY = window.scrollY, ticking = false;
+  function menuOpen() {
+    return !!header.querySelector('nav.open, .nav-group.open') || header.matches(':hover') || header.contains(document.activeElement);
+  }
+  function update() {
+    var y = window.scrollY;
+    if (y < 140 || y < lastY - 4) header.classList.remove('header--hidden');
+    else if (y > lastY + 4 && !menuOpen()) header.classList.add('header--hidden');
+    lastY = y;
+    ticking = false;
+  }
+  window.addEventListener('scroll', function () {
+    if (!ticking) { ticking = true; window.requestAnimationFrame(update); }
+  }, { passive: true });
+  document.addEventListener('mousemove', function (e) {
+    if (e.clientY < 90) header.classList.remove('header--hidden');
+  }, { passive: true });
+  header.addEventListener('focusin', function () { header.classList.remove('header--hidden'); });
+})();
