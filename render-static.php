@@ -36,6 +36,7 @@ function prasa_ip_static_map() {
         'when-to-file-pct-application' => 'when-to-file-pct-application.html',
         'upc-opt-out-sidel-v-omnia' => 'upc-opt-out-sidel-v-omnia.html',
         'patent-term-adjustment-india-supreme-court' => 'patent-term-adjustment-india-supreme-court.html',
+        'ai-patent-examination-guidelines-india' => 'ai-patent-examination-guidelines-india.html',
     );
 }
 
