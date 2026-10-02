@@ -53,7 +53,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 44 | open | |
 | 45 | open | Target 15 Oct 2026 |
 | 46 | published | https://www.prasaip.com/patent-term-adjustment-india-supreme-court/ (1 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511477180065984512/ |
-| 55 | open | OWNER REQUEST. Target 2 Oct 2026 (next article) |
+| 55 | drafted | draft/2026-10-02-ai-patent-examination-guidelines-india (2 Oct 2026). Awaiting owner approval. |
 | 56 | open | OWNER REQUEST. Target 5 Oct 2026 (article after item 55) |
 | 47 | open | |
 | 48 | open | |
@@ -63,6 +63,9 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 52 | open | |
 | 53 | open | |
 | 54 | open | |
+| 57 | open | |
+| 58 | open | |
+| 59 | open | |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -737,6 +740,40 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 - **Link:** /patent-services/, /patent-filing-procedure-in-india-step-by-step-guide/, /international-patent-support/, /epo-g1-24-claim-interpretation/.
 - **Image:** realistic Blender render per the standing image rule.
 - **Day:** Mon or Fri lens · **Priority:** High
+
+## Detailed entries added 2 October 2026 (weekday scan)
+
+### 57. Teva Pharmaceuticals v Eli Lilly (Fed. Cir. No. 24-1094): rehearing en banc denied
+- **Date:** 30 Sep 2026
+- **Jurisdiction:** US Court of Appeals for the Federal Circuit (en banc denial, Judge Dyk dissenting. Panel opinion by Judge Prost)
+- **Area:** Patent / enablement (antibodies)
+- **Summary:** The court refused to rehear en banc its April 2026 panel decision, which reinstated Teva's USD 177 million verdict against Lilly on anti CGRP antibody method of treatment claims. The panel held the method claims enabled although the specification did not describe every antibody in the genus. Judge Dyk said this conflicts with Amgen v Sanofi.
+- **Why it matters:** Method of treatment claims remain a route to protect biologic genus inventions in the US after Amgen. A cert petition is possible.
+- **Primary not opened:** https://www.cafc.uscourts.gov/home/case-information/opinions-orders/
+- **Secondary:** https://patentlyo.com/patent/2026/09/method-or-molecule-judge-dyk-dissents-from-en-banc-denial-in-teva-v-lilly.html
+- **Day:** Tue · **Priority:** High
+
+### 58. Arpit Mangal v Emami Limited (F.M.A. No. 1036 of 2025)
+- **Date:** 22 Sep 2026
+- **Jurisdiction:** India, Calcutta High Court Division Bench (Sabyasachi Bhattacharyya J and Sandip Kumar De J)
+- **Area:** Trade mark / product disparagement / free speech
+- **Summary:** The Bench set aside an ex parte injunction against a YouTuber's lab test video on Zandu Ashwagandha Gold Plus. Applying the Bonnard principle, it held that a pre trial gag needs exceptional circumstances and that a credible plea of truth must be tested at trial.
+- **Why it matters:** Brand owners face a higher bar for interim injunctions against influencer reviews and test based criticism.
+- **Primary not opened:** official order not located
+- **Secondary:** https://www.livelawbiz.com/trademark/calcutta-high-court-lifts-gag-order-on-youtuber-arpit-mangal-over-emami-zandu-ashwagandha-video-552461
+- **Day:** Thu · **Priority:** Medium
+
+### 59. European Commission targeted consultation on the effect of technology on copyright (AI training, live event piracy)
+- **Date:** 29 Sep 2026 (deadline 3 Nov 2026)
+- **Jurisdiction:** EU, European Commission
+- **Area:** Copyright / AI
+- **Summary:** Consultation on use of protected content in AI systems, live event piracy, single equitable remuneration for music, and copyright for scientific research. Builds on the May 2026 call for evidence for the review of the DSM Copyright Directive.
+- **Why it matters:** First formal step toward possible changes to EU text and data mining rules for AI training. Comments are open until 3 Nov 2026.
+- **Primary (opened):** https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-challenges-and-way-forward-area-effect-technology-copyright
+- **Secondary:** https://agenceurope.eu/en/bulletin/article/13948/16/european-commission-launches-consultation-on-better-protecting-copyright-against-ai-developments
+- **Day:** Wed · **Priority:** High
+
+Item 55 verification note (2 Oct 2026): official PDF opened at https://ipindia.gov.in/storage/uploads/docs-operator/ade11dcd-c118-41f4-ab58-cc150f47a736.pdf . The PDF carries no issue date. The 7 August 2026 date rests on SpicyIP. The official title reads "Procedure" (singular).
 
 ## Notes
 
