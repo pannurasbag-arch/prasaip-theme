@@ -282,3 +282,9 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
 .dropdown{background:rgba(255,251,242,.93)!important;-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}
 .header nav.open{background:rgba(255,251,242,.93)!important;-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}
 .header nav.open .dropdown{background:transparent!important;-webkit-backdrop-filter:none;backdrop-filter:none}
+
+/* Glass on the header moved to a layer behind it, so the menus can blur the page too */
+.header{background:transparent!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important;isolation:isolate}
+.header:before{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;background:rgba(255,251,242,.62);-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%);pointer-events:none}
+.dropdown,.header nav.open{background:rgba(255,251,242,.55)!important;-webkit-backdrop-filter:blur(18px) saturate(140%)!important;backdrop-filter:blur(18px) saturate(140%)!important}
+.header nav.open .dropdown{background:transparent!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
