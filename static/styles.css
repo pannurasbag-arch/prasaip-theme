@@ -242,3 +242,15 @@ main>.content-page:first-child,main.content-page{padding-top:calc(104px + 48px)}
 .hero--spec .hero-visual img{position:absolute;inset:0}
 .hero--spec .hero-visual:after{inset:0;border-radius:0}
 @media(max-width:900px){.hero--spec .hero-visual:after{background:linear-gradient(180deg,rgba(42,10,27,.9),rgba(95,15,54,.88))}}
+
+/* Homepage transparency v2: photo shows through every section, text kept readable */
+body:has(.hero--spec){background:#fbf6ea url("assets/prasa-ip-hero.webp") center/cover fixed no-repeat}
+body:has(.hero--spec):before{content:"";position:fixed;inset:0;z-index:-2;background:rgba(255,251,242,.88);pointer-events:none}
+body:has(.hero--spec) main>section:not(.hero--spec):not(.trust):not(.about){background:rgba(255,253,248,.35)!important}
+body:has(.hero--spec) main>.trust{background:rgba(42,10,27,.86)!important;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+body:has(.hero--spec) main>.trust p{color:#f3e4ec!important}
+body:has(.hero--spec) main>.trust div,body:has(.hero--spec) main>.trust span{color:#f1d486!important}
+body:has(.hero--spec) main>.about{background:linear-gradient(135deg,rgba(138,14,80,.90),rgba(78,8,46,.92))!important;color:#fff}
+body:has(.hero--spec) .hero--spec .hero-visual:after{background:linear-gradient(90deg,rgba(42,10,27,.90) 0%,rgba(90,16,52,.62) 55%,rgba(118,19,68,.18) 100%)!important}
+body:has(.hero--spec) .testimonial-grid blockquote,body:has(.hero--spec) .founder-grid article,body:has(.hero--spec) .faq-list details{background:rgba(255,255,255,.62)!important;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+@media (max-width:760px){body:has(.hero--spec){background-attachment:scroll}}
