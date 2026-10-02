@@ -214,3 +214,31 @@ h1,h2,h3,.section h2,.page-hero h1,.hero h1,.cards h3,.steps h3,.recognition h2{
 .site-footer .footer-base{grid-column:1/-1;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;padding-top:22px;border-top:1px solid rgba(227,196,107,.25);font-size:13px;color:#cbb3c0}
 @media(max-width:900px){.hero--spec{grid-template-columns:1fr}.hero--spec .hero-copy{padding-left:40px}.hero--spec .hero-visual img{aspect-ratio:16/10}.site-footer{grid-template-columns:1fr 1fr}}
 @media(max-width:600px){.hero--spec .hero-copy{padding-left:0}.hero--spec .hero-copy:before{display:none}.hero--spec h1{font-size:40px}.site-footer{grid-template-columns:1fr}}
+/* ===== Theme v2 transparency ===== */
+/* 1. Frosted glass menu bar floating over the hero. */
+.header{background:rgba(255,251,242,.62)!important;-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%);border-color:rgba(227,196,107,.55);margin-bottom:-104px}
+main>.hero:first-child,main>.page-hero:first-child{padding-top:calc(104px + clamp(48px,5vw,80px))}
+main>.content-page:first-child,main.content-page{padding-top:calc(104px + 48px)}
+@media(max-width:1180px){.header{margin-bottom:-82px}main>.hero:first-child,main>.page-hero:first-child{padding-top:calc(82px + 44px)}main>.content-page:first-child,main.content-page{padding-top:calc(82px + 36px)}}
+/* 2. Hero: photo behind translucent wine, text floating on top. */
+.hero--spec{display:block;position:relative;isolation:isolate;min-height:640px}
+.hero--spec .hero-visual{position:absolute;inset:0;z-index:-1;margin:0}
+.hero--spec .hero-visual img{width:100%;height:100%;max-height:none;aspect-ratio:auto;object-fit:cover;border:0;outline:0;box-shadow:none;border-radius:0}
+.hero--spec .hero-visual:after{display:block;content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(42,10,27,.94) 0%,rgba(95,15,54,.86) 42%,rgba(118,19,68,.55) 72%,rgba(118,19,68,.30) 100%)}
+.hero--spec .hero-copy{max-width:760px}
+.hero--spec figcaption{position:absolute;right:clamp(24px,5vw,72px);bottom:22px;margin:0;z-index:1}
+/* 3. Glass panels over a soft wine and gold wash. */
+.recognition,.expertise,.services{background:radial-gradient(60% 70% at 8% 12%,rgba(162,20,96,.10),transparent 70%),radial-gradient(55% 65% at 92% 88%,rgba(215,173,77,.18),transparent 70%),var(--ivory)}
+.recognition-items article,.cards article,.service-list article{background:rgba(255,255,255,.55)!important;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border:1px solid rgba(183,134,33,.30)!important;border-radius:14px;box-shadow:0 10px 30px rgba(61,23,41,.06)}
+.cards{gap:18px;border:0}
+.cards article{padding:32px}
+.service-list{gap:18px;background:transparent;border:0}
+.service-list article{padding:28px}
+/* 4. Clear buttons with a gold outline that fill with gold on hover. */
+.button,.button.gold,.header-cta{background:transparent!important;border:1.5px solid #c99b38!important;color:#761344!important;box-shadow:none}
+.button:hover,.button.gold:hover,.header-cta:hover{background:linear-gradient(135deg,#f1d486,#d7ad4d)!important;color:#3d0a24!important;border-color:#d7ad4d!important}
+.hero .button,.hero .button.gold,.page-hero .button,.about .button,.page-footer-cta .button{color:#f8e6b2!important;border-color:rgba(241,212,134,.85)!important}
+.hero .button:hover,.page-hero .button:hover,.about .button:hover,.page-footer-cta .button:hover{color:#3d0a24!important}
+.hero--spec .hero-visual img{position:absolute;inset:0}
+.hero--spec .hero-visual:after{inset:0;border-radius:0}
+@media(max-width:900px){.hero--spec .hero-visual:after{background:linear-gradient(180deg,rgba(42,10,27,.9),rgba(95,15,54,.88))}}
