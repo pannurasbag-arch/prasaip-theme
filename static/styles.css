@@ -157,3 +157,6 @@ a,button,summary,[role="button"]{cursor:pointer!important}
 .legacy-article th,.legacy-article td{padding:10px 12px;border:1px solid #e4dce1;text-align:left;vertical-align:top}
 .legacy-article th{background:#f8f3ed;color:#3d1729}
 .legacy-note{padding:14px 18px;background:#fff7df;border-left:4px solid #b78621;font-size:15px}
+/* Keep dropdown menus above the gold line under the header. */
+.header:after{z-index:1}
+.header .dropdown{z-index:5}
