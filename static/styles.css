@@ -279,6 +279,6 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
 .details--contact a{font-size:20px}
 @media(max-width:600px){.details--contact{grid-template-columns:1fr!important}}
 /* Translucent menus */
-.dropdown{background:rgba(255,251,242,.80)!important;-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}
-.header nav.open{background:rgba(255,251,242,.80)!important;-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}
+.dropdown{background:rgba(255,251,242,.93)!important;-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}
+.header nav.open{background:rgba(255,251,242,.93)!important;-webkit-backdrop-filter:blur(16px) saturate(140%);backdrop-filter:blur(16px) saturate(140%)}
 .header nav.open .dropdown{background:transparent!important;-webkit-backdrop-filter:none;backdrop-filter:none}
