@@ -66,7 +66,7 @@ function prasa_ip_transform_static_html($html) {
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
         array('href="styles.css"', 'src="script.js"', 'href="favicon.svg"', 'src="assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261002v15') . '"', 'src="' . esc_url($base . 'script.js?ver=20260928') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
+        array('href="' . esc_url($base . 'styles.css?ver=20261002v16') . '"', 'src="' . esc_url($base . 'script.js?ver=20260928') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.
@@ -138,7 +138,7 @@ function prasa_ip_render_static($file) {
     // Identify the publisher in the Article schema with the same logo shown on the site.
     if (strpos($html, '"@type":"Article"') !== false) {
         $publisher = '"publisher":{"@type":"LegalService","name":"PRASA IP"}';
-        $logo = esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo.webp');
+        $logo = esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo-r.webp');
         $site_url = esc_url(home_url('/'));
         $with_logo = '"publisher":{"@type":"LegalService","name":"PRASA IP","url":"' . $site_url . '","logo":{"@type":"ImageObject","url":"' . $logo . '"}}';
         $html = str_replace($publisher, $with_logo, $html);
@@ -252,7 +252,7 @@ add_filter('rank_math/sitemap/index', function ($xml) {
 });
 
 function prasa_ip_site_footer() {
-    $logo = esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo.webp');
+    $logo = esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo-r.webp');
     return '<footer class="site-footer">'
         . '<div><img src="' . $logo . '" alt="PRASA IP" width="632" height="395" decoding="async"><p class="footer-tagline">Your Creativity, Our Protection</p><p>Patent, trade mark and IP services for technology companies, research institutions, startups and inventors.</p></div>'
         . '<div><h2>India office</h2><p>PRASA IP LLP<br>481, 5th Cross Road, Kothanur Main Road, RBI Layout, JP Nagar 7th Phase, Bengaluru, Karnataka 560078</p></div>'
