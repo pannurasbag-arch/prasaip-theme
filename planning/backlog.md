@@ -53,7 +53,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 44 | open | |
 | 45 | open | Target 15 Oct 2026 |
 | 46 | published | https://www.prasaip.com/patent-term-adjustment-india-supreme-court/ (1 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511477180065984512/ |
-| 55 | drafted | draft/2026-10-02-ai-patent-examination-guidelines-india (2 Oct 2026). Awaiting owner approval. |
+| 55 | published | https://www.prasaip.com/ai-patent-examination-guidelines-india/ (2 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511646452109139968/ |
 | 56 | open | OWNER REQUEST. Target 5 Oct 2026 (article after item 55) |
 | 47 | open | |
 | 48 | open | |
