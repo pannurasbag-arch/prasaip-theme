@@ -66,6 +66,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 57 | open | |
 | 58 | open | |
 | 59 | open | |
+| 60 | open | OWNER SUGGESTED 3 Oct 2026. Consider pairing with item 57 (US enablement). |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -774,6 +775,19 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 - **Day:** Wed · **Priority:** High
 
 Item 55 verification note (2 Oct 2026): official PDF opened at https://ipindia.gov.in/storage/uploads/docs-operator/ade11dcd-c118-41f4-ab58-cc150f47a736.pdf . The PDF carries no issue date. The 7 August 2026 date rests on SpicyIP. The official title reads "Procedure" (singular).
+
+## Detailed entries added 3 October 2026 (owner suggestion)
+
+### 60. Satius Holding v Samsung Electronics (Fed. Cir. No. 25-1446, precedential)
+- **Date:** 1 Oct 2026
+- **Jurisdiction:** US Court of Appeals for the Federal Circuit (Moore C.J. writing, with Lourie and Hughes JJ), on appeal from the District of Delaware (Magistrate Judge Christopher J. Burke)
+- **Area:** Patent / indefiniteness and enablement (US 6,711,385, wireless communication with impedance matching couplers)
+- **Summary:** The district court held claims 1, 11 and 18 indefinite because they required something scientifically impossible (transmitting electric signals over the air as claimed). The Federal Circuit reversed on indefiniteness. Impossibility does not make a claim indefinite if a skilled person understands its scope with reasonable certainty. It affirmed invalidity on another ground: the claims cover inoperable embodiments and so are not enabled under 35 U.S.C. 112(a). The specification must enable the full scope of the claims.
+- **Why it matters:** Separates clarity from operability. A claim can be clear and still invalid if it reaches embodiments that cannot work. Relevant to claim drafting for foreign applicants in the US and to comparisons with India (s.10(4), s.64(1)(g) and (h)) and the EPO (Art 83 and 84, inoperable embodiments).
+- **Primary (opened):** https://www.cafc.uscourts.gov/opinions-orders/25-1446.OPINION.10-1-2026_2764674.pdf
+- **Secondary:** https://patentlyo.com/patent/2026/10/clear-but-impossible-satius-v-samsung-moves-inoperable-claims-from-indefiniteness-to-enablement.html
+- **Suggested angle:** one comparative US enablement article with item 57 (Teva v Lilly en banc denial): full scope enablement after Amgen, and how India and the EPO treat inoperable or non enabled claim scope.
+- **Day:** Tue · **Priority:** High
 
 ## Notes
 
