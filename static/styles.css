@@ -294,3 +294,4 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
 .topbar-linkedin{display:inline-flex;align-items:center;gap:6px;padding:3px 9px;border:1px solid rgba(245,220,157,.55);border-radius:999px;color:#f5dc9d!important;line-height:1;transition:background .2s ease,color .2s ease}
 .topbar-linkedin:hover{background:#f5dc9d;color:#761344!important}
 @media(max-width:600px){.topbar-linkedin span{display:none}.topbar-linkedin{padding:4px 6px}}
+.policy-page .breadcrumbs{margin:0 0 18px;color:var(--wine)}

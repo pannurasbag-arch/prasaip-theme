@@ -66,7 +66,7 @@ function prasa_ip_transform_static_html($html) {
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
         array('href="styles.css"', 'src="script.js"', 'href="favicon.svg"', 'src="assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261002v19') . '"', 'src="' . esc_url($base . 'script.js?ver=20261002v19') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
+        array('href="' . esc_url($base . 'styles.css?ver=20261005v20') . '"', 'src="' . esc_url($base . 'script.js?ver=20261005v20') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.
@@ -243,6 +243,15 @@ add_filter('template_include', function ($template) {
     }
     return $template;
 }, PHP_INT_MAX);
+
+// Rank Math caches its sitemap index and only rebuilds it when a post changes. Pages without a post never trigger that, so build it fresh.
+add_filter('rank_math/sitemap/enable_caching', '__return_false');
+
+// Point crawlers at the theme sitemap as well, so pages without a WordPress post are found even if the index is stale.
+add_filter('robots_txt', function ($output) {
+    $line = 'Sitemap: ' . esc_url(get_template_directory_uri() . '/static/sitemap.xml');
+    return strpos($output, $line) === false ? rtrim($output) . "\n" . $line . "\n" : $output;
+}, 99);
 
 // List the theme's page sitemap in Rank Math's sitemap index, so pages without a WordPress post are still discovered.
 add_filter('rank_math/sitemap/index', function ($xml) {
