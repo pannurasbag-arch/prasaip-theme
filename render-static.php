@@ -37,6 +37,7 @@ function prasa_ip_static_map() {
         'upc-opt-out-sidel-v-omnia' => 'upc-opt-out-sidel-v-omnia.html',
         'patent-term-adjustment-india-supreme-court' => 'patent-term-adjustment-india-supreme-court.html',
         'ai-patent-examination-guidelines-india' => 'ai-patent-examination-guidelines-india.html',
+        'patent-claim-drafting-commercial-value' => 'patent-claim-drafting-commercial-value.html',
     );
 }
 
