@@ -54,7 +54,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 45 | open | Target 15 Oct 2026 |
 | 46 | published | https://www.prasaip.com/patent-term-adjustment-india-supreme-court/ (1 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511477180065984512/ |
 | 55 | published | https://www.prasaip.com/ai-patent-examination-guidelines-india/ (2 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511646452109139968/ |
-| 56 | open | OWNER REQUEST. Target 5 Oct 2026 (article after item 55) |
+| 56 | drafted | draft/2026-10-05-patent-claim-drafting-commercial-value (5 Oct 2026), awaiting owner approval |
 | 47 | open | |
 | 48 | open | |
 | 49 | open | |
@@ -67,6 +67,12 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 58 | open | |
 | 59 | open | |
 | 60 | open | OWNER SUGGESTED 3 Oct 2026. Consider pairing with item 57 (US enablement). |
+| 61 | open | |
+| 62 | open | |
+| 63 | open | |
+| 64 | open | |
+| 65 | open | |
+| 66 | open | |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -788,6 +794,70 @@ Item 55 verification note (2 Oct 2026): official PDF opened at https://ipindia.g
 - **Secondary:** https://patentlyo.com/patent/2026/10/clear-but-impossible-satius-v-samsung-moves-inoperable-claims-from-indefiniteness-to-enablement.html
 - **Suggested angle:** one comparative US enablement article with item 57 (Teva v Lilly en banc denial): full scope enablement after Amgen, and how India and the EPO treat inoperable or non enabled claim scope.
 - **Day:** Tue · **Priority:** High
+
+## Detailed entries added 5 October 2026 (weekday scan and Monday 60 day sweep)
+
+### 61. In Re Exorbitant Pricing of Life Saving Patented Medicines (WP(C) No. 18999 of 2022; 2026 LLBiz HC(KER) 186)
+- **Date:** 28 Sep 2026
+- **Jurisdiction:** India, Kerala High Court (Harisankar V. Menon J)
+- **Area:** Patents / access to medicines (section 100, government use)
+- **Summary:** In a suo motu case on the price of Ribociclib, the court held that section 100 lets the Central Government make, or authorise others to make, patented medicines for non commercial supply to patients. It read "purposes of Government" with the Article 47 public health duty. It did not order the government to act and asked the authorities first to gather affordability data.
+- **Why it matters:** First High Court reading of section 100 as a route to affordable drugs, alongside compulsory licensing under section 84.
+- **Primary not opened:** official order not located
+- **Secondary:** https://www.livelawbiz.com/amp/patent/centre-can-use-power-under-patents-act-to-make-exorbitantly-priced-drugs-affordable-kerala-high-court-552078 ; https://www.barandbench.com/news/government-can-invoke-compulsory-licensing-under-patents-act-to-make-breast-cancer-drugs-affordable-kerala-high-court
+- **Day:** Mon · **Priority:** High
+
+### 62. Dr Tarkeshwar Chandrakant Patil v Indian Institute of Technology, Bombay (2026:BHC-OS:19905)
+- **Date:** 9 Sep 2026
+- **Jurisdiction:** India, Bombay High Court (Somasekhar Sundaresan J)
+- **Area:** Patents / ownership, assignment, Controller procedure
+- **Summary:** The court held that IIT Bombay's 2017 deed of assignment transferred worldwide rights to the inventor, India included. It set aside the Controller's refusal for non application of mind, restored Dr Patil as applicant and remitted the application for fresh examination by a senior officer within eight weeks.
+- **Why it matters:** Authority on reading university to inventor assignments and on Patent Office handling of entitlement disputes.
+- **Primary not opened:** official order not located
+- **Secondary:** https://www.verdictum.in/bombay-high-court/dr-tarkeshwar-chandrakant-patil-v-indian-institute-of-technology-bombay-2026bhc-os19905-1621618
+- **Day:** Mon · **Priority:** Medium
+
+### 63. Taction Technology v Apple (S.D. Cal.): USD 5.7 billion jury verdict
+- **Date:** 25 Sep 2026
+- **Jurisdiction:** US District Court, Southern District of California (jury). Case number and judge not confirmed
+- **Area:** Patents / damages
+- **Summary:** A jury found that Apple's haptic engine in iPhones and Apple Watches infringed two Taction haptic feedback patents and awarded USD 5.7 billion. The Federal Circuit had revived the case in 2025. Apple says it will appeal.
+- **Why it matters:** A record award that will test damages apportionment law in post trial motions and on appeal.
+- **Primary not opened:** official order not located
+- **Secondary:** https://www.claimsjournal.com/news/national/2026/09/28/340403.htm ; https://www.cnbc.com/2026/09/26/apple-taction-technology-patent-infringement-verdict.html
+- **Day:** Tue · **Priority:** High
+
+### 64. US DOJ Statement of Interest in In re OpenAI copyright litigation (S.D.N.Y. MDL)
+- **Date:** 1 Sep 2026
+- **Jurisdiction:** US District Court, S.D.N.Y. (filed by the US Department of Justice)
+- **Area:** Copyright / AI training and fair use
+- **Summary:** The DOJ told the court that training large language models on copyrighted works is fair use, calling training highly transformative. It warned that licensing requirements would create entry barriers and criticised Kadrey v Meta for treating training and outputs together.
+- **Why it matters:** The US government formally takes a side on AI training fair use, in tension with the Copyright Office's 2025 Part 3 report and the Third Circuit in Thomson Reuters v Ross.
+- **Primary not opened:** filing not located
+- **Secondary:** https://ipwatchdog.com/2026/09/03/doj-sides-with-openai-warns-obstacles-to-ai-development-threaten-national-security/
+- **Day:** Fri · **Priority:** High
+
+### 65. Aristo Pharma GmbH v Takeda Pharmaceuticals USA Inc ([2026] EWHC 2414 (Pat))
+- **Date:** 24 Sep 2026
+- **Jurisdiction:** UK, High Court, Patents Court (judge per secondary reports, verify)
+- **Area:** Patents / SPCs for pro drugs
+- **Summary:** The court upheld the lisdexamfetamine SPC. It held the pro drug, not dexamfetamine, was the "product" under Article 1(b), applying Forsgren, so earlier dexamfetamine authorisations did not defeat Article 3(d).
+- **Why it matters:** Significant post Brexit UK authority on pro drug SPCs and generic entry timing.
+- **Primary not opened:** https://caselaw.nationalarchives.gov.uk/ewhc/pat/2026/2414 (inferred URL)
+- **Secondary:** https://www.aoshearman.com/en/insights/life-sciences-patents-monthly-roundup-september-2026
+- **Day:** Wed · **Priority:** Medium
+
+### 66. Opinions of the Supreme People's Court on the Trial of Cases Involving Artificial Intelligence Disputes (China)
+- **Date:** 7 Sep 2026
+- **Jurisdiction:** China, Supreme People's Court (24 articles)
+- **Area:** Copyright / patents / data / AI
+- **Summary:** First national judicial rules for AI disputes. Liability is divided between developers, providers and users. Developers denying infringement must produce evidence on training data sources and process. Open source developers get qualified exemptions. A natural person making a creative contribution to an AI assisted invention can be an inventor. The Opinions do not decide copyrightability of AI generated works.
+- **Why it matters:** Burden of producing training data evidence is a strong procedural lever for rights holders. Useful comparison with the US DOJ position and Japan's Article 30-4.
+- **Primary not opened:** https://www.court.gov.cn/zixun/xiangqing/511101.html
+- **Secondary:** https://chinaiplawupdate.com/2026/09/chinas-supreme-peoples-court-issues-first-national-judicial-rules-on-ai-disputes-but-sidesteps-copyrightability-of-ai-generated-works/
+- **Day:** Fri · **Priority:** High
+
+Seen but not verified (5 Oct scan): Sedlik v Von Drachenberg (9th Cir. en banc argued 29 Sep, no decision); Fresenius Kabi v Controller (Delhi HC, date not confirmed); Techfab v Geobrugg (SC stay, SLP(C) 29151/2026, not confirmed); China SPC draft rules on 2027 Trade Mark Law amendments (date not confirmed).
 
 ## Notes
 
