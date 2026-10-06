@@ -63,7 +63,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 52 | open | |
 | 53 | open | |
 | 54 | open | |
-| 57 | published | https://www.prasaip.com/method-of-treatment-claims-enablement/ (6 Oct 2026, merged to main 5024cd3, caches cleared). Live check, LinkedIn post, GSC and Bing submission NOT done: browser and computer were offline. |
+| 57 | published | https://www.prasaip.com/method-of-treatment-claims-enablement/ (6 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7513123183768662017/ . Verified 200 on .com and .in, canonical .com, index,follow. GSC indexing requested, Bing submitted. |
 | 58 | open | |
 | 59 | open | |
 | 60 | open | OWNER SUGGESTED 3 Oct 2026. Not used on 6 Oct: opinion PDF could not be reopened (fetch permission timed out). Natural follow up to the item 57 article. |
