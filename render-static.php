@@ -38,6 +38,7 @@ function prasa_ip_static_map() {
         'patent-term-adjustment-india-supreme-court' => 'patent-term-adjustment-india-supreme-court.html',
         'ai-patent-examination-guidelines-india' => 'ai-patent-examination-guidelines-india.html',
         'patent-claim-drafting-commercial-value' => 'patent-claim-drafting-commercial-value.html',
+        'method-of-treatment-claims-enablement' => 'method-of-treatment-claims-enablement.html',
     );
 }
 
