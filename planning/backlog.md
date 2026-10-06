@@ -63,16 +63,23 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 52 | open | |
 | 53 | open | |
 | 54 | open | |
-| 57 | open | |
+| 57 | drafted | draft/2026-10-06-method-of-treatment-claims-enablement (6 Oct 2026). Slug /method-of-treatment-claims-enablement/. Panel opinion read on Justia. En banc order PDF not opened (web fetch permission timed out); denial date and Dyk dissent from secondary reports. |
 | 58 | open | |
 | 59 | open | |
-| 60 | open | OWNER SUGGESTED 3 Oct 2026. Consider pairing with item 57 (US enablement). |
+| 60 | open | OWNER SUGGESTED 3 Oct 2026. Not used on 6 Oct: opinion PDF could not be reopened (fetch permission timed out). Natural follow up to the item 57 article. |
 | 61 | open | |
 | 62 | open | |
 | 63 | open | |
 | 64 | open | |
 | 65 | open | |
 | 66 | open | |
+| 67 | open | |
+| 68 | open | |
+| 69 | open | |
+| 70 | open | |
+| 71 | open | |
+| 72 | open | |
+| 73 | open | |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -142,6 +149,13 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 54 | 29 Sep 2026 | China (Shanghai No. 1 IPC) | AI / voice rights | AI voice cloning liability, burden on developer | Fri | Medium |
 | 55 | 7 Aug 2026 (verify) | India (CGPDTM) | Patent procedure / AI | OWNER REQUEST: IPO Guidelines for the Use of AI in Patent Examination 2026. What they say, who benefits, applicant and attorney checklist. Target Fri 2 Oct 2026 | Mon | High |
 | 56 | Evergreen | India, US, Europe | Patent drafting | OWNER REQUEST: What will this claim actually let the client do? Commercially useful claims. Target Mon 5 Oct 2026 | Fri | High |
+| 67 | 2 Oct 2026 | US (CAFC, nonprec.) | Patent / enablement | Pioneer Hi-Bred v Inari: 85% identity enzyme genus not enabled (PGR) | Tue | Medium |
+| 68 | 2 Oct 2026 (reported) | UPC (Hamburg LD) | Patent / pharma | Moderna sues BioNTech and Pfizer at the UPC for damages | Wed | High |
+| 69 | 5 Oct 2026 | China / US | SEP / licensing | Huawei and Qualcomm broad patent cross licence | Mon | High |
+| 70 | 1 Oct 2026 | India (CGPDTM) | Designs | Draft guidelines on registering GUI and icon designs (comments 30 days) | Fri | High |
+| 71 | 1 Oct 2026 | India (Bom HC) | Personality rights / AI | Samantha Ruth Prabhu v Meta and others: deepfake takedown | Thu | High |
+| 72 | 30 Sep 2026 | India (Guj HC) | Copyright / designs | Atul Bhaleraav Patil v State of Gujarat: logo copyright, s.15(2) | Fri | Medium |
+| 73 | 6 Oct 2026 | US (USPTO) | Procedure | Update to panels for pre appeal and appeal conferences | Tue | Medium |
 
 ---
 
@@ -858,6 +872,59 @@ Item 55 verification note (2 Oct 2026): official PDF opened at https://ipindia.g
 - **Day:** Fri · **Priority:** High
 
 Seen but not verified (5 Oct scan): Sedlik v Von Drachenberg (9th Cir. en banc argued 29 Sep, no decision); Fresenius Kabi v Controller (Delhi HC, date not confirmed); Techfab v Geobrugg (SC stay, SLP(C) 29151/2026, not confirmed); China SPC draft rules on 2027 Trade Mark Law amendments (date not confirmed).
+
+## Detailed entries added 6 October 2026 (weekday scan)
+
+### 67. Pioneer Hi-Bred International v Inari Agriculture (Fed. Cir. No. 25-1287, nonprecedential)
+- **Date:** 2 Oct 2026 · **Jurisdiction:** US CAFC (Dyk, Prost, Cunningham. Prost writing), appeal from PTAB PGR · **Area:** Patent / enablement (biotech genus)
+- **Summary:** Affirmed the Board's finding that claims 1 to 33 of US 11,371,055 (herbicide degrading enzymes defined by at least 85% sequence identity plus a motif) are not enabled. The Board could rely on later test data on variants that could have been made at the priority date.
+- **Why it matters:** Applies Amgen to sequence identity genus claims. Pairs with items 57 and 60 for an enablement follow up.
+- **Primary not opened:** https://www.cafc.uscourts.gov/opinions-orders/25-1287.OPINION.10-2-2026_2765310.pdf (CAFC listing page opened and shows "Nonprecedential")
+- **Secondary:** https://ipwatchdog.com/2026/10/05/federal-circuit-upholds-ptab-enablement-finding-against-dual-herbicide-degrading-enzyme-patent
+- **Day:** Tue · **Priority:** Medium
+
+### 68. Moderna v BioNTech and Pfizer (UPC Hamburg Local Division, UPC-CFI-0003215/2026)
+- **Date:** reported 2 Oct 2026 · **Jurisdiction:** UPC · **Area:** Patent / pharma
+- **Summary:** Moderna's first UPC action, asserting EP 3 981 437 against Comirnaty and seeking damages, not an injunction. JUVE links it to the Boards of Appeal revoking EP 3 590 949 in September 2026 (date not confirmed).
+- **Why it matters:** UPC used as a single forum for a damages only claim across Europe.
+- **Primary not opened.** **Secondary:** https://www.juve-patent.com/cases/moderna-hits-back-against-biontech-and-pfizer-in-hamburg/
+- **Day:** Wed · **Priority:** High
+
+### 69. Huawei and Qualcomm broad patent licence agreement
+- **Date:** 5 Oct 2026 · **Jurisdiction:** China / US · **Area:** SEP / licensing
+- **Summary:** Multi year cross licence covering 5G, compute, AI and networking. Qualcomm also buys certain Huawei US patents, subject to regulatory approval. Both commit to FRAND. Terms undisclosed.
+- **Why it matters:** Major SEP cross licence context for Indian FRAND disputes.
+- **Primary (opened by scan agent):** https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement · **Secondary:** https://www.lightreading.com/5g/huawei-qualcomm-agree-to-broad-patent-license-deal
+- **Day:** Mon · **Priority:** High
+
+### 70. CGPDTM draft guidelines for registration of GUI and icon designs
+- **Date:** 1 Oct 2026 · **Jurisdiction:** India (CGPDTM) · **Area:** Designs
+- **Summary:** Draft guidelines on registering graphical user interfaces and icons. Comments within 30 days to controllerdesign.ipo@nic.in and cgoffice.in@gov.in.
+- **Why it matters:** Follows the Calcutta HC's February 2026 order on GUI registrability. Comment window open.
+- **Primary:** https://ipindia.gov.in/ (News and Updates; exact PDF link to be confirmed) · **Secondary:** https://spicyip.com/2026/10/spicyip-weekly-review-september-28-october-4-2.html
+- **Day:** Fri · **Priority:** High (time sensitive: comment deadline about 31 Oct 2026)
+
+### 71. Samantha Ruth Prabhu v Meta Platforms and others (Bombay HC)
+- **Date:** 1 Oct 2026 · **Jurisdiction:** India (Bom HC, Madhav Jamdar J) · **Area:** Personality rights / AI
+- **Summary:** Ex parte interim relief ordering takedown of morphed images, deepfakes and AI generated audio. 18 defendants including AI developers, MeitY, DoT and John Doe. Relied on Articles 19(1)(a) and 21 and s.38B Copyright Act (performer's moral rights).
+- **Why it matters:** Bombay HC joins Delhi HC in AI personality rights relief. s.38B use is notable.
+- **Primary not opened.** **Secondary:** https://www.freepressjournal.in/mumbai/bombay-hc-orders-takedown-of-samantha-ruth-prabhu-deepfakes-objectionable-content-using-her-identity
+- **Day:** Thu · **Priority:** High
+
+### 72. Atul Bhaleraav Patil v State of Gujarat (Gujarat HC)
+- **Date:** 30 Sep 2026 · **Jurisdiction:** India (Guj HC) · **Area:** Copyright / designs
+- **Summary:** Refused to quash an FIR over counterfeit vehicle parts. Held a registered artistic logo is protected by copyright and is not a "design", so s.15(2) Copyright Act does not apply (per SpicyIP summary only).
+- **Why it matters:** Supports criminal copyright enforcement against counterfeit parts.
+- **Primary not opened:** https://indiankanoon.org/doc/21276801/ · **Secondary:** https://spicyip.com/2026/10/spicyip-weekly-review-september-28-october-4-2.html
+- **Day:** Fri · **Priority:** Medium
+
+### 73. USPTO notice: Update to Panels for Pre-Appeal and Appeal Conferences
+- **Date:** 6 Oct 2026 · **Jurisdiction:** US (USPTO) · **Area:** Procedure
+- **Summary:** Notice listed on the USPTO patent related notices page. Content not yet read.
+- **Primary (list only):** https://www.uspto.gov/patents/laws/patent-related-notices/patent-related-notices-2026 · **Secondary:** none yet
+- **Day:** Tue · **Priority:** Medium
+
+Leads not yet checked: two more CAFC precedential opinions of 30 Sep 2026; Delhi HC ZARA v ZORA; Manoj Bajpayee and Rakesh Bedi personality rights suits (Delhi HC).
 
 ## Notes
 
