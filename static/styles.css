@@ -295,3 +295,5 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
 .topbar-linkedin:hover{background:#f5dc9d;color:#761344!important}
 @media(max-width:600px){.topbar-linkedin span{display:none}.topbar-linkedin{padding:4px 6px}}
 .policy-page .breadcrumbs{margin:0 0 18px;color:var(--wine)}
+
+@media(min-width:901px){.header>nav:last-child{margin-right:clamp(24px,2.6vw,40px)}}
