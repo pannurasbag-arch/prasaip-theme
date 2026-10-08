@@ -80,6 +80,13 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 71 | open | |
 | 72 | open | |
 | 73 | open | |
+| 74 | drafted | draft/2026-10-08-well-known-trademark-different-class-india (8 Oct 2026). Primary judgment opened and reviewed. |
+| 75 | open | Primary not opened (no case number found). |
+| 76 | open | |
+| 77 | open | |
+| 78 | open | Complements item 52. |
+| 79 | open | |
+| 80 | open | |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -925,6 +932,68 @@ Seen but not verified (5 Oct scan): Sedlik v Von Drachenberg (9th Cir. en banc a
 - **Day:** Tue · **Priority:** Medium
 
 Leads not yet checked: two more CAFC precedential opinions of 30 Sep 2026; Delhi HC ZARA v ZORA; Manoj Bajpayee and Rakesh Bedi personality rights suits (Delhi HC).
+
+## Detailed entries added 8 October 2026 (weekday scan)
+
+### 74. ACC Steel Pvt Ltd v ACC Limited (Karnataka HC, Commercial Appeal No. 273 of 2025; 2026 LLBiz HC(KAR) 187)
+- **Date:** Judgment 1 October 2026 (reported 7 October 2026)
+- **Jurisdiction / area:** India, Karnataka HC Division Bench (D K Singh J and H Shanthi Bhushan J) / Trade mark, well known marks across classes
+- **Summary:** Appeal dismissed. ACC (cement, Class 19, Rule 124 well known list) restrained ACC Steel from using ACC for Class 6 TMT bars and in its company name. Classification does not conclude the matter (ss.11(2), 29(4)), s.29(5) corporate name, defendant's registration stayed by IPAB.
+- **Why it matters:** Appellate authority on protection of well known marks against use on different goods in a shared market.
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/10/07/acc-steel-704845.pdf
+- **Secondary:** https://www.livelawbiz.com/amp/trademark/karnataka-high-court-upholds-injunction-against-acc-steel-in-favour-of-cement-company-acc-ltd-trademark-553442
+- **Day:** Thu · **Priority:** High
+
+### 75. Saurashtra Aaj Tak v TV Today Network (Supreme Court of India, SLP against Delhi HC ruling of 30 July 2026)
+- **Date:** 7 October 2026
+- **Jurisdiction / area:** India SC / Trade mark, passing off of a media title
+- **Summary:** Bench of CJI Surya Kant, Bagchi J and V Mohana J dismissed the newspaper's appeal, leaving the Delhi HC passing off finding in place. Three months to rebrand to a name not identical or deceptively similar to "Aaj Tak".
+- **Why it matters:** SC endorsement of protection for a broadcast brand against a regional print title, with a fixed rebranding period.
+- **Primary not opened.** **Secondary:** https://barandbench.com/news/change-your-name-supreme-court-to-gujarati-newspaper-using-aaj-tak-name
+- **Day:** Thu · **Priority:** High
+
+### 76. Kangana Ranaut v Meta Platforms and Vijay Deverakonda personality rights suits (Delhi HC)
+- **Date:** Reported 8 October 2026 (hearing date to verify)
+- **Jurisdiction / area:** India, Delhi HC (Vikas Mahajan J) / Personality rights, AI deepfakes
+- **Summary:** Summons and notice on interim applications. Court remarked that satirical content raises no issue. Interim order for Deverakonda to follow. Listed February 2027.
+- **Why it matters:** Delhi HC is carving satire out of broad personality rights prayers.
+- **Primary not opened.** **Secondary:** https://www.barandbench.com/news/delhi-high-court-issues-notice-on-kangana-ranaut-vijay-deverakonda-pleas-for-protection-of-personality-rights
+- **Day:** Thu · **Priority:** High
+
+### 77. DS Intellectual Properties LLP v Abhinav Singh (Delhi HC, CS(COMM) 897/2022; 2026 LLBiz HC(DEL) 1065)
+- **Date:** Judgment 25 September 2026 (reported 5 October 2026)
+- **Jurisdiction / area:** India, Delhi HC (Purushaindra Kumar Kaurav J) / Well known marks, online fraud
+- **Summary:** "DS Group" name and logo declared well known under s.2(1)(zg). Permanent injunction against fake Rajnigandha dealership websites.
+- **Why it matters:** New well known declaration and approach to fake dealership scam sites. Pairs with item 74.
+- **Primary (link, not opened):** https://www.livelawbiz.com/pdf_upload/2026/10/05/ds-intellectual-properties-704383.pdf
+- **Secondary:** https://www.livelawbiz.com/trademark/delhi-high-court-declares-ds-group-a-well-known-trademark-grants-permanent-injunction-against-fake-rajnigandha-dealership-website-553104
+- **Day:** Thu · **Priority:** Medium
+
+### 78. R. Booma Rani v Registrar of Trade Marks (Madras HC, WP(IPD) No. 14/2026; 2026 LLBiz HC(MAD) 299)
+- **Date:** Reported 6 October 2026
+- **Jurisdiction / area:** India, Madras HC (A D Maria Clete J) / Trade mark renewal
+- **Summary:** Registrar cannot refuse a renewal fee while the mark remains on the register. Removal under Rule 58(3) is a separate step. Renewal of "THOTHA" directed.
+- **Why it matters:** Useful for late renewals. Complements item 52 (HMP).
+- **Primary (link, not opened):** https://www.livelawbiz.com/pdf_upload/2026/10/06/rbooma-rani-704770.pdf
+- **Secondary:** https://www.livelawbiz.com/trademark/trademark-registry-cannot-refuse-renewal-while-mark-remains-on-register-madras-high-court-553400
+- **Day:** Thu · **Priority:** Medium
+
+### 79. John Vadassery v Registrar of Trade Marks (Kerala HC, WP(C) No. 17/2026; 2026 LLBiz HC(KER) 189)
+- **Date:** Judgment 30 September 2026 (reported 5 October 2026)
+- **Jurisdiction / area:** India, Kerala HC (Bechu Kurian Thomas J) / Trade mark agent authorisation
+- **Summary:** TM-48 authorisation under s.145 and Rule 19 has the trappings of a power of attorney and must be stamped. Vakalatnama exemption does not apply because the Registrar is not a court.
+- **Why it matters:** Filing compliance for agents in Kerala, may be cited elsewhere.
+- **Primary (link, not opened):** https://www.livelawbiz.com/pdf_upload/2026/10/05/john-vadassery-704368.pdf
+- **Secondary:** https://www.livelawbiz.com/trademark/trade-mark-agent-authorisation-before-registry-must-carry-stamp-duty-like-a-power-of-attorney-kerala-high-court-553090
+- **Day:** Thu · **Priority:** Medium
+
+### 80. US Supreme Court, first October Term 2026 order list: IP certiorari denials (Sunoco v Powder Springs, No. 25-1387; Trinseo v KBR, No. 25-1373)
+- **Date:** 5 October 2026
+- **Jurisdiction / area:** US SCOTUS / Patent damages apportionment, trade secret damages, s.101
+- **Summary:** Cert denied on Federal Circuit lost profits apportionment, DTSA damages apportionment and a s.101 petition. No IP grants reported.
+- **Why it matters:** Federal Circuit apportionment and s.101 practice stay in place.
+- **Primary not opened.** **Secondary:** https://ipwatchdog.com/2026/10/06/scotus-nixes-petitions-challenging-cafc-apportionment-requirements-claim-preclusion-rulings/
+- **Day:** Tue · **Priority:** Medium
 
 ## Notes
 
