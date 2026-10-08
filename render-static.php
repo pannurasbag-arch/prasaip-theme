@@ -39,6 +39,7 @@ function prasa_ip_static_map() {
         'ai-patent-examination-guidelines-india' => 'ai-patent-examination-guidelines-india.html',
         'patent-claim-drafting-commercial-value' => 'patent-claim-drafting-commercial-value.html',
         'method-of-treatment-claims-enablement' => 'method-of-treatment-claims-enablement.html',
+        'well-known-trademark-different-class-india' => 'well-known-trademark-different-class-india.html',
     );
 }
 
