@@ -297,3 +297,5 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
 .policy-page .breadcrumbs{margin:0 0 18px;color:var(--wine)}
 
 @media(min-width:901px){.header>nav:last-child{margin-right:clamp(24px,2.6vw,40px)}}
+/* Keep the last menu item clear of the rounded header edge on every page */
+@media(min-width:901px){.header{padding:0 clamp(18px,2.2vw,32px)!important}}

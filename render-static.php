@@ -69,7 +69,7 @@ function prasa_ip_transform_static_html($html) {
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
         array('href="styles.css"', 'src="script.js"', 'href="favicon.svg"', 'src="assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261005v20') . '"', 'src="' . esc_url($base . 'script.js?ver=20261005v20') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
+        array('href="' . esc_url($base . 'styles.css?ver=20261008v1') . '"', 'src="' . esc_url($base . 'script.js?ver=20261005v20') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.
