@@ -80,7 +80,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 71 | open | |
 | 72 | open | |
 | 73 | open | |
-| 74 | drafted | draft/2026-10-08-well-known-trademark-different-class-india (8 Oct 2026). Primary judgment opened and reviewed. |
+| 74 | published | https://www.prasaip.com/well-known-trademark-different-class-india/ (8 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7513976603224416256/ . Verified 200 on .com and .in, canonical .com, index,follow. GSC indexing requested, Bing submitted. Hostinger connector unavailable: .com Knowledge Centre card pending LiteSpeed cache expiry. |
 | 75 | open | Primary not opened (no case number found). |
 | 76 | open | |
 | 77 | open | |
