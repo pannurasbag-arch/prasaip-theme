@@ -1,0 +1,24 @@
+/* 3D emblem in the homepage hero. Desktop only; phones keep the still hero. */
+.emblem3d{display:none}
+@media (min-width:1000px) and (hover:hover){
+  .hero--spec{position:relative}
+  .emblem3d{display:block;position:absolute;right:clamp(40px,7vw,130px);top:50%;width:var(--e,330px);height:var(--e,330px);margin-top:calc(var(--e,330px)/-2 + 40px);perspective:1100px;z-index:2;pointer-events:auto}
+  .emblem3d__tilt{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .35s ease-out}
+  .emblem3d__coin{position:absolute;inset:0;transform-style:preserve-3d;animation:emblemSpin 16s linear infinite}
+  .emblem3d:hover .emblem3d__coin{animation-play-state:paused}
+  .emblem3d__face{position:absolute;inset:0;border-radius:50%;display:grid;place-items:center;backface-visibility:hidden;-webkit-backface-visibility:hidden;
+    background:radial-gradient(circle at 50% 50%,#fffaf0 0 58%,transparent 58.4%),
+      radial-gradient(circle at 50% 50%,transparent 0 60.5%,#b78621 61% 61.6%,transparent 62.2%),
+      conic-gradient(from 210deg,#8f6815,#f6dc8e,#c49a3a,#fff1c4,#9a6f18,#e8c66c,#8f6815);
+    box-shadow:inset 0 0 0 3px rgba(255,241,196,.75),inset 0 0 22px rgba(80,45,5,.45)}
+  .emblem3d__face:after{content:"";position:absolute;inset:0;border-radius:50%;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.55) 45%,transparent 58%);mix-blend-mode:soft-light;pointer-events:none}
+  .emblem3d__face img{width:62%;height:auto;position:relative;z-index:1;filter:drop-shadow(0 2px 2px rgba(60,10,35,.25))}
+  .emblem3d__face--front{transform:translateZ(14px)}
+  .emblem3d__face--back{transform:rotateY(180deg) translateZ(14px)}
+  .emblem3d__edge span{position:absolute;left:50%;top:50%;width:var(--w);height:28px;margin:-14px 0 0 calc(var(--w)/-2);background:linear-gradient(90deg,#7d5a12,#e9c76f,#a77c1d);backface-visibility:hidden}
+  .emblem3d__shadow{position:absolute;left:12%;right:12%;bottom:-70px;height:36px;border-radius:50%;background:radial-gradient(closest-side,rgba(20,4,12,.55),transparent);filter:blur(6px);animation:emblemShadow 16s linear infinite}
+  @keyframes emblemSpin{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}
+  @keyframes emblemShadow{0%,50%,100%{transform:scaleX(1)}25%,75%{transform:scaleX(.25)}}
+  .hero--spec .hero-copy{max-width:min(680px,52vw)}
+}
+@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:reduce){.emblem3d__coin,.emblem3d__shadow{animation:none}}

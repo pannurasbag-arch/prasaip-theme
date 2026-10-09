@@ -34,6 +34,7 @@ function prasa_ip_static_map() {
         'india-patent-filing-for-foreign-applicants' => 'india-patent-filing-for-foreign-applicants.html',
         'startup-ip-budget-patents-trademarks' => 'startup-ip-budget-patents-trademarks.html',
         'when-to-file-pct-application' => 'when-to-file-pct-application.html',
+        'home-3d-preview' => 'home-3d-preview.html',
         'upc-opt-out-sidel-v-omnia' => 'upc-opt-out-sidel-v-omnia.html',
         'patent-term-adjustment-india-supreme-court' => 'patent-term-adjustment-india-supreme-court.html',
         'ai-patent-examination-guidelines-india' => 'ai-patent-examination-guidelines-india.html',
@@ -274,3 +275,10 @@ function prasa_ip_site_footer() {
         . '<div class="footer-base"><span>&copy; ' . gmdate('Y') . ' PRASA IP. All rights reserved.</span><span><a href="privacy-policy.html">Privacy</a> &nbsp; <a href="terms-of-use.html">Terms</a> &nbsp; <a href="disclaimer.html">Disclaimer</a></span></div>'
         . '</footer>';
 }
+
+// The 3D homepage preview is for review only and must stay out of search results.
+add_action('send_headers', function () {
+    if (strpos($_SERVER['REQUEST_URI'] ?? '', 'home-3d-preview') !== false) {
+        header('X-Robots-Tag: noindex, nofollow', true);
+    }
+});
