@@ -80,14 +80,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 71 | open | |
 | 72 | open | |
 | 73 | open | |
-| 74 | published | https://www.prasaip.com/well-known-trademark-different-class-india/ (8 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7513976603224416256/ . Verified 200 on .com and .in, canonical .com, index,follow. GSC indexing requested, Bing submitted. Hostinger connector unavailable: .com Knowledge Centre card pending LiteSpeed cache expiry. |
+| 74 | published | https://www.prasaip.com/well-known-trademark-different-class-india/ (8 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7513976603224416256/ . Verified 200 on .com and .in, canonical .com, index,follow. GSC indexing requested, Bing submitted. Caches cleared via Hostinger for .com and .in. Knowledge Centre card verified on both. |
 | 75 | open | Primary not opened (no case number found). |
 | 76 | open | |
 | 77 | open | |
 | 78 | open | Complements item 52. |
 | 79 | open | |
 | 80 | open | |
-| 81 | published | https://www.prasaip.com/logo-copyright-ownership-india/ (9 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7514218643585691648/ . Verified 200 on .com and .in (page and image), canonical .com, index,follow. Both mentions link to profiles, preview image shows. GSC indexing requested, Bing submitted. Hostinger connector unavailable: .com Knowledge Centre card pending LiteSpeed cache expiry. |
+| 81 | published | https://www.prasaip.com/logo-copyright-ownership-india/ (9 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7514218643585691648/ . Verified 200 on .com and .in (page and image), canonical .com, index,follow. Both mentions link to profiles, preview image shows. GSC indexing requested, Bing submitted. Caches cleared via Hostinger for .com and .in. Knowledge Centre card verified on both. |
 | 82 | open | Primary not opened (citation not found). |
 | 83 | open | Primary not opened. Comment deadline not confirmed. |
 | 84 | open | Primary not opened. Parties and transferor court not identified. |
