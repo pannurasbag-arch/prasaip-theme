@@ -87,6 +87,10 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 78 | open | Complements item 52. |
 | 79 | open | |
 | 80 | open | |
+| 81 | drafted | Branch draft/2026-10-09-logo-copyright-ownership-india (9 Oct 2026). Awaiting owner approval. |
+| 82 | open | Primary not opened (citation not found). |
+| 83 | open | Primary not opened. Comment deadline not confirmed. |
+| 84 | open | Primary not opened. Parties and transferor court not identified. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -994,6 +998,38 @@ Leads not yet checked: two more CAFC precedential opinions of 30 Sep 2026; Delhi
 - **Why it matters:** Federal Circuit apportionment and s.101 practice stay in place.
 - **Primary not opened.** **Secondary:** https://ipwatchdog.com/2026/10/06/scotus-nixes-petitions-challenging-cafc-apportionment-requirements-claim-preclusion-rulings/
 - **Day:** Tue · **Priority:** Medium
+
+## Detailed entries added 9 October 2026 (weekday scan)
+
+### 81. Japan Tobacco Inc v The Central Wearhouse (Delhi HC, C.O.(COMM.IPD-CR) 814/2022; 2026:DHC:8713)
+- **Date:** 5 October 2026 · **Jurisdiction:** India, Delhi High Court (Tushar Rao Gedela J) · **Area:** Copyright (rectification, first ownership of logo artwork)
+- **Summary:** Petition under s.50 to expunge the respondent's 1997 copyright registration (A-54242/97) for a CAMEL COLLECTION label dismissed. Trade mark registrations and brand history did not prove first ownership of the CAMEL artwork under s.17. Section 40 and the International Copyright Order 1999 do not relieve a foreign claimant of that burden. Section 45(1) proviso point held academic. Observations not to affect CS(COMM) 644/2018.
+- **Why it matters:** Brand owners need a provable copyright chain of title separate from trade mark rights before attacking or relying on label and logo copyright.
+- **Primary (opened):** https://indiankanoon.org/doc/159053016/ · **Secondary:** https://www.verdictum.in/delhi-high-court/japan-tobacco-inc-v-the-central-warehouse-2026dhc8713-first-owner-mere-trademark-registration-1623527 ; https://www.livelawbiz.com/copyright/delhi-high-court-refuses-japan-tobacco-plea-to-remove-camel-collection-copyright-registration-553399
+- **Day:** Fri · **Priority:** Medium-High
+
+### 82. Delhi Law House family copyright dispute (Delhi HC, 47 law books)
+- **Date:** about 7 to 8 October 2026 (not confirmed) · **Jurisdiction:** India, Delhi High Court · **Area:** Copyright (assignment, chain of title)
+- **Summary:** Interim injunction refused against sale of 47 law books. A publisher's heir cannot claim copyright without proof of assignment from the authors.
+- **Why it matters:** Publishers and successors need written assignments under ss.18 and 19. Natural companion to item 81.
+- **Primary not opened** (citation not found) · **Secondary:** https://www.livelawbiz.com/high-court/delhi-high-court/publishers-heir-cannot-claim-copyright-without-proof-of-assignment-from-authors-delhi-high-court-553728 ; https://www.barandbench.com/amp/story/news/litigation/delhi-high-court-refuses-to-halt-sale-of-47-law-books-amid-delhi-law-house-family-copyright-dispute
+- **Day:** Fri · **Priority:** Medium
+
+### 83. US Copyright Office Notice of Inquiry: Music Streaming Fraud (FR Doc. 2026-20537)
+- **Date:** 7 October 2026 · **Jurisdiction:** US, Copyright Office · **Area:** Copyright / AI
+- **Summary:** Policy inquiry and request for comment on streaming fraud, including bot farms and AI generated tracks diverting royalties.
+- **Why it matters:** First formal US policy work on AI driven royalty fraud. May shape platform obligations and licensing debates.
+- **Primary not opened:** https://www.federalregister.gov/documents/2026/10/07/2026-20537/music-streaming-fraud ; https://www.copyright.gov/policy/music-streaming-fraud/ · **Secondary:** https://ipwatchdog.com/2026/10/07/copyright-office-solicits-comment-on-music-streaming-fraud/
+- **Day:** Fri · **Priority:** Medium-High
+
+### 84. In re Google LLC (Fed. Cir.): mandamus granted, transfer to N.D. Cal.
+- **Date:** about 6 to 7 October 2026 · **Jurisdiction:** US, Federal Circuit · **Area:** Patent procedure (venue)
+- **Summary:** Mandamus granted directing transfer of a patent case to the Northern District of California. Plaintiff, transferor court and precedential status not yet identified.
+- **Why it matters:** Continued Federal Circuit control of venue, relevant to foreign defendants in US patent suits.
+- **Primary not opened** · **Secondary:** https://ipwatchdog.com/2026/10/07/federal-circuit-grants-google-mandamus-petition-directs-transfer-of-patent-case-to-northern-district-of-california/
+- **Day:** Tue · **Priority:** Low
+
+Scan note 9 Oct 2026: nothing new found from EPO, UPC, UK, China, Japan, WIPO or CGPDTM for 6 to 9 Oct. Item 70 (GUI design guidelines) not drafted today because the IP India primary could not be opened (fetch permission timed out).
 
 ## Notes
 
