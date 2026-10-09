@@ -87,7 +87,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 78 | open | Complements item 52. |
 | 79 | open | |
 | 80 | open | |
-| 81 | published | https://www.prasaip.com/logo-copyright-ownership-india/ (9 Oct 2026). Article 200 on .com and .in, one canonical to .com, index,follow. .in Knowledge Centre card live. PENDING: .com Knowledge Centre card (LiteSpeed cache, Hostinger connector not authorised), image load check, LinkedIn post, GSC indexing request and Bing submission (no browser connected). |
+| 81 | published | https://www.prasaip.com/logo-copyright-ownership-india/ (9 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7514218643585691648/ . Verified 200 on .com and .in (page and image), canonical .com, index,follow. Both mentions link to profiles, preview image shows. GSC indexing requested, Bing submitted. Hostinger connector unavailable: .com Knowledge Centre card pending LiteSpeed cache expiry. |
 | 82 | open | Primary not opened (citation not found). |
 | 83 | open | Primary not opened. Comment deadline not confirmed. |
 | 84 | open | Primary not opened. Parties and transferor court not identified. |
