@@ -66,7 +66,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 57 | published | https://www.prasaip.com/method-of-treatment-claims-enablement/ (6 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7513123183768662017/ . Verified 200 on .com and .in, canonical .com, index,follow. GSC indexing requested, Bing submitted. |
 | 58 | open | |
 | 59 | open | |
-| 60 | open | OWNER SUGGESTED 3 Oct 2026. Not used on 6 Oct: opinion PDF could not be reopened (fetch permission timed out). Natural follow up to the item 57 article. |
+| 60 | drafted | Branch draft/2026-10-10-inoperable-patent-claims-satius-v-samsung (10 Oct 2026, catch up for missed Wed 7 Oct slot). Opinion reopened and verified. Awaiting owner approval. |
 | 61 | open | |
 | 62 | open | |
 | 63 | open | |
