@@ -421,3 +421,18 @@ if(!reduceMotion&&'IntersectionObserver' in window){
   cv.addEventListener('pointermove', function (e) { if (!drag) return; rotY = drag[2] + (e.clientX - drag[0]) * .008; rotX = Math.max(-1.1, Math.min(1.1, drag[3] + (e.clientY - drag[1]) * .006)); });
   cv.addEventListener('pointerup', function () { drag = null; });
 })();
+
+// Desktop: the call button shows the number (with copy) and email, since most computers cannot place calls
+(function () {
+  var qc = document.querySelector('.quick-contact'), call = qc && qc.querySelector('.qc-call');
+  if (!call || !window.matchMedia('(min-width:901px)').matches) return;
+  var card = document.createElement('div'); card.className = 'qc-card'; card.hidden = true;
+  card.innerHTML = '<p>Call or message us</p><a class="qc-num" href="tel:+919113214395">+91 91132 14395</a><button type="button" class="qc-copy">Copy number</button><a class="qc-mail" href="mailto:contact@prasaip.com">contact@prasaip.com</a>';
+  qc.insertBefore(card, qc.firstChild);
+  call.addEventListener('click', function (e) { e.preventDefault(); card.hidden = !card.hidden; });
+  card.querySelector('.qc-copy').addEventListener('click', function () {
+    var b = this;
+    (navigator.clipboard ? navigator.clipboard.writeText('+91 91132 14395') : Promise.reject()).then(function () { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy number'; }, 1800); }, function () {});
+  });
+  document.addEventListener('click', function (e) { if (!qc.contains(e.target)) card.hidden = true; });
+})();
