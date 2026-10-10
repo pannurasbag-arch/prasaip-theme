@@ -17,30 +17,34 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/prasa-ip-hero.webp" fetchpriority="high"><link rel="stylesheet" href="styles.css"><style>/* 3D emblem in the homepage hero. Desktop only; phones keep the still hero. */
-.emblem3d{display:none}
+  <link rel="preload" as="image" href="assets/prasa-ip-hero.webp" fetchpriority="high"><link rel="stylesheet" href="styles.css"><style>/* 3D patent drawing in the homepage hero. Desktop only; phones keep the still hero. */
+.draw3d{display:none}
 @media (min-width:1000px) and (hover:hover){
-  .hero--spec{position:relative}
-  .emblem3d{display:block;position:absolute;right:clamp(40px,7vw,130px);top:50%;width:var(--e,330px);height:var(--e,330px);margin-top:calc(var(--e,330px)/-2 + 40px);perspective:1100px;z-index:2;pointer-events:auto}
-  .emblem3d__tilt{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .35s ease-out}
-  .emblem3d__coin{position:absolute;inset:0;transform-style:preserve-3d;animation:emblemSpin 16s linear infinite}
-  .emblem3d:hover .emblem3d__coin{animation-play-state:paused}
-  .emblem3d__face{position:absolute;inset:0;border-radius:50%;display:grid;place-items:center;backface-visibility:hidden;-webkit-backface-visibility:hidden;
-    background:radial-gradient(circle at 50% 50%,#fffaf0 0 58%,transparent 58.4%),
-      radial-gradient(circle at 50% 50%,transparent 0 60.5%,#b78621 61% 61.6%,transparent 62.2%),
-      conic-gradient(from 210deg,#8f6815,#f6dc8e,#c49a3a,#fff1c4,#9a6f18,#e8c66c,#8f6815);
-    box-shadow:inset 0 0 0 3px rgba(255,241,196,.75),inset 0 0 22px rgba(80,45,5,.45)}
-  .emblem3d__face:after{content:"";position:absolute;inset:0;border-radius:50%;background:linear-gradient(115deg,transparent 30%,rgba(255,255,255,.55) 45%,transparent 58%);mix-blend-mode:soft-light;pointer-events:none}
-  .emblem3d__face img{width:62%;height:auto;position:relative;z-index:1;filter:drop-shadow(0 2px 2px rgba(60,10,35,.25))}
-  .emblem3d__face--front{transform:translateZ(14px)}
-  .emblem3d__face--back{transform:rotateY(180deg) translateZ(14px)}
-  .emblem3d__edge span{position:absolute;left:50%;top:50%;width:var(--w);height:28px;margin:-14px 0 0 calc(var(--w)/-2);background:linear-gradient(90deg,#7d5a12,#e9c76f,#a77c1d);backface-visibility:hidden}
-  .emblem3d__shadow{position:absolute;left:12%;right:12%;bottom:-70px;height:36px;border-radius:50%;background:radial-gradient(closest-side,rgba(20,4,12,.55),transparent);filter:blur(6px);animation:emblemShadow 16s linear infinite}
-  @keyframes emblemSpin{from{transform:rotateY(0)}to{transform:rotateY(360deg)}}
-  @keyframes emblemShadow{0%,50%,100%{transform:scaleX(1)}25%,75%{transform:scaleX(.25)}}
-  .hero--spec .hero-copy{max-width:min(680px,52vw)}
+  .draw3d{display:block;position:absolute;right:clamp(30px,5vw,110px);top:50%;width:var(--d,440px);height:var(--d,440px);margin-top:calc(var(--d,440px)/-2 + 30px);perspective:1200px;z-index:2}
+  .draw3d:before{content:"";position:absolute;inset:-18%;border-radius:50%;background:radial-gradient(closest-side,rgba(42,10,27,.78),rgba(42,10,27,.45) 60%,transparent);filter:blur(8px)}
+  .hero--spec .hero-visual figcaption{display:none}
+  .draw3d__tilt{position:absolute;inset:0;transform-style:preserve-3d;transition:transform .4s ease-out}
+  .draw3d__sway{position:absolute;inset:0;transform-style:preserve-3d;animation:drawSway 14s ease-in-out infinite}
+  .draw3d svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+  .draw3d .l-back{transform:translateZ(-60px)}
+  .draw3d .l-mid{transform:translateZ(0)}
+  .draw3d .l-front{transform:translateZ(70px)}
+  .draw3d path,.draw3d line,.draw3d circle,.draw3d polyline{fill:none;stroke:#e9cd7f;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;
+    stroke-dasharray:1;stroke-dashoffset:1;animation:drawIn 2.2s cubic-bezier(.6,.1,.3,1) forwards;animation-delay:var(--t,0s);filter:drop-shadow(0 0 3px rgba(233,205,127,.35))}
+  .draw3d .thin{stroke-width:1;stroke:rgba(233,205,127,.75)}
+  .draw3d .centre{stroke-width:.9;stroke:rgba(233,205,127,.55)}
+  .draw3d text{fill:#f1d486;font:italic 500 15px Newsreader,Georgia,serif;opacity:0;animation:fadeIn .8s ease forwards;animation-delay:var(--t,0s)}
+  .draw3d text.fig{font-size:20px;letter-spacing:.06em}
+  .draw3d .spin{transform-box:view-box;animation:gearSpin var(--s,40s) linear infinite;animation-delay:2.6s}
+  .draw3d .spin.rev{animation-direction:reverse}
+  @keyframes drawIn{to{stroke-dashoffset:0}}
+  @keyframes fadeIn{to{opacity:1}}
+  @keyframes gearSpin{to{transform:rotate(360deg)}}
+  @keyframes drawSway{0%,100%{transform:rotateY(-16deg) rotateX(6deg)}50%{transform:rotateY(16deg) rotateX(-4deg)}}
+  .hero--spec .hero-copy{max-width:min(660px,50vw)}
 }
-@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:reduce){.emblem3d__coin,.emblem3d__shadow{animation:none}}
+@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:reduce){
+  .draw3d *,.draw3d__sway{animation:none!important;stroke-dashoffset:0!important;opacity:1!important}}
 </style>
   <script type="application/ld+json">
   {
@@ -125,7 +129,7 @@
         <div class="actions"><a class="button gold" href="#contact">Request a confidential consultation</a><a class="plain-link" href="#expertise">See what we do</a></div>
         <dl class="spec-offices" aria-label="Patent offices and routes we work with"><dt>Offices and routes</dt><dd>IN</dd><dd>US</dd><dd>EP</dd><dd>PCT</dd></dl>
       </div>
-      <div class="emblem3d" aria-hidden="true"><div class="emblem3d__tilt"><div class="emblem3d__coin"><div class="emblem3d__face emblem3d__face--front"><img src="assets/prasa-ip-logo-r.webp" alt="" width="632" height="395" decoding="async"></div><div class="emblem3d__face emblem3d__face--back"><img src="assets/prasa-ip-logo-r.webp" alt="" width="632" height="395" decoding="async"></div><div class="emblem3d__edge"></div></div></div><div class="emblem3d__shadow"></div></div><figure class="hero-visual"><img src="assets/prasa-ip-hero.webp" fetchpriority="high" loading="eager" decoding="async" alt="Engineering drawings and patent work in a modern Bengaluru office" width="1672" height="941"><figcaption><span>Fig. 1</span> Technical drawings under review</figcaption></figure>
+      <div class="draw3d" aria-hidden="true"><div class="draw3d__tilt"><div class="draw3d__sway"><svg class="l-back" viewBox="0 0 440 460"></svg><svg class="l-mid" viewBox="0 0 440 460"></svg><svg class="l-front" viewBox="0 0 440 460"></svg></div></div></div><figure class="hero-visual"><img src="assets/prasa-ip-hero.webp" fetchpriority="high" loading="eager" decoding="async" alt="Engineering drawings and patent work in a modern Bengaluru office" width="1672" height="941"><figcaption><span>Fig. 1</span> Technical drawings under review</figcaption></figure>
     </section>
 
     <section class="trust"><p>Trusted by teams building complex technology</p><div><span>FORTUNE 150, FORTUNE 200 &amp; FORTUNE 500 COMPANIES</span><span>TECHNOLOGY STARTUPS</span><span>RESEARCH INSTITUTIONS</span><span>GLOBAL COUNSEL</span></div></section>
@@ -207,15 +211,45 @@
   </main>
   <footer><img src="assets/prasa-ip-logo-r.webp" alt="PRASA IP" width="632" height="395" decoding="async"><p>Patent and intellectual property services for innovation-led businesses.</p><p>© 2026 PRASA IP. All rights reserved.</p><nav class="footer-legal" aria-label="Legal and firm information"><a href="firm.html">About</a><a href="careers.html">Careers</a><a href="privacy-policy.html">Privacy</a><a href="terms-of-use.html">Terms</a><a href="disclaimer.html">Disclaimer</a></nav></footer>
   <script src="script.js"></script><script>(function(){
-  var root=document.querySelector('.emblem3d');
+  var root=document.querySelector('.draw3d');
   if(!root||!window.matchMedia('(min-width:1000px) and (hover:hover)').matches)return;
-  var size=root.offsetWidth,R=size/2-1,n=64,w=(Math.PI*2*R/n+1).toFixed(2)+'px',edge=root.querySelector('.emblem3d__edge');
-  for(var i=0;i<n;i++){var s=document.createElement('span');s.style.setProperty('--w',w);
-    s.style.transform='rotateZ('+(i*360/n)+'deg) translateY('+(-R)+'px) rotateX(90deg)';edge.appendChild(s);}
-  var tilt=root.querySelector('.emblem3d__tilt'),hero=root.closest('.hero')||document.body,raf=0,tx=0,ty=0;
+  var NS='http://www.w3.org/2000/svg';
+  function el(parent,tag,attrs,t){var e=document.createElementNS(NS,tag);for(var k in attrs)e.setAttribute(k,attrs[k]);
+    e.setAttribute('pathLength','1');if(t!=null)e.style.setProperty('--t',t+'s');parent.appendChild(e);return e;}
+  function gear(cx,cy,n,ro,ri,phase){var d='',step=Math.PI*2/n;
+    for(var i=0;i<n;i++){var a=phase+i*step,pts=[[ri,a-step*.5],[ri,a-step*.27],[ro,a-step*.15],[ro,a+step*.15],[ri,a+step*.27]];
+      pts.forEach(function(p,j){d+=(i===0&&j===0?'M':'L')+(cx+p[0]*Math.cos(p[1])).toFixed(2)+' '+(cy+p[0]*Math.sin(p[1])).toFixed(2)+' ';});}
+    return d+'Z';}
+  var back=root.querySelector('.l-back'),mid=root.querySelector('.l-mid'),front=root.querySelector('.l-front');
+  // Large gear (10) with spokes, on the back plane
+  var g1=document.createElementNS(NS,'g');g1.setAttribute('class','spin');g1.style.setProperty('--s','48s');g1.style.transformOrigin='170px 230px';back.appendChild(g1);
+  el(g1,'path',{d:gear(170,230,20,118,104,0)},0);
+  el(g1,'circle',{cx:170,cy:230,r:86,class:'thin'},.3);
+  el(g1,'circle',{cx:170,cy:230,r:30},.5);
+  for(var i=0;i<6;i++){var a=i*Math.PI/3;el(g1,'line',{x1:170+30*Math.cos(a),y1:230+30*Math.sin(a),x2:170+86*Math.cos(a),y2:230+86*Math.sin(a),class:'thin'},.6+i*.08);}
+  // Small pinion (12) meshing, on the middle plane
+  var cx2=170+168*Math.cos(-0.72),cy2=230+168*Math.sin(-0.72);
+  var g2=document.createElementNS(NS,'g');g2.setAttribute('class','spin rev');g2.style.setProperty('--s','26.4s');g2.style.transformOrigin=cx2.toFixed(1)+'px '+cy2.toFixed(1)+'px';mid.appendChild(g2);
+  el(g2,'path',{d:gear(cx2,cy2,11,64,51,Math.PI/11)},.4);
+  el(g2,'circle',{cx:cx2,cy:cy2,r:16},.8);
+  el(g2,'circle',{cx:cx2,cy:cy2,r:38,class:'thin'},.9);
+  // Shaft (14) and bearing on the middle plane
+  el(mid,'circle',{cx:170,cy:230,r:12},1);
+  el(mid,'path',{d:'M158 230 L158 400 M182 230 L182 400 M150 400 L190 400'},1.1);
+  el(mid,'path',{d:'M140 340 L200 340 L200 368 L140 368 Z'},1.3);
+  // Centre lines, patent style
+  el(mid,'line',{x1:30,y1:230,x2:330,y2:230,class:'centre','stroke-dasharray':'0.03 0.012 0.006 0.012'},1.5).style.strokeDashoffset='0';
+  el(mid,'line',{x1:170,y1:80,x2:170,y2:420,class:'centre','stroke-dasharray':'0.03 0.012 0.006 0.012'},1.5).style.strokeDashoffset='0';
+  // Reference numerals and leader lines on the front plane
+  var refs=[[60,110,'10',110,150],[380,40,'12',cx2+40,cy2-30],[60,395,'14',158,372],[250,415,'16',198,360],[395,250,'18',cx2+10,cy2+50]];
+  refs.forEach(function(r,k){el(front,'path',{d:'M'+(r[0]+(r[0]<200?14:-6))+' '+(r[1]-5)+' Q '+((r[0]+r[3])/2)+' '+(r[1]-25)+' '+r[3]+' '+r[4],class:'thin'},1.6+k*.15);
+    var t=document.createElementNS(NS,'text');t.setAttribute('x',r[0]);t.setAttribute('y',r[1]);t.textContent=r[2];t.style.setProperty('--t',(1.9+k*.15)+'s');front.appendChild(t);});
+  var f=document.createElementNS(NS,'text');f.setAttribute('x',300);f.setAttribute('y',448);f.setAttribute('class','fig');f.textContent='FIG. 1';f.style.setProperty('--t','2.6s');front.appendChild(f);
+  // Tilt toward the pointer
+  var tilt=root.querySelector('.draw3d__tilt'),hero=root.closest('.hero')||document.body,raf=0,tx=0,ty=0;
   hero.addEventListener('mousemove',function(e){var r=root.getBoundingClientRect();
     tx=Math.max(-1,Math.min(1,(e.clientX-(r.left+r.width/2))/r.width));ty=Math.max(-1,Math.min(1,(e.clientY-(r.top+r.height/2))/r.height));
-    if(!raf)raf=requestAnimationFrame(function(){raf=0;tilt.style.transform='rotateX('+(-ty*14)+'deg) rotateY('+(tx*18)+'deg)';});},{passive:true});
+    if(!raf)raf=requestAnimationFrame(function(){raf=0;tilt.style.transform='rotateX('+(-ty*12)+'deg) rotateY('+(tx*16)+'deg)';});},{passive:true});
   hero.addEventListener('mouseleave',function(){tilt.style.transform='';});
 })();
 </script>
