@@ -288,7 +288,7 @@ if(!reduceMotion&&'IntersectionObserver' in window){
     };
     if ('requestIdleCallback' in window) requestIdleCallback(start, { timeout: 1200 }); else setTimeout(start, 200);
 
-    document.querySelectorAll('.cards article,.service-list article,.blog-grid .blog-card,.recognition-items article,.founder-grid article,.profile-photo').forEach(function (card) {
+    document.querySelectorAll('.cards article,.service-list article,.blog-grid .blog-card,.recognition-items article,.founder-grid article,.profile-photo,.article-visual').forEach(function (card) {
       card.classList.add('fx-tilt');
       if (getComputedStyle(card).position === 'static') card.style.position = 'relative';
       var sh = document.createElement('span'); sh.className = 'fx-shine'; sh.setAttribute('aria-hidden', 'true'); card.appendChild(sh);
@@ -435,4 +435,35 @@ if(!reduceMotion&&'IntersectionObserver' in window){
     (navigator.clipboard ? navigator.clipboard.writeText('+91 91132 14395') : Promise.reject()).then(function () { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy number'; }, 1800); }, function () {});
   });
   document.addEventListener('click', function (e) { if (!qc.contains(e.target)) card.hidden = true; });
+})();
+
+// ===== Depth on photos: hero and section backgrounds drift with scroll and pointer =====
+(function () {
+  if (!window.matchMedia('(min-width:1000px) and (hover:hover) and (prefers-reduced-motion:no-preference)').matches) return;
+  var layers = [];
+  document.querySelectorAll('main > .page-hero, main > .seo-intro').forEach(function (sec) {
+    var cs = getComputedStyle(sec);
+    if (cs.backgroundImage.indexOf('url(') < 0) return;
+    var bg = document.createElement('div'); bg.className = 'ph-bg'; bg.setAttribute('aria-hidden', 'true');
+    bg.style.backgroundImage = cs.backgroundImage; bg.style.backgroundSize = cs.backgroundSize; bg.style.backgroundPosition = cs.backgroundPosition; bg.style.backgroundRepeat = 'no-repeat';
+    sec.classList.add('has-ph'); sec.style.setProperty('background-image', 'none', 'important'); sec.insertBefore(bg, sec.firstChild);
+    layers.push({ sec: sec, el: bg, k: .18 });
+  });
+  var heroImg = document.querySelector('.hero--spec .hero-visual img');
+  if (heroImg) { heroImg.classList.add('ph-img'); layers.push({ sec: heroImg.closest('.hero'), el: heroImg, k: .22, img: true }); }
+  if (!layers.length) return;
+  var mx = 0, my = 0, ticking = false;
+  function upd() {
+    ticking = false;
+    var vh = window.innerHeight;
+    layers.forEach(function (L) {
+      var r = L.sec.getBoundingClientRect(); if (r.bottom < 0 || r.top > vh) return;
+      var y = (r.top + r.height / 2 - vh / 2) * -L.k;
+      L.el.style.transform = 'translate3d(' + (mx * 16).toFixed(1) + 'px,' + (y + my * 10).toFixed(1) + 'px,0)' + (L.img ? ' scale(1.1)' : '');
+    });
+  }
+  function req() { if (!ticking) { ticking = true; requestAnimationFrame(upd); } }
+  window.addEventListener('scroll', req, { passive: true });
+  window.addEventListener('mousemove', function (e) { mx = e.clientX / window.innerWidth - .5; my = e.clientY / window.innerHeight - .5; req(); }, { passive: true });
+  upd();
 })();
