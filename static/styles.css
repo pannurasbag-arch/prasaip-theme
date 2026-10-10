@@ -476,3 +476,26 @@ body{position:relative;display:flow-root}
   .article-visual img{transition:transform .3s ease-out,box-shadow .3s ease-out}
   .article-visual.is-tilting img{transform:translateZ(30px);box-shadow:0 24px 44px rgba(42,10,27,.25)}
 }
+/* Apple-style refinements: instant press feedback, menus grow from their trigger, reduced-transparency support */
+.button:active,.header-cta:active,.quick-contact>a:active,.qc-card .qc-copy:active,.menu:active,.nav-group>button:active,.card-link:active{transform:scale(.97)!important;transition:transform 100ms ease-out!important}
+@media (prefers-reduced-motion:no-preference){
+  .nav-group:hover .dropdown,.nav-group.open .dropdown,.nav-group:focus-within .dropdown{transform-origin:24px 0;animation:ddIn .24s cubic-bezier(.2,.9,.3,1)}
+  @keyframes ddIn{from{opacity:0;transform:translateY(-6px) scale(.96);-webkit-backdrop-filter:blur(0);backdrop-filter:blur(0)}to{opacity:1;transform:none}}
+  .qc-card:not([hidden]){transform-origin:100% 100%;animation:ddIn .22s cubic-bezier(.2,.9,.3,1)}
+}
+@media (prefers-reduced-transparency:reduce){
+  .topbar{background:#761344!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  .header:before{background:#fffbf2!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  .dropdown,.header nav.open,.qc-card{background:#fffbf2!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  .site-footer{background:#2a0a1b!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  .experience-strip,main>.trust{background:#3d1729!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  .recognition-items article,.cards article,.service-list article,.testimonial-grid blockquote,.founder-grid article,.faq-list details{background:#fff!important;-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  body:has(.hero--spec) main>section:not(.hero--spec):not(.trust):not(.about){background:#fffbf2!important}
+  body:has(.hero--spec) main>.about{background:linear-gradient(135deg,#8a0e50,#4e082e)!important}
+}
+@media (prefers-contrast:more){
+  .topbar,.dropdown,.header nav.open,.qc-card{-webkit-backdrop-filter:none!important;backdrop-filter:none!important}
+  .header:before{background:#fffbf2!important}
+  .dropdown,.header nav.open,.qc-card{background:#fff!important;border:1.5px solid #761344!important}
+  .topbar{background:#5f0f36!important}
+}
