@@ -70,12 +70,17 @@ function prasa_ip_transform_static_html($html) {
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
         array('href="styles.css"', 'src="script.js"', 'href="favicon.svg"', 'src="assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261010v9') . '"', 'src="' . esc_url($base . 'script.js?ver=20261010v8') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
+        array('href="' . esc_url($base . 'styles.css?ver=20261011v1') . '"', 'src="' . esc_url($base . 'script.js?ver=20261010v8') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.
     $html = str_replace('family=Manrope:wght@400;600;700;800', 'family=Manrope:wght@400;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400', $html);
     $html = preg_replace('#<footer>.*?</footer>#s', prasa_ip_site_footer(), $html, 1);
+    // Accessibility: skip link to the main content.
+    if (strpos($html, 'class="skip-link"') === false) {
+        $html = preg_replace('#<main(\s|>)#', '<main id="main"$1', $html, 1);
+        $html = preg_replace('#(<body[^>]*>)#', '$1<a class="skip-link" href="#main">Skip to main content</a>', $html, 1);
+    }
     $html = preg_replace_callback('/href="([a-z0-9-]+)\.html(#[^"]*)?"/i', function ($match) use ($home) {
         $slug = $match[1] === 'index' ? '' : ($match[1] === 'firm' ? 'about-us' : $match[1]);
         $fragment = isset($match[2]) ? $match[2] : '';

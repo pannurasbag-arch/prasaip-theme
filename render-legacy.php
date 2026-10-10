@@ -122,7 +122,7 @@ function prasa_ip_render_legacy_singular() {
     $published = get_the_date('j F Y', $post);
     $modified = get_the_modified_date('j F Y', $post);
     $crumb = $is_post ? '<a href="' . esc_url($home . 'knowledge-centre/') . '">Insights</a> / Article' : '<a href="' . esc_url($home) . '">Home</a> / ' . esc_html($title);
-    echo '<main><section class="page-hero page-hero--insights"><div class="wrap"><p class="breadcrumbs">' . $crumb . '</p>';
+    echo '<main id="main"><section class="page-hero page-hero--insights"><div class="wrap"><p class="breadcrumbs">' . $crumb . '</p>';
     echo '<p class="eyebrow pale">' . ($is_post ? 'PRASA IP INSIGHTS' : 'PRASA IP') . '</p><h1>' . esc_html($title) . '</h1></div></section>';
     echo '<section class="content-page"><div class="wrap content-grid"><article class="article legacy-article">';
     if ($is_post) {

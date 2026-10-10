@@ -499,3 +499,20 @@ body{position:relative;display:flow-root}
   .dropdown,.header nav.open,.qc-card{background:#fff!important;border:1.5px solid #761344!important}
   .topbar{background:#5f0f36!important}
 }
+/* Accessibility pass (UI UX Pro Max audit): contrast, focus, tap targets, skip link */
+.skip-link{position:absolute;left:12px;top:-60px;z-index:100;padding:10px 16px;border-radius:8px;background:#761344;color:#fff8e6!important;font-weight:700;transition:top .15s ease}
+.skip-link:focus{top:12px}
+.topbar{background:rgba(96,14,52,.66)!important}
+.eyebrow:not(.pale),.details small{color:#87600f!important}
+.founder-grid .role,.role{color:#87600f!important}
+.experience-strip strong{color:#f1d486!important}
+.trust div,.trust span{font-size:12px!important}
+.topbar a:focus-visible,.hero a:focus-visible,.page-hero a:focus-visible,.site-footer a:focus-visible,.trust a:focus-visible,.about a:focus-visible,.hero button:focus-visible{outline-color:#f1d486!important}
+@media (max-width:900px){
+  .topbar a{display:inline-flex;align-items:center;min-height:36px}
+  .site-footer a,.footer-legal a,.footer-base a,.site-footer p a{display:inline-flex;align-items:center;min-height:44px}
+  .card-link,.details a{display:inline-flex;align-items:center;min-height:44px}
+  .site-footer nav a{margin-right:6px}
+}
+.topbar a,.topbar .topbar-linkedin{color:#fff1c9!important}
+.topbar{background:rgba(88,12,48,.72)!important}
