@@ -393,3 +393,12 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
   .quick-contact .qc-call{background:linear-gradient(135deg,#8a1a52,#5f0f36);color:#f8e3a6}
 }
 @media print{.quick-contact,.read-progress{display:none!important}}
+/* Keep every menu item and its arrow on one line */
+@media(min-width:901px){
+  .header nav{gap:clamp(14px,1.9vw,29px);flex-wrap:nowrap}
+  .header nav>a,.nav-group>button{white-space:nowrap}
+  .nav-group>button{display:inline-flex;align-items:center;gap:6px}
+  .nav-group>button span{line-height:1;transform:translateY(-2px)}
+  .header-cta{white-space:nowrap}
+}
+@media(min-width:901px) and (max-width:1320px){.header nav{font-size:15px}.header-cta{padding:10px 16px}}
