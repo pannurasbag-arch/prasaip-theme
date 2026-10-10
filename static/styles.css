@@ -452,3 +452,17 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
   .qc-card .qc-copy{margin:8px 0 10px;padding:6px 12px;border:1px solid #c99b38;border-radius:999px;background:transparent;color:#761344;font:600 13px "DM Sans",sans-serif;cursor:pointer}
   .qc-card .qc-mail{display:block;color:#761344;text-decoration:underline}
 }
+/* Top contact bar: translucent glass over the hero */
+.topbar{position:absolute!important;top:0;left:0;right:0;z-index:22;background:rgba(118,19,68,.5)!important;-webkit-backdrop-filter:blur(10px) saturate(130%);backdrop-filter:blur(10px) saturate(130%);border-bottom:1px solid rgba(241,212,134,.22)}
+body{position:relative;display:flow-root}
+.header{margin-top:36px}
+@media(min-width:1181px){
+  .header{margin-bottom:-140px!important}
+  main>.hero:first-child,main>.page-hero:first-child{padding-top:calc(140px + clamp(48px,5vw,80px))!important}
+  main>.content-page:first-child,main.content-page{padding-top:calc(140px + 48px)!important}
+}
+@media(max-width:1180px){
+  .header{margin-bottom:-118px!important}
+  main>.hero:first-child,main>.page-hero:first-child{padding-top:calc(118px + 44px)!important}
+  main>.content-page:first-child,main.content-page{padding-top:calc(118px + 36px)!important}
+}
