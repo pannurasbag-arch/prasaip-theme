@@ -402,3 +402,12 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
   .header-cta{white-space:nowrap}
 }
 @media(min-width:901px) and (max-width:1320px){.header nav{font-size:15px}.header-cta{padding:10px 16px}}
+/* Founders: cards tilt and the portrait floats forward in a gold frame */
+@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:no-preference){
+  .founder-grid,.profile-grid{perspective:1200px}
+  .founder-grid article.fx-tilt,.profile-photo.fx-tilt{transform-style:preserve-3d;border-radius:14px}
+  .founder-grid article .founder-thumb,.profile-photo img{transition:transform .3s ease-out,box-shadow .3s ease-out;outline:2px solid rgba(201,155,56,.65);outline-offset:4px}
+  .founder-grid article.is-tilting .founder-thumb,.profile-photo.is-tilting img{transform:translateZ(38px) scale(1.02);box-shadow:0 22px 40px rgba(42,10,27,.28)}
+  .founder-grid article.is-tilting h3,.founder-grid article.is-tilting .role{transform:translateZ(22px)}
+  .founder-grid article h3,.founder-grid article .role{transition:transform .3s ease-out}
+}

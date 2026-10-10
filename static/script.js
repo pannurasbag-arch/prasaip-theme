@@ -288,7 +288,7 @@ if(!reduceMotion&&'IntersectionObserver' in window){
     };
     if ('requestIdleCallback' in window) requestIdleCallback(start, { timeout: 1200 }); else setTimeout(start, 200);
 
-    document.querySelectorAll('.cards article,.service-list article,.blog-grid .blog-card,.recognition-items article').forEach(function (card) {
+    document.querySelectorAll('.cards article,.service-list article,.blog-grid .blog-card,.recognition-items article,.founder-grid article,.profile-photo').forEach(function (card) {
       card.classList.add('fx-tilt');
       if (getComputedStyle(card).position === 'static') card.style.position = 'relative';
       var sh = document.createElement('span'); sh.className = 'fx-shine'; sh.setAttribute('aria-hidden', 'true'); card.appendChild(sh);
