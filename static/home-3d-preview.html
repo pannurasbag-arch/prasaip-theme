@@ -100,7 +100,40 @@
     ]
   }
   </script>
-<link rel="icon" type="image/svg+xml" href="favicon.svg"></head>
+<link rel="icon" type="image/svg+xml" href="favicon.svg"><style>/* 3D touches for desktop: tilting cards, flipping award badges, unfolding steps, turning gears */
+@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:no-preference){
+  .cards,.service-list,.blog-grid,.recognition-items{perspective:1200px}
+  .fx-tilt{transform-style:preserve-3d;transition:transform .25s ease-out,box-shadow .25s ease-out;will-change:transform}
+  .fx-tilt.is-tilting{box-shadow:0 26px 50px rgba(61,23,41,.16)!important}
+  .fx-tilt:before{z-index:1}
+  .fx-tilt .fx-shine{position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .25s;background:radial-gradient(circle at var(--mx,50%) var(--my,50%),rgba(255,247,220,.55),transparent 55%);mix-blend-mode:soft-light}
+  .fx-tilt.is-tilting .fx-shine{opacity:1}
+  .recognition-items .award-emblem{transition:transform .9s cubic-bezier(.3,1.4,.5,1);transform-style:preserve-3d}
+  .recognition-items article:hover .award-emblem{transform:rotateY(360deg) translateZ(20px)}
+  .steps{perspective:1000px}
+  .steps.fx-fold article{transform:rotateX(-80deg);transform-origin:50% 0;opacity:0;transition:transform .9s cubic-bezier(.2,.9,.3,1.15),opacity .6s ease}
+  .steps.fx-fold.is-open article{transform:none;opacity:1}
+  .steps.fx-fold.is-open article:nth-child(2){transition-delay:.18s}
+  .steps.fx-fold.is-open article:nth-child(3){transition-delay:.36s}
+  .steps.fx-fold.is-open article:nth-child(4){transition-delay:.54s}
+  .process{position:relative;overflow:hidden}
+  .process-title{position:relative;z-index:1}
+  .gears3d{position:absolute;left:clamp(250px,19.5vw,300px);top:clamp(100px,8.6vw,125px);width:205px;height:171px;perspective:900px;pointer-events:none;z-index:0}
+  .gears3d__inner{position:absolute;inset:0;transform-style:preserve-3d;animation:gearsSway 12s ease-in-out infinite}
+  .gears3d svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+  .gears3d .g-back{transform:translateZ(-40px)}
+  .gears3d .g-front{transform:translateZ(40px)}
+  .gears3d path,.gears3d circle,.gears3d line{fill:none;stroke:#8a1a52;stroke-width:1.4;stroke-linejoin:round;opacity:.55}
+  .gears3d .thin{stroke-width:.8;opacity:.4}
+  .gears3d text{fill:#946b15;font:italic 500 14px Newsreader,Georgia,serif}
+  .gears3d .turn{transform-box:view-box;animation:gearTurn var(--s,36s) linear infinite}
+  .gears3d .turn.rev{animation-direction:reverse}
+  @keyframes gearTurn{to{transform:rotate(360deg)}}
+  @keyframes gearsSway{0%,100%{transform:rotateY(-22deg) rotateX(10deg)}50%{transform:rotateY(18deg) rotateX(-6deg)}}
+}
+.gears3d{display:none}
+@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:no-preference){.gears3d{display:block}}
+</style></head>
 <body>
   <div class="topbar"><span>Bengaluru, India · Wyoming, USA</span><a href="tel:+919113214395">+91 91132 14395</a><a href="mailto:contact@prasaip.com">contact@prasaip.com</a><a class="topbar-linkedin" href="https://www.linkedin.com/company/prasaip-llp/" target="_blank" rel="noopener" aria-label="PRASA IP on LinkedIn"><svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg><span>LinkedIn</span></a></div>
   <header class="header">
@@ -171,7 +204,7 @@
     </section>
 
     <section class="section process" id="approach">
-      <div class="process-title"><p class="eyebrow">HOW WE WORK</p><h2>Your technology deserves more than a filing service.</h2></div>
+      <div class="gears3d" aria-hidden="true"><div class="gears3d__inner"><svg class="g-back" viewBox="0 0 300 250"></svg><svg class="g-front" viewBox="0 0 300 250"></svg></div></div><div class="process-title"><p class="eyebrow">HOW WE WORK</p><h2>Your technology deserves more than a filing service.</h2></div>
       <div class="steps"><article><b>01</b><h3>Understand</h3><p>We examine the invention, commercial context, disclosure gaps and filing priorities.</p></article><article><b>02</b><h3>Develop</h3><p>We formulate the protection strategy and draft with technical continuity and meaningful fallback positions.</p></article><article><b>03</b><h3>Prosecute</h3><p>We address patent-office objections while preserving commercially useful claim scope.</p></article><article><b>04</b><h3>Manage</h3><p>We coordinate deadlines, jurisdictions and foreign counsel to maintain an aligned portfolio.</p></article></div>
     </section>
 
@@ -261,5 +294,33 @@
   hero.addEventListener('mouseleave',function(){tilt.style.transform='';});
 })();
 </script>
-</body>
+<script>(function(){
+  if(!window.matchMedia('(min-width:1000px) and (hover:hover) and (prefers-reduced-motion:no-preference)').matches)return;
+  // 1, 2 and 4: cards and award badges tilt toward the pointer
+  document.querySelectorAll('.cards article,.service-list article,.blog-grid .blog-card,.recognition-items article').forEach(function(card){
+    card.classList.add('fx-tilt');if(getComputedStyle(card).position==='static')card.style.position='relative';
+    var sh=document.createElement('span');sh.className='fx-shine';sh.setAttribute('aria-hidden','true');card.appendChild(sh);var raf=0,ev;
+    card.addEventListener('mousemove',function(e){ev=e;if(raf)return;raf=requestAnimationFrame(function(){raf=0;var r=card.getBoundingClientRect(),x=(ev.clientX-r.left)/r.width,y=(ev.clientY-r.top)/r.height;
+      card.classList.add('is-tilting');card.style.transform='rotateX('+((.5-y)*9).toFixed(2)+'deg) rotateY('+((x-.5)*11).toFixed(2)+'deg) translateZ(14px)';
+      card.style.setProperty('--mx',(x*100).toFixed(1)+'%');card.style.setProperty('--my',(y*100).toFixed(1)+'%');});});
+    card.addEventListener('mouseleave',function(){card.classList.remove('is-tilting');card.style.transform='';});
+  });
+  // 3: process steps unfold when they scroll into view
+  var steps=document.querySelector('.steps');
+  if(steps&&'IntersectionObserver' in window){steps.classList.add('fx-fold');
+    var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){steps.classList.add('is-open');io.disconnect();}});},{threshold:.25});io.observe(steps);}
+  // Gears: a small patent-style gear train beside the process heading
+  var box=document.querySelector('.gears3d');if(!box)return;var NS='http://www.w3.org/2000/svg';
+  function mk(p,tag,a){var e=document.createElementNS(NS,tag);for(var k in a)e.setAttribute(k,a[k]);p.appendChild(e);return e;}
+  function gear(cx,cy,n,ro,ri,ph){var d='',st=Math.PI*2/n;for(var i=0;i<n;i++){var a=ph+i*st;[[ri,a-st*.5],[ri,a-st*.27],[ro,a-st*.15],[ro,a+st*.15],[ri,a+st*.27]].forEach(function(p,j){d+=(i||j?'L':'M')+(cx+p[0]*Math.cos(p[1])).toFixed(1)+' '+(cy+p[0]*Math.sin(p[1])).toFixed(1)+' ';});}return d+'Z';}
+  var back=box.querySelector('.g-back'),front=box.querySelector('.g-front');
+  var g1=mk(back,'g',{class:'turn'});g1.style.setProperty('--s','40s');g1.style.transformOrigin='110px 140px';
+  mk(g1,'path',{d:gear(110,140,18,86,74,0)});mk(g1,'circle',{cx:110,cy:140,r:58,class:'thin'});mk(g1,'circle',{cx:110,cy:140,r:16});
+  for(var i=0;i<6;i++){var a=i*Math.PI/3;mk(g1,'line',{x1:110+16*Math.cos(a),y1:140+16*Math.sin(a),x2:110+58*Math.cos(a),y2:140+58*Math.sin(a),class:'thin'});}
+  var cx=110+128*Math.cos(-.55),cy=140+128*Math.sin(-.55);
+  var g2=mk(front,'g',{class:'turn rev'});g2.style.setProperty('--s','22.2s');g2.style.transformOrigin=cx.toFixed(1)+'px '+cy.toFixed(1)+'px';
+  mk(g2,'path',{d:gear(cx,cy,10,48,38,Math.PI/10)});mk(g2,'circle',{cx:cx,cy:cy,r:11});mk(g2,'circle',{cx:cx,cy:cy,r:28,class:'thin'});
+  var t=mk(front,'text',{x:268,y:236});t.textContent='FIG. 2';
+})();
+</script></body>
 </html>
