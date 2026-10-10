@@ -69,8 +69,8 @@ function prasa_ip_transform_static_html($html) {
     $base = trailingslashit(get_template_directory_uri()) . 'static/';
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
-        array('href="styles.css"', 'src="script.js"', 'href="favicon.svg"', 'src="assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261011v3') . '"', 'src="' . esc_url($base . 'script.js?ver=20261010v8') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/')),
+        array('href="styles.css"', 'src="script.js"', 'href="favicon.svg"', 'src="assets/', 'srcset="assets/', ' 320w, assets/'),
+        array('href="' . esc_url($base . 'styles.css?ver=20261011v4') . '"', 'src="' . esc_url($base . 'script.js?ver=20261011v1') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/'), 'srcset="' . esc_url($base . 'assets/'), ' 320w, ' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.
@@ -80,6 +80,12 @@ function prasa_ip_transform_static_html($html) {
     if (strpos($html, 'class="skip-link"') === false) {
         $html = preg_replace('#<main(\s|>)#', '<main id="main"$1', $html, 1);
         $html = preg_replace('#(<body[^>]*>)#', '$1<a class="skip-link" href="#main">Skip to main content</a>', $html, 1);
+    }
+    // Social previews: pages without their own image share the branded card.
+    if (strpos($html, 'property="og:image"') === false) {
+        $share = esc_url($base . 'assets/prasa-ip-share.jpg');
+        $meta = '<meta property="og:image" content="' . $share . '"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="PRASA IP, intellectual property attorneys"><meta name="twitter:image" content="' . $share . '">';
+        $html = preg_replace('#</head>#', $meta . '</head>', $html, 1);
     }
     $html = preg_replace_callback('/href="([a-z0-9-]+)\.html(#[^"]*)?"/i', function ($match) use ($home) {
         $slug = $match[1] === 'index' ? '' : ($match[1] === 'firm' ? 'about-us' : $match[1]);

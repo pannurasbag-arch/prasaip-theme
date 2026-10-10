@@ -53,7 +53,8 @@ if(!reduceMotion&&'IntersectionObserver' in window){
     '.founder-grid article','.experience-strip>div','.recognition-items>article',
     '.page-cards article','.evidence-grid article','.timeline article','.sector-grid article','.awards-grid article',
     '.blog-card','.key-points','.author-card','.technology-photo','.details>div',
-    '.article>h2','.article>h3','.page-footer-cta'
+    '.article>h2','.article>h3','.page-footer-cta',
+    '.sidebar','.note','.faq-list details','.award-list>div'
   ];
 
   const elements=[...document.querySelectorAll(revealGroups.join(','))];
