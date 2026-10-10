@@ -411,3 +411,21 @@ body:has(.hero--spec) .faq-list details{background:transparent!important;-webkit
   .founder-grid article.is-tilting h3,.founder-grid article.is-tilting .role{transform:translateZ(22px)}
   .founder-grid article h3,.founder-grid article .role{transition:transform .3s ease-out}
 }
+/* Rotating client ring, FAQ unfold, footer logo tilt, interactive globe */
+.trust-ring{display:none}
+@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:no-preference){
+  .trust{overflow:hidden}
+  .trust-sr{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .trust-ring{display:block;position:relative;flex:1;height:44px;perspective:700px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)}
+  .trust-ring__spin{position:absolute;left:50%;top:50%;transform-style:preserve-3d;transform:translateZ(calc(var(--r,400px) * -1));animation:trustSpin 48s linear infinite}
+  .trust-ring__spin span{position:absolute;left:0;top:0;transform-origin:0 0;white-space:nowrap;translate:-50% -50%;color:#f1d486;font-size:12px;letter-spacing:.14em;backface-visibility:hidden}
+  @keyframes trustSpin{from{transform:translateZ(calc(var(--r,400px) * -1)) rotateY(0)}to{transform:translateZ(calc(var(--r,400px) * -1)) rotateY(-360deg)}}
+  .faq-list{perspective:900px}
+  .faq-list details[open]>*:not(summary){transform-origin:50% 0;animation:faqUnfold .55s cubic-bezier(.2,.9,.3,1.1)}
+  @keyframes faqUnfold{from{opacity:0;transform:rotateX(-70deg)}to{opacity:1;transform:none}}
+  .site-footer img{transition:transform .3s ease-out;will-change:transform}
+  .draw3d.has-globe svg{display:none}
+  .draw3d.has-globe{pointer-events:auto}
+  .globe3d{position:absolute;inset:-6%;width:112%;height:112%;cursor:grab;touch-action:none}
+  .globe3d:active{cursor:grabbing}
+}
