@@ -516,3 +516,6 @@ body{position:relative;display:flow-root}
 }
 .topbar a,.topbar .topbar-linkedin{color:#fff1c9!important}
 .topbar{background:rgba(88,12,48,.72)!important}
+/* Polish pass: tighter section rhythm, clearer contact options */
+@media (min-width:901px){.section{padding-top:clamp(64px,6.4vw,100px)!important;padding-bottom:clamp(64px,6.4vw,100px)!important}.section-intro{margin-bottom:40px!important}}
+.contact-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
