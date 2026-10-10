@@ -37,6 +37,11 @@
   .draw3d text.fig{font-size:20px;letter-spacing:.06em}
   .draw3d .spin{transform-box:view-box;animation:gearSpin var(--s,40s) linear infinite;animation-delay:2.6s}
   .draw3d .spin.rev{animation-direction:reverse}
+  .draw3d .syn{stroke-width:.7;stroke:rgba(233,205,127,.45);filter:none}
+  .draw3d circle.node{stroke:none;fill:#f6dc8e;stroke-dasharray:none;opacity:0;animation:fadeIn .6s ease forwards var(--t),nodeGlow 2.4s ease-in-out infinite alternate calc(var(--t) + .6s + var(--g,0s));filter:drop-shadow(0 0 4px rgba(246,220,142,.9))}
+  .draw3d .pulse{stroke:#fff3c8;stroke-width:2.4;stroke-dasharray:.06 .94;stroke-dashoffset:.06;opacity:0;animation:pulse 3.2s linear infinite var(--t);filter:drop-shadow(0 0 5px rgba(255,236,170,.95))}
+  @keyframes pulse{0%{stroke-dashoffset:.06;opacity:1}90%{opacity:1}100%{stroke-dashoffset:-1;opacity:0}}
+  @keyframes nodeGlow{0%{opacity:1;r:4.2}100%{opacity:.45;r:3}}
   @keyframes drawIn{to{stroke-dashoffset:0}}
   @keyframes fadeIn{to{opacity:1}}
   @keyframes gearSpin{to{transform:rotate(360deg)}}
@@ -215,36 +220,39 @@
   if(!root||!window.matchMedia('(min-width:1000px) and (hover:hover)').matches)return;
   var NS='http://www.w3.org/2000/svg';
   function el(parent,tag,attrs,t){var e=document.createElementNS(NS,tag);for(var k in attrs)e.setAttribute(k,attrs[k]);
-    e.setAttribute('pathLength','1');if(t!=null)e.style.setProperty('--t',t+'s');parent.appendChild(e);return e;}
-  function gear(cx,cy,n,ro,ri,phase){var d='',step=Math.PI*2/n;
-    for(var i=0;i<n;i++){var a=phase+i*step,pts=[[ri,a-step*.5],[ri,a-step*.27],[ro,a-step*.15],[ro,a+step*.15],[ri,a+step*.27]];
-      pts.forEach(function(p,j){d+=(i===0&&j===0?'M':'L')+(cx+p[0]*Math.cos(p[1])).toFixed(2)+' '+(cy+p[0]*Math.sin(p[1])).toFixed(2)+' ';});}
-    return d+'Z';}
+    if(tag!=='text')e.setAttribute('pathLength','1');if(t!=null)e.style.setProperty('--t',t+'s');parent.appendChild(e);return e;}
   var back=root.querySelector('.l-back'),mid=root.querySelector('.l-mid'),front=root.querySelector('.l-front');
-  // Large gear (10) with spokes, on the back plane
-  var g1=document.createElementNS(NS,'g');g1.setAttribute('class','spin');g1.style.setProperty('--s','48s');g1.style.transformOrigin='170px 230px';back.appendChild(g1);
-  el(g1,'path',{d:gear(170,230,20,118,104,0)},0);
-  el(g1,'circle',{cx:170,cy:230,r:86,class:'thin'},.3);
-  el(g1,'circle',{cx:170,cy:230,r:30},.5);
-  for(var i=0;i<6;i++){var a=i*Math.PI/3;el(g1,'line',{x1:170+30*Math.cos(a),y1:230+30*Math.sin(a),x2:170+86*Math.cos(a),y2:230+86*Math.sin(a),class:'thin'},.6+i*.08);}
-  // Small pinion (12) meshing, on the middle plane
-  var cx2=170+168*Math.cos(-0.72),cy2=230+168*Math.sin(-0.72);
-  var g2=document.createElementNS(NS,'g');g2.setAttribute('class','spin rev');g2.style.setProperty('--s','26.4s');g2.style.transformOrigin=cx2.toFixed(1)+'px '+cy2.toFixed(1)+'px';mid.appendChild(g2);
-  el(g2,'path',{d:gear(cx2,cy2,11,64,51,Math.PI/11)},.4);
-  el(g2,'circle',{cx:cx2,cy:cy2,r:16},.8);
-  el(g2,'circle',{cx:cx2,cy:cy2,r:38,class:'thin'},.9);
-  // Shaft (14) and bearing on the middle plane
-  el(mid,'circle',{cx:170,cy:230,r:12},1);
-  el(mid,'path',{d:'M158 230 L158 400 M182 230 L182 400 M150 400 L190 400'},1.1);
-  el(mid,'path',{d:'M140 340 L200 340 L200 368 L140 368 Z'},1.3);
-  // Centre lines, patent style
-  el(mid,'line',{x1:30,y1:230,x2:330,y2:230,class:'centre','stroke-dasharray':'0.03 0.012 0.006 0.012'},1.5).style.strokeDashoffset='0';
-  el(mid,'line',{x1:170,y1:80,x2:170,y2:420,class:'centre','stroke-dasharray':'0.03 0.012 0.006 0.012'},1.5).style.strokeDashoffset='0';
-  // Reference numerals and leader lines on the front plane
-  var refs=[[60,110,'10',110,150],[380,40,'12',cx2+40,cy2-30],[60,395,'14',158,372],[250,415,'16',198,360],[395,250,'18',cx2+10,cy2+50]];
-  refs.forEach(function(r,k){el(front,'path',{d:'M'+(r[0]+(r[0]<200?14:-6))+' '+(r[1]-5)+' Q '+((r[0]+r[3])/2)+' '+(r[1]-25)+' '+r[3]+' '+r[4],class:'thin'},1.6+k*.15);
-    var t=document.createElementNS(NS,'text');t.setAttribute('x',r[0]);t.setAttribute('y',r[1]);t.textContent=r[2];t.style.setProperty('--t',(1.9+k*.15)+'s');front.appendChild(t);});
-  var f=document.createElementNS(NS,'text');f.setAttribute('x',300);f.setAttribute('y',448);f.setAttribute('class','fig');f.textContent='FIG. 1';f.style.setProperty('--t','2.6s');front.appendChild(f);
+  var C=220,H=80,P=10,pitch=160/(P+1);
+  // Circuit traces with vias (24, 26) on the back plane, each with a travelling signal pulse
+  var sides=[[0,-1],[1,0],[0,1],[-1,0]],k=0;
+  sides.forEach(function(s,si){
+    for(var i=1;i<=P;i+=2){
+      var off=-H+i*pitch,sx=C+s[0]*(H+14)+(s[0]===0?off:0),sy=C+s[1]*(H+14)+(s[1]===0?off:0);
+      var run=30+((i*37+si*19)%50),bend=((i+si)%2?1:-1)*(18+(i*11)%22);
+      var mx=sx+s[0]*run,my=sy+s[1]*run,ex=mx+s[0]*24+(s[0]===0?bend:0),ey=my+s[1]*24+(s[1]===0?bend:0);
+      ex=Math.max(18,Math.min(422,ex));ey=Math.max(18,Math.min(442,ey));
+      var d='M'+sx+' '+sy+' L'+mx+' '+my+' L'+ex.toFixed(1)+' '+ey.toFixed(1);
+      el(back,'path',{d:d,class:'thin'},.2+k*.05);
+      el(back,'circle',{cx:ex,cy:ey,r:4.5},.9+k*.05);
+      el(back,'path',{d:d,class:'pulse'},(2.6+((k*0.37)%2.4)).toFixed(2));
+      k++;
+    }});
+  // Chip package with pins (20, 28) on the middle plane
+  el(mid,'path',{d:'M'+(C-H)+' '+(C-H+10)+' Q'+(C-H)+' '+(C-H)+' '+(C-H+10)+' '+(C-H)+' L'+(C+H-10)+' '+(C-H)+' Q'+(C+H)+' '+(C-H)+' '+(C+H)+' '+(C-H+10)+' L'+(C+H)+' '+(C+H-10)+' Q'+(C+H)+' '+(C+H)+' '+(C+H-10)+' '+(C+H)+' L'+(C-H+10)+' '+(C+H)+' Q'+(C-H)+' '+(C+H)+' '+(C-H)+' '+(C+H-10)+' Z'},.3);
+  el(mid,'circle',{cx:C-H+14,cy:C-H+14,r:4,class:'thin'},.8);
+  sides.forEach(function(s,si){for(var i=1;i<=P;i++){var off=-H+i*pitch,x=C+s[0]*H+(s[0]===0?off:0),y=C+s[1]*H+(s[1]===0?off:0);
+    el(mid,'line',{x1:x,y1:y,x2:x+s[0]*14,y2:y+s[1]*14},.5+i*.03);}});
+  // Neural network die (22)
+  el(mid,'path',{d:'M'+(C-50)+' '+(C-50)+' L'+(C+50)+' '+(C-50)+' L'+(C+50)+' '+(C+50)+' L'+(C-50)+' '+(C+50)+' Z',class:'thin'},.7);
+  var layers=[[C-34,[-30,-10,10,30]],[C,[-36,-18,0,18,36]],[C+34,[-20,0,20]]],nodes=[];
+  layers.forEach(function(l){nodes.push(l[1].map(function(y){return [l[0],C+y];}));});
+  for(var a=0;a<nodes.length-1;a++)nodes[a].forEach(function(p){nodes[a+1].forEach(function(q){el(mid,'line',{x1:p[0],y1:p[1],x2:q[0],y2:q[1],class:'syn'},1.1);});});
+  var n=0;nodes.forEach(function(l){l.forEach(function(p){var c=el(mid,'circle',{cx:p[0],cy:p[1],r:4.2,class:'node'},1.4);c.style.setProperty('--g',(n*0.29%2.2).toFixed(2)+'s');n++;});});
+  // Reference numerals, patent style, on the front plane
+  var refs=[[40,70,'20',C-H+8,C-H+30],[392,72,'22',C+38,C-40],[30,300,'24',62,236],[396,392,'26',372,350],[250,440,'28',C+20,C+H+12]];
+  refs.forEach(function(r,j){el(front,'path',{d:'M'+(r[0]+(r[0]<220?16:-6))+' '+(r[1]-5)+' Q '+((r[0]+r[3])/2)+' '+(r[1]+(r[1]<220?-22:22))+' '+r[3]+' '+r[4],class:'thin'},1.6+j*.15);
+    var t=el(front,'text',{x:r[0],y:r[1]},1.9+j*.15);t.textContent=r[2];});
+  var f=el(front,'text',{x:330,y:452,class:'fig'},2.6);f.textContent='FIG. 1';
   // Tilt toward the pointer
   var tilt=root.querySelector('.draw3d__tilt'),hero=root.closest('.hero')||document.body,raf=0,tx=0,ty=0;
   hero.addEventListener('mousemove',function(e){var r=root.getBoundingClientRect();
