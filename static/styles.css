@@ -519,3 +519,31 @@ body{position:relative;display:flow-root}
 /* Polish pass: tighter section rhythm, clearer contact options */
 @media (min-width:901px){.section{padding-top:clamp(64px,6.4vw,100px)!important;padding-bottom:clamp(64px,6.4vw,100px)!important}.section-intro{margin-bottom:40px!important}}
 .contact-actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+/* Native feel on phones (mobile-native skill) */
+html{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+input,textarea,select{font-size:16px}
+button,a,[role="button"],summary{touch-action:manipulation}
+button,.button,.header-cta,.menu,.nav-group>button,.quick-contact a,.topbar-linkedin,.card-link,summary{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.header nav.open{max-height:calc(100dvh - 82px)!important}
+body{padding-left:env(safe-area-inset-left,0px);padding-right:env(safe-area-inset-right,0px)}
+.quick-contact{right:calc(14px + env(safe-area-inset-right,0px))!important}
+/* Touch screens: no stuck hover lifts after a tap; press feedback instead */
+@media (hover:none){
+  .award-list>div:hover,.recognition-items article:hover,.awards-grid article:hover,.button:hover,.header-cta:hover,.quick-contact>a:hover{transform:none!important}
+  .cards article:active,.service-list article:active,.recognition-items article:active,.blog-card:active,.founder-grid article:active{transform:scale(.985);transition:transform 120ms ease-out}
+}
+/* Motion tuning (Emil Kowalski standards): strong ease-out curves, UI under 300ms */
+:root{--ease-out:cubic-bezier(.23,1,.32,1);--ease-in-out:cubic-bezier(.77,0,.175,1)}
+.header{transition:transform .26s var(--ease-out),opacity .2s var(--ease-out)!important}
+.button,.header-cta,.card-link,.header nav a,.nav-group>button,.dropdown a{transition:background-color .18s var(--ease-out),color .18s var(--ease-out),border-color .18s var(--ease-out),transform .16s var(--ease-out)}
+@media (min-width:1000px) and (hover:hover) and (prefers-reduced-motion:no-preference){
+  .fx-tilt{transition:transform .45s var(--ease-out),box-shadow .3s var(--ease-out)!important}
+  .fx-tilt.is-tilting{transition:transform .12s linear,box-shadow .3s var(--ease-out)!important}
+  .recognition-items .award-emblem{transition:transform .6s var(--ease-out)!important}
+  .faq-list details[open]>*:not(summary){animation-duration:.3s!important;animation-timing-function:var(--ease-out)!important}
+  .nav-group:hover .dropdown,.nav-group.open .dropdown,.nav-group:focus-within .dropdown{animation-duration:.2s!important;animation-timing-function:var(--ease-out)!important}
+}
+/* Stress-test fixes: long titles and unbreakable words never push cards off-screen */
+.cards>*,.service-list>*,.blog-grid>*,.founder-grid>*,.recognition-items>*,.testimonial-grid>*,.steps>*,.site-footer>*{min-width:0}
+h1,h2,h3,.blog-card a,.cards h3,.site-footer a{overflow-wrap:break-word;hyphens:auto}
+.cards h3,.blog-card h3,.founder-grid h3{overflow-wrap:anywhere}

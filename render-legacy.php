@@ -95,7 +95,7 @@ function prasa_ip_clean_legacy_content($post) {
 function prasa_ip_legacy_header() {
     $parts = prasa_ip_shell_parts();
     $GLOBALS['prasa_ip_legacy_render'] = true;
-    echo '<!doctype html><html ' . get_language_attributes() . '><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">';
+    echo '<!doctype html><html ' . get_language_attributes() . '><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#5c0d32">';
     echo '<title>' . esc_html(wp_get_document_title()) . '</title>';
     echo $parts['head']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
     wp_head();
