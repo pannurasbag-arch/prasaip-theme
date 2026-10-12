@@ -91,7 +91,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 82 | open | Primary not opened (citation not found). |
 | 83 | open | Primary not opened. Comment deadline not confirmed. |
 | 84 | open | Primary not opened. Parties and transferor court not identified. |
-| 85 | published | https://www.prasaip.com/process-patent-infringement-india-nocil-v-finorchem/ (12 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7515256763869298688/ . Verified 200 on .com and .in (page and image), canonical .com, index,follow. Knowledge Centre first card correct on both. Caches cleared via Hostinger for .com and .in. Post Inspector preview image and title: pass. Both mentions link to profiles, preview shows image. Bing URL submitted 12 Oct 2026: pass. GSC indexing not requested: signed in Google account has no access to sc-domain:prasaip.com. |
+| 85 | published | https://www.prasaip.com/process-patent-infringement-india-nocil-v-finorchem/ (12 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7515256763869298688/ . Verified 200 on .com and .in (page and image), canonical .com, index,follow. Knowledge Centre first card correct on both. Caches cleared via Hostinger for .com and .in. Post Inspector preview image and title: pass. Both mentions link to profiles, preview shows image. Bing URL submitted 12 Oct 2026: pass. GSC indexing requested 12 Oct 2026 (second Google account, /u/1/): pass. |
 | 86 | open | |
 | 87 | open | Primary not opened. |
 | 88 | open | Primary not opened. |
