@@ -1100,10 +1100,10 @@ Scan note 9 Oct 2026: nothing new found from EPO, UPC, UK, China, Japan, WIPO or
 - **Day:** Mon · **Priority:** High
 
 ### 87. Arunachalaa Enterprises v R. Sukumar (Madras HC, REV.PET(IPD) No. 2 of 2026; 2026 LLBiz HC(MAD) 294)
-- **Date:** reported 3 Oct 2026 (order date not stated) · **Jurisdiction:** India (Madras HC, K. Kumaresh Babu J) · **Area:** Patent procedure
+- **Date:** 9 Sep 2026 (reported 3 Oct 2026) · **Jurisdiction:** India (Madras HC, K. Kumaresh Babu J) · **Area:** Patent procedure
 - **Summary:** A defendant may seek revocation under s.64 by separate petition or by counterclaim. Review of the order transferring the infringement suit from the District Court to the High Court dismissed (s.104, Clause 13 Letters Patent).
 - **Why it matters:** Confirms forum choice for revocation and transfer of suits to sit with a revocation petition.
-- **Primary not opened:** PDF linked at https://www.livelawbiz.com/pdf_upload/2026/10/03/arunachalaa-enterprises-704185.pdf
+- **Primary (opened 12 Oct 2026):** https://www.livelawbiz.com/pdf_upload/2026/10/03/arunachalaa-enterprises-704185.pdf . Separate petition or counterclaim confirmed at paras 5 and 8. Section 104 proviso at paras 5 and 7. Review dismissed at para 10. The Controller General of Patents is the second respondent.
 - **Secondary:** https://www.livelawbiz.com/patent/patent-revocation-can-be-sought-through-independent-petition-even-after-infringement-suit-is-filed-madras-high-court-552968
 - **Day:** Mon · **Priority:** Medium
 
@@ -1111,24 +1111,24 @@ Scan note 9 Oct 2026: nothing new found from EPO, UPC, UK, China, Japan, WIPO or
 - **Date:** 1 Sep 2026 · **Jurisdiction:** India (SC, K.V. Viswanathan and Arun Palli JJ) · **Area:** Patent / jurisdiction
 - **Summary:** SC stayed Geobrugg's patent suit over TECCO wire mesh in the Himachal Pradesh HC; notice returnable 2 Nov. Challenges: territorial jurisdiction resting on one invoice and an IndiaMART listing, a missing necessary party, and skipping s.12A pre suit mediation.
 - **Why it matters:** SC to consider how thin a basis can found patent suit jurisdiction and s.12A waiver.
-- **Primary not opened:** no order linked
+- **Primary not found (12 Oct 2026):** no order on sci.gov.in or in search. Bench and dates rest on the secondary report only. Verify the order before drafting.
 - **Secondary:** https://www.livelawbiz.com/top-stories/supreme-court-stays-swiss-companys-patent-suit-against-indian-wire-mesh-manufacturer-over-tecco-wire-mesh-548071
 - **Day:** Mon · **Priority:** Medium
 
 ### 89. ANI Media v RSY News (Delhi HC, CS(COMM) 1018/2024; 2026 LLBiz HC(DEL) 1066)
 - **Date:** 29 Sep 2026 · **Jurisdiction:** India (Delhi HC, Purushaindra Kumar Kaurav J) · **Area:** Copyright
-- **Summary:** Summary judgment and permanent injunction against a YouTube channel that re uploaded ten ANI videos. Current events defence under s.52(1)(a)(iii) rejected because wholesale reproduction substitutes for the work. Damages declined.
+- **Summary:** Summary judgment and permanent injunction against a YouTube channel that re uploaded ten ANI videos in 12 videos across 4 channels. Current events defence under s.52(1)(a)(iii) rejected because wholesale reproduction substitutes for the work. Damages declined.
 - **Why it matters:** Marks the limit of the news reporting exception.
-- **Primary not opened:** PDF linked at https://www.livelawbiz.com/pdf_upload/2026/10/05/ani-rsy-704488.pdf
+- **Primary (opened 12 Oct 2026):** https://www.livelawbiz.com/pdf_upload/2026/10/05/ani-rsy-704488.pdf . Ownership under s.17 proviso (b) at paras 24 and 25. Licence defence called fanciful at para 28. Section 52(1)(a)(iii) rejected at paras 29 and 30. Ex parte decree against defendant 1, platform to take down URLs, damages declined without reasons at para 33.
 - **Secondary:** https://www.livelawbiz.com/copyright/wholesale-reproduction-of-ani-videos-on-youtube-not-fair-dealing-delhi-high-court-restraints-rsy-news-553194
 - **Day:** Fri · **Priority:** Medium
 
-### 90. ITC Ltd v SMM Tobacco Pvt Ltd (Calcutta HC, IP (COM) No. 10 of 2026; 2026 LLBiz HC(CAL) 232)
-- **Date:** reported in 21 to 27 Sep 2026 digest (order date not stated) · **Jurisdiction:** India (Calcutta HC) · **Area:** Trade mark procedure
+### 90. ITC Ltd v SMM Tobacoo Pvt Ltd (spelling as in the order) (Calcutta HC, IP (COM) No. 10 of 2026; 2026 LLBiz HC(CAL) 232)
+- **Date:** 8 Sep 2026 · **Jurisdiction:** India (Calcutta HC, Arindam Mukherjee J, 2026:CHC-OS:388) · **Area:** Trade mark procedure
 - **Summary:** Court refused to let ITC skip s.12A pre suit mediation, since pursuing criminal remedies first weakened its urgency claim.
 - **Why it matters:** Criminal route first can cost a brand owner the urgency needed to skip mediation.
-- **Primary not opened:** no order link found
-- **Secondary:** https://www.livelawbiz.com/digests/weekly-digests/livelawbiz-ipr-weekly-digest-september-21-september-27-2026-552141
+- **Primary (opened 12 Oct 2026):** https://www.livelawbiz.com/pdf_upload/2026/09/23/itc-smm-tobacoo-702075.pdf . FIR first reasoning at paras 11 and 12. Novenco distinguished at paras 13 to 15. Plaint returned for refiling after mediation, court fees preserved, at para 16.
+- **Secondary:** https://www.livelawbiz.com/digests/weekly-digests/livelawbiz-ipr-weekly-digest-september-21-september-27-2026-552141 ; https://www.livelawbiz.com/ipr/calcutta-high-court-sends-itc-trademark-suit-to-mediation-says-fir-first-weakened-urgency-to-claim-waiver-551490
 - **Day:** Thu · **Priority:** Medium
 
 Leads not yet added (secondary only, verify first): USPTO ARP precedential decision Ex parte Baurin on ODP (6 Aug 2026); Fresenius Kabi v Controller, 2026 LLBiz HC(DEL) 934 (refusal set aside, no hearing); Novo v Sun Pharma, oral semaglutide, launch subject to court approval (reported 12 Aug 2026).
@@ -1171,7 +1171,7 @@ Leads not yet added (secondary only, verify first): USPTO ARP precedential decis
 - **Date:** 22 Jun 2026 · **Jurisdiction:** US · **Area:** PTAB procedure
 - **Summary:** Deadline to request Director Review of institution decisions set at 30 days instead of 14, with further extension in exceptional circumstances. Institution vacated because a district court had already found the claims invalid.
 - **Why it matters:** More time for either side to challenge institution decisions.
-- **Primary not opened:** decision not located on uspto.gov
+- **Primary (opened 12 Oct 2026):** https://www.uspto.gov/about-us/news-updates/precedential-decision-waiving-director-review-deadline . Decision PDF https://www.uspto.gov/sites/default/files/documents/ipr2025-01072-dr-paper_30.pdf did not load. The 30 day deadline and the exceptional circumstances extension are confirmed. The extension applies only if the trial has not progressed meaningfully. Institution was vacated under Hulu v Piranha, IPR2024-01252, Paper 27. The earlier 14 day figure rests on WilmerHale only.
 - **Secondary:** https://www.wilmerhale.com/en/insights/client-alerts/20260707-ptab-uspto-update
 - **Day:** Tue · **Priority:** Medium
 
@@ -1187,7 +1187,7 @@ Leads not yet added (secondary only, verify first): USPTO ARP precedential decis
 - **Date:** 23 Jul 2026 notice; in force 8 Oct 2026 · **Jurisdiction:** WIPO / Saudi Arabia · **Area:** Trade mark
 - **Summary:** Designations of Saudi Arabia possible from 8 Oct 2026. 18 month refusal period declared, with later opposition based refusals; individual fees for designations and renewals.
 - **Why it matters:** One international application now covers the largest Gulf market.
-- **Primary not opened:** notice PDF failed to load; notices list confirming notice 35 opened: https://www.wipo.int/en/web/madrid-system/notices/
+- **Primary (opened 12 Oct 2026):** https://www.wipo.int/documents/d/madrid-system/information-notices-en-2026-madrid_2026_35_e.pdf-1 . Instrument deposited 8 Jul 2026. Refusal period declared under Art. 5(2)(b) and (c). Individual fees under Art. 8(7)(a), with amounts in a later notice. The office will not present division requests under Rule 27bis(6) or merger requests under Rule 27ter(2)(b).
 - **Secondary:** https://www.dlapiper.com/insights/publications/2026/08/saudi-arabia-accedes-to-the-madrid-protocol ; https://ssrana.in/articles/saudi-arabia-joins-the-madrid-protocol-what-indian-businesses-need-to-know/
 - **Day:** Thu · **Priority:** High
 
