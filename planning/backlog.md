@@ -97,6 +97,25 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 88 | open | Primary not opened. |
 | 89 | open | Primary not opened. |
 | 90 | open | Primary not opened. Order date not stated. |
+| 91 | open |  |
+| 92 | open |  |
+| 93 | open |  |
+| 94 | open |  |
+| 95 | open | Primary not opened. |
+| 96 | open |  |
+| 97 | open | Primary not opened (notice PDF). |
+| 98 | open |  |
+| 99 | open |  |
+| 100 | open |  |
+| 101 | open |  |
+| 121 | open |  |
+| 122 | open |  |
+| 123 | open |  |
+| 124 | open |  |
+| 125 | open |  |
+| 126 | open |  |
+| 127 | open |  |
+| 128 | open |  |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -179,6 +198,25 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 88 | 1 Sep 2026 | India (SC) | Patent / jurisdiction | Techfab v Geobrugg: SC stays HP HC patent suit | Mon | Medium |
 | 89 | 29 Sep 2026 | India (Delhi HC) | Copyright | ANI v RSY News: wholesale copying not fair dealing | Fri | Medium |
 | 90 | Sep 2026 | India (Calcutta HC) | Trade mark | ITC v SMM Tobacco: no s.12A waiver after criminal route | Thu | Medium |
+| 91 | 6 Aug 2026 | US | Patent / double patenting | USPTO: Appeals Review Panel precedential decision Ex parte Baurin (Appeal 2024-002920, ARP | Tue | High |
+| 92 | 22 Jul 2026 | US | Patent / post grant | USPTO NPRM: Requirement to Identify All Real Parties in Interest to a Third Party Request  | Tue | High |
+| 93 | 24 Jun 2026 | US | Patent / procedure | USPTO final rule: Conditions for Additional Information and Fee in Petitions Based on Unin | Tue | Medium |
+| 94 | 3 Jun 2026 | US | Patent / programme | USPTO: Standards Participation and Representation Kudos (SPARK) Pilot Program (91 FR 33155 | Tue | Medium |
+| 95 | 22 Jun 2026 | US | PTAB procedure | USPTO: precedential Director Review decision Light & Wonder v Evolution Malta (IPR2025-010 | Tue | Medium |
+| 96 | 7 to 15 Jul 2026 | WIPO | Patent / PCT | WIPO: PCT Assembly adopts amendments to the PCT Regulations (PCT/A/58/4 Prov.) | Fri | Medium |
+| 97 | 23 Jul 2026 notice; in force 8 Oct 2026 | WIPO / Saudi Arabia | Trade mark | WIPO: Saudi Arabia accedes to the Madrid Protocol (Information Notice MADRID/2026/35) | Thu | High |
+| 98 | EAPO deposit 10 Jul 2026; in force 10 Oct 2026 | WIPO | Design | WIPO: Eurasian Patent Organization joins the Hague System (HAGUE/2026/7); El Salvador and  | Fri | Medium |
+| 99 | 26 Jun 2026; in force 1 Jan 2027 | China | Trade mark | CNIPA/NPC: Revised PRC Trade Mark Law (fifth amendment) adopted | Thu | High |
+| 100 | 9 Jun 2026 | US | Copyright | US Copyright Office: Tenth Triennial Section 1201 Rulemaking, Notice of Inquiry (FR Doc 20 | Fri | Medium |
+| 101 | 13 Aug 2026 | US | Copyright registration | US Copyright Office: Final rule amending Group Registration of Updates to a News Website ( | Fri | Medium |
+| 121 | 8 Sep 2026; applies 1 Apr 2027 | EPO | Patent procedure | EPO: Mandatory electronic filing and notification (OJ EPO 2026, A40 to A43; CA/D 2/26) | Wed | High |
+| 122 | 11 Sep 2026; applies to requests from 1 Oct 2026 | EPO | Patent procedure | EPO: Revised PACE programme (OJ EPO 2026, A44) | Wed | Medium |
+| 123 | 2 Jun 2026 (PMAC inaugurated); 25 Sep 2026 (consultation) | UPC | Patent / SEP dispute resolution | UPC: PMAC opens and consults on FRAND guidelines | Wed | High |
+| 124 | 14 Jul 2026 | UK | Patent / computer implemented inventions and AI | UK IPO: Practice notice on section 1 after Emotional Perception | Wed | High |
+| 125 | in force 1 Jul 2026 | EU | Trade marks (GI and opposition) | EUIPO: 2026 edition of the EUTM Guidelines (Decision EX-26-09) | Thu | Medium |
+| 126 | 15 to 16 Sep 2026 | India | Geographical indications | IP India: GI e-Filing Portal and Draft Guidelines for filing GI applications | Thu | Medium |
+| 127 | notice listed 7 Sep 2026; effective 2 Oct 2026 | India | Designs procedure | CGPDTM: Design FERs to be sent by email only (public notice) | Fri | High |
+| 128 | 30 Jun 2026; effective 1 Aug 2026 | EPO / China | Patent procedure | EPO: Patent Prosecution Highway with CNIPA made permanent (OJ EPO 2026, A32) | Wed | Medium |
 
 ---
 
@@ -1095,7 +1133,169 @@ Scan note 9 Oct 2026: nothing new found from EPO, UPC, UK, China, Japan, WIPO or
 
 Leads not yet added (secondary only, verify first): USPTO ARP precedential decision Ex parte Baurin on ODP (6 Aug 2026); Fresenius Kabi v Controller, 2026 LLBiz HC(DEL) 934 (refusal set aside, no hearing); Novo v Sun Pharma, oral semaglutide, launch subject to court approval (reported 12 Aug 2026).
 
+## Detailed entries added 12 October 2026 (owner request: 6 month sweep of patent and IP office updates)
+
+### 91. USPTO: Appeals Review Panel precedential decision Ex parte Baurin (Appeal 2024-002920, ARP 6 Aug 2026)
+- **Date:** 6 Aug 2026 · **Jurisdiction:** US · **Area:** Patent / double patenting
+- **Summary:** The ARP reversed the PTAB and reinstated all six obviousness type double patenting rejections. It read Allergan narrowly (same family, first filed and first issued conditions) and held the anti harassment rationale alone can support ODP without a term extension, inviting the Federal Circuit to settle the point. Binding on examiners now.
+- **Why it matters:** Continuation heavy families, including Indian and European pharma filers, should expect more ODP rejections and terminal disclaimers.
+- **Primary (opened by scan agent):** https://www.uspto.gov/patents/ptab/decisions/precedential-opinions/uspto-designates-precedential-appeals-review-panel
+- **Secondary:** https://www.cooley.com/news/insight/2026/2026-09-02-uspto-appeals-review-panel-reinstates-double-patenting-rejections-limits-allergan-in-examination ; https://www.mofo.com/resources/insights/260810-uspto-reconsiders-obviousness-type-double-patenting
+- **Day:** Tue · **Priority:** High
+
+### 92. USPTO NPRM: Requirement to Identify All Real Parties in Interest to a Third Party Request for an Ex Parte Reexamination (91 FR 46038; FR Doc 2026-14793)
+- **Date:** 22 Jul 2026 · **Jurisdiction:** US · **Area:** Patent / post grant
+- **Summary:** Proposed 37 CFR 1.510(b)(7) would require third party reexamination requesters to name all real parties in interest, ending anonymous requests (statement can be kept confidential on request). Prior art citations under 1.501 stay anonymous. Comments closed 21 Aug 2026.
+- **Why it matters:** Ex parte reexamination is becoming the fallback as IPR institution narrows.
+- **Primary (opened by scan agent):** https://www.govinfo.gov/content/pkg/FR-2026-07-22/html/2026-14793.htm
+- **Secondary:** https://www.uspto.gov/learning-and-resources/federal-register-notices/federal-register-notices-2026
+- **Day:** Tue · **Priority:** High
+
+### 93. USPTO final rule: Conditions for Additional Information and Fee in Petitions Based on Unintentional Delay (91 FR 37826; FR Doc 2026-12717)
+- **Date:** 24 Jun 2026 · **Jurisdiction:** US · **Area:** Patent / procedure
+- **Summary:** The supplemental showing and higher 1.17(m)(1) fee now apply to delays over one year (was two), covering revival, late maintenance fees, delayed priority or benefit claims and Hague time limits. Fees stay at USD 3,000 / 1,200 / 600. Applies to petitions filed on or after 13 Aug 2026.
+- **Why it matters:** Late priority claims from Indian or European filings need a fuller explanation after 12 months.
+- **Primary (opened by scan agent):** https://www.govinfo.gov/content/pkg/FR-2026-06-24/html/2026-12717.htm
+- **Secondary:** https://www.wilmerhale.com/en/insights/client-alerts/20260707-ptab-uspto-update
+- **Day:** Tue · **Priority:** Medium
+
+### 94. USPTO: Standards Participation and Representation Kudos (SPARK) Pilot Program (91 FR 33155; FR Doc 2026-11098)
+- **Date:** 3 Jun 2026 · **Jurisdiction:** US · **Area:** Patent / programme
+- **Summary:** Expedited examination or appeal, petition fees waived, for US domiciled small entities, universities and nonprofits with 40 or more hours of standards body work since 13 Jan 2026. Max 3 independent and 20 total claims; PCT national stage excluded. Runs to 3 Jun 2027 or 200 grants.
+- **Why it matters:** Shows US policy favouring standards participation; foreign domiciled applicants cannot use it.
+- **Primary (opened by scan agent):** https://www.govinfo.gov/content/pkg/FR-2026-06-03/html/2026-11098.htm
+- **Secondary:** https://www.wilmerhale.com/en/insights/client-alerts/20260707-ptab-uspto-update
+- **Day:** Tue · **Priority:** Medium
+
+### 95. USPTO: precedential Director Review decision Light & Wonder v Evolution Malta (IPR2025-01072, Paper 30)
+- **Date:** 22 Jun 2026 · **Jurisdiction:** US · **Area:** PTAB procedure
+- **Summary:** Deadline to request Director Review of institution decisions set at 30 days instead of 14, with further extension in exceptional circumstances. Institution vacated because a district court had already found the claims invalid.
+- **Why it matters:** More time for either side to challenge institution decisions.
+- **Primary not opened:** decision not located on uspto.gov
+- **Secondary:** https://www.wilmerhale.com/en/insights/client-alerts/20260707-ptab-uspto-update
+- **Day:** Tue · **Priority:** Medium
+
+### 96. WIPO: PCT Assembly adopts amendments to the PCT Regulations (PCT/A/58/4 Prov.)
+- **Date:** 7 to 15 Jul 2026 · **Jurisdiction:** WIPO · **Area:** Patent / PCT
+- **Summary:** Correspondence contact email and phone required; some personal data can be kept from public access; IB can record correspondence address changes after 30 months; clarified when paper filings are treated as withdrawn. Most changes in force 1 Jul 2027; ISA/IPEA agreement format 1 Jan 2028; fee equivalent Directives 1 Jan 2027.
+- **Why it matters:** Every PCT filer, including those using the Indian Patent Office as RO, must update practice.
+- **Primary (opened by scan agent):** https://www.wipo.int/edocs/mdocs/govbody/en/pct_a_58/pct_a_58_4_prov.pdf
+- **Secondary:** https://iipla.org/news/wipo-general-assembly-in-geneva-elects-new-leadership-and-advances-key-ip-system-reforms
+- **Day:** Fri · **Priority:** Medium
+
+### 97. WIPO: Saudi Arabia accedes to the Madrid Protocol (Information Notice MADRID/2026/35)
+- **Date:** 23 Jul 2026 notice; in force 8 Oct 2026 · **Jurisdiction:** WIPO / Saudi Arabia · **Area:** Trade mark
+- **Summary:** Designations of Saudi Arabia possible from 8 Oct 2026. 18 month refusal period declared, with later opposition based refusals; individual fees for designations and renewals.
+- **Why it matters:** One international application now covers the largest Gulf market.
+- **Primary not opened:** notice PDF failed to load; notices list confirming notice 35 opened: https://www.wipo.int/en/web/madrid-system/notices/
+- **Secondary:** https://www.dlapiper.com/insights/publications/2026/08/saudi-arabia-accedes-to-the-madrid-protocol ; https://ssrana.in/articles/saudi-arabia-joins-the-madrid-protocol-what-indian-businesses-need-to-know/
+- **Day:** Thu · **Priority:** High
+
+### 98. WIPO: Eurasian Patent Organization joins the Hague System (HAGUE/2026/7); El Salvador and Lao PDR also accede (HAGUE/2026/6, /8)
+- **Date:** EAPO deposit 10 Jul 2026; in force 10 Oct 2026 · **Jurisdiction:** WIPO · **Area:** Design
+- **Summary:** One Hague designation of EAPO covers 8 states (Armenia, Azerbaijan, Belarus, Kazakhstan, Kyrgyzstan, Russia, Tajikistan, Turkmenistan). El Salvador and Lao PDR notices dated 21 to 22 Jul 2026; in force dates not confirmed.
+- **Why it matters:** One regional design route into Eurasia.
+- **Primary (opened by scan agent):** https://www.wipo.int/en/web/hague-system/w/news/2026/eurasian-patent-organization-joins-the-hague-system
+- **Secondary:** https://www.wipo.int/en/web/hague-system/notices?year=2026
+- **Day:** Fri · **Priority:** Medium
+
+### 99. CNIPA/NPC: Revised PRC Trade Mark Law (fifth amendment) adopted
+- **Date:** 26 Jun 2026; in force 1 Jan 2027 · **Jurisdiction:** China · **Area:** Trade mark
+- **Summary:** 87 articles. Online use counts as use; motion marks registrable; opposition period cut from 3 to 2 months; bad faith applicants fined up to RMB 100,000; unregistered well known marks get cross class protection.
+- **Why it matters:** Foreign brand owners must tighten opposition watching in China.
+- **Primary (opened by scan agent):** https://english.cnipa.gov.cn/art/2026/6/26/art_3090_206933.html
+- **Secondary:** https://hlc.com/en/publications/china-adopts-revised-trademark-law-what-has-changed
+- **Day:** Thu · **Priority:** High
+
+### 100. US Copyright Office: Tenth Triennial Section 1201 Rulemaking, Notice of Inquiry (FR Doc 2026-11545)
+- **Date:** 9 Jun 2026 · **Jurisdiction:** US · **Area:** Copyright
+- **Summary:** Opens the 2027 cycle of exemptions to the anti circumvention ban. Petitions were due 24 Aug 2026; renewal comments closed 28 Sep 2026; further rounds to come.
+- **Why it matters:** Exemptions decide lawful AI research, repair and security testing on locked works sold in the US.
+- **Primary (opened by scan agent):** https://www.copyright.gov/1201/2027/index.html
+- **Secondary:** https://www.tuckerup.com/?p=14256
+- **Day:** Fri · **Priority:** Medium
+
+### 101. US Copyright Office: Final rule amending Group Registration of Updates to a News Website (NewsNet 1091)
+- **Date:** 13 Aug 2026 · **Jurisdiction:** US · **Area:** Copyright registration
+- **Summary:** "News website" redefined as a site primarily designed as a source of written information on current events, covering varied subjects and updated frequently. Effective immediately. FR citation not seen.
+- **Why it matters:** Foreign news publishers registering US copyrights in bulk must check eligibility.
+- **Primary (opened by scan agent):** https://copyright.gov/newsnet/2026/1091.html
+- **Secondary:** https://content.govdelivery.com/accounts/USLOCCOPYRIGHT/bulletins/423598f
+- **Day:** Fri · **Priority:** Medium
+
+### 121. EPO: Mandatory electronic filing and notification (OJ EPO 2026, A40 to A43; CA/D 2/26)
+- **Date:** 8 Sep 2026; applies 1 Apr 2027 · **Jurisdiction:** EPO · **Area:** Patent procedure
+- **Summary:** CA/D 2/26 (19 Mar 2026) amended Rules 2, 114 and 125 EPC. From 1 Apr 2027 documents in EPC, PCT and Unitary Patent proceedings must be filed electronically and the EPO notifies via MyEPO Mailbox. Postal filings keep the date but must be refiled electronically within 2 months of invitation. Paper third party observations no longer accepted.
+- **Why it matters:** Applicants and agents need MyEPO Mailbox access and fully electronic workflows before 1 Apr 2027.
+- **Primary (opened by scan agent):** https://www.epo.org/en/legal/official-journal/2026/09/a43
+- **Secondary:** none opened
+- **Day:** Wed · **Priority:** High
+
+### 122. EPO: Revised PACE programme (OJ EPO 2026, A44)
+- **Date:** 11 Sep 2026; applies to requests from 1 Oct 2026 · **Jurisdiction:** EPO · **Area:** Patent procedure
+- **Summary:** PACE now covers examination only, one request per application (Form 1005 or MyEPO, bulk requests allowed). Acceleration ends on a time limit extension request and is suspended on late renewal fees. EPO aims to issue each office action within 3 months.
+- **Why it matters:** Applicants seeking fast European grants must follow the new conditions.
+- **Primary (opened by scan agent):** https://www.epo.org/en/legal/official-journal/2026/09/a44
+- **Secondary:** none opened
+- **Day:** Wed · **Priority:** Medium
+
+### 123. UPC: PMAC opens and consults on FRAND guidelines
+- **Date:** 2 Jun 2026 (PMAC inaugurated); 25 Sep 2026 (consultation) · **Jurisdiction:** UPC · **Area:** Patent / SEP dispute resolution
+- **Summary:** The UPC Patent Mediation and Arbitration Centre was inaugurated 2 Jun 2026 (OJ EPO 2026, A33). On 25 Sep 2026 it published a non binding Draft FRAND Guidelines Discussion Paper for mediation, arbitration, expert determination and hybrid procedures. Comments due 26 Oct 2026.
+- **Why it matters:** SEP holders and implementers, including Indian handset makers, gain a UPC linked forum for FRAND settlement.
+- **Primary (opened by scan agent):** https://www.pmac-upc.org/en/news/launch-public-consultation-draft-frand-guidelines-discussion-paper ; https://www.epo.org/en/legal/official-journal/2026/07/a33
+- **Secondary:** https://www.hsfkramer.com/de/notes/ip/2026-10/pmac-launches-public-consultation-on-draft-frand-guidelines-discussion-paper
+- **Day:** Wed · **Priority:** High (time sensitive: comment deadline 26 Oct)
+
+### 124. UK IPO: Practice notice on section 1 after Emotional Perception
+- **Date:** 14 Jul 2026 · **Jurisdiction:** UK · **Area:** Patent / computer implemented inventions and AI
+- **Summary:** The UK IPO dropped the Aerotel test for an approach aligned with G 1/19: a claim is excluded only if it has no technical means at all, then each feature is assessed for technical character before Pozzoli inventive step. MoPP paras 1.07 to 1.51.7 no longer followed. Practice changed from 11 Feb 2026. Pairs with item 26.
+- **Why it matters:** AI and software applicants should reassess pending UK applications and excluded matter objections.
+- **Primary (opened by scan agent):** https://www.gov.uk/government/publications/search-and-examination-of-uk-patent-applications-under-the-patents-act-1977-as-amended
+- **Secondary:** https://www.fieldfisher.com/en/insights/ukipo-issues-new-patent-examination-guidance-following-emotional-perception-ruling ; https://www.marks-clerk.com/insights/latest-insights/102ngb4-rewriting-the-rules-inside-the-ukipos-new-practice-note-on-ai-patentability/
+- **Day:** Wed · **Priority:** High
+
+### 125. EUIPO: 2026 edition of the EUTM Guidelines (Decision EX-26-09)
+- **Date:** in force 1 Jul 2026 · **Jurisdiction:** EU · **Area:** Trade marks (GI and opposition)
+- **Summary:** GI objections widened beyond identical or similar goods (following Nero Champagne, T-239/23) and a specification restriction no longer cures automatically. Non qualifying Art 8(4) rights make an opposition inadmissible. Second or later extension requests need no evidence; joint suspension extensions granted for 18 months; word marks differing only in letter case treated as identical.
+- **Why it matters:** Brand owners filing or opposing at the EUIPO must adjust GI clearance and opposition timing.
+- **Primary (opened by scan agent):** https://www.euipo.europa.eu/en/news/entry-into-force-of-the-2026-edition-of-the-guidelines-for-examination-of-eutms-and-euds
+- **Secondary:** https://ecta.org/en/latest-news-detail/news-973/2026-euipo-guidelines-for-eutms-and-euds-enter-into-force-today/ ; https://www.dreyfus.fr/en/2026/08/05/2026-euipo-guidelines-european-union-trade-marks/
+- **Day:** Thu · **Priority:** Medium
+
+### 126. IP India: GI e-Filing Portal and Draft Guidelines for filing GI applications
+- **Date:** 15 to 16 Sep 2026 · **Jurisdiction:** India · **Area:** Geographical indications
+- **Summary:** GI e-Filing Portal (online.ipindia.gov.in/eGir) launched on GI Day, 15 Sep 2026, with draft GI filing guidelines covering eligibility, specification, inspection and traceability, forms and fees, examination and opposition. Mandatory online filing and comment deadline not confirmed.
+- **Why it matters:** Producer groups and foreign GI applicants get an online route and evidence guide.
+- **Primary (opened by scan agent):** https://ipindia.gov.in/dynamic/news-details/137 (draft guidelines document itself not opened)
+- **Secondary:** https://teamleaseregtech.com/updates/article/60094/ip-india-issued-the-draft-guidelines-for-filing-a-geographical-indicat/
+- **Day:** Thu · **Priority:** Medium
+
+### 127. CGPDTM: Design FERs to be sent by email only (public notice)
+- **Date:** notice listed 7 Sep 2026; effective 2 Oct 2026 · **Jurisdiction:** India · **Area:** Designs procedure
+- **Summary:** From 2 Oct 2026 design FERs are ordinarily sent only to the email in Form-1 "Address for Service in India"; postal dispatch stops unless the Controller records reasons. The response period runs from the emailed report.
+- **Why it matters:** Foreign applicants and Indian agents must check service emails and docketing or risk missing FER deadlines.
+- **Primary (opened by scan agent):** https://ipindia.gov.in/storage/uploads/others/O1fETFtkfh0tei8GI82KDcc1nCAjGEVLx0oVOR2m.pdf
+- **Secondary:** https://ssrana.in/articles/design-applications-in-india-first-examination-reports-move-to-email-from-2-october-2026/
+- **Day:** Fri · **Priority:** High
+
+### 128. EPO: Patent Prosecution Highway with CNIPA made permanent (OJ EPO 2026, A32)
+- **Date:** 30 Jun 2026; effective 1 Aug 2026 · **Jurisdiction:** EPO / China · **Area:** Patent procedure
+- **Summary:** EPO and CNIPA PPH made permanent from 1 Aug 2026, based on PCT work products (WO-ISA, IPER) or national work products finding at least one claim allowable.
+- **Why it matters:** Faster second prosecution for applicants filing in Europe and China.
+- **Primary (opened by scan agent):** https://www.epo.org/en/legal/official-journal/2026/06/a32
+- **Secondary:** none opened
+- **Day:** Wed · **Priority:** Medium
+
+Sweep notes (12 Oct 2026): no JPO amendments or other CNIPA rules confirmed in the window; no new EPO referral after G 1/26 and no AC rule or fee changes after March; no new EUIPO Convergence practice; UK designs and SEP consultations still without government response; no new DPIIT policy paper; no new USCO AI report. Minor USPTO items left out: Nice classification final rule (FR Doc 2026-17437) and Madrid e-filing rule (FR Doc 2026-14240). Item 91 replaces the Ex parte Baurin lead noted in the 85 to 90 batch.
+
 ## Notes
+
+**Standing instructions (owner, 12 Oct 2026):**
+- Office updates: every scan checks official office pages first (USPTO Federal Register notices and PTAB precedential decisions, US Copyright Office NewsNet, EPO Official Journal, IP India public notices, UK IPO, EUIPO news, CNIPA and JPO English news, WIPO PCT, Madrid and Hague notices), then reporters.
+- Saturday slot: a general IP knowledge explainer (procedure, costs, cross country comparisons, frequently searched questions), chosen with Search Console data and the jurisdiction perspective rule.
+- Search Console: property sc-domain:prasaip.com is under the second Google account in Chrome (https://search.google.com/u/1/...).
+
 
 **Spread:**
 - India: 13 items (2, 4–8, 11, 12, 17–19, 27, 29).
