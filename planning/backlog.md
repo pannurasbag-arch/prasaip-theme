@@ -66,7 +66,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 57 | published | https://www.prasaip.com/method-of-treatment-claims-enablement/ (6 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7513123183768662017/ . Verified 200 on .com and .in, canonical .com, index,follow. GSC indexing requested, Bing submitted. |
 | 58 | open | |
 | 59 | open | |
-| 60 | published | https://www.prasaip.com/inoperable-patent-claims-satius-v-samsung/ (11 Oct 2026, catch up for Wed 7 Oct slot). LinkedIn: PENDING (not posted; LinkedIn session logged out, sign-in needs owner). Image 1536px on .com and .in, Knowledge Centre first card correct on both: pass. Post Inspector: not run (logged out). GSC indexing requested 12 Oct 2026: pass. Bing: PENDING (Webmaster Tools logged out). |
+| 60 | published | https://www.prasaip.com/inoperable-patent-claims-satius-v-samsung/ (11 Oct 2026, catch up for Wed 7 Oct slot). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7515246367771127808/ . Image 1536px on .com and .in, Knowledge Centre first card correct on both: pass. Post Inspector preview image and title: pass. Company post with Sanath M V and Praneetha K Rasbag mentions (links verified) and link preview: pass. GSC indexing requested 12 Oct 2026: pass. Bing URL submitted 12 Oct 2026: pass. |
 | 61 | open | |
 | 62 | open | |
 | 63 | open | |
