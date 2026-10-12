@@ -91,6 +91,12 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 82 | open | Primary not opened (citation not found). |
 | 83 | open | Primary not opened. Comment deadline not confirmed. |
 | 84 | open | Primary not opened. Parties and transferor court not identified. |
+| 85 | drafted | draft/2026-10-12-process-patent-infringement-india-nocil-v-finorchem (12 Oct 2026). Primary opened (judgment PDF). Awaiting owner approval. |
+| 86 | open | |
+| 87 | open | Primary not opened. |
+| 88 | open | Primary not opened. |
+| 89 | open | Primary not opened. |
+| 90 | open | Primary not opened. Order date not stated. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -167,6 +173,12 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 71 | 1 Oct 2026 | India (Bom HC) | Personality rights / AI | Samantha Ruth Prabhu v Meta and others: deepfake takedown | Thu | High |
 | 72 | 30 Sep 2026 | India (Guj HC) | Copyright / designs | Atul Bhaleraav Patil v State of Gujarat: logo copyright, s.15(2) | Fri | Medium |
 | 73 | 6 Oct 2026 | US (USPTO) | Procedure | Update to panels for pre appeal and appeal conferences | Tue | Medium |
+| 85 | 7 Oct 2026 | India (Calcutta HC) | Patent / trade secrets | NOCIL v Finorchem: s.104A burden and "clear the way" before launch | Mon | High |
+| 86 | 7 Sep 2026 | India (Delhi HC DB) | Patent | Conqueror v Xiaomi: delay and missing element defeat injunction | Mon | High |
+| 87 | c. Oct 2026 | India (Madras HC) | Patent | Arunachalaa: revocation by petition or counterclaim | Mon | Medium |
+| 88 | 1 Sep 2026 | India (SC) | Patent / jurisdiction | Techfab v Geobrugg: SC stays HP HC patent suit | Mon | Medium |
+| 89 | 29 Sep 2026 | India (Delhi HC) | Copyright | ANI v RSY News: wholesale copying not fair dealing | Fri | Medium |
+| 90 | Sep 2026 | India (Calcutta HC) | Trade mark | ITC v SMM Tobacco: no s.12A waiver after criminal route | Thu | Medium |
 
 ---
 
@@ -1030,6 +1042,58 @@ Leads not yet checked: two more CAFC precedential opinions of 30 Sep 2026; Delhi
 - **Day:** Tue · **Priority:** Low
 
 Scan note 9 Oct 2026: nothing new found from EPO, UPC, UK, China, Japan, WIPO or CGPDTM for 6 to 9 Oct. Item 70 (GUI design guidelines) not drafted today because the IP India primary could not be opened (fetch permission timed out).
+
+## Detailed entries added 12 October 2026 (weekday scan and Monday 60 day sweep)
+
+### 85. NOCIL Ltd v Finorchem Ltd & Anr (Calcutta HC, GA-COM/1/2024 in IP-COM/25/2024; 2026 LLBiz HC (CAL) 250)
+- **Date:** 7 Oct 2026 · **Jurisdiction:** India (Calcutta HC, Ravi Krishan Kapur J) · **Area:** Patent / trade secrets
+- **Summary:** Interim relief on three process patents for 4-ADPA (IN 341922, 366559, 389262) and on an NDA claim against Finorchem and a former NOCIL employee. Process held prima facie equivalent (pith and marrow); burden on defendant to prove a different process (s.104A). A new entrant must "clear the way" (s.25, s.64, s.105) before launch; shifting process disclosures and amendments counted against the defendant.
+- **Why it matters:** Clear Indian authority on proof of process patent infringement and on clearing the way before launch.
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/10/09/nocil-705387.pdf
+- **Secondary:** https://www.livelawbiz.com/patent/companies-must-clear-the-way-before-launching-processes-that-may-infringe-patents-calcutta-high-court-553851
+- **Day:** Mon · **Priority:** High
+
+### 86. Conqueror Innovations v Xiaomi Technology India (Delhi HC DB, FAO(OS)(COMM) 147/2025; 2026 LLBiz HC(DEL) 952)
+- **Date:** 7 Sep 2026 · **Jurisdiction:** India (Delhi HC DB, V. Kameswar Rao and Manmeet Pritam Singh Arora JJ) · **Area:** Patent
+- **Summary:** Refusal of interim injunction against Xiaomi's "Find Device" feature upheld. Prima facie the feature lacks the claimed non erasable storage and auto answer mode. A prolonged and conscious delay of about nine years was enough on its own to deny interim relief.
+- **Why it matters:** A missing claim element and long delay each defeat interim relief in Indian patent suits.
+- **Primary (opened by scan agent):** https://www.livelawbiz.com/pdf_upload/2026/09/11/conqueror-699641.pdf
+- **Secondary:** https://www.livelawbiz.com/patent/delhi-high-court-refuses-to-restrain-xiaomi-from-using-find-device-feature-in-patent-dispute-549765 ; https://www.barandbench.com/news/litigation/delhi-high-court-refuses-to-restrain-xiaomi-from-using-find-device-feature-in-its-mobile-phones
+- **Day:** Mon · **Priority:** High
+
+### 87. Arunachalaa Enterprises v R. Sukumar (Madras HC, REV.PET(IPD) No. 2 of 2026; 2026 LLBiz HC(MAD) 294)
+- **Date:** reported 3 Oct 2026 (order date not stated) · **Jurisdiction:** India (Madras HC, K. Kumaresh Babu J) · **Area:** Patent procedure
+- **Summary:** A defendant may seek revocation under s.64 by separate petition or by counterclaim. Review of the order transferring the infringement suit from the District Court to the High Court dismissed (s.104, Clause 13 Letters Patent).
+- **Why it matters:** Confirms forum choice for revocation and transfer of suits to sit with a revocation petition.
+- **Primary not opened:** PDF linked at https://www.livelawbiz.com/pdf_upload/2026/10/03/arunachalaa-enterprises-704185.pdf
+- **Secondary:** https://www.livelawbiz.com/patent/patent-revocation-can-be-sought-through-independent-petition-even-after-infringement-suit-is-filed-madras-high-court-552968
+- **Day:** Mon · **Priority:** Medium
+
+### 88. Techfab India Industries v Geobrugg AG (Supreme Court of India, SLP(C) 29151/2026)
+- **Date:** 1 Sep 2026 · **Jurisdiction:** India (SC, K.V. Viswanathan and Arun Palli JJ) · **Area:** Patent / jurisdiction
+- **Summary:** SC stayed Geobrugg's patent suit over TECCO wire mesh in the Himachal Pradesh HC; notice returnable 2 Nov. Challenges: territorial jurisdiction resting on one invoice and an IndiaMART listing, a missing necessary party, and skipping s.12A pre suit mediation.
+- **Why it matters:** SC to consider how thin a basis can found patent suit jurisdiction and s.12A waiver.
+- **Primary not opened:** no order linked
+- **Secondary:** https://www.livelawbiz.com/top-stories/supreme-court-stays-swiss-companys-patent-suit-against-indian-wire-mesh-manufacturer-over-tecco-wire-mesh-548071
+- **Day:** Mon · **Priority:** Medium
+
+### 89. ANI Media v RSY News (Delhi HC, CS(COMM) 1018/2024; 2026 LLBiz HC(DEL) 1066)
+- **Date:** 29 Sep 2026 · **Jurisdiction:** India (Delhi HC, Purushaindra Kumar Kaurav J) · **Area:** Copyright
+- **Summary:** Summary judgment and permanent injunction against a YouTube channel that re uploaded ten ANI videos. Current events defence under s.52(1)(a)(iii) rejected because wholesale reproduction substitutes for the work. Damages declined.
+- **Why it matters:** Marks the limit of the news reporting exception.
+- **Primary not opened:** PDF linked at https://www.livelawbiz.com/pdf_upload/2026/10/05/ani-rsy-704488.pdf
+- **Secondary:** https://www.livelawbiz.com/copyright/wholesale-reproduction-of-ani-videos-on-youtube-not-fair-dealing-delhi-high-court-restraints-rsy-news-553194
+- **Day:** Fri · **Priority:** Medium
+
+### 90. ITC Ltd v SMM Tobacco Pvt Ltd (Calcutta HC, IP (COM) No. 10 of 2026; 2026 LLBiz HC(CAL) 232)
+- **Date:** reported in 21 to 27 Sep 2026 digest (order date not stated) · **Jurisdiction:** India (Calcutta HC) · **Area:** Trade mark procedure
+- **Summary:** Court refused to let ITC skip s.12A pre suit mediation, since pursuing criminal remedies first weakened its urgency claim.
+- **Why it matters:** Criminal route first can cost a brand owner the urgency needed to skip mediation.
+- **Primary not opened:** no order link found
+- **Secondary:** https://www.livelawbiz.com/digests/weekly-digests/livelawbiz-ipr-weekly-digest-september-21-september-27-2026-552141
+- **Day:** Thu · **Priority:** Medium
+
+Leads not yet added (secondary only, verify first): USPTO ARP precedential decision Ex parte Baurin on ODP (6 Aug 2026); Fresenius Kabi v Controller, 2026 LLBiz HC(DEL) 934 (refusal set aside, no hearing); Novo v Sun Pharma, oral semaglutide, launch subject to court approval (reported 12 Aug 2026).
 
 ## Notes
 
