@@ -93,17 +93,17 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 84 | open | Primary not opened. Parties and transferor court not identified. |
 | 85 | published | https://www.prasaip.com/process-patent-infringement-india-nocil-v-finorchem/ (12 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7515256763869298688/ . Verified 200 on .com and .in (page and image), canonical .com, index,follow. Knowledge Centre first card correct on both. Caches cleared via Hostinger for .com and .in. Post Inspector preview image and title: pass. Both mentions link to profiles, preview shows image. Bing URL submitted 12 Oct 2026: pass. GSC indexing requested 12 Oct 2026 (second Google account, /u/1/): pass. |
 | 86 | open | |
-| 87 | open | Primary not opened. |
-| 88 | open | Primary not opened. |
-| 89 | open | Primary not opened. |
-| 90 | open | Primary not opened. Order date not stated. |
+| 87 | open | Primary opened 12 Oct 2026. Order dated 9 Sep 2026. |
+| 88 | open | Primary not found 12 Oct 2026. Verify the SC order before drafting. |
+| 89 | open | Primary opened 12 Oct 2026. |
+| 90 | open | Primary opened 12 Oct 2026. Order dated 8 Sep 2026. |
 | 91 | open |  |
 | 92 | open |  |
 | 93 | open |  |
 | 94 | open |  |
-| 95 | open | Primary not opened. |
+| 95 | open | USPTO news page opened 12 Oct 2026. Decision PDF did not load. |
 | 96 | open |  |
-| 97 | open | Primary not opened (notice PDF). |
+| 97 | open | Primary notice opened 12 Oct 2026. |
 | 98 | open |  |
 | 99 | open |  |
 | 100 | open |  |
@@ -194,10 +194,10 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 73 | 6 Oct 2026 | US (USPTO) | Procedure | Update to panels for pre appeal and appeal conferences | Tue | Medium |
 | 85 | 7 Oct 2026 | India (Calcutta HC) | Patent / trade secrets | NOCIL v Finorchem: s.104A burden and "clear the way" before launch | Mon | High |
 | 86 | 7 Sep 2026 | India (Delhi HC DB) | Patent | Conqueror v Xiaomi: delay and missing element defeat injunction | Mon | High |
-| 87 | c. Oct 2026 | India (Madras HC) | Patent | Arunachalaa: revocation by petition or counterclaim | Mon | Medium |
+| 87 | 9 Sep 2026 | India (Madras HC) | Patent | Arunachalaa: revocation by petition or counterclaim | Mon | Medium |
 | 88 | 1 Sep 2026 | India (SC) | Patent / jurisdiction | Techfab v Geobrugg: SC stays HP HC patent suit | Mon | Medium |
 | 89 | 29 Sep 2026 | India (Delhi HC) | Copyright | ANI v RSY News: wholesale copying not fair dealing | Fri | Medium |
-| 90 | Sep 2026 | India (Calcutta HC) | Trade mark | ITC v SMM Tobacco: no s.12A waiver after criminal route | Thu | Medium |
+| 90 | 8 Sep 2026 | India (Calcutta HC) | Trade mark | ITC v SMM Tobacco: no s.12A waiver after criminal route | Thu | Medium |
 | 91 | 6 Aug 2026 | US | Patent / double patenting | USPTO: Appeals Review Panel precedential decision Ex parte Baurin (Appeal 2024-002920, ARP | Tue | High |
 | 92 | 22 Jul 2026 | US | Patent / post grant | USPTO NPRM: Requirement to Identify All Real Parties in Interest to a Third Party Request  | Tue | High |
 | 93 | 24 Jun 2026 | US | Patent / procedure | USPTO final rule: Conditions for Additional Information and Fee in Petitions Based on Unin | Tue | Medium |
