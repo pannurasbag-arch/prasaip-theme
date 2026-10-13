@@ -42,7 +42,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 33 | open | |
 | 34 | open | |
 | 35 | published | https://www.prasaip.com/upc-opt-out-sidel-v-omnia/ (30 Sep 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7510914639107510272/ |
-| 36 | open | |
+| 36 | drafted | draft/2026-10-13-ai-training-fair-use-thomson-reuters-v-ross (13 Oct 2026). Primary opened: https://www2.ca3.uscourts.gov/opinarch/252153p.pdf . Panel Restrepo, Montgomery-Reeves, Bove. Opinion now public. |
 | 37 | open | |
 | 38 | open | |
 | 39 | open | |
@@ -116,6 +116,13 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 126 | open |  |
 | 127 | open |  |
 | 128 | open |  |
+| 129 | open | Primary not opened. |
+| 130 | open | Primary not opened. Docket number to verify. |
+| 131 | open | Primary not opened. |
+| 132 | open | Primary not opened. |
+| 133 | open | Primary not opened. |
+| 134 | open | Primary not opened. Dates unconfirmed. |
+| 135 | open | Primary not opened. Date not stated. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -217,6 +224,13 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 126 | 15 to 16 Sep 2026 | India | Geographical indications | IP India: GI e-Filing Portal and Draft Guidelines for filing GI applications | Thu | Medium |
 | 127 | notice listed 7 Sep 2026; effective 2 Oct 2026 | India | Designs procedure | CGPDTM: Design FERs to be sent by email only (public notice) | Fri | High |
 | 128 | 30 Jun 2026; effective 1 Aug 2026 | EPO / China | Patent procedure | EPO: Patent Prosecution Highway with CNIPA made permanent (OJ EPO 2026, A32) | Wed | Medium |
+| 129 | 8 Oct 2026 | US (S.D.N.Y.) | Copyright / AI | USA Today Co v OpenAI: newspaper group sues over training and outputs | Fri | High |
+| 130 | 5 Oct 2026 | US (9th Cir.) | Patent / antitrust | Simon and Simon v Align: ending interoperability can be refusal to deal | Tue | Medium |
+| 131 | 7 Oct 2026 (disclosed) | US (CAFC) | Institutional | Judge Newman matter transferred to Eleventh Circuit Judicial Council | Tue | Medium |
+| 132 | 6 Oct 2026 | US | Patent licensing | Micron and Netlist global settlement and licence | Tue | Medium |
+| 133 | 30 Sep to 5 Oct 2026 | US (USPTO / Congress) | Policy | John Duffy named USPTO General Counsel; S.5610 adversarial patents bill | Tue | Medium |
+| 134 | late Sep 2026 | UPC (CoA) | Patent / procedure | NVIDIA and Keysight: appeals on undecided conditional counterclaims restored | Wed | Medium |
+| 135 | 28 Sep to 4 Oct 2026 | India (Delhi HC) | Personality rights | Aniruddha Joshi v John Does: takedown limited to identical content | Fri | Medium |
 
 ---
 
@@ -1288,6 +1302,73 @@ Leads not yet added (secondary only, verify first): USPTO ARP precedential decis
 - **Day:** Wed · **Priority:** Medium
 
 Sweep notes (12 Oct 2026): no JPO amendments or other CNIPA rules confirmed in the window; no new EPO referral after G 1/26 and no AC rule or fee changes after March; no new EUIPO Convergence practice; UK designs and SEP consultations still without government response; no new DPIIT policy paper; no new USCO AI report. Minor USPTO items left out: Nice classification final rule (FR Doc 2026-17437) and Madrid e-filing rule (FR Doc 2026-14240). Item 91 replaces the Ex parte Baurin lead noted in the 85 to 90 batch.
+
+## Detailed entries added 13 October 2026 (weekday scan)
+
+### 129. USA Today Co v OpenAI Foundation (S.D.N.Y., No. 1:26-cv-08892)
+- **Date:** 8 Oct 2026
+- **Jurisdiction:** US · **Area:** Copyright / AI
+- **Summary:** USA Today Co and 13 of its newspapers sued OpenAI over alleged copying of hundreds of thousands of articles to train and run ChatGPT, with DMCA s.1202 claims. They reportedly seek more than USD 250 million, an injunction and destruction of models and training sets.
+- **Why it matters:** Largest newspaper group suit since NYT, in the same district, filed just after the Third Circuit's Ross ruling.
+- **Primary:** Complaint not located (Primary not opened).
+- **Secondary:** https://hoodline.com/2026/10/usa-today-sues-openai-demands-250-million-over-copied-articles
+- **Day:** Fri · **Priority:** High
+
+### 130. Simon and Simon, PC v Align Technology, Inc (9th Cir., docket to verify, reported as No. 24-1703)
+- **Date:** 5 Oct 2026
+- **Jurisdiction:** US · **Area:** Patent / antitrust
+- **Summary:** Majority reversed summary judgment for Align and held that ending iTero interoperability with 3Shape can be an anticompetitive refusal to deal. Judge Miller concurred in the judgment and warned against expanding refusal to deal liability.
+- **Why it matters:** Patent owners who cut off interoperability during litigation face antitrust exposure in the Ninth Circuit.
+- **Primary:** Ninth Circuit opinion (Primary not opened).
+- **Secondary:** https://ipwatchdog.com/2026/10/09/bites-barks-aafa-urges-ustr-to-add-meta-to-notorious-markets-list-ninth-circuit-finds-refusal-to-deal-in-invisa/
+- **Day:** Tue · **Priority:** Medium
+
+### 131. Judge Newman misconduct matter transferred to the Eleventh Circuit Judicial Council
+- **Date:** Transfer ordered 19 Aug 2026; disclosed 7 Oct 2026
+- **Jurisdiction:** US · **Area:** Federal Circuit institutional
+- **Summary:** The Chief Justice transferred the complaint against Judge Newman out of the Federal Circuit Judicial Council, which has suspended her since September 2023.
+- **Why it matters:** First outside review of the suspension. May affect Federal Circuit composition.
+- **Primary:** Eleventh Circuit order (Primary not opened).
+- **Secondary:** https://ipwatchdog.com/2026/10/07/after-three-years-chief-justice-transfers-newmans-case-to-eleventh-circuit-judicial-council/
+- **Day:** Tue · **Priority:** Medium
+
+### 132. Micron and Netlist global settlement and licence
+- **Date:** Reported 6 Oct 2026
+- **Jurisdiction:** US · **Area:** Patent licensing
+- **Summary:** Micron ends all pending litigation with Netlist and takes a five year licence to server DIMM and HBM technology, reportedly USD 30 million a quarter (about USD 600 million through Q3 2031).
+- **Why it matters:** Closes a major memory patent dispute across courts and the PTAB. Benchmark for HBM licensing.
+- **Primary:** Company announcement (Primary not opened).
+- **Secondary:** IPWatchdog Bites and Barks, 9 Oct 2026 (link as item 130)
+- **Day:** Tue · **Priority:** Medium
+
+### 133. USPTO: John Duffy named General Counsel and Acting Solicitor; S.5610 introduced
+- **Date:** 5 Oct 2026 (Duffy); 30 Sep 2026 (S.5610)
+- **Jurisdiction:** US · **Area:** USPTO / policy
+- **Summary:** Professor John Duffy becomes principal legal adviser and Acting Solicitor. Senator Moody's S.5610 would limit patents and enforcement by persons posing national security threats.
+- **Why it matters:** Relevant to Director centred PTAB litigation such as Intel v Squires, No. 26-73 (SG response reported due 14 Oct).
+- **Primary:** uspto.gov news; congress.gov S.5610 (Primary not opened).
+- **Secondary:** https://www.wilmerhale.com/en/insights/client-alerts/20261009-ptab-uspto-update
+- **Day:** Tue · **Priority:** Medium
+
+### 134. UPC Court of Appeal: appeals on undecided conditional revocation counterclaims restored (NVIDIA, UPC_CoA_140/2026; Keysight, UPC_CoA_126/2026)
+- **Date:** About 25 Sep to 1 Oct 2026 (unconfirmed)
+- **Jurisdiction:** UPC · **Area:** Patent / procedure
+- **Summary:** The Court of Appeal restored appeal rights where conditional revocation counterclaims were left undecided after non infringement findings.
+- **Why it matters:** Affects how defendants plead conditional counterclaims and preserve appeals.
+- **Primary:** UPC decisions (Primary not opened; case numbers from filenames).
+- **Secondary:** https://www.mlex.com/mlex/articles/2531893
+- **Day:** Wed · **Priority:** Medium
+
+### 135. Dr Aniruddha Dhairyadhar Joshi v John Does (Delhi HC, CS(COMM) 178/2026)
+- **Date:** Week of 28 Sep to 4 Oct 2026 (exact date not stated)
+- **Jurisdiction:** India · **Area:** Personality rights / intermediaries
+- **Summary:** Mandatory takedown of new uploads limited to content identical to that already covered. Similar content left to platform policies. Same week: JioStar v crichd, CS(COMM) 1074/2026, dynamic anti piracy injunction.
+- **Why it matters:** Narrows omnibus personality rights orders that platforms must enforce.
+- **Primary:** Delhi HC judgment (Primary not opened).
+- **Secondary:** https://www.livelawbiz.com/digests/weekly-digests/livelawbiz-ipr-weekly-digest-september-28-october-04-2026-553455
+- **Day:** Fri · **Priority:** Medium
+
+Sweep notes (13 Oct 2026): USPTO Federal Register 29 Sep to 13 Oct only paperwork notices. No new PTAB precedential or informative designations. USCO NewsNet only the streaming fraud NOI (item 83). 5 Oct SCOTUS order list: denials only. EPO, UK IPO, CNIPA and JPO not reached this run.
 
 ## Notes
 
