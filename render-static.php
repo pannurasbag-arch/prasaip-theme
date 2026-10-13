@@ -43,6 +43,7 @@ function prasa_ip_static_map() {
         'logo-copyright-ownership-india' => 'logo-copyright-ownership-india.html',
         'inoperable-patent-claims-satius-v-samsung' => 'inoperable-patent-claims-satius-v-samsung.html',
         'process-patent-infringement-india-nocil-v-finorchem' => 'process-patent-infringement-india-nocil-v-finorchem.html',
+        'ai-training-fair-use-thomson-reuters-v-ross' => 'ai-training-fair-use-thomson-reuters-v-ross.html',
     );
 }
 
