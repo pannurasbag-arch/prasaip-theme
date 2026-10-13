@@ -42,7 +42,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 33 | open | |
 | 34 | open | |
 | 35 | published | https://www.prasaip.com/upc-opt-out-sidel-v-omnia/ (30 Sep 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7510914639107510272/ |
-| 36 | published (pending checks) | https://www.prasaip.com/ai-training-fair-use-thomson-reuters-v-ross/ merged to main 13 Oct 2026 (commit 7a16c83) after owner approval. Pending: Hostinger cache clear (connector needs reconnect), live 200/canonical checks, Post Inspector, LinkedIn post, GSC indexing, Bing submission (no browser or computer access in this run). Primary: https://www2.ca3.uscourts.gov/opinarch/252153p.pdf |
+| 36 | published | https://www.prasaip.com/ai-training-fair-use-thomson-reuters-v-ross/ (13 Oct 2026, commit 7a16c83). Hostinger cache cleared for .com and .in: accepted. Article loads on .com and .in, one canonical to .com, index,follow: pass. Knowledge Centre first card: pass on .in and on .com with cache buster (plain .com URL still stale right after clear). Image URL not verifiable by fetch tool. Pending: Post Inspector, LinkedIn post, GSC indexing, Bing submission (no built-in browser in this session). |
 | 37 | open | |
 | 38 | open | |
 | 39 | open | |
