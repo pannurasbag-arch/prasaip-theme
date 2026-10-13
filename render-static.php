@@ -73,7 +73,7 @@ function prasa_ip_transform_static_html($html) {
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
         array('href="styles.css"', 'src="script.js"', 'href="favicon.svg"', 'src="assets/', 'srcset="assets/', ' 320w, assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261011v4') . '"', 'src="' . esc_url($base . 'script.js?ver=20261011v1') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/'), 'srcset="' . esc_url($base . 'assets/'), ' 320w, ' . esc_url($base . 'assets/')),
+        array('href="' . esc_url($base . 'styles.css?ver=20261013v1') . '"', 'src="' . esc_url($base . 'script.js?ver=20261011v1') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/'), 'srcset="' . esc_url($base . 'assets/'), ' 320w, ' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.

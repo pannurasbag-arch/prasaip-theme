@@ -557,3 +557,11 @@ h1,h2,h3,.blog-card a,.cards h3,.site-footer a{overflow-wrap:break-word;hyphens:
 .page-hero .wrap>*:nth-child(3){animation-delay:120ms}
 .page-hero .wrap>*:nth-child(n+4){animation-delay:180ms}
 }
+/* Phone menu: one straight left-aligned column */
+@media (max-width:900px){
+.header nav.open{align-items:stretch!important;text-align:left!important;padding:8px 24px 20px!important;background:rgba(255,251,242,.92)!important}
+.header nav.open>a,.header nav.open .nav-group,.header nav.open .nav-group>button{width:100%!important;margin:0!important;justify-content:space-between!important;text-align:left!important}
+.header nav.open>a,.header nav.open .nav-group>button{display:flex!important;align-items:center;min-height:52px;padding:14px 0!important;border-bottom:1px solid rgba(118,19,68,.12)}
+.header nav.open>a:last-of-type{border-bottom:0}
+.header nav.open .dropdown a{text-align:left!important;padding-left:14px!important}
+}
