@@ -42,7 +42,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 33 | open | |
 | 34 | open | |
 | 35 | published | https://www.prasaip.com/upc-opt-out-sidel-v-omnia/ (30 Sep 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7510914639107510272/ |
-| 36 | published | https://www.prasaip.com/ai-training-fair-use-thomson-reuters-v-ross/ (13 Oct 2026, commit 7a16c83). Hostinger cache cleared for .com and .in: accepted. Article loads on .com and .in, one canonical to .com, index,follow: pass. Knowledge Centre first card: pass on .in and on .com with cache buster (plain .com URL still stale right after clear). Image URL not verifiable by fetch tool. Pending: Post Inspector, LinkedIn post, GSC indexing, Bing submission (no built-in browser in this session). |
+| 36 | published | https://www.prasaip.com/ai-training-fair-use-thomson-reuters-v-ross/ (13 Oct 2026, commit 7a16c83). Hostinger cache cleared for .com and .in: accepted. Article loads on .com and .in, one canonical to .com, index,follow: pass. Knowledge Centre first card: pass on .in and on .com with cache buster (plain .com URL still stale right after clear). Image URL not verifiable by fetch tool. LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7515635268696322048/ . Post Inspector preview image and title: pass. Company post with Sanath M V and Praneetha K Rasbag mentions (links verified) and link preview with image: pass. GSC indexing requested 13 Oct 2026 (second Google account, /u/1/): pass. Bing URL submitted 13 Oct 2026: pass. |
 | 37 | open | |
 | 38 | open | |
 | 39 | open | |
