@@ -110,7 +110,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 101 | open |  |
 | 121 | open |  |
 | 122 | open |  |
-| 123 | drafted | draft/2026-10-14-upc-pmac-frand-guidelines (14 Oct 2026). Primary PMAC news page and outline PDF opened. Awaiting owner approval. |
+| 123 | published | https://www.prasaip.com/upc-pmac-frand-guidelines/ (14 Oct 2026, merge 69982fa). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7515983069745541121/ . Hostinger cache cleared for .com and .in. Article, Knowledge Centre first card, JPG and WebP 200 on .com and .in, one canonical to .com, index,follow. Post Inspector preview image and title: pass. Both mentions link to profiles. GSC indexing requested, Bing submitted. |
 | 124 | open |  |
 | 125 | open |  |
 | 126 | open |  |
