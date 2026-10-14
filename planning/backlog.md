@@ -110,7 +110,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 101 | open |  |
 | 121 | open |  |
 | 122 | open |  |
-| 123 | open |  |
+| 123 | drafted | draft/2026-10-14-upc-pmac-frand-guidelines (14 Oct 2026). Primary PMAC news page and outline PDF opened. Awaiting owner approval. |
 | 124 | open |  |
 | 125 | open |  |
 | 126 | open |  |
@@ -123,6 +123,13 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 133 | open | Primary not opened. |
 | 134 | open | Primary not opened. Dates unconfirmed. |
 | 135 | open | Primary not opened. Date not stated. |
+| 136 | open | Primary not opened. |
+| 137 | open | Primary not opened. |
+| 138 | open | Primary not opened. |
+| 139 | open | Primary opened by scan agent 14 Oct 2026. |
+| 140 | open | Primary opened by scan agent 14 Oct 2026. |
+| 141 | open | Primary opened by scan agent 14 Oct 2026. |
+| 142 | open | Primary opened by scan agent 14 Oct 2026. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -231,6 +238,13 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 133 | 30 Sep to 5 Oct 2026 | US (USPTO / Congress) | Policy | John Duffy named USPTO General Counsel; S.5610 adversarial patents bill | Tue | Medium |
 | 134 | late Sep 2026 | UPC (CoA) | Patent / procedure | NVIDIA and Keysight: appeals on undecided conditional counterclaims restored | Wed | Medium |
 | 135 | 28 Sep to 4 Oct 2026 | India (Delhi HC) | Personality rights | Aniruddha Joshi v John Does: takedown limited to identical content | Fri | Medium |
+| 136 | c. 8 Oct 2026 | EPO (Board 3.3.04) | Patent / pharma | Novo semaglutide EP 3 448 416 revoked on appeal | Wed | High |
+| 137 | reported 9 Oct 2026 | Netherlands (Hague DC) | Patent / biologics | Halozyme v MSD: Keytruda SC cross border injunction | Wed | High |
+| 138 | reported 13 Oct 2026 | Germany (Munich RC) | Patent / semiconductors | Murata v Maxscend: SAW filter injunctions reach Samsung devices | Wed | Medium |
+| 139 | 1 Oct 2026 | India (Delhi HC) | Copyright / sports piracy | FanCode v John Doe: email notified mirror site blocking | Fri | High |
+| 140 | 5 Oct 2026 | India (Delhi HC) | Personality rights / AI | Devi Prasad Shetty v Medicine Me: final decree against medical deepfakes | Fri | Medium |
+| 141 | 1 Oct 2026 | India (Delhi HC) | Patent procedure | Glisten v Controller: refusal on ground absent from hearing notice set aside | Mon | Medium |
+| 142 | 9 Oct 2026 | EU (EUIPO) | GI | Craft and industrial GIs: 94 applications, 52 registrations | Thu | Medium |
 
 ---
 
@@ -1369,6 +1383,57 @@ Sweep notes (12 Oct 2026): no JPO amendments or other CNIPA rules confirmed in t
 - **Day:** Fri · **Priority:** Medium
 
 Sweep notes (13 Oct 2026): USPTO Federal Register 29 Sep to 13 Oct only paperwork notices. No new PTAB precedential or informative designations. USCO NewsNet only the streaming fraud NOI (item 83). 5 Oct SCOTUS order list: denials only. EPO, UK IPO, CNIPA and JPO not reached this run.
+
+## Detailed entries added 14 October 2026 (weekday scan)
+
+### 136. Novo Nordisk semaglutide patent EP 3 448 416 revoked on appeal (EPO Board 3.3.04)
+- **Date:** c. 8 Oct 2026 (reported 9 Oct) · **Jurisdiction:** EPO · **Area:** Patents / pharma oppositions
+- **Summary:** Board 3.3.04 revoked EP 3 448 416 in its entirety, reversing its preliminary opinion. Opponents: Stada, Teva, Sandoz, Adalvo. JUVE: protection could have run to 2037; no divisionals.
+- **Why it matters:** JUVE says European semaglutide exclusivity could end as early as 2031, relevant to generic launch planning.
+- **Primary not opened** (EPO Register/decision not checked) · **Secondary:** https://www.juve-patent.com/cases/novo-nordisk-loses-another-patent-behind-ozempic-and-wegovy-drugs/
+- **Day:** Wed · **Priority:** High
+
+### 137. Halozyme v MSD (Keytruda SC), District Court The Hague, C/09/695432 / HA ZA 25-1075, ECLI:NL:RBDHA:2026:29643
+- **Date:** reported 9 Oct 2026 · **Jurisdiction:** Netherlands · **Area:** Patents / biologics, cross border injunction
+- **Summary:** MSD's revocation action against the Dutch part of EP 2 797 622 dismissed. Halozyme's infringement counterclaims against Keytruda SC granted for NL, BE, DK, FR, IE, IT, SE and CH, penalties up to EUR 50m.
+- **Why it matters:** A national court granting multi country pharma relief, a non UPC route.
+- **Primary not opened** (rechtspraak.nl not checked) · **Secondary:** https://www.juve-patent.com/cases/halozyme-takes-the-win-over-msds-cancer-drug-keytruda-in-the-netherlands/
+- **Day:** Wed · **Priority:** High
+
+### 138. Murata v Maxscend, Munich Regional Court I (7 O 14074/25; 7 O 481/26)
+- **Date:** reported 13 Oct 2026 · **Jurisdiction:** Germany · **Area:** Patents / semiconductors
+- **Summary:** 7th Civil Chamber granted injunctions and recall under EP 3 007 358 B1 and DE 11 2015 005 349 B4 against Maxscend SAW filters, covering Samsung devices in Germany containing them; enforceable against EUR 1.8m security per case. Federal Patent Court nullity actions (5 Ni 17/26, 5 Ni 25/26) and a parallel UPC action pending.
+- **Why it matters:** Injunction reaches downstream devices containing a supplier's component.
+- **Primary not opened** · **Secondary:** https://www.juve-patent.com/cases/munich-regional-court-hands-murata-injunctions-in-saw-filter-dispute-maxscend/
+- **Day:** Wed · **Priority:** Medium
+
+### 139. Sporta Technologies (FanCode) v John Doe, Delhi HC, CS(COMM) 989/2026, I.A. 27375/2026
+- **Date:** 1 Oct 2026 · **Jurisdiction:** India (Delhi HC, Kaurav J) · **Area:** Copyright / live sports piracy
+- **Summary:** Plaintiff may notify new mirror, redirect or sub domain sites by email without a fresh application. Registrars, hosts and ISPs must act within 24 hours; DoT/MeitY to notify ISPs within 36 hours.
+- **Why it matters:** Standing notice based blocking mechanism with fixed deadlines for live events.
+- **Primary:** https://indiankanoon.org/doc/129754867/ · **Secondary:** https://spicyip.com/2026/10/spicyip-weekly-review-october-5-october-11.html
+- **Day:** Fri · **Priority:** High
+
+### 140. Dr Devi Prasad Shetty & Narayana Hrudayalaya v Medicine Me, Delhi HC, CS(COMM) 1053/2024
+- **Date:** 5 Oct 2026 · **Jurisdiction:** India (Delhi HC, Kaurav J) · **Area:** Personality rights / AI deepfakes / trade marks
+- **Summary:** Suit decreed on default with a permanent injunction against AI deepfake videos using the surgeon's likeness and voice to promote drugs; s.29 infringement of the hospital's marks; Meta and Google takedown directions made absolute. Well known mark prayer reserved.
+- **Why it matters:** Final decree, not only interim relief, against medical deepfake impersonation.
+- **Primary:** https://indiankanoon.org/doc/129852932/ · **Secondary:** https://spicyip.com/2026/10/spicyip-weekly-review-october-5-october-11.html
+- **Day:** Fri · **Priority:** Medium
+
+### 141. Glisten LLC v Assistant Controller of Patents & Designs, Delhi HC, C.A.(COMM.IPD-PAT) 21/2026
+- **Date:** 1 Oct 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Patents / prosecution procedure
+- **Summary:** Refusal of Application No. 202017005875 set aside. Obviousness over D1+D2 had been raised in the hearing notice only against withdrawn claim 18; a ground not carried into the s.14 hearing notice cannot support refusal, and written submissions do not cure it. Remanded.
+- **Why it matters:** Ground of appeal against refusals based on new objections.
+- **Primary:** https://indiankanoon.org/doc/24550092/ · **Secondary:** https://spicyip.com/2026/10/spicyip-weekly-review-october-5-october-11.html
+- **Day:** Mon · **Priority:** Medium
+
+### 142. EUIPO Advisory Board on craft and industrial GIs: 94 applications, 52 registrations
+- **Date:** meeting 5 Oct 2026; news 9 Oct 2026 · **Jurisdiction:** EU · **Area:** Geographical indications
+- **Summary:** 94 CIGI applications from 9 Member States and 52 registrations since December 2025. Textiles largest category, then clothing and stones/minerals.
+- **Why it matters:** First official uptake data for the EU craft and industrial GI right.
+- **Primary:** https://www.euipo.europa.eu/en/news/euipo-advisory-board-takes-stock-of-progress-as-94-applications-for-craft-and-industrial-gis-have-been-received · **Secondary:** https://ipwatchdog.com/2026/10/09/bites-barks-aafa-urges-ustr-to-add-meta-to-notorious-markets-list-ninth-circuit-finds-refusal-to-deal-in-invisa/
+- **Day:** Thu · **Priority:** Medium
 
 ## Notes
 
