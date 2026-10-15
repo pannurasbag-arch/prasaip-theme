@@ -51,7 +51,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 42 | open | |
 | 43 | open | |
 | 44 | open | |
-| 45 | open | Target 15 Oct 2026 |
+| 45 | in progress | Target 15 Oct 2026. Draft body on planning/wip/iphone-duo-body.html, see planning/handover-2026-10-15.md (15 Oct 2026). |
 | 46 | published | https://www.prasaip.com/patent-term-adjustment-india-supreme-court/ (1 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511477180065984512/ |
 | 55 | published | https://www.prasaip.com/ai-patent-examination-guidelines-india/ (2 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511646452109139968/ |
 | 56 | published | https://www.prasaip.com/patent-claim-drafting-commercial-value/ (5 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7512726410935881728/ |
