@@ -159,8 +159,8 @@ add_filter('rank_math/json_ld', function ($data) {
         if (!is_array($node) || !isset($node['@type']) || $node['@type'] !== 'WebSite') {
             continue;
         }
-        $node['name'] = 'PRASA IP';
-        $node['alternateName'] = 'Prasa IP';
+        $node['name'] = 'PRASA IP (IP ATTORNEYS & ADVOCATES)';
+        $node['alternateName'] = 'PRASA IP';
     }
     unset($node);
     return $data;
