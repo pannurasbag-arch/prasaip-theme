@@ -76,7 +76,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 67 | open | |
 | 68 | open | |
 | 69 | open | |
-| 70 | drafted | Branch draft/2026-10-16-gui-icon-design-registration-india (16 Oct 2026). Reviewer corrections applied. Awaiting owner approval. |
+| 70 | published | https://www.prasaip.com/gui-icon-design-registration-india/ (16 Oct 2026). Merged via PR #2. Verified 200 on .com and .in (page, webp, jpg), single canonical .com, index,follow, Knowledge Centre card on both. Post Inspector OK. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7516700577070997505/ (posted as the page, both mentions linked). GSC indexing requested. Bing URL submitted. Hostinger automatic cache off, nothing to clear. |
 | 71 | open | |
 | 72 | open | |
 | 73 | open | |
@@ -114,7 +114,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 124 | open |  |
 | 125 | open |  |
 | 126 | open |  |
-| 127 | drafted | Covered in the item 70 article (draft/2026-10-16-gui-icon-design-registration-india). |
+| 127 | published | Covered in https://www.prasaip.com/gui-icon-design-registration-india/ (16 Oct 2026). |
 | 128 | open |  |
 | 129 | open | Primary not opened. |
 | 130 | open | Primary not opened. Docket number to verify. |
