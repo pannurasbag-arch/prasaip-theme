@@ -51,7 +51,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 42 | open | |
 | 43 | open | |
 | 44 | open | |
-| 45 | published | https://www.prasaip.com/iphone-duo-trademark-duolingo-surface-duo/ (15 Oct 2026). Merged to main via PR #1. Verified 200 on .com and .in (page and image), single canonical .com, index,follow. Knowledge Centre card verified on both. LinkedIn Post Inspector OK. GSC indexing requested. Hostinger automatic cache is off on both sites, so nothing to clear. Pending: LinkedIn company post (Chrome account is not a page admin), Bing submission (Webmaster Tools not signed in, IndexNow key file not on site). |
+| 45 | published | https://www.prasaip.com/iphone-duo-trademark-duolingo-surface-duo/ (15 Oct 2026). Merged to main via PR #1. Verified 200 on .com and .in (page and image), single canonical .com, index,follow. Knowledge Centre card verified on both. LinkedIn Post Inspector OK. GSC indexing requested. Hostinger automatic cache is off on both sites, so nothing to clear. LinkedIn (16 Oct 2026): https://www.linkedin.com/feed/update/urn:li:share:7516687949703368704/ , posted as the Prasa IP page with both mentions tagged. Bing URL submitted 16 Oct 2026. |
 | 46 | published | https://www.prasaip.com/patent-term-adjustment-india-supreme-court/ (1 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511477180065984512/ |
 | 55 | published | https://www.prasaip.com/ai-patent-examination-guidelines-india/ (2 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:share:7511646452109139968/ |
 | 56 | published | https://www.prasaip.com/patent-claim-drafting-commercial-value/ (5 Oct 2026). LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7512726410935881728/ |
