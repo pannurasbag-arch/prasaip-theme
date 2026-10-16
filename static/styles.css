@@ -576,3 +576,20 @@ h1,h2,h3,.blog-card a,.cards h3,.site-footer a{overflow-wrap:break-word;hyphens:
   .hero--spec.hero3d-on .draw3d{opacity:0;visibility:hidden;transition:opacity .8s ease,visibility 0s .8s}
   .hero--spec.hero3d-on .hero-visual figcaption{display:none}
 }
+
+/* 2026-10-16: keep words whole (no mid-word breaks or hyphens) and tighter gaps between sections */
+html body *{hyphens:manual!important;-webkit-hyphens:manual!important;word-break:normal!important}
+.section,.recognition,.content-page,h1,h2,h3,.blog-card a,.cards h3,.blog-card h3,.founder-grid h3,.site-footer a{overflow-wrap:normal!important}
+@media (min-width:901px){
+  .section{padding-top:clamp(44px,4vw,60px)!important;padding-bottom:clamp(44px,4vw,60px)!important}
+  .hero{padding-bottom:72px!important}.page-hero{padding-bottom:64px!important}
+}
+@media (max-width:900px){
+  .section{padding-top:44px!important;padding-bottom:44px!important}
+  .hero{padding-bottom:48px!important}.page-hero{padding-bottom:52px!important}
+}
+.recognition{padding-top:44px!important;padding-bottom:44px!important}
+.content-page{padding-top:52px!important;padding-bottom:52px!important}
+.page-footer-cta{padding-top:44px!important;padding-bottom:44px!important}
+.section-intro{row-gap:14px!important;margin-bottom:32px!important}
+.section-intro>.eyebrow{margin-bottom:0!important}
