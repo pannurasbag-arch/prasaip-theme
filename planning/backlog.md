@@ -76,7 +76,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 67 | open | |
 | 68 | open | |
 | 69 | open | |
-| 70 | open | |
+| 70 | drafted | Branch draft/2026-10-16-gui-icon-design-registration-india (16 Oct 2026). Reviewer corrections applied. Awaiting owner approval. |
 | 71 | open | |
 | 72 | open | |
 | 73 | open | |
@@ -114,7 +114,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 124 | open |  |
 | 125 | open |  |
 | 126 | open |  |
-| 127 | open |  |
+| 127 | drafted | Covered in the item 70 article (draft/2026-10-16-gui-icon-design-registration-india). |
 | 128 | open |  |
 | 129 | open | Primary not opened. |
 | 130 | open | Primary not opened. Docket number to verify. |
@@ -136,6 +136,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 146 | open | Primary (docket) opened by scan agent 15 Oct 2026; BIO not opened. |
 | 147 | open | Primary not opened. |
 | 148 | open | Primary opened by scan agent 15 Oct 2026. |
+| 149 | open | Primary opened by scan agent 16 Oct 2026. |
+| 150 | open | Primary not opened. |
+| 151 | open | Primary not opened. |
+| 152 | open | Primary opened by scan agent 16 Oct 2026 (summary page; full order PDF not opened). |
+| 153 | open | Primary not opened. |
+| 154 | open | Primary not opened. |
+| 155 | open | Primary not opened. |
+| 156 | open | Primary not opened. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -257,6 +265,14 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 146 | 14 Oct 2026 | US (Supreme Court) | Patent / PTAB | Intel v Squires: SG brief in opposition | Thu | Medium |
 | 147 | 8 Oct 2026 (reported) | Germany (BGH) | Trade mark | OBI orange colour mark invalid, 50% survey threshold | Fri | Medium |
 | 148 | 14 Oct 2026 | US (Fed. Cir.) | Patent eligibility | Piranha Media v Hulu: ad tech claims ineligible | Mon | Low |
+| 149 | 7 Oct 2026 | US (Copyright Office) | Copyright / music | Copyright Office NOI on music streaming fraud (comments 23 Nov) | Fri | Medium |
+| 150 | c. 25 Sep 2026; post-trial 15 Oct | US (S.D. Cal.) | Patent / damages | Taction v Apple: USD 5.7bn haptics verdict challenged | Tue | High |
+| 151 | 5 Oct 2026 | US (SCOTUS) | Patent / trade secrets | Cert denied: Sunoco lost-profits apportionment; Trinseo DTSA | Tue | Medium |
+| 152 | 2 Oct 2026 | UPC (CoA) | Patent / procedure | Canfield v Quantificare: no stay for third-party nullity action | Wed | Medium |
+| 153 | 6 Oct 2026 | UPC (Paris LD) | Patent / AI provenance | KeeeX v Adobe, OpenAI, C2PA: merits hearing | Wed | Medium |
+| 154 | 7 Oct 2026 | India (Delhi HC) | Copyright / ownership | Shakti Sagar v Delhi Law House: s.19 written assignment | Fri | Medium |
+| 155 | 28 Sep 2026 | India (Kerala HC) | Patent / pharma | s.100 government use for unaffordable patented drugs | Mon | High |
+| 156 | 30 Sep 2026 | India (Kerala HC) | Trade mark / practice | John Vadassery: TM agent authorisation needs stamp duty | Thu | Medium |
 
 ---
 
@@ -1492,6 +1508,66 @@ Sweep notes (13 Oct 2026): USPTO Federal Register 29 Sep to 13 Oct only paperwor
 - **Day:** Mon · **Priority:** Low
 
 Scan notes (15 Oct 2026): barandbench IP page, copyright.gov/newsnet, euipo.europa.eu/en/news and one indiankanoon page could not be opened (permission not answered). No Apple / Duolingo / Microsoft "Duo" dispute found.
+
+## Detailed entries added 16 October 2026 (weekday scan)
+
+### 149. US Copyright Office opens inquiry into music streaming fraud
+- **Date:** 7 Oct 2026 · **Jurisdiction:** US (Copyright Office) · **Area:** Copyright / music / policy
+- **Summary:** The Copyright Office issued a Notice of Inquiry (NewsNet Issue No. 1095) after a congressional request for information on how widespread streaming fraud is across platforms and how it affects the music industry. The NOI asks about the methods bad actors use to commit streaming fraud, the methods stakeholders use to fight it, and possible voluntary, statutory or regulatory solutions. Initial comments are due 23 Nov 2026 and reply comments 21 Dec 2026, both by 11:59 pm Eastern. The full question set is on the Office's Music Streaming Fraud policy page.
+- **Why it matters:** It is the first formal US step towards possible rules on artificial streams, including bot and AI-generated tracks, which affect royalty pools that Indian labels and artists also draw on.
+- **Primary:** https://copyright.gov/newsnet/2026/1095.html (opened; the linked policy page https://www.copyright.gov/policy/music-streaming-fraud/ did not open) · **Secondary:** https://www.musicbusinessworldwide.com/music-streaming-fraud-inquiry-launched-by-us-copyright-office/
+- **Day:** Fri · **Priority:** Medium
+
+### 150. Taction v Apple: USD 5.7bn haptics verdict now under post-trial attack
+- **Date:** verdict c. 25 Sep 2026; post-trial challenge reported 15 Oct 2026 · **Jurisdiction:** US (S.D. Cal.) · **Area:** Patent / damages
+- **Summary:** A jury in the Southern District of California found that Apple infringed two patents held by San Diego-based Taction Technology on haptic feedback (tactile transducers) and awarded more than USD 5.7bn. Taction filed the suit in 2021. The jury did not find wilful infringement. Apple says its Taptic Engine is "fundamentally different" and has filed a post-trial challenge seeking judgment in its favour or a new trial. Bloomberg Law reports that the plaintiff is litigation-funded.
+- **Why it matters:** It is reported as a record US patent verdict against a device maker, and the post-trial rulings will test how far courts let juries apportion damages for a single component.
+- **Primary:** Court docket and verdict form not opened. · **Secondary:** https://www.aljazeera.com/economy/2026/9/28/apple-ordered-to-pay-5-7bn-in-patent-infringement-case (opened); https://www.lawyer-monthly.com/2026/10/apple-seeks-to-overturn-landmark-5-7-billion-patent-verdict/ (opened)
+- **Day:** Tue · **Priority:** High
+
+### 151. US Supreme Court denies cert on lost-profits apportionment and DTSA damages
+- **Date:** 5 Oct 2026 (first order list of the October 2026 Term) · **Jurisdiction:** US (SCOTUS) · **Area:** Patent / trade secrets / damages
+- **Summary:** The Court denied cert in Sunoco Partners v Powder Springs Logistics. That petition asked whether the Federal Circuit's apportionment requirement for lost-profits damages conflicts with 35 USC 284, and whether Rule 702 requires excluding expert testimony that rests on facts contrary to the record. It also denied Trinseo Europe v Kellogg Brown & Root (5th Cir.), which asked whether a DTSA award fails where the jury finds only some of the trade secrets misappropriated and damages are not apportioned per secret. Other denials that week included Capital Security Systems v NCR Voyix (equity in claim preclusion) and a s.101 petition by US Patent No. 7,679,637 LLC against Google. IPWatchdog reports no IP cert grants on that list.
+- **Why it matters:** The Federal Circuit's damages apportionment rules and per-secret DTSA apportionment stand, so damages experts must keep tying awards to the patented feature or to specific secrets.
+- **Primary:** SCOTUS order list of 5 Oct 2026 (not opened) · **Secondary:** https://ipwatchdog.com/2026/10/06/scotus-nixes-petitions-challenging-cafc-apportionment-requirements-claim-preclusion-rulings/ (opened)
+- **Day:** Tue · **Priority:** Medium
+
+### 152. UPC Court of Appeal: no stay of an appeal for a third party's nullity action
+- **Date:** 2 Oct 2026 · **Jurisdiction:** UPC (Court of Appeal) · **Area:** Patent / procedure
+- **Summary:** In Canfield Scientific v Quantificare (UPC_CoA_99/2026 and UPC_CoA_110/2026, EP 3 156 843), Canfield asked the Court of Appeal to stay its appeal under R. 295(m) RoP until a third party's national nullity action was decided. The Court refused. It held that a stay pending invalidity proceedings under R. 118.2(b) and R. 242.2(a) requires a nullity action pending between the same parties. Because the appeal already challenges both the infringement finding and the dismissal of the revocation counterclaim, the Court of Appeal will review validity itself. A stay also cannot be used to get around R. 222.2 RoP, which limits new facts and evidence on appeal.
+- **Why it matters:** UPC defendants cannot rely on a third party's national invalidity attack to slow an appeal, so their own validity case has to be complete at first instance.
+- **Primary:** https://upc.law/decisions/luxembourg-court-of-appeal/court-of-appeal-october-2-2026-order-upc_coa_99-2026-upc_coa_110-2026/ (opened, summary page; full order PDF not opened) · **Secondary:** none found
+- **Day:** Wed · **Priority:** Medium
+
+### 153. KeeeX v Adobe, OpenAI and C2PA: UPC Paris merits hearing on content provenance patent
+- **Date:** 6 Oct 2026 · **Jurisdiction:** UPC (Paris LD) · **Area:** Patent / AI and content authenticity
+- **Summary:** The merits hearing opened in KeeeX's action on EP 2 949 070, which claims a method for verifying the integrity and authenticity of digital data blocks. The defendants are Adobe and OpenAI entities, Truepic, the Joint Development Foundation and the Coalition for Content Provenance and Authenticity (C2PA), and they have counterclaimed for revocation. The central dispute is the meaning of "digital identification fingerprint" in claim 1. Prior art relied on includes KANAI, OpenPGP and the PDF standard. KeeeX seeks EUR 100m plus EUR 20m in interim damages. Before the hearing the court refused a late amendment, raised security for costs to EUR 300,000, and the Court of Appeal had already excluded the CH, ES, GB, IE, NO and PL parts of the patent (backlog #20).
+- **Why it matters:** It is the first UPC merits test of a patent read on the C2PA content-credential standard, which AI image tools use to label generated content.
+- **Primary:** UPC decision not yet issued; no order opened · **Secondary:** https://www.juve-patent.com/cases/all-eyes-on-paris-as-keeex-case-on-the-merits-against-adobe-and-openai-kicks-off/ (opened)
+- **Day:** Wed · **Priority:** Medium
+
+### 154. Shakti Sagar v Delhi Law House: a publisher's heir needs a written author assignment
+- **Date:** 7 Oct 2026 (order PDF label; reported 8 Oct) · **Jurisdiction:** India (Delhi HC) · **Area:** Copyright / ownership
+- **Summary:** Justice Purushaindra Kumar Kaurav refused an interim injunction in CS(COMM) 492/2024. The plaintiff claimed copyright in 47 law books published by Delhi Law House through her late father-in-law and husband, relying on a 1962 certificate and two disputed Wills. The court held that a non-author can derive copyright only by assignment under s.18 or by transmission the Act recognises, and that s.19(1) requires the assignment to be in writing and signed. The chain of title was broken because no author-to-publisher assignment was on record, and the same requirement applied to pre-1957 works. A legatee takes only what the testator held. Passing off also failed because the goodwill belonged to the firm.
+- **Why it matters:** Publishers, studios and start-ups that hold content without signed author assignments may be unable to enforce it in India.
+- **Primary:** Delhi HC order (not opened) · **Secondary:** https://www.livelawbiz.com/high-court/delhi-high-court/publishers-heir-cannot-claim-copyright-without-proof-of-assignment-from-authors-delhi-high-court-553728 (opened)
+- **Day:** Fri · **Priority:** Medium
+
+### 155. Kerala HC: the Centre can use s.100 to make unaffordable patented cancer drugs
+- **Date:** 28 Sep 2026 (judgment; commentary continued to 8 Oct) · **Jurisdiction:** India (Kerala HC) · **Area:** Patent / pharma / government use
+- **Summary:** In the suo motu matter In re Exorbitant Pricing of Life Saving Patented Medicines (WP(C) 18999/2022, 2026 LiveLaw (Ker) 528), Justice Harisankar V. Menon held that s.100 of the Patents Act lets the Central Government use a patent to manufacture a patented medicine and sell it to needy patients on a non-commercial basis. The case began with a patient's petition over Novartis's ribociclib, priced at about Rs 75,000 a month, and became suo motu after her death. The court said s.100 should be invoked where a patented medicine is sold at an exorbitant price. It also said the government must gather data to decide whether a medicine is affordable before acting. LiveLaw reports no formal mandamus.
+- **Why it matters:** It is the first High Court reading of s.100 government use as a tool for drug pricing, and it raises the stakes for pharma patentees beyond compulsory licences under s.84.
+- **Primary:** Kerala HC judgment (not opened) · **Secondary:** https://www.livelaw.in/high-court/kerala-high-court/kerala-high-court-patented-drugs-s100-552031 (opened); https://www.verdictum.in/kerala-high-court/in-re-exorbitant-pricing-of-life-saving-patented-medicines-2026ker74251-breast-cancer-drug-cost-patent-1622910
+- **Day:** Mon · **Priority:** High
+
+### 156. Kerala HC: trade mark agent authorisations must be stamped like a power of attorney
+- **Date:** 30 Sep 2026 (reported 5 Oct) · **Jurisdiction:** India (Kerala HC) · **Area:** Trade mark / practice
+- **Summary:** In John Vadassery v Registrar of Trade Marks (WP(C) 17/2026), Justice Bechu Kurian Thomas dismissed a trade mark attorney's challenge to the Registry's demand that agent authorisations be stamped. The court held that an authorisation under s.145 of the Trade Marks Act read with Rule 19 of the 2017 Rules creates a right to represent another and has "all the trappings of a power of attorney." It must therefore be stamped under the Stamp Act of the state where it is executed. The court said stamp duty is a state fiscal matter that the TM Act cannot displace, and that the vakalatnama exemption does not apply because the Registrar is not a court.
+- **Why it matters:** Indian and foreign applicants may face objections to unstamped agent authorisations, so authorisation templates and filing practice need checking.
+- **Primary:** Kerala HC judgment (not opened) · **Secondary:** https://www.livelawbiz.com/trademark/trade-mark-agent-authorisation-before-registry-must-carry-stamp-duty-like-a-power-of-attorney-kerala-high-court-553090 (opened)
+- **Day:** Thu · **Priority:** Medium
+
+Scan notes: Items 150, 155 and 156 fall a few days before 2 Oct but were missed by earlier scans, so drop them if the 14-day window is strict. These sources showed nothing new in the window: USPTO FR notices (only the 6 Oct OMB information-collection notices), USPTO/PTAB precedential decisions (none per WilmerHale's 9 Oct update), EPO OJ (October issue not yet posted), UK IPO (SEP item already #143), WIPO Madrid notices (fee changes only), EUIPO, CNIPA and JPO. IP India lists "Draft Guidelines for Examination of Pharmaceutical Applications for Patent" (7 Oct, comments within 15 days) and "Draft Guidelines for Examination of Biotechnology Applications for Patent" (8 Oct), but the PDFs did not load, so I could not confirm whether these are new versions of backlog #2. Worth checking. Other candidates not added: Calcutta HC DB Arpit Mangal v Emami (truth defence for an influencer's product review), Delhi HC Japan Tobacco CAMEL copyright rectification refused, and Madras HC ANNAPURNA (religious word protectable).
 
 ## Notes
 
