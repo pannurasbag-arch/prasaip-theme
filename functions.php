@@ -183,3 +183,34 @@ add_filter('print_styles_array', function ($handles) {
         return true;
     }));
 }, PHP_INT_MAX);
+
+// Purge the LiteSpeed page cache once whenever a new theme build lands on the server.
+// The fingerprint covers the theme's PHP files and the static pages, scripts and styles,
+// so any deploy (a new article, a version bump) clears stale cached pages by itself.
+// Runs only on uncached requests, since LiteSpeed serves cache hits without PHP.
+function prasa_ip_theme_fingerprint() {
+    $dir = get_template_directory();
+    $files = array_merge(
+        glob($dir . '/*.php') ?: array(),
+        glob($dir . '/static/*.{html,js,css}', GLOB_BRACE) ?: array()
+    );
+    sort($files);
+    $parts = array();
+    foreach ($files as $file) {
+        $parts[] = basename($file) . ':' . filesize($file) . ':' . filemtime($file);
+    }
+    return md5(implode('|', $parts));
+}
+
+function prasa_ip_purge_cache_on_new_build() {
+    if (!has_action('litespeed_purge_all')) {
+        return;
+    }
+    $fingerprint = prasa_ip_theme_fingerprint();
+    if (get_option('prasa_ip_build_fingerprint') === $fingerprint) {
+        return;
+    }
+    update_option('prasa_ip_build_fingerprint', $fingerprint, false);
+    do_action('litespeed_purge_all', 'PRASA IP theme build changed');
+}
+add_action('wp_loaded', 'prasa_ip_purge_cache_on_new_build');
