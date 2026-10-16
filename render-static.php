@@ -76,7 +76,7 @@ function prasa_ip_transform_static_html($html) {
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
         array('href="styles.css"', 'src="script.js"', 'src="hero3d.js"', 'href="photo3d.css"', 'href="models3d.css"', 'src="photo3d.js"', 'src="models3d.js"', 'href="favicon.svg"', 'src="assets/', 'srcset="assets/', ' 320w, assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261015v1') . '"', 'src="' . esc_url($base . 'script.js?ver=20261015v1') . '"', 'src="' . esc_url($base . 'hero3d.js?ver=20261016v2') . '"', 'href="' . esc_url($base . 'photo3d.css?ver=20261016v1') . '"', 'href="' . esc_url($base . 'models3d.css?ver=20261016v1') . '"', 'src="' . esc_url($base . 'photo3d.js?ver=20261016v1') . '"', 'src="' . esc_url($base . 'models3d.js?ver=20261016v1') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/'), 'srcset="' . esc_url($base . 'assets/'), ' 320w, ' . esc_url($base . 'assets/')),
+        array('href="' . esc_url($base . 'styles.css?ver=20261015v1') . '"', 'src="' . esc_url($base . 'script.js?ver=20261015v1') . '"', 'src="' . esc_url($base . 'hero3d.js?ver=20261016v3') . '"', 'href="' . esc_url($base . 'photo3d.css?ver=20261016v1') . '"', 'href="' . esc_url($base . 'models3d.css?ver=20261016v1') . '"', 'src="' . esc_url($base . 'photo3d.js?ver=20261016v1') . '"', 'src="' . esc_url($base . 'models3d.js?ver=20261016v1') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/'), 'srcset="' . esc_url($base . 'assets/'), ' 320w, ' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.

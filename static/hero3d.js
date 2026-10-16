@@ -198,8 +198,86 @@ function figSeal(g) {
   ref(g, 50, 52, 418, cx - 92, cy + 92);
 }
 
-const FIGS = [figChip, figSeal, figMolecule, figGear, figCircuit];
-const ZOOM = [1.05, 1, 1.22, 1.08, 1.05];
+function figGlobe(g) {
+  const cx = 200, cy = 240, R = 120;
+  circle(g, cx, cy, R);
+  thin(g, () => {
+    [86, 46].forEach(rx => { g.beginPath(); g.ellipse(cx, cy, rx, R, 0, 0, Math.PI * 2); g.stroke(); });
+    line(g, cx, cy - R, cx, cy + R);
+    [-70, -30, 0, 30, 70].forEach(dy => { const w = Math.sqrt(R * R - dy * dy); g.beginPath(); g.ellipse(cx, cy + dy, w, w * .18, 0, 0, Math.PI * 2); g.stroke(); });
+  });
+  const P = { IN: [252, 262], US: [130, 214], EP: [206, 176], JP: [292, 214] };
+  [['IN', 'US'], ['IN', 'EP'], ['IN', 'JP'], ['EP', 'US']].forEach(([a, b]) => {
+    const p = P[a], q = P[b]; g.beginPath(); g.moveTo(p[0], p[1]); g.quadraticCurveTo((p[0] + q[0]) / 2, Math.min(p[1], q[1]) - 54, q[0], q[1]); g.stroke();
+  });
+  g.font = '600 13px "DM Sans",Arial,sans-serif';
+  Object.entries(P).forEach(([k, [x, y]]) => { circle(g, x, y, 5, true); g.fillText(k, x + 9, y + 18); });
+  ref(g, 60, 52, 420, cx - 60, cy + 96);
+  ref(g, 62, 330, 80, 248, 180);
+}
+
+function figPhone(g) {
+  const x = 130, y = 90, w = 140, h = 280;
+  g.beginPath(); g.roundRect(x, y, w, h, 24); g.stroke();
+  thin(g, () => { g.beginPath(); g.roundRect(x + 11, y + 26, w - 22, h - 52, 8); g.stroke(); });
+  g.beginPath(); g.roundRect(x + 52, y + 10, 36, 7, 3.5); g.stroke();
+  circle(g, x + w / 2, y + h - 13, 6);
+  // side view
+  g.beginPath(); g.roundRect(310, y, 16, h, 7); g.stroke();
+  line(g, 326, y + 70, 331, y + 70); line(g, 326, y + 100, 331, y + 100);
+  // dimension lines
+  thin(g, () => {
+    line(g, 104, y, 104, y + h); line(g, 98, y + 6, 104, y); line(g, 110, y + 6, 104, y); line(g, 98, y + h - 6, 104, y + h); line(g, 110, y + h - 6, 104, y + h);
+    line(g, x, y + h + 26, x + w, y + h + 26); line(g, x + 6, y + h + 20, x, y + h + 26); line(g, x + 6, y + h + 32, x, y + h + 26); line(g, x + w - 6, y + h + 20, x + w, y + h + 26); line(g, x + w - 6, y + h + 32, x + w, y + h + 26);
+  });
+  ref(g, 70, 52, 60, x + 10, y + 20);
+  ref(g, 72, 352, 60, 318, y + 40);
+}
+
+function figHelix(g) {
+  const cx = 200, top = 70, bot = 410, A = 70;
+  const pt = (t, ph) => [cx + A * Math.sin(t + ph), top + (bot - top) * (t / (Math.PI * 4))];
+  [0, Math.PI].forEach(ph => { g.beginPath(); for (let i = 0; i <= 120; i++) { const t = i / 120 * Math.PI * 4, [x, y] = pt(t, ph); i ? g.lineTo(x, y) : g.moveTo(x, y); } g.stroke(); });
+  thin(g, () => { for (let i = 1; i < 16; i++) { const t = i / 16 * Math.PI * 4, a = pt(t, 0), b = pt(t, Math.PI); if (Math.abs(a[0] - b[0]) > 14) line(g, a[0], a[1], b[0], b[1]); } });
+  for (let i = 1; i < 16; i += 2) { const t = i / 16 * Math.PI * 4; const a = pt(t, 0), b = pt(t, Math.PI); circle(g, a[0], a[1], 4, true); circle(g, b[0], b[1], 4, true); }
+  ref(g, 80, 52, 140, cx - 50, 120);
+  ref(g, 82, 330, 360, cx + 30, 330);
+}
+
+function figTower(g) {
+  const cx = 200, base = 400, topY = 150;
+  line(g, cx - 54, base, cx, topY); line(g, cx + 54, base, cx, topY);
+  thin(g, () => { for (let k = 0; k < 4; k++) { const y1 = topY + 30 + k * 55, y2 = y1 + 55, f = y => (y - topY) / (base - topY) * 54; line(g, cx - f(y1), y1, cx + f(y2), y2); line(g, cx + f(y1), y1, cx - f(y2), y2); } });
+  line(g, cx - 70, base, cx + 70, base);
+  circle(g, cx, topY - 6, 8);
+  [44, 76, 108].forEach((r, i) => {
+    g.globalAlpha = 1 - i * .22;
+    g.beginPath(); g.arc(cx, topY - 6, r, -Math.PI * .8, -Math.PI * .2); g.stroke();
+    g.beginPath(); g.arc(cx, topY - 6, r, Math.PI * .2, Math.PI * .45); g.stroke();
+    g.beginPath(); g.arc(cx, topY - 6, r, Math.PI * .55, Math.PI * .8); g.stroke();
+  });
+  g.globalAlpha = 1;
+  g.font = '600 13px "DM Sans",Arial,sans-serif'; g.fillText('5G NR', 262, 300);
+  ref(g, 90, 52, 380, cx - 40, 340);
+  ref(g, 92, 330, 80, cx + 60, topY - 50);
+}
+
+function figLock(g) {
+  const cx = 200, y = 220, w = 170, h = 150;
+  g.beginPath(); g.arc(cx, y, 56, Math.PI, 0); g.lineTo(cx + 56, y); g.stroke();
+  line(g, cx - 56, y, cx - 56, y);
+  g.beginPath(); g.moveTo(cx - 56, y); g.lineTo(cx - 56, y - 2); g.stroke();
+  thin(g, () => { g.beginPath(); g.arc(cx, y, 40, Math.PI, 0); g.stroke(); });
+  g.beginPath(); g.roundRect(cx - w / 2, y, w, h, 14); g.stroke();
+  circle(g, cx, y + 58, 14);
+  g.beginPath(); g.moveTo(cx - 7, y + 68); g.lineTo(cx - 10, y + 104); g.lineTo(cx + 10, y + 104); g.lineTo(cx + 7, y + 68); g.stroke();
+  thin(g, () => dashed(g, [5, 6], () => { g.strokeRect(cx - w / 2 + 12, y + 12, w - 24, h - 24); }));
+  ref(g, 96, 52, 130, cx - 50, y - 40);
+  ref(g, 98, 330, 420, cx + 10, y + 100);
+}
+
+const FIGS = [figChip, figSeal, figMolecule, figGear, figCircuit, figGlobe, figPhone, figHelix, figTower, figLock];
+const ZOOM = [1.05, 1, 1.22, 1.08, 1.05, 1.05, 1, 1, 1, 1.05];
 
 /* ---------- Shaders ---------- */
 
@@ -413,7 +491,7 @@ async function start(host) {
       ball.position.set(0.5 * hz * camera.aspect, -0.04 * hz, -1); ball.userData.by = -0.04 * hz;
       ball.userData.R = Math.min(0.62 * hz, 0.27 * hz * camera.aspect * 2) * s;
       globe.scale.setScalar(ball.userData.R * 0.93);
-      panels.forEach(p => p.scale.setScalar(0.74 * s));
+      panels.forEach(p => p.scale.setScalar(0.64 * s));
       const hd = (CAMZ + 1.4) * tanH;
       dust.position.copy(ball.position); dust2.position.copy(ball.position);
       dust.scale.setScalar(ball.userData.R); dust2.scale.setScalar(ball.userData.R * 0.9);
