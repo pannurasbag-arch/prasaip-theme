@@ -1,0 +1,17 @@
+/* Rotating 3D patent figures (models3d.js). The SVG drawing stays until the
+   first WebGL frame is on screen, then cross-fades out. Desktop only, like .draw3d. */
+@media (min-width:1000px) and (hover:hover){
+  .draw3d .m3d-cv{position:absolute;inset:-12%;width:124%;height:124%;display:block;pointer-events:none;opacity:0;transition:opacity 1.2s ease;
+    filter:drop-shadow(0 0 2.5px rgba(240,212,138,.45))}
+  .draw3d.is-3d .m3d-cv{opacity:1}
+  .draw3d .draw3d__tilt,.draw3d .globe3d{transition:opacity .9s ease}
+  .draw3d.is-3d .draw3d__tilt,.draw3d.is-3d .globe3d{opacity:0;visibility:hidden;transition:opacity .9s ease,visibility 0s .9s}
+  .draw3d .m3d-ov{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity 1.2s ease .4s}
+  .draw3d.is-3d .m3d-ov{opacity:1}
+  .draw3d .m3d-ov svg,.draw3d.has-globe .m3d-ov svg{display:block;position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+  .draw3d .m3d-ov path{fill:none;stroke:rgba(233,205,127,.7);stroke-width:1;stroke-dasharray:none;stroke-dashoffset:0;animation:none;filter:none}
+  .draw3d .m3d-ov span{position:absolute;left:0;top:0;white-space:nowrap;color:#f1d486;will-change:transform}
+  .draw3d .m3d-ref{font:italic 500 15px/1 Newsreader,Georgia,serif}
+  .draw3d .m3d-tag{font:600 12px/1 "DM Sans",sans-serif;letter-spacing:.08em;color:#f6dc8e}
+  .draw3d .m3d-fig{left:auto!important;top:auto!important;right:4%;bottom:-2%;font:italic 500 20px/1 Newsreader,Georgia,serif;letter-spacing:.06em}
+}

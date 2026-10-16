@@ -1,0 +1,155 @@
+/* =====================================================================
+   photo3d.css: faded, transparent "3D depth" treatment for background photos.
+   Loaded after styles.css. Only background photos are touched; article
+   images, profile photos and logos are left alone. See photo3d.NOTES.md.
+   ===================================================================== */
+
+/* Animatable inputs. --p3d-k: scroll progress 0..1 (scroll-driven animation
+   or photo3d.js fallback). --p3d-mx / --p3d-my: pointer offset -0.5 to 0.5 (photo3d.js). */
+@property --p3d-k{syntax:'<number>';inherits:true;initial-value:0}
+@property --p3d-mx{syntax:'<number>';inherits:true;initial-value:0}
+@property --p3d-my{syntax:'<number>';inherits:true;initial-value:0}
+@keyframes p3d-k{from{--p3d-k:0}to{--p3d-k:1}}
+
+:root{
+  --p3d-grid-major:rgba(183,134,33,.16);
+  --p3d-grid-minor:rgba(183,134,33,.08);
+  /* Edge fade: solid in the middle, gone well before the layer's edges. */
+  --p3d-mask:radial-gradient(ellipse 62% 68% at 62% 52%,#000 28%,rgba(0,0,0,.55) 58%,transparent 86%);
+  --p3d-grid-mask:radial-gradient(ellipse 58% 62% at 66% 50%,#000 10%,rgba(0,0,0,.4) 50%,transparent 80%);
+}
+
+/* Transforms are declared on the layers themselves so var(--p3d-k) resolves per layer.
+   Far plane (photo): tilted back, pushed away, scaled up; straightens as --p3d-k grows. */
+main .page-hero::before,.hero--spec .hero-visual img,body:has(.hero--spec)::before,.p3d-page-photo,body:has(.hero--spec) main>.seo-intro::before{
+  --p3d-t:perspective(1100px)
+    translate3d(calc(var(--p3d-mx) * -22px),calc(var(--p3d-my) * -14px + var(--p3d-k) * -28px),-150px)
+    rotateX(calc(10deg - 6deg * var(--p3d-k)))
+    scale(calc(1.3 - .06 * var(--p3d-k)))}
+/* Near plane (blueprint grid): less tilt and less parallax. */
+main .page-hero::after,.hero--spec::after,body:has(.hero--spec)::after,.p3d-page-grid{
+  --p3d-t:perspective(1100px)
+    translate3d(calc(var(--p3d-mx) * -9px),calc(var(--p3d-my) * -6px + var(--p3d-k) * -12px),-50px)
+    rotateX(calc(8deg - 5deg * var(--p3d-k)))
+    scale(1.12)}
+
+/* ---------------------------------------------------------------------
+   1. Inner page heroes (.page-hero, --patent, --brand, --technology, --insights)
+   Wine gradient stays on the section; the photo moves to ::before as a ghost
+   layer and a gold blueprint grid sits on ::after. Text is untouched.
+   --------------------------------------------------------------------- */
+main .page-hero{position:relative;isolation:isolate;overflow:hidden;
+  background-image:linear-gradient(90deg,#3d1729ed,#3d1729d9)!important;background-color:#3d1729}
+main .page-hero.page-hero--patent{background-image:linear-gradient(90deg,rgba(45,8,29,.96) 0%,rgba(61,12,39,.88) 48%,rgba(43,9,27,.63) 100%)!important}
+main .page-hero.page-hero--brand{background-image:linear-gradient(90deg,rgba(45,8,29,.96) 0%,rgba(70,14,44,.88) 48%,rgba(42,8,27,.66) 100%)!important}
+main .page-hero.page-hero--technology{background-image:linear-gradient(90deg,rgba(36,8,25,.95) 0%,rgba(59,13,39,.86) 50%,rgba(28,8,21,.64) 100%)!important}
+main .page-hero.page-hero--insights{background-image:linear-gradient(90deg,rgba(45,8,29,.96) 0%,rgba(65,14,42,.89) 50%,rgba(40,9,26,.67) 100%)!important}
+
+main .page-hero::before,main .page-hero::after{content:"";position:absolute;inset:-14% -8%;z-index:-1;pointer-events:none;
+  transform-origin:50% 62%;backface-visibility:hidden}
+main .page-hero::before{
+  background:url('assets/prasa-ip-hero.webp') 70% 50%/cover no-repeat;
+  opacity:.26;mix-blend-mode:luminosity;filter:saturate(.7) contrast(1.05);
+  -webkit-mask-image:var(--p3d-mask);mask-image:var(--p3d-mask);
+  transform:var(--p3d-t)}
+main .page-hero.page-hero--patent::before{background-image:url('assets/patent-services-bg.webp')}
+main .page-hero.page-hero--brand::before{background-image:url('assets/brand-design-bg.webp')}
+main .page-hero.page-hero--technology::before{background-image:url('assets/technology-experience-bg.webp');background-position:50% 50%}
+main .page-hero.page-hero--insights::before{background-image:url('assets/ip-insights-bg.webp')}
+main .page-hero::after{
+  background-image:
+    linear-gradient(var(--p3d-grid-major) 1px,transparent 1px),
+    linear-gradient(90deg,var(--p3d-grid-major) 1px,transparent 1px),
+    linear-gradient(var(--p3d-grid-minor) 1px,transparent 1px),
+    linear-gradient(90deg,var(--p3d-grid-minor) 1px,transparent 1px);
+  background-size:96px 96px,96px 96px,24px 24px,24px 24px;background-position:center;
+  -webkit-mask-image:var(--p3d-grid-mask);mask-image:var(--p3d-grid-mask);
+  transform:var(--p3d-t)}
+
+/* ---------------------------------------------------------------------
+   2. Homepage
+   2a. Hero photo (.hero--spec .hero-visual img): faded, masked, tilted back.
+       !important on transform beats the inline transform set by script.js.
+   --------------------------------------------------------------------- */
+.hero--spec .hero-visual{overflow:hidden}
+.hero--spec .hero-visual img{
+  opacity:.34!important;filter:saturate(.65) contrast(1.05)!important;
+  -webkit-mask-image:var(--p3d-mask)!important;mask-image:var(--p3d-mask)!important;
+  transform-origin:50% 62%;transform:var(--p3d-t)!important;backface-visibility:hidden}
+/* Grid on the hero, above the photo, below the copy. */
+.hero--spec::after{content:"";display:block!important;position:absolute;inset:-14% -8%;width:auto;height:auto;z-index:-1;pointer-events:none;
+  background-image:
+    linear-gradient(var(--p3d-grid-major) 1px,transparent 1px),
+    linear-gradient(90deg,var(--p3d-grid-major) 1px,transparent 1px),
+    linear-gradient(var(--p3d-grid-minor) 1px,transparent 1px),
+    linear-gradient(90deg,var(--p3d-grid-minor) 1px,transparent 1px);
+  background-size:96px 96px,96px 96px,24px 24px,24px 24px;background-position:center;
+  -webkit-mask-image:var(--p3d-grid-mask);mask-image:var(--p3d-grid-mask);
+  transform-origin:50% 62%;transform:var(--p3d-t)}
+.hero--spec{overflow:hidden}
+
+/* 2b. Full-page fixed photo behind the cream homepage: cream stays the base,
+       the photo becomes a ~22% multiply ghost with faded edges. */
+body:has(.hero--spec){background:#fbf6ea!important}
+body:has(.hero--spec)::before,.p3d-page-photo{content:"";position:fixed;inset:-10% -6%;z-index:-2;pointer-events:none;
+  background:url('assets/prasa-ip-hero.webp') center/cover no-repeat;
+  opacity:.22;mix-blend-mode:multiply;filter:saturate(.6) sepia(.15);
+  -webkit-mask-image:radial-gradient(ellipse 66% 70% at 55% 50%,#000 30%,rgba(0,0,0,.5) 62%,transparent 88%);
+  mask-image:radial-gradient(ellipse 66% 70% at 55% 50%,#000 30%,rgba(0,0,0,.5) 62%,transparent 88%);
+  transform-origin:50% 60%;transform:var(--p3d-t);backface-visibility:hidden}
+body:has(.hero--spec)::after,.p3d-page-grid{content:"";position:fixed;inset:-10% -6%;z-index:-1;pointer-events:none;
+  background-image:
+    linear-gradient(var(--p3d-grid-major) 1px,transparent 1px),
+    linear-gradient(90deg,var(--p3d-grid-major) 1px,transparent 1px);
+  background-size:96px 96px;background-position:center;
+  -webkit-mask-image:var(--p3d-grid-mask);mask-image:var(--p3d-grid-mask);
+  transform-origin:50% 60%;transform:var(--p3d-t)}
+
+/* On desktop motion, photo3d.js moves these two layers into real elements
+   (.p3d-page-photo / .p3d-page-grid) so pointer updates do not restyle the whole page. */
+html.p3d-split body:has(.hero--spec)::before,html.p3d-split body:has(.hero--spec)::after{display:none}
+
+/* 2c. Intro section photo (technology-expertise.webp, the merged .technology-photo):
+       moved off the section background into a faded ::before layer. */
+body:has(.hero--spec) main>section.section.seo-intro:not(.hero--spec):not(.trust):not(.about){
+  background:linear-gradient(90deg,rgba(255,251,242,.94) 0%,rgba(255,251,242,.9) 50%,rgba(255,251,242,.86) 100%)!important;
+  position:relative;isolation:isolate;overflow:hidden}
+body:has(.hero--spec) main>.seo-intro::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:url('assets/technology-expertise.webp') center/cover no-repeat;
+  opacity:.15;mix-blend-mode:multiply;filter:saturate(.6) sepia(.15) contrast(.85);
+  /* Fades out inside the section so no band edge shows on the cream page. */
+  -webkit-mask-image:radial-gradient(closest-side at 60% 50%,#000 25%,rgba(0,0,0,.5) 55%,transparent 76%);
+  mask-image:radial-gradient(closest-side at 60% 50%,#000 25%,rgba(0,0,0,.5) 55%,transparent 76%);
+  transform-origin:50% 62%;transform:var(--p3d-t);backface-visibility:hidden}
+
+/* ---------------------------------------------------------------------
+   3. Motion: scroll-driven straightening (native), desktop pointers only.
+   Without animation-timeline support photo3d.js sets --p3d-k instead.
+   --------------------------------------------------------------------- */
+@media (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+  @supports (animation-timeline:view()){
+    main>.page-hero:first-child,.hero--spec{view-timeline:--p3d-top block}
+    main>.page-hero:first-child::before,main>.page-hero:first-child::after,
+    .hero--spec .hero-visual img,.hero--spec::after{
+      animation:p3d-k linear both;animation-timeline:--p3d-top;animation-range:exit 0% exit 100%}
+    body:has(.hero--spec) main>.seo-intro{view-timeline:--p3d-mid block}
+    body:has(.hero--spec) main>.seo-intro::before{animation:p3d-k linear both;animation-timeline:--p3d-mid;animation-range:cover 0% cover 100%}
+    body:has(.hero--spec)::before,.p3d-page-photo,body:has(.hero--spec)::after,.p3d-page-grid{animation:p3d-k linear both;animation-timeline:scroll(root block)}
+  }
+  .p3d-live::before,.p3d-live::after,.p3d-live .hero-visual img,.p3d-page-photo,.p3d-page-grid{will-change:transform}
+}
+
+/* Phones, tablets and touch: static faded photo, flat, no 3D. */
+@media (hover:none),(pointer:coarse),(max-width:760px){
+  main .page-hero::before,main .page-hero::after,.hero--spec .hero-visual img,.hero--spec::after,
+  body:has(.hero--spec)::before,.p3d-page-photo,body:has(.hero--spec)::after,.p3d-page-grid,body:has(.hero--spec) main>.seo-intro::before{
+    transform:scale(1.04)!important;animation:none!important}
+  main .page-hero::before,main .page-hero::after,.hero--spec::after,body:has(.hero--spec) main>.seo-intro::before{inset:0}
+  main .page-hero::before{opacity:.2}
+}
+/* Reduced motion: nothing moves (static tilt only, no animation). */
+@media (prefers-reduced-motion:reduce){
+  main .page-hero::before,main .page-hero::after,.hero--spec .hero-visual img,.hero--spec::after,
+  body:has(.hero--spec)::before,.p3d-page-photo,body:has(.hero--spec)::after,.p3d-page-grid,body:has(.hero--spec) main>.seo-intro::before{animation:none!important;transition:none!important}
+}
+@media print{main .page-hero::before,main .page-hero::after,.hero--spec::after,body:has(.hero--spec)::before,.p3d-page-photo,body:has(.hero--spec)::after,.p3d-page-grid,body:has(.hero--spec) main>.seo-intro::before{display:none}}
