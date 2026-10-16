@@ -329,7 +329,7 @@ async function start(host) {
 
     const gl2 = renderer.capabilities.isWebGL2;
     const geo = new T.PlaneGeometry(1.5, 1.875); disposables.push(geo);
-    const NP = 10, DIRS = [];
+    const NP = FIGS.length, DIRS = [];
     for (let i = 0; i < NP; i++) { const y = 1 - (i + 0.5) / NP * 2, r = Math.sqrt(1 - y * y), a = i * 2.39996; DIRS.push(new T.Vector3(Math.cos(a) * r, y * 0.86, Math.sin(a) * r).normalize()); }
     const ball = new T.Group(); rig.add(ball);
     const panels = Array.from({ length: NP }, (_, i) => FIGS[i % FIGS.length]).map((draw, i) => {
@@ -349,7 +349,7 @@ async function start(host) {
         return m;
       };
       const node = new T.Group();
-      const glassBack = new T.Mesh(geo, mk(true)); glassBack.position.z = -0.09; glassBack.position.x = 0.03;
+      const glassBack = new T.Mesh(geo, mk(true)); glassBack.position.z = -0.035; glassBack.position.x = 0.01;
       const glassFront = new T.Mesh(geo, mk(false));
       node.add(glassBack, glassFront);
       node.userData = { dir: DIRS[i], mats: [glassBack.material, glassFront.material], ph: i * 1.7 + 0.4, delay: 0.2 + i * 0.12 };
@@ -413,7 +413,7 @@ async function start(host) {
       ball.position.set(0.5 * hz * camera.aspect, -0.04 * hz, -1); ball.userData.by = -0.04 * hz;
       ball.userData.R = Math.min(0.62 * hz, 0.27 * hz * camera.aspect * 2) * s;
       globe.scale.setScalar(ball.userData.R * 0.93);
-      panels.forEach(p => p.scale.setScalar(0.62 * s));
+      panels.forEach(p => p.scale.setScalar(0.74 * s));
       const hd = (CAMZ + 1.4) * tanH;
       dust.position.copy(ball.position); dust2.position.copy(ball.position);
       dust.scale.setScalar(ball.userData.R); dust2.scale.setScalar(ball.userData.R * 0.9);
