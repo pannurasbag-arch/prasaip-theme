@@ -40,6 +40,7 @@ function prasa_ip_static_map() {
         'patent-claim-drafting-commercial-value' => 'patent-claim-drafting-commercial-value.html',
         'method-of-treatment-claims-enablement' => 'method-of-treatment-claims-enablement.html',
         'well-known-trademark-different-class-india' => 'well-known-trademark-different-class-india.html',
+        'using-registered-trademark-without-permission' => 'using-registered-trademark-without-permission.html',
         'logo-copyright-ownership-india' => 'logo-copyright-ownership-india.html',
         'inoperable-patent-claims-satius-v-samsung' => 'inoperable-patent-claims-satius-v-samsung.html',
         'process-patent-infringement-india-nocil-v-finorchem' => 'process-patent-infringement-india-nocil-v-finorchem.html',
