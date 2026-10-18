@@ -12,16 +12,45 @@ function prasa_ip_setup() {
 }
 add_action('after_setup_theme', 'prasa_ip_setup');
 
-// Send page views to the PRASA IP GA4 web stream across static and WordPress routes.
+// GA4 loads only after the visitor accepts analytics cookies (choice kept in localStorage).
 function prasa_ip_ga4_tag() {
     $measurement_id = 'G-YEV19GLG18';
     printf(
-        '<script async src="https://www.googletagmanager.com/gtag/js?id=%1$s"></script>' . "\n" .
-        '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","%1$s");</script>' . "\n",
+        '<script>window.prasaGA=function(){if(window.prasaGALoaded)return;window.prasaGALoaded=1;var s=document.createElement("script");s.async=1;s.src="https://www.googletagmanager.com/gtag/js?id=%1$s";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag("js",new Date());gtag("config","%1$s",{anonymize_ip:true});};try{if(localStorage.getItem("prasa_cookie_consent")==="granted")prasaGA();}catch(e){}</script>' . "\n",
         esc_attr($measurement_id)
     );
 }
 add_action('wp_head', 'prasa_ip_ga4_tag', 20);
+
+// Cookie notice: shown until the visitor accepts or declines. Any element with
+// data-cookie-settings reopens it (used on the privacy policy page).
+function prasa_ip_cookie_notice() {
+    ?>
+<div class="pc-consent" id="pc-consent" role="region" aria-label="Cookie notice" hidden>
+  <p>We use Google Analytics cookies to understand how visitors use this website. They are set only if you accept. <a href="/privacy-policy/">Privacy policy</a></p>
+  <div class="pc-consent__btns"><button type="button" data-pc="decline">Decline</button><button type="button" data-pc="accept">Accept</button></div>
+</div>
+<style>
+.pc-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;padding:16px 20px;background:#2a0a1b;color:#fffbf2;border:1px solid rgba(227,196,107,.45);border-radius:14px;box-shadow:0 18px 40px rgba(20,4,12,.35);font:15px/1.5 "DM Sans",Arial,sans-serif}
+.pc-consent[hidden]{display:none}
+.pc-consent p{flex:1 1 280px;margin:0;color:#fffbf2}
+.pc-consent a{color:#f1d486;text-decoration:underline}
+.pc-consent__btns{display:flex;gap:10px}
+.pc-consent button{min-height:44px;padding:0 18px;border-radius:999px;font:600 14px/1 "DM Sans",Arial,sans-serif;cursor:pointer;border:1px solid #e3c46b}
+.pc-consent [data-pc="decline"]{background:transparent;color:#fffbf2}
+.pc-consent [data-pc="accept"]{background:#e3c46b;color:#2a0a1b}
+.pc-consent button:focus-visible{outline:2px solid #fffbf2;outline-offset:2px}
+@media (max-width:600px){.pc-consent{left:10px;right:10px;bottom:10px;font-size:14px}}
+</style>
+<script>
+(function(){var b=document.getElementById('pc-consent');if(!b)return;var k='prasa_cookie_consent',v=null;try{v=localStorage.getItem(k);}catch(e){}
+if(!v)b.hidden=false;
+b.addEventListener('click',function(e){var a=e.target.getAttribute&&e.target.getAttribute('data-pc');if(!a)return;try{localStorage.setItem(k,a==='accept'?'granted':'denied');}catch(x){}b.hidden=true;if(a==='accept'&&window.prasaGA)prasaGA();});
+document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('[data-cookie-settings]');if(t){e.preventDefault();b.hidden=false;}});})();
+</script>
+<?php
+}
+add_action('wp_footer', 'prasa_ip_cookie_notice', 50);
 
 function prasa_ip_assets() {
     // Static and legacy renders link the stylesheet and script themselves.
