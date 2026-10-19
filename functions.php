@@ -275,3 +275,66 @@ function prasa_ip_purge_cache_on_new_build() {
     do_action('litespeed_purge_all', 'PRASA IP theme build changed');
 }
 add_action('wp_loaded', 'prasa_ip_purge_cache_on_new_build');
+
+/* ---------- Security hardening (2026-10-19) ---------- */
+
+// Browser security headers on every front-end response.
+function prasa_ip_security_headers() {
+    if (is_admin() || headers_sent()) {
+        return;
+    }
+    header('X-Content-Type-Options: nosniff');
+    header('X-Frame-Options: SAMEORIGIN');
+    header('Referrer-Policy: strict-origin-when-cross-origin');
+    header('Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()');
+    if (is_ssl()) {
+        header('Strict-Transport-Security: max-age=31536000');
+    }
+}
+add_action('send_headers', 'prasa_ip_security_headers');
+
+// Do not advertise the WordPress version.
+remove_action('wp_head', 'wp_generator');
+add_filter('the_generator', '__return_empty_string');
+
+// Stop username discovery: no public user list in the REST API, no ?author=N lookups.
+add_filter('rest_endpoints', function ($endpoints) {
+    if (!is_user_logged_in()) {
+        unset($endpoints['/wp/v2/users'], $endpoints['/wp/v2/users/(?P<id>[\d]+)']);
+    }
+    return $endpoints;
+});
+add_action('template_redirect', function () {
+    if (!is_user_logged_in() && (is_author() || isset($_GET['author']))) {
+        wp_safe_redirect(home_url('/'), 301);
+        exit;
+    }
+}, 0);
+
+// XML-RPC is not used by this site; switch off its login methods.
+add_filter('xmlrpc_enabled', '__return_false');
+
+// Same message for a wrong username or a wrong password.
+add_filter('login_errors', function () {
+    return 'Incorrect login details.';
+});
+
+// Slow down password guessing: after 10 failed logins from one IP, refuse logins from it for 15 minutes.
+function prasa_ip_login_key() {
+    $ip = isset($_SERVER['REMOTE_ADDR']) ? sanitize_text_field(wp_unslash($_SERVER['REMOTE_ADDR'])) : 'unknown';
+    return 'prasa_ip_login_fail_' . md5($ip);
+}
+add_action('wp_login_failed', function () {
+    $key = prasa_ip_login_key();
+    $count = (int) get_transient($key);
+    set_transient($key, $count + 1, 15 * MINUTE_IN_SECONDS);
+});
+add_filter('authenticate', function ($user) {
+    if ((int) get_transient(prasa_ip_login_key()) >= 10) {
+        return new WP_Error('too_many_attempts', 'Too many failed login attempts. Please try again in 15 minutes.');
+    }
+    return $user;
+}, 30);
+add_action('wp_login', function () {
+    delete_transient(prasa_ip_login_key());
+});
