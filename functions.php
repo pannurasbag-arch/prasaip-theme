@@ -347,22 +347,25 @@ add_filter('login_errors', function () {
     return 'Incorrect login details.';
 });
 
-// Slow down password guessing: after 10 failed logins from one IP, refuse logins from it for 15 minutes.
-function prasa_ip_login_key() {
+// Slow down password guessing: after 10 failed logins for one username from one IP,
+// refuse that username from that IP for 15 minutes. Keying on username as well as IP
+// means a bot behind a shared CDN address cannot lock out other people's accounts.
+function prasa_ip_login_key($username) {
     $ip = isset($_SERVER['REMOTE_ADDR']) ? sanitize_text_field(wp_unslash($_SERVER['REMOTE_ADDR'])) : 'unknown';
-    return 'prasa_ip_login_fail_' . md5($ip);
+    $name = strtolower(trim((string) $username));
+    return 'prasa_ip_login_fail_' . md5($ip . '|' . $name);
 }
-add_action('wp_login_failed', function () {
-    $key = prasa_ip_login_key();
+add_action('wp_login_failed', function ($username) {
+    $key = prasa_ip_login_key($username);
     $count = (int) get_transient($key);
     set_transient($key, $count + 1, 15 * MINUTE_IN_SECONDS);
 });
-add_filter('authenticate', function ($user) {
-    if ((int) get_transient(prasa_ip_login_key()) >= 10) {
+add_filter('authenticate', function ($user, $username = '') {
+    if ($username !== '' && (int) get_transient(prasa_ip_login_key($username)) >= 10) {
         return new WP_Error('too_many_attempts', 'Too many failed login attempts. Please try again in 15 minutes.');
     }
     return $user;
-}, 30);
-add_action('wp_login', function () {
-    delete_transient(prasa_ip_login_key());
+}, 30, 2);
+add_action('wp_login', function ($user_login) {
+    delete_transient(prasa_ip_login_key($user_login));
 });
