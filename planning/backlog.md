@@ -128,7 +128,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 138 | open | Primary not opened. |
 | 139 | open | Primary opened by scan agent 14 Oct 2026. |
 | 140 | open | Primary opened by scan agent 14 Oct 2026. |
-| 141 | open | Primary opened by scan agent 14 Oct 2026. |
+| 141 | drafted | Covered in combined article on branch draft/2026-10-19-patent-abandoned-india-fer-email (19 Oct 2026). |
 | 142 | open | Primary opened by scan agent 14 Oct 2026. |
 | 143 | open | Primary opened by scan agent 15 Oct 2026. |
 | 144 | open | Primary opened by scan agent 15 Oct 2026. |
@@ -144,6 +144,17 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 154 | open | Primary not opened. |
 | 155 | open | Primary not opened. |
 | 156 | open | Primary not opened. |
+| 157 | drafted | Primary opened by scan agent 19 Oct 2026. Drafted 19 Oct 2026 as combined article with 141 and 160 on branch draft/2026-10-19-patent-abandoned-india-fer-email (slug patent-application-abandoned-india-fer-email). |
+| 158 | open | Primary opened by scan agent 19 Oct 2026. |
+| 159 | open | Primary opened by scan agent 19 Oct 2026 (biotech PDF only; pharma PDF not opened). Compare with item 2. |
+| 160 | drafted | Primary opened by scan agent 19 Oct 2026. Drafted 19 Oct 2026 as combined article with 141 and 160 on branch draft/2026-10-19-patent-abandoned-india-fer-email (slug patent-application-abandoned-india-fer-email). |
+| 161 | open | Primary opened by scan agent 19 Oct 2026 (Indian Kanoon copy). |
+| 162 | open | Primary not opened. |
+| 163 | open | Primary opened by scan agent 19 Oct 2026. |
+| 164 | open | Primary not opened. |
+| 165 | open | Primary opened by scan agent 19 Oct 2026. |
+| 166 | open | Primary not opened. |
+| 167 | open | Primary not opened. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -273,6 +284,17 @@ Compiled 29 September 2026. There are 34 items, newest first. Topics the blog ha
 | 154 | 7 Oct 2026 | India (Delhi HC) | Copyright / ownership | Shakti Sagar v Delhi Law House: s.19 written assignment | Fri | Medium |
 | 155 | 28 Sep 2026 | India (Kerala HC) | Patent / pharma | s.100 government use for unaffordable patented drugs | Mon | High |
 | 156 | 30 Sep 2026 | India (Kerala HC) | Trade mark / practice | John Vadassery: TM agent authorisation needs stamp duty | Thu | Medium |
+| 157 | 6 Oct 2026 (reported 17 Oct) | India (Delhi HC) | Patent procedure | Tetra Technologies v Union of India: no deemed abandonment on an unproven FER email | Mon | High |
+| 158 | 13 and 16 Oct 2026 | India (Delhi HC / CGPDTM) | Trade mark procedure / AI | Stryten Energy v Nidhi Agarwal: CGPDTM consults on AI misuse and squatting guidelines | Thu | High |
+| 159 | 7 and 8 Oct 2026 | India (CGPDTM) | Patent | Draft pharma and biotech examination guidelines re-notified, 15 day comment window | Mon | Medium |
+| 160 | 31 Aug 2026 | India (Delhi HC) | Patent procedure | Fresenius Kabi v Controller: pre-grant opposition hearing does not replace s.14 hearing | Mon | Medium |
+| 161 | 7 Aug 2026 (reported 14 Oct) | India (Delhi HC) | Patent / pharma | Esteve v Controller: tramadol-celecoxib co-crystal obvious; s.3(d) and 3(e) not reached | Mon | Medium |
+| 162 | reported 17 Oct 2026 | India (Delhi HC) | Trade mark / jurisdiction | Niva Bupa v Vishal Rattewal: criticism is not infringement, IP Division misused, Rs 1 costs | Thu | Medium |
+| 163 | 30 Sep 2026 | US (CAFC) | Patent / sanctions | Epic Tech v Pen-Tech: presumption of validity alone may not justify suing | Tue | Medium |
+| 164 | 15 Oct 2026 | US (M.D. Fla.) | Patent / damages | WhereverTV v Comcast: USD 213m streaming guide verdict after remand | Tue | Medium |
+| 165 | 13 Oct 2026 | US | Patent / pharma settlement | Liquidia and United Therapeutics global settlement, USD 380.7m | Tue | Medium |
+| 166 | reported 16 Oct 2026 | Germany (Munich RC) | Patent / software | Celonis v SAP: process mining software patent injunction | Wed | Medium |
+| 167 | 3 Sep 2026 | EU (CJEU, AG) | Trade mark / procedure | Sanviver v Vega Sicilia (C-392/25): EUIPO invalidity route stays open after infringement suit | Thu | Medium |
 
 ---
 
@@ -1568,6 +1590,132 @@ Scan notes (15 Oct 2026): barandbench IP page, copyright.gov/newsnet, euipo.euro
 - **Day:** Thu · **Priority:** Medium
 
 Scan notes: Items 150, 155 and 156 fall a few days before 2 Oct but were missed by earlier scans, so drop them if the 14-day window is strict. These sources showed nothing new in the window: USPTO FR notices (only the 6 Oct OMB information-collection notices), USPTO/PTAB precedential decisions (none per WilmerHale's 9 Oct update), EPO OJ (October issue not yet posted), UK IPO (SEP item already #143), WIPO Madrid notices (fee changes only), EUIPO, CNIPA and JPO. IP India lists "Draft Guidelines for Examination of Pharmaceutical Applications for Patent" (7 Oct, comments within 15 days) and "Draft Guidelines for Examination of Biotechnology Applications for Patent" (8 Oct), but the PDFs did not load, so I could not confirm whether these are new versions of backlog #2. Worth checking. Other candidates not added: Calcutta HC DB Arpit Mangal v Emami (truth defence for an influencer's product review), Delhi HC Japan Tobacco CAMEL copyright rectification refused, and Madras HC ANNAPURNA (religious word protectable).
+
+## Detailed entries added 19 October 2026 (weekday scan and Monday 60 day sweep)
+
+### 157. Tetra Technologies, Inc v Union of India (Delhi HC, W.P.(C)-IPD 33/2024): no deemed abandonment without proof the FER email arrived
+- **Date:** Judgment 6 October 2026 (reported by LiveLaw 17 October 2026; 2026 LLBiz HC(DEL) 1143)
+- **Jurisdiction / forum:** India, Delhi High Court (Justice Purushaindra Kumar Kaurav)
+- **Area:** Patent procedure (s.21(1) deemed abandonment, Rules 6(3) and 6(5))
+- **Summary:** Tetra's national phase application (filed 11 May 2020 through Jain & Partners) was treated as abandoned under s.21(1) because no reply was filed to a FER the Office said it emailed on 28 Oct 2021. Tetra said neither it nor its agent received the email, learned of the abandonment from the portal on 25 Apr 2023, and produced inbox screenshots; the Office produced no proof of delivery and did not decide Tetra's March 2024 petition for re-issue. The court held a system generated email, "without more", cannot be the sole basis for abandonment: Rules 6(3) and 6(5) treat dispatch as communication but do not make mere dispatch conclusive of receipt. Abandonment set aside, application restored; FER to be re-sent to the agent by post and email within one week; eight weeks to reply. Expressly fact specific; no view on merits.
+- **Why it matters:** Practical rescue route for foreign applicants whose Indian applications were deemed abandoned after an email-only FER, now that the Office communicates largely by email. Also a warning for agents to keep evidence of inbox monitoring and act fast once abandonment is noticed.
+- **Primary source:** https://www.livelawbiz.com/pdf_upload/2026/10/17/tetra-technologies-707135.pdf (Primary opened: certified judgment copy, date of decision 6.10.2026; no neutral citation shown; CNR DLHC010734102024)
+- **Secondary source:** https://www.livelawbiz.com/patent/not-responding-to-system-generated-email-on-patent-objections-cannot-lead-to-abandonment-delhi-hc-555195
+- **Weekday lens:** Mon (India patents)
+- **Priority:** High
+
+### 158. Stryten Energy LLC v Nidhi Agarwal (Delhi HC, W.P.(C)-IPD 16/2026): CGPDTM invites comments on guidelines on AI misuse and trade mark squatting
+- **Date:** Delhi HC order 13 October 2026; CGPDTM public notice dated 16 October 2026 (listed on IP India 17 October 2026)
+- **Jurisdiction / forum:** India, Delhi High Court (Justice Purushaindra Kumar Kaurav) and Office of the CGPDTM
+- **Area:** Trade mark procedure / AI in filings / squatting
+- **Summary:** The court held comprehensive guidelines are needed on the use and misuse of AI and on "the menace of squatting", directed the CGPDTM to invite suggestions within three weeks, compile them and propose workable guidelines within a further three weeks, and listed the matter on 14 December 2026. The CGPDTM notice invites suggestions/objections to llc-ipo@gov.in (subject "Suggestions/Objections – Guidelines on AI and Squatting") within three weeks of publication, and says the guidelines once issued will apply to all pending and new applications. A linked draft, "Guidelines on Use of Artificial Intelligence in Proceedings before the Trade Marks Registry, 2026" (prepared under an earlier 16.04.2026 order of Justice Tushar Rao Gedela in the same petition), proposes a mandatory signed AI-use declaration (Annexure I), verification of all AI-generated citations, a bar on using AI to create or alter affidavits and proof of use, power to demand native files and metadata, striking out of fake citations, show cause notices and Bar Council referral, and a reporting mechanism for fabricated citations (Annexure II).
+- **Why it matters:** First Indian IP office rules aimed at AI-fabricated citations and evidence, plus an anti-squatting framework; it will bind every pending trade mark matter. Short comment window (about early November 2026). Strong Thursday piece and a client alert.
+- **Primary source:** https://ipindia.gov.in/storage/uploads/others/6FQ2sGXspV6P0ZKDYzd6MXypNayPH5A0CNNgoBZ2.pdf (public notice), https://ipindia.gov.in/storage/uploads/others/6FQ2sGXspV6P0ZKDYzd6MXypNayPH5A0CNNgoBZ2_2.pdf (13.10.2026 order), https://ipindia.gov.in/storage/uploads/others/6FQ2sGXspV6P0ZKDYzd6MXypNayPH5A0CNNgoBZ2_1.pdf (draft TMR AI guidelines) (Primary opened, all three)
+- **Secondary source:** https://ipindia.gov.in/dynamic/news-details/150 (news listing; no independent press report found yet)
+- **Weekday lens:** Thu (trade marks); could also run Fri as AI/practice
+- **Priority:** High
+
+### 159. CGPDTM re-notifies Draft Guidelines for Examination of Pharmaceutical (7 Oct) and Biotechnology (8 Oct) patent applications
+- **Date:** 7 October 2026 (pharma) and 8 October 2026 (biotech) on IP India News & Updates
+- **Jurisdiction / forum:** India, Office of the CGPDTM
+- **Area:** Patent examination practice (pharma, biotech)
+- **Summary:** IP India lists two separate notices inviting stakeholder comments within 15 days of publication (to cgoffice.in@gov.in and llc-ipo@gov.in, obfuscated on the page). The biotech draft ("Draft Guidelines for Examination of Patent Applications in the Field of Biotechnology", 2026) covers CRISPR and gene editing (germline editing under s.3(b)), s.3(j) plants, animals and essentially biological processes, s.3(c) discoveries, s.3(d) efficacy with worked examples, deposit of biological material and the Budapest Treaty, Biological Diversity Act source disclosure and Form 1, and WIPO ST.26 sequence listings. The pharma PDF did not render for review.
+- **Why it matters:** Backlog item 2 (4 Sep 2026) covered the first release of these drafts. These October notices appear to be a fresh round (possibly revised texts). Compare them against the September drafts before writing; if revised, item 2 should be written from the October versions and the new comment deadline (around 22 to 23 Oct 2026) flagged.
+- **Primary source:** https://ipindia.gov.in/dynamic/news-details/146 and https://ipindia.gov.in/storage/uploads/patents/AT5ka7cnqpddYuYCLogWHZSJj9LPumICIkMtj4MP.pdf (biotech, opened); https://ipindia.gov.in/dynamic/news-details/130 and https://ipindia.gov.in/storage/uploads/patents/kQQNtHMJvtzbThCjSj0ZcPRTtq4ZYVt91SZbSg2S.pdf (pharma, PDF not opened) (Primary opened in part)
+- **Secondary source:** none found for the October re-notification
+- **Weekday lens:** Mon (India patents)
+- **Priority:** Medium (treat as update to item 2)
+
+### 160. Fresenius Kabi Ipsum SRL v Assistant Controller (Delhi HC, C.A.(COMM.IPD-PAT) 7/2025): s.14 hearing is mandatory even after a pre-grant opposition hearing
+- **Date:** 31 August 2026 (reported 5 September 2026; 2026 LLBiz HC(DEL) 934)
+- **Jurisdiction / forum:** India, Delhi High Court (Justice Jyoti Singh)
+- **Area:** Patent procedure (ss.14, 15, 25(1), Rule 129)
+- **Summary:** Application IN 201611009993 ("An improved process for the preparation of sugammadex") was refused on 21 Nov 2024 after a pre-grant opposition. The court held the hearing in the opposition could not substitute for the separate hearing s.14 requires before refusing an application, and flagged inadequate reasoning on inventive step over four cited documents. Refusal set aside; remanded for a fresh decision within six months after hearing the applicant and opponent, following ss.14, 15 and 25 and Rule 129. No view on merits.
+- **Why it matters:** Clarifies the procedural sequence when a pre-grant opposition is pending: the Controller must still give the applicant its own s.14 hearing. Pairs with Glisten (item 141) and Tetra (item 157) for a "procedural fairness at the Indian Patent Office" Monday piece. Was listed in earlier scans as an unverified lead; now verified.
+- **Primary source:** https://www.livelawbiz.com/pdf_upload/2026/09/05/fresenius-698293.pdf (Primary opened)
+- **Secondary source:** https://www.livelawbiz.com/patent/delhi-high-court-revives-patent-bid-for-improved-process-to-make-drug-used-to-reverse-muscle-relaxation-548720
+- **Weekday lens:** Mon (India patents)
+- **Priority:** Medium
+
+### 161. Esteve Pharmaceuticals SA v Controller of Patents (Delhi HC, C.A.(COMM.IPD-PAT) 118/2022): tramadol-celecoxib co-crystal lacks inventive step
+- **Date:** Judgment 7 August 2026 (SpicyIP comment 14 October 2026)
+- **Jurisdiction / forum:** India, Delhi High Court (Justice Tushar Rao Gedela)
+- **Area:** Patent / pharma (s.2(1)(ja), s.3(d), s.3(e))
+- **Summary:** Appeal against refusal of application 1435/DELNP/2012, "Co-crystals of Tramadol and Coxibs", dismissed. The claimed co-crystal was obvious over D5 (US 2008/0031950, naming celecoxib as an NSAID combinable with tramadol) and D7 (WO 2004/078163, teaching API-API co-crystals and listing both drugs); efficacy data did not change the result. Having upheld lack of inventive step, the court declined to decide s.3(d) and s.3(e) (judicial economy). SpicyIP criticises the order of analysis ("cart before the horse").
+- **Why it matters:** Signals how Delhi HC treats co-crystal and solid form claims: inventive step can dispose of the case before s.3(d), leaving the s.3(d) status of co-crystals unresolved. Relevant to solid form filing strategy in India. Note: judgment date is just outside the 60 day window; included because it surfaced on 14 Oct.
+- **Primary source:** https://indiankanoon.org/doc/111611254/ (Primary opened, Indian Kanoon copy of judgment)
+- **Secondary source:** https://spicyip.com/2026/10/putting-the-cart-before-the-horse-a-look-into-esteve-pharmaceuticals-vs-cpd.html
+- **Weekday lens:** Mon (India patents)
+- **Priority:** Medium
+
+### 162. Niva Bupa Health Insurance v Vishal Rattewal (Delhi HC): criticising a brand by name is not infringement; IP Division misused
+- **Date:** Order reported 17 October 2026 (exact order date not stated in report)
+- **Jurisdiction / forum:** India, Delhi High Court (Justice Anup J. Bhambhani)
+- **Area:** Trade mark / disparagement / IP Division jurisdiction
+- **Summary:** The insurer and an advocate sued an influencer in the IP Division over posts criticising its claim handling (citing a consumer forum ruling and an August 2026 IRDAI order), seeking takedowns, an apology and Rs 5 crore. The court held that using a company's name or mark while criticising its services, by someone not trading in insurance, is not trade mark use in the course of trade, so no IP right was engaged and the suit was a misuse of the IP Division's special jurisdiction. Plaintiffs were allowed to withdraw with liberty to file a civil suit, on Rs 1 costs.
+- **Why it matters:** Limits brand owners' use of trade mark suits to silence critics and reviewers; complements Arpit Mangal v Emami (item 58).
+- **Primary source:** Delhi HC order not located (Primary not opened)
+- **Secondary source:** https://www.barandbench.com/news/litigation/delhi-high-court-imposes-costs-of-1-on-niva-bupa-for-misusing-ip-jurisdiction-to-sue-influencer
+- **Weekday lens:** Thu (trade marks)
+- **Priority:** Medium
+
+### 163. Epic Tech, LLC v Pen-Tech Associates (Fed. Cir. No. 2025-1624): pre-suit validity investigation and Rule 11
+- **Date:** 30 September 2026
+- **Jurisdiction / forum:** US, Federal Circuit (Moore CJ writing; Cunningham; Subramanian DJ by designation), appeal from N.D. Ga.
+- **Area:** Patent / sanctions and fees (Rule 11, 35 USC 285, 28 USC 1927)
+- **Summary:** The court vacated the denial of Rule 11 sanctions and fees because the district court gave no reviewable reasoning on whether Epic Tech was on notice of likely invalidity (Alice, the PTO's own s.101 rejections, and the Fusion Skill ruling). On such a record, the presumption of validity alone may not suffice to justify suit. Remanded for explanation; no decision on whether sanctions are warranted.
+- **Why it matters:** Patentees and counsel may need to assess eligibility and validity risk before suing, especially for software claims; useful for advising Indian clients asserting US patents.
+- **Primary source:** https://www.cafc.uscourts.gov/opinions-orders/25-1624.OPINION.9-30-2026_2763904.pdf (Primary opened; precedential status not confirmed from excerpt)
+- **Secondary source:** https://patentlyo.com/patent/2026/10/pre-suit-validity-investigation-when-must-a-patentee-look-before-suing.html
+- **Weekday lens:** Tue (US)
+- **Priority:** Medium
+
+### 164. WhereverTV v Comcast (M.D. Fla.): USD 213 million jury verdict on interactive programme guide patent
+- **Date:** 15 October 2026
+- **Jurisdiction / forum:** US, District Court for the Middle District of Florida (jury)
+- **Area:** Patent / damages
+- **Summary:** Jury found infringement, found the asserted claims not invalid and awarded USD 213m as a reasonable royalty. The trial followed the Federal Circuit's 28 July 2025 remand (No. 23-2098) correcting claim construction of terms on interactive programme guides and multi-system operators.
+- **Why it matters:** Large post-remand verdict showing the value of appellate claim construction fixes; Comcast post-trial motions and appeal expected.
+- **Primary source:** https://fingfx.thomsonreuters.com/gfx/legaldocs/znvngngnopl/COMCAST%20STREAMING%20PATENT%20VERDICT%20verdict.pdf (Primary not opened, fetch blocked); remand opinion https://www.cafc.uscourts.gov/opinions-orders/23-2098.OPINION.7-28-2025_2550276.pdf (not opened)
+- **Secondary source:** https://ipwatchdog.com/2026/10/16/bites-barks-cafc-affirms-invalidation-remote-telehealth-patent-claims-cjeu-ag-biondi-says-tiktok-is-gatek/
+- **Weekday lens:** Tue (US)
+- **Priority:** Medium
+
+### 165. Liquidia and United Therapeutics: global settlement of treprostinil patent, trade secret and antitrust disputes
+- **Date:** 13 October 2026
+- **Jurisdiction / forum:** US (D. Del., M.D.N.C., N.C. Superior Court, D.N.J. and 3d Cir. matters)
+- **Area:** Patent / pharma settlement
+- **Summary:** Net payment of USD 380.7m by Liquidia (USD 175m net within 30 business days, USD 145.4m in two instalments by April 2027, USD 60.3m to antitrust parties). Follows the D. Del. ruling of 30 Sep 2026 that claims 1 and 14 of US 11,826,327 are valid and infringed, which Liquidia will not appeal; Liquidia drops the PH-ILD indication from the YUTREPIA label but keeps selling for PAH. Six matters to be dismissed with prejudice; no admission of liability.
+- **Why it matters:** Shows the commercial cost of a method-of-treatment (indication) patent loss and carve-out settlement for a 505(b)(2) product; relevant to skinny-label discussion after Hikma v Amarin (item 15).
+- **Primary source:** https://www.liquidia.com/news-releases/news-release-details/liquidia-announces-global-settlement-resolving-all-pending (Primary opened, company release)
+- **Secondary source:** https://ipwatchdog.com/2026/10/16/bites-barks-cafc-affirms-invalidation-remote-telehealth-patent-claims-cjeu-ag-biondi-says-tiktok-is-gatek/
+- **Weekday lens:** Tue (US)
+- **Priority:** Medium
+
+### 166. Celonis v SAP (Munich Regional Court, 7 O 12849/25): process mining patent injunction against Signavio
+- **Date:** Reported 16 October 2026 (judgment date not stated)
+- **Jurisdiction / forum:** Germany, Munich Regional Court I, 7th Civil Chamber
+- **Area:** Patent / software
+- **Summary:** SAP's Signavio Process Intelligence found to infringe Celonis' EP 3 139 274. Injunction, information and accounts, and liability for damages ordered; SAP's request to stay pending its Federal Patent Court nullity action (6 Ni 17/26, filed March 2026) refused. SAP has appealed.
+- **Why it matters:** A German injunction on an enterprise software (computer implemented) patent between two European software companies; relevant to CII enforceability debates after Emotional Perception (item 26).
+- **Primary source:** Not published (Primary not opened)
+- **Secondary source:** https://www.juve-patent.com/cases/celonis-lands-first-win-in-process-mining-patent-battle-against-sap-in-germany/
+- **Weekday lens:** Wed (Europe)
+- **Priority:** Medium
+
+### 167. Bodegas Sanviver v Bodegas Vega Sicilia (C-392/25): AG Biondi on EUIPO invalidity after an infringement suit
+- **Date:** AG Opinion 3 September 2026 (reported 8 October 2026)
+- **Jurisdiction / forum:** EU, CJEU (Advocate General Andrea Biondi), reference from the Alicante Court of Appeal
+- **Area:** Trade mark / procedure (Art 132(1) EUTMR)
+- **Summary:** AG proposes that a defendant that did not counterclaim may still seek a declaration of invalidity at the EUIPO until final judgment in the infringement case; Art 132(1) may require a stay but courts may refuse on "special grounds" such as delaying tactics, and choosing the EUIPO route is not itself such a ground. Spanish Trademark Act Art 61 bis(5) cannot close the route.
+- **Why it matters:** Affects litigation strategy and timing for EU trade mark enforcement by Indian and US brand owners; judgment to follow.
+- **Primary source:** curia.europa.eu case C-392/25 (Primary not opened)
+- **Secondary source:** https://ipwatchdog.com/2026/10/08/challenging-validity-eu-trademark-outside-courtroom-cjeu-advocate-generals-approach/
+- **Weekday lens:** Thu (trade marks)
+- **Priority:** Medium
+
+Scan notes (19 Oct 2026): No new India SEP ruling (pro tem deposit or otherwise) found in the 60 day window beyond items already in the backlog (InterDigital v Transsion, Malikie v Xiaomi, Conqueror v Xiaomi). USPTO Federal Register: only OMB information-collection notices since 6 Oct. No new SCOTUS IP cert grants found for October. UPC CoA items in the window already covered (Canfield, NVIDIA/Keysight). Leads not added: Linden v ResMed (CAFC 16 Oct 2026, telehealth claims ineligible, similar to item 148); Patently-O FY2026 IPR filings collapse data (12 Oct); WIPO CLIP expansion to visual artists (14 Oct); EPO T 1168/24 (reformatio in peius); General Court Olymp colour marks T-834/25 and T-835/25; Delhi HC Enviro Ambient (CO2 capture, July/Aug), Array BioPharma (s.3(d) known compound must be identified, July) and Madras HC Elanco (July), all outside the 60 day window.
+
 
 ## Notes
 
