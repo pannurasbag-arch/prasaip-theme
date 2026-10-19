@@ -153,6 +153,67 @@ function prasa_ip_seed_content() {
 }
 add_action('after_switch_theme', 'prasa_ip_seed_content');
 
+/**
+ * Comments and pingbacks are closed site wide to stop spam. The redesigned
+ * pages have no comment feature, but older posts still accepted submissions
+ * through wp-comments-post.php, XML-RPC and the REST API. Existing comments
+ * stay in the database and remain manageable on the admin Comments screen;
+ * they are only hidden from the public front end.
+ */
+add_filter('comments_open', '__return_false', 20);
+add_filter('pings_open', '__return_false', 20);
+
+// Hide stored comments from public templates. The admin screens still list them.
+function prasa_ip_hide_front_end_comments($comments) {
+    return is_admin() ? $comments : array();
+}
+add_filter('comments_array', 'prasa_ip_hide_front_end_comments', 20);
+
+function prasa_ip_remove_comment_support() {
+    foreach (array('post', 'page') as $post_type) {
+        remove_post_type_support($post_type, 'comments');
+        remove_post_type_support($post_type, 'trackbacks');
+    }
+}
+add_action('init', 'prasa_ip_remove_comment_support', 100);
+
+// Disable XML-RPC pingbacks and stop advertising the pingback endpoint.
+add_filter('xmlrpc_methods', function ($methods) {
+    unset($methods['pingback.ping'], $methods['pingback.extensions.getPingbacks']);
+    return $methods;
+});
+add_filter('wp_headers', function ($headers) {
+    unset($headers['X-Pingback']);
+    return $headers;
+});
+
+// Refuse direct submissions to wp-comments-post.php before anything is stored.
+function prasa_ip_block_comment_submission() {
+    wp_die('Comments are closed.', '', array('response' => 403));
+}
+add_action('pre_comment_on_post', 'prasa_ip_block_comment_submission');
+
+// Drop the comments feed link from the head and answer comment feed requests with a 404.
+add_filter('feed_links_show_comments_feed', '__return_false');
+function prasa_ip_block_comment_feed() {
+    if (!is_comment_feed()) {
+        return;
+    }
+    global $wp_query;
+    $wp_query->set_404();
+    status_header(404);
+    nocache_headers();
+}
+add_action('template_redirect', 'prasa_ip_block_comment_feed', 1);
+
+// Remove the public REST comment endpoints. Logged-in users keep them for moderation tools.
+add_filter('rest_endpoints', function ($endpoints) {
+    if (!is_user_logged_in()) {
+        unset($endpoints['/wp/v2/comments'], $endpoints['/wp/v2/comments/(?P<id>[\d]+)']);
+    }
+    return $endpoints;
+});
+
 // Keep the Rank Math WebSite name readable in JSON-LD and provide the short brand name.
 add_filter('rank_math/json_ld', function ($data) {
     foreach ($data as &$node) {
