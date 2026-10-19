@@ -128,7 +128,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 138 | open | Primary not opened. |
 | 139 | open | Primary opened by scan agent 14 Oct 2026. |
 | 140 | open | Primary opened by scan agent 14 Oct 2026. |
-| 141 | drafted | Covered in combined article on branch draft/2026-10-19-patent-abandoned-india-fer-email (19 Oct 2026). |
+| 141 | published | Covered in https://www.prasaip.com/patent-application-abandoned-india-fer-email/ (19 Oct 2026, see item 157). |
 | 142 | open | Primary opened by scan agent 14 Oct 2026. |
 | 143 | open | Primary opened by scan agent 15 Oct 2026. |
 | 144 | open | Primary opened by scan agent 15 Oct 2026. |
@@ -144,10 +144,10 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 154 | open | Primary not opened. |
 | 155 | open | Primary not opened. |
 | 156 | open | Primary not opened. |
-| 157 | drafted | Primary opened by scan agent 19 Oct 2026. Drafted 19 Oct 2026 as combined article with 141 and 160 on branch draft/2026-10-19-patent-abandoned-india-fer-email (slug patent-application-abandoned-india-fer-email). |
+| 157 | published | https://www.prasaip.com/patent-application-abandoned-india-fer-email/ (19 Oct 2026, merged via PR #4, merge fbd1367). Combined article with 141 and 160. Hostinger cache purged for .com and .in. Article, Knowledge Centre first card, JPG and WebP 200 on .com and .in, one canonical to .com, index,follow: pass. Post Inspector preview image and title: pass. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7517794700393811968/ (posted as the page, both mentions linked to profiles, preview image shown). GSC indexing requested 19 Oct 2026. Bing URL submitted 19 Oct 2026. |
 | 158 | open | Primary opened by scan agent 19 Oct 2026. |
 | 159 | open | Primary opened by scan agent 19 Oct 2026 (biotech PDF only; pharma PDF not opened). Compare with item 2. |
-| 160 | drafted | Primary opened by scan agent 19 Oct 2026. Drafted 19 Oct 2026 as combined article with 141 and 160 on branch draft/2026-10-19-patent-abandoned-india-fer-email (slug patent-application-abandoned-india-fer-email). |
+| 160 | published | Covered in https://www.prasaip.com/patent-application-abandoned-india-fer-email/ (19 Oct 2026, see item 157). |
 | 161 | open | Primary opened by scan agent 19 Oct 2026 (Indian Kanoon copy). |
 | 162 | open | Primary not opened. |
 | 163 | open | Primary opened by scan agent 19 Oct 2026. |
