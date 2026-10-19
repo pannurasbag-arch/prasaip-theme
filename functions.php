@@ -286,7 +286,6 @@ function prasa_ip_security_headers() {
     header('X-Content-Type-Options: nosniff');
     header('X-Frame-Options: SAMEORIGIN');
     header('Referrer-Policy: strict-origin-when-cross-origin');
-    header('Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()');
     if (is_ssl()) {
         header('Strict-Transport-Security: max-age=31536000');
     }
