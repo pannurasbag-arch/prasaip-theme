@@ -155,6 +155,13 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 165 | open | Primary opened by scan agent 19 Oct 2026. |
 | 166 | open | Primary not opened. |
 | 167 | open | Primary not opened. |
+| 168 | open | Primary opened by scan agent 20 Oct 2026. |
+| 169 | drafted | draft/2026-10-20-ipr-discretionary-denial-settled-expectations (20 Oct 2026). Covers items 49 and 146 context. Awaiting owner approval. |
+| 170 | open | Primary opened by scan agent 20 Oct 2026 (DMCA holding from secondary). |
+| 171 | open | Primary opened by scan agent 20 Oct 2026. |
+| 172 | open | Primary not opened. |
+| 173 | open | Primary not opened. |
+| 174 | open | Primary not opened. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -1716,6 +1723,58 @@ Scan notes: Items 150, 155 and 156 fall a few days before 2 Oct but were missed 
 
 Scan notes (19 Oct 2026): No new India SEP ruling (pro tem deposit or otherwise) found in the 60 day window beyond items already in the backlog (InterDigital v Transsion, Malikie v Xiaomi, Conqueror v Xiaomi). USPTO Federal Register: only OMB information-collection notices since 6 Oct. No new SCOTUS IP cert grants found for October. UPC CoA items in the window already covered (Canfield, NVIDIA/Keysight). Leads not added: Linden v ResMed (CAFC 16 Oct 2026, telehealth claims ineligible, similar to item 148); Patently-O FY2026 IPR filings collapse data (12 Oct); WIPO CLIP expansion to visual artists (14 Oct); EPO T 1168/24 (reformatio in peius); General Court Olymp colour marks T-834/25 and T-835/25; Delhi HC Enviro Ambient (CO2 capture, July/Aug), Array BioPharma (s.3(d) known compound must be identified, July) and Madras HC Elanco (July), all outside the 60 day window.
 
+
+
+## Detailed entries added 20 October 2026 (weekday scan)
+
+### 168. Google LLC v Valtrus Innovations Ltd (Fed. Cir. No. 24-1945, precedential per IPWatchdog)
+- **Date:** 19 Oct 2026 · **Jurisdiction:** US (Federal Circuit, appeal from PTAB IPR) · **Area:** Patents (antedating prior art, corroboration, diligence)
+- **Summary:** The court affirmed the PTAB decision that Google failed to prove claims 1 to 23 of US 6,728,704 unpatentable. Microsoft Word metadata was accepted as independent corroboration of the inventor's conception, and diligence over about 11 business days was supported.
+- **Why it matters:** File metadata can corroborate conception. Relevant to pre AIA patents still in litigation and to inventor record keeping.
+- **Primary source:** https://www.cafc.uscourts.gov/opinions-orders/24-1945.OPINION.10-19-2026_2772810.pdf (opened; precedential label not seen in text) · **Secondary:** https://ipwatchdog.com/2026/10/19/cafc-agrees-google-failed-show-unpatentability-claims-merging-search-engine-results/
+- **Weekday lens:** Tue · **Priority:** High
+
+### 169. Google LLC v VirtaMove, Corp. (US S. Ct. No. 25-1230): certiorari denied on USPTO "settled expectations"
+- **Date:** 19 Oct 2026 · **Jurisdiction:** US (Supreme Court) · **Area:** Patents / PTAB discretionary denial
+- **Summary:** The Supreme Court denied Google's petition challenging the Federal Circuit's refusal (In re Google, No. 2026-111, 27 Jan 2026) to order the USPTO to reconsider IPR2025-00487 and -00488 without the settled expectations factor. The SG opposed review.
+- **Why it matters:** Leaves the discretionary denial regime in place. Kahoot v Interstellar (26-198) and Intel v Squires (26-73, Fintiv APA challenge) remain pending.
+- **Primary source:** https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf (opened) · **Secondary:** https://www.insurancejournal.com/news/national/2026/10/19/889534.htm (Reuters)
+- **Weekday lens:** Tue · **Priority:** High
+
+### 170. Weekend Warrior Clothing, LLC v Amazon.com Services, LLC (S.D. Ohio, No. 1:23-cv-752, Doc. 111)
+- **Date:** 14 Oct 2026 · **Jurisdiction:** US (district court) · **Area:** Copyright (platform liability, early application of Cox v Sony)
+- **Summary:** On cross motions for summary judgment over Amazon Merch on Demand, the court let direct and vicarious infringement claims proceed and denied Amazon's DMCA repeat infringer defence (per IPWatchdog), but granted Amazon judgment on contributory infringement under Cox v Sony.
+- **Why it matters:** Early lower court reading of Cox for print on demand marketplaces.
+- **Primary source:** https://ipwatchdog.com/wp-content/uploads/2026/10/2026-10-14-filed-111-Order-on-Cross-Motions-for-Summary-Judgment.pdf (opened, partly) · **Secondary:** https://ipwatchdog.com/2026/10/15/judge-says-amazon-must-face-direct-vicarious-copyright-claims-over-merch-demand-products/
+- **Weekday lens:** Tue · **Priority:** High
+
+### 171. ParkerVision, Inc. v Qualcomm Inc. (Fed. Cir. No. 26-1033, precedential per IPWatchdog)
+- **Date:** 30 Sep 2026 · **Jurisdiction:** US (Federal Circuit) · **Area:** Patent litigation procedure
+- **Summary:** Appeal dismissed. A Rule 54(b) judgment on only some claims of one patent is not final because each patent is a single cause of action. Pendent jurisdiction and reassignment rejected.
+- **Why it matters:** Parties cannot split one patent's claims for an early appeal.
+- **Primary source:** https://www.cafc.uscourts.gov/opinions-orders/26-1033.OPINION.9-30-2026_2763891.pdf (opened) · **Secondary:** https://ipwatchdog.com/2026/09/30/federal-circuit-dismisses-patent-owners-appeal-for-lack-of-final-judgment-under-rule-54b/
+- **Weekday lens:** Tue · **Priority:** Medium
+
+### 172. EPO Board of Appeal T 0251/25 (empagliflozin, Boehringer Ingelheim EP 2 981 255): patent revoked for insufficiency
+- **Date:** reported 19 Oct 2026 (decision date not confirmed) · **Jurisdiction:** EPO · **Area:** Patents (second medical use, plausibility, post published evidence)
+- **Summary:** Biomarker data in the application did not make the cardioprotective use credible. Post published outcome data could not cure the gap.
+- **Why it matters:** Applies G 2/21 limits to a blockbuster SGLT2 drug. Relevant to generic challengers and use claim drafting.
+- **Primary source:** EPO decision T 0251/25 (not opened) · **Secondary:** https://ipkitten.blogspot.com/2026/10/post-published-clinical-data-does-not.html
+- **Weekday lens:** Wed · **Priority:** Medium
+
+### 173. INEXO Cast Metal Solutions Pvt Ltd v Federal Express Corporation (Madras HC, CMA(TM) No. 4 of 2025; 2026 LLBiz HC(MAD) 325)
+- **Date:** reported in digest 12 to 18 Oct 2026 · **Jurisdiction:** India (Madras HC) · **Area:** Trade marks (well known marks)
+- **Summary:** Refusal of "FEDEXO" upheld. FedEx was well known in India before the 2009 filing, and adding "O" did not distinguish the mark.
+- **Why it matters:** Adding one letter to a well known mark does not avoid refusal.
+- **Primary source:** Madras HC judgment (not opened) · **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-12-october-18-2026-555329
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 174. Rakesh Bedi v John Doe / Ashok Kumar (Delhi HC, CS(COMM) 1049/2026): court frames questions on scope of personality rights
+- **Date:** reported in digest 12 to 18 Oct 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Personality rights
+- **Summary:** Instead of a routine ex parte injunction, the court framed questions on what personality rights protect and called for submissions. In Kriti Sanon v BBE Marketing it asked for a compilation of judgments.
+- **Why it matters:** May set limits on celebrity deepfake suits (compare items 4, 76, 135).
+- **Primary source:** Delhi HC order (not opened) · **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-12-october-18-2026-555329
+- **Weekday lens:** Thu · **Priority:** Low
 
 ## Notes
 
