@@ -27,26 +27,29 @@ add_action('wp_head', 'prasa_ip_ga4_tag', 20);
 function prasa_ip_cookie_notice() {
     ?>
 <div class="pc-consent" id="pc-consent" role="region" aria-label="Cookie notice" hidden>
-  <p>We use Google Analytics cookies to understand how visitors use this website. They are set only if you accept. <a href="/privacy-policy/">Privacy policy</a></p>
+  <p>Analytics cookies are used only if you accept. <a href="/privacy-policy/">Privacy</a></p>
   <div class="pc-consent__btns"><button type="button" data-pc="decline">Decline</button><button type="button" data-pc="accept">Accept</button></div>
 </div>
+<button type="button" class="pc-pill" id="pc-pill" data-cookie-settings hidden>Cookies</button>
 <style>
-.pc-consent{position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:640px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;padding:16px 20px;background:#2a0a1b;color:#fffbf2;border:1px solid rgba(227,196,107,.45);border-radius:14px;box-shadow:0 18px 40px rgba(20,4,12,.35);font:15px/1.5 "DM Sans",Arial,sans-serif}
-.pc-consent[hidden]{display:none}
-.pc-consent p{flex:1 1 280px;margin:0;color:#fffbf2}
+.pc-consent{position:fixed;left:16px;bottom:16px;z-index:9999;max-width:min(400px,calc(100vw - 32px));display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:10px 12px 10px 14px;background:#2a0a1b;color:#fffbf2;border:1px solid rgba(227,196,107,.45);border-radius:12px;box-shadow:0 10px 26px rgba(20,4,12,.3);font:13px/1.45 "DM Sans",Arial,sans-serif}
+.pc-consent[hidden],.pc-pill[hidden]{display:none}
+.pc-consent p{flex:1 1 180px;margin:0;color:#fffbf2}
 .pc-consent a{color:#f1d486;text-decoration:underline}
-.pc-consent__btns{display:flex;gap:10px}
-.pc-consent button{min-height:44px;padding:0 18px;border-radius:999px;font:600 14px/1 "DM Sans",Arial,sans-serif;cursor:pointer;border:1px solid #e3c46b}
+.pc-consent__btns{display:flex;gap:8px}
+.pc-consent button,.pc-pill{min-height:36px;padding:0 14px;border-radius:999px;font:600 13px/1 "DM Sans",Arial,sans-serif;cursor:pointer;border:1px solid #e3c46b}
 .pc-consent [data-pc="decline"]{background:transparent;color:#fffbf2}
 .pc-consent [data-pc="accept"]{background:#e3c46b;color:#2a0a1b}
-.pc-consent button:focus-visible{outline:2px solid #fffbf2;outline-offset:2px}
-@media (max-width:600px){.pc-consent{left:10px;right:10px;bottom:10px;font-size:14px}}
+.pc-pill{position:fixed;left:16px;bottom:16px;z-index:9999;background:#2a0a1b;color:#f1d486;opacity:.85}
+.pc-consent button:focus-visible,.pc-pill:focus-visible{outline:2px solid #fffbf2;outline-offset:2px}
+@media (max-width:600px){.pc-consent,.pc-pill{left:10px;bottom:10px}.pc-consent{max-width:calc(100vw - 86px)}}
 </style>
 <script>
-(function(){var b=document.getElementById('pc-consent');if(!b)return;var k='prasa_cookie_consent',v=null;try{v=localStorage.getItem(k);}catch(e){}
-if(!v)b.hidden=false;
-b.addEventListener('click',function(e){var a=e.target.getAttribute&&e.target.getAttribute('data-pc');if(!a)return;try{localStorage.setItem(k,a==='accept'?'granted':'denied');}catch(x){}b.hidden=true;if(a==='accept'&&window.prasaGA)prasaGA();});
-document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('[data-cookie-settings]');if(t){e.preventDefault();b.hidden=false;}});})();
+(function(){var b=document.getElementById('pc-consent'),p=document.getElementById('pc-pill');if(!b)return;var k='prasa_cookie_consent',v=null,m=null;try{v=localStorage.getItem(k);m=sessionStorage.getItem('prasa_cookie_min');}catch(e){}
+function mini(){b.hidden=true;if(p)p.hidden=false;try{sessionStorage.setItem('prasa_cookie_min','1');}catch(e){}}
+if(!v){if(m){if(p)p.hidden=false;}else{b.hidden=false;setTimeout(function(){if(!b.hidden)mini();},60000);}}
+b.addEventListener('click',function(e){var a=e.target.getAttribute&&e.target.getAttribute('data-pc');if(!a)return;try{localStorage.setItem(k,a==='accept'?'granted':'denied');}catch(x){}b.hidden=true;if(p)p.hidden=true;if(a==='accept'&&window.prasaGA)prasaGA();});
+document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('[data-cookie-settings]');if(t){e.preventDefault();b.hidden=false;if(p)p.hidden=true;}});})();
 </script>
 <?php
 }
