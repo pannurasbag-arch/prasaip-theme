@@ -156,7 +156,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 166 | open | Primary not opened. |
 | 167 | open | Primary not opened. |
 | 168 | open | Primary opened by scan agent 20 Oct 2026. |
-| 169 | drafted | draft/2026-10-20-ipr-discretionary-denial-settled-expectations (20 Oct 2026). Covers items 49 and 146 context. Awaiting owner approval. |
+| 169 | published | https://www.prasaip.com/ipr-discretionary-denial-settled-expectations/ (20 Oct 2026, merged via PR #6, merge c59a340). Hostinger cache purged for .com and .in. Article, Knowledge Centre first card, JPG and WebP 200 on .com and .in, one canonical to .com, index,follow: pass. Post Inspector title, description and image: pass. GSC indexing requested, Bing submitted. LinkedIn NOT posted: the Chrome LinkedIn account has no admin access to the company page. |
 | 170 | open | Primary opened by scan agent 20 Oct 2026 (DMCA holding from secondary). |
 | 171 | open | Primary opened by scan agent 20 Oct 2026. |
 | 172 | open | Primary not opened. |
