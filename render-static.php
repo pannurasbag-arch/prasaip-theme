@@ -28,6 +28,7 @@ function prasa_ip_static_map() {
         'us-patent-eligibility-declarations' => 'us-patent-eligibility-declarations.html',
         'euipo-trademark-design-changes-2026' => 'euipo-trademark-design-changes-2026.html',
         'sep-evidence-india-bansal-philips-claim-mapping' => 'sep-evidence-india-bansal-philips-claim-mapping.html',
+        'ipr-discretionary-denial-settled-expectations' => 'ipr-discretionary-denial-settled-expectations.html',
         'patent-application-abandoned-india-fer-email' => 'patent-application-abandoned-india-fer-email.html',
         'duo-vs-duo-trademark-india-confusion-priority' => 'duo-vs-duo-trademark-india-confusion-priority.html',
         'patent-filing-procedure-in-india-step-by-step-guide' => 'patent-filing-procedure-in-india-step-by-step-guide.html',
