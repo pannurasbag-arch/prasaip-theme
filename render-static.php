@@ -95,6 +95,11 @@ function prasa_ip_transform_static_html($html) {
         $meta = '<meta property="og:image" content="' . $share . '"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="PRASA IP, intellectual property attorneys"><meta name="twitter:image" content="' . $share . '">';
         $html = preg_replace('#</head>#', $meta . '</head>', $html, 1);
     }
+    // Show the last-updated date from the article schema next to the published date.
+    if (strpos($html, 'class="article-meta"') !== false && strpos($html, '>Updated ') === false && preg_match('/"dateModified":"(\d{4}-\d{2}-\d{2})/', $html, $dm)) {
+        $updated = '<span>Updated ' . esc_html(date_i18n('j F Y', strtotime($dm[1]))) . '</span>';
+        $html = preg_replace('#(<div class="article-meta"><span>Published [^<]*</span>)#', '$1' . $updated, $html, 1);
+    }
     $html = preg_replace_callback('/href="([a-z0-9-]+)\.html(#[^"]*)?"/i', function ($match) use ($home) {
         $slug = $match[1] === 'index' ? '' : ($match[1] === 'firm' ? 'about-us' : $match[1]);
         $fragment = isset($match[2]) ? $match[2] : '';

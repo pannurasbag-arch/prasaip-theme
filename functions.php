@@ -369,3 +369,27 @@ add_filter('authenticate', function ($user, $username = '') {
 add_action('wp_login', function ($user_login) {
     delete_transient(prasa_ip_login_key($user_login));
 });
+
+/* ---------- Search engines and AI answers (2026-10-20) ---------- */
+
+// IndexNow key file (https://www.prasaip.com/<key>.txt) so Bing and others accept change pings.
+add_action('init', function () {
+    $key = 'f1f4c68906784923a503ba35cbbdc26c';
+    $path = isset($_SERVER['REQUEST_URI']) ? (string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH) : '';
+    if ($path === '/' . $key . '.txt') {
+        status_header(200);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo $key;
+        exit;
+    }
+}, 0);
+
+// Merge duplicate pages: older "choosing a lawyer in Bengaluru" pages point to the current Bengaluru page.
+add_action('template_redirect', function () {
+    $path = isset($_SERVER['REQUEST_URI']) ? trim((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH), '/') : '';
+    $old = array('choose-the-best-patent-attorney-in-bangalore', 'choosing-the-right-intellectual-property-lawyer-in-bengaluru');
+    if (in_array($path, $old, true)) {
+        wp_safe_redirect(home_url('/ip-law-firm-bengaluru/'), 301);
+        exit;
+    }
+}, 1);
