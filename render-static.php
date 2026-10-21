@@ -48,6 +48,7 @@ function prasa_ip_static_map() {
         'process-patent-infringement-india-nocil-v-finorchem' => 'process-patent-infringement-india-nocil-v-finorchem.html',
         'ai-training-fair-use-thomson-reuters-v-ross' => 'ai-training-fair-use-thomson-reuters-v-ross.html',
         'upc-pmac-frand-guidelines' => 'upc-pmac-frand-guidelines.html',
+        'uk-sep-consultation-response-frand' => 'uk-sep-consultation-response-frand.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
