@@ -130,7 +130,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 140 | open | Primary opened by scan agent 14 Oct 2026. |
 | 141 | published | Covered in https://www.prasaip.com/patent-application-abandoned-india-fer-email/ (19 Oct 2026, see item 157). |
 | 142 | open | Primary opened by scan agent 14 Oct 2026. |
-| 143 | open | Primary opened by scan agent 15 Oct 2026. |
+| 143 | drafted | Branch draft/2026-10-21-uk-sep-consultation-response-frand (21 Oct 2026, pushed via GitHub web upload). Slug /uk-sep-consultation-response-frand/. Awaiting owner approval. Primary (government response) opened 21 Oct 2026. Consultation ran 15 Jul to 7 Oct 2025. |
 | 144 | open | Primary opened by scan agent 15 Oct 2026. |
 | 145 | open | Primary opened by scan agent 15 Oct 2026. |
 | 146 | open | Primary (docket) opened by scan agent 15 Oct 2026; BIO not opened. |
@@ -162,6 +162,12 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 172 | open | Primary not opened. |
 | 173 | open | Primary not opened. |
 | 174 | open | Primary not opened. |
+| 175 | open | Primary not opened. |
+| 176 | open | Primary not opened. |
+| 177 | open | Primary not opened. |
+| 178 | open | Primary not opened. |
+| 179 | open | Primary not opened. |
+| 180 | open | Primary not opened. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -1775,6 +1781,54 @@ Scan notes (19 Oct 2026): No new India SEP ruling (pro tem deposit or otherwise)
 - **Why it matters:** May set limits on celebrity deepfake suits (compare items 4, 76, 135).
 - **Primary source:** Delhi HC order (not opened) · **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-12-october-18-2026-555329
 - **Weekday lens:** Thu · **Priority:** Low
+
+## Detailed entries added 21 October 2026 (weekday scan)
+
+### 175. Align Technology v Angelalign (UPC Paris Local Division, EP 2 237 738 B1): merits decision after PI
+- **Date:** 16 Oct 2026 (reported 19 Oct) · **Jurisdiction:** UPC (Paris LD) · **Area:** Patents / medical devices, PI to merits
+- **Summary:** Paris LD reportedly upheld Align's "Power Ridge" patent, found Angelalign's "Torque Ridges" aligners infringing and ordered an injunction across UPC states with recall, destruction and damages. Appealable. Angelalign says the feature was discontinued. Follows the CoA PI ruling of 8 Jul 2026 (UPC-CoA-36/2026, not verified). Case number not verified.
+- **Why it matters:** Shows the UPC PI to merits path against a Chinese defendant.
+- **Primary not opened** (press report only: https://www.rttnews.com/3699883/align-technology-wins-upc-patent-case-against-angelalign.aspx) · **Secondary:** https://www.placera.se/pressmeddelanden/paris-court-ruling-on-discontinued-feature-will-have-minimal-impact-on-angelalign-customers-20261016 ; JUVE Patent
+- **Weekday lens:** Wed · **Priority:** High
+
+### 176. DivX v Netflix: EPO reportedly revokes streaming patent that UPC Munich LD upheld
+- **Date:** EPO revocation reported 20 Oct 2026; UPC Munich LD injunction 16 Sep 2026 · **Jurisdiction:** EPO / UPC · **Area:** Patents / parallel validity
+- **Summary:** JUVE reports EPO revocation of a DivX streaming patent; UPC Munich LD had found it valid and infringed and barred Netflix in 18 states. Not verified: EPO body, patent number, whether the same patent.
+- **Why it matters:** EPO and UPC reaching opposite results on one patent; stays and enforcement risk.
+- **Primary not opened** · **Secondary:** JUVE Patent (20 Oct 2026); https://www.lawxyai.com/news/netflix-barred-from-streaming-software-in-18-eu-states-by-upc
+- **Weekday lens:** Wed · **Priority:** High
+
+### 177. In Re Exorbitant Pricing of Life Saving Patented Medicines v Union of India (Kerala HC, WP(C) 18999/2022, 2026:KER:74251)
+- **Date:** c. 28 Sep 2026 (SpicyIP 12 Oct) · **Jurisdiction:** India (Kerala HC, Harisankar V. Menon J) · **Area:** Patents / government use s.100
+- **Summary:** Held that s.100 allows the Government to make a patented medicine and supply it non commercially to needy patients. Centre directed to gather affordability data and act under s.100 if needed. No order to use s.100 for ribociclib itself.
+- **Why it matters:** Rare judicial endorsement of s.100 government use as a pricing tool.
+- **Primary not opened** (reporter: https://www.verdictum.in/kerala-high-court/in-re-exorbitant-pricing-of-life-saving-patented-medicines-2026ker74251-breast-cancer-drug-cost-patent-1622910) · **Secondary:** https://www.barandbench.com/news/government-can-invoke-compulsory-licensing-under-patents-act-to-make-breast-cancer-drugs-affordable-kerala-high-court
+- **Weekday lens:** Mon · **Priority:** High
+
+### 178. Linden v ResMed (Fed. Cir., docket not verified): s.101 dismissal of telehealth method claims affirmed
+- **Date:** 16 Oct 2026 · **Jurisdiction:** US (CAFC) · **Area:** Patent eligibility
+- **Summary:** Affirmed dismissal of claims to treating patients using remote devices as ineligible under s.101.
+- **Why it matters:** Continues the run of s.101 losses for digital health method claims.
+- **Primary not opened** · **Secondary:** IPWatchdog
+- **Weekday lens:** Tue · **Priority:** Medium
+
+### 179. Louis Vuitton Malletier v Kamad Reworked (Paris Judicial Court, RG not verified): upcycling
+- **Date:** 17 Sep 2026 (IPKat 20 Oct) · **Jurisdiction:** France · **Area:** Trade marks / upcycling, exhaustion
+- **Summary:** Court sided with Vuitton against unauthorised upcycling of branded goods into new products.
+- **Why it matters:** EU circular economy and exhaustion debate.
+- **Primary not opened** · **Secondary:** https://ipkitten.blogspot.com/
+- **Weekday lens:** Thu · **Priority:** Low
+
+### 180. EPO Board of Appeal T 1168/24: reformatio in peius applies despite a procedural violation
+- **Date:** reported 16 Oct 2026 (decision date not verified) · **Jurisdiction:** EPO · **Area:** Appeal procedure
+- **Summary:** Board held the prohibition of reformatio in peius still applied despite a procedural violation.
+- **Why it matters:** Opposition appeal strategy.
+- **Primary not opened** · **Secondary:** https://ipkitten.blogspot.com/
+- **Weekday lens:** Wed · **Priority:** Low
+
+Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is item 168 (Valtrus). Item 143 date conflict resolved: consultation ran 15 Jul to 7 Oct 2025 (not 2026), 47 questions, 93 responses (government response opened 21 Oct 2026).
+
+---
 
 ## Notes
 
