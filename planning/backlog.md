@@ -130,7 +130,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 140 | open | Primary opened by scan agent 14 Oct 2026. |
 | 141 | published | Covered in https://www.prasaip.com/patent-application-abandoned-india-fer-email/ (19 Oct 2026, see item 157). |
 | 142 | open | Primary opened by scan agent 14 Oct 2026. |
-| 143 | published | https://www.prasaip.com/uk-sep-consultation-response-frand/ (21 Oct 2026, merged via PR #7, merge 483ae88). Hostinger cache purged for .com and .in. Article, Knowledge Centre card, JPG and WebP 200 on .com and .in, one canonical to .com, index,follow. Post Inspector preview OK with image. GSC indexing requested 21 Oct. LinkedIn NOT posted: the LinkedIn account signed in to Chrome has no admin access to company page 96101214. Bing URL submission skipped: the Bing account signed in has no verified site (IndexNow ping runs on deploy). |
+| 143 | published | https://www.prasaip.com/uk-sep-consultation-response-frand/ (21 Oct 2026, merged via PR #7, merge 483ae88). Hostinger cache purged for .com and .in. Article, Knowledge Centre card, JPG and WebP 200 on .com and .in, one canonical to .com, index,follow. Post Inspector preview OK with image. GSC indexing requested 21 Oct. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7518544973605048320/ (posted by owner as the page 21 Oct 2026; both mentions link to the correct profiles; image preview shown). Bing URL submission skipped: the Bing account signed in has no verified site (IndexNow ping runs on deploy). |
 | 144 | open | Primary opened by scan agent 15 Oct 2026. |
 | 145 | open | Primary opened by scan agent 15 Oct 2026. |
 | 146 | open | Primary (docket) opened by scan agent 15 Oct 2026; BIO not opened. |
