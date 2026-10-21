@@ -396,3 +396,52 @@ add_action('template_redirect', function () {
         exit;
     }
 }, 1);
+
+// IndexNow: after each deploy, tell Bing and other IndexNow engines which pages were added or changed.
+// Compares a hash of every static page with the last deploy; the first run only records the hashes.
+function prasa_ip_indexnow_on_new_build() {
+    $fingerprint = prasa_ip_theme_fingerprint();
+    if (get_option('prasa_ip_indexnow_fp') === $fingerprint) {
+        return;
+    }
+    // One request handles a deploy; others skip while it runs.
+    if (get_transient('prasa_ip_indexnow_lock')) {
+        return;
+    }
+    set_transient('prasa_ip_indexnow_lock', 1, MINUTE_IN_SECONDS);
+    update_option('prasa_ip_indexnow_fp', $fingerprint, false);
+
+    $dir = get_template_directory() . '/static/';
+    $pages = array('' => 'index.html') + prasa_ip_static_map();
+    $old = get_option('prasa_ip_indexnow_hashes', null);
+    $new = array();
+    $changed = array();
+    foreach ($pages as $slug => $file) {
+        if (!is_readable($dir . $file)) {
+            continue;
+        }
+        $hash = md5_file($dir . $file);
+        $new[$slug] = $hash;
+        if (is_array($old) && (!isset($old[$slug]) || $old[$slug] !== $hash)) {
+            $changed[] = home_url('/' . ($slug === '' ? '' : $slug . '/'));
+        }
+    }
+    update_option('prasa_ip_indexnow_hashes', $new, false);
+    if (!is_array($old) || !$changed) {
+        return;
+    }
+    $key = 'f1f4c68906784923a503ba35cbbdc26c';
+    $host = wp_parse_url(home_url('/'), PHP_URL_HOST);
+    wp_remote_post('https://api.indexnow.org/indexnow', array(
+        'blocking' => false,
+        'timeout'  => 3,
+        'headers'  => array('Content-Type' => 'application/json; charset=utf-8'),
+        'body'     => wp_json_encode(array(
+            'host'        => $host,
+            'key'         => $key,
+            'keyLocation' => home_url('/' . $key . '.txt'),
+            'urlList'     => array_slice($changed, 0, 1000),
+        )),
+    ));
+}
+add_action('wp_loaded', 'prasa_ip_indexnow_on_new_build', 20);
