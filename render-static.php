@@ -49,6 +49,7 @@ function prasa_ip_static_map() {
         'ai-training-fair-use-thomson-reuters-v-ross' => 'ai-training-fair-use-thomson-reuters-v-ross.html',
         'upc-pmac-frand-guidelines' => 'upc-pmac-frand-guidelines.html',
         'uk-sep-consultation-response-frand' => 'uk-sep-consultation-response-frand.html',
+        'ai-trade-mark-squatting-guidelines-india' => 'ai-trade-mark-squatting-guidelines-india.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
