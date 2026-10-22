@@ -390,7 +390,7 @@ add_action('init', function () {
 // Merge duplicate pages: older "choosing a lawyer in Bengaluru" pages point to the current Bengaluru page.
 add_action('template_redirect', function () {
     $path = isset($_SERVER['REQUEST_URI']) ? trim((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH), '/') : '';
-    $old = array('choose-the-best-patent-attorney-in-bangalore', 'choosing-the-right-intellectual-property-lawyer-in-bengaluru');
+    $old = array('choose-the-best-patent-attorney-in-bangalore');
     if (in_array($path, $old, true)) {
         wp_safe_redirect(home_url('/ip-law-firm-bengaluru/'), 301);
         exit;
