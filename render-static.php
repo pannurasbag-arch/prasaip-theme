@@ -172,7 +172,7 @@ function prasa_ip_render_static($file) {
         $publisher = '"publisher":{"@type":"LegalService","name":"PRASA IP"}';
         $logo = esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo-r.webp');
         $site_url = esc_url(home_url('/'));
-        $with_logo = '"publisher":{"@type":"LegalService","name":"PRASA IP","url":"' . $site_url . '","logo":{"@type":"ImageObject","url":"' . $logo . '"}}';
+        $with_logo = '"publisher":{"@type":"Organization","name":"PRASA IP","url":"' . $site_url . '","logo":{"@type":"ImageObject","url":"' . $logo . '"}}';
         $html = str_replace($publisher, $with_logo, $html);
     }
     // Rank Math supplies these tags. Keep one authoritative set in the rendered head.
@@ -203,7 +203,7 @@ function prasa_ip_render_static($file) {
     wp_footer();
     $footer = ob_get_clean();
     $html = str_replace('</body>', $footer . '</body>', $html);
-    echo $html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+    /* Google treats a LegalService without an address as an incomplete local business. Name the firm as an Organization wherever it is only referenced (publisher, provider, employer). */ if (!is_front_page()) { $html = preg_replace_callback('#\{"@type":"LegalService",[^{}]*\}#', function ($m) { return str_replace('"@type":"LegalService"', '"@type":"Organization"', $m[0]); }, $html); } echo $html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 }
 
 function prasa_ip_extract_static_content($file, $element) {
