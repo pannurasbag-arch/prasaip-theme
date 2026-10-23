@@ -32,7 +32,7 @@ function prasa_ip_cookie_notice() {
 </div>
 <button type="button" class="pc-pill" id="pc-pill" data-cookie-settings hidden>Cookies</button>
 <style>
-.pc-consent{position:fixed;left:16px;bottom:16px;z-index:9999;max-width:min(400px,calc(100vw - 32px));display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:10px 12px 10px 14px;background:#2a0a1b;color:#fffbf2;border:1px solid rgba(227,196,107,.45);border-radius:12px;box-shadow:0 10px 26px rgba(20,4,12,.3);font:13px/1.45 "DM Sans",Arial,sans-serif}
+.pc-consent{position:fixed;right:88px;bottom:16px;z-index:9999;max-width:min(400px,calc(100vw - 32px));display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:10px 12px 10px 14px;background:#2a0a1b;color:#fffbf2;border:1px solid rgba(227,196,107,.45);border-radius:12px;box-shadow:0 10px 26px rgba(20,4,12,.3);font:13px/1.45 "DM Sans",Arial,sans-serif}
 .pc-consent[hidden],.pc-pill[hidden]{display:none}
 .pc-consent p{flex:1 1 180px;margin:0;color:#fffbf2}
 .pc-consent a{color:#f1d486;text-decoration:underline}
@@ -40,14 +40,14 @@ function prasa_ip_cookie_notice() {
 .pc-consent button,.pc-pill{min-height:36px;padding:0 14px;border-radius:999px;font:600 13px/1 "DM Sans",Arial,sans-serif;cursor:pointer;border:1px solid #e3c46b}
 .pc-consent [data-pc="decline"]{background:transparent;color:#fffbf2}
 .pc-consent [data-pc="accept"]{background:#e3c46b;color:#2a0a1b}
-.pc-pill{position:fixed;left:16px;bottom:16px;z-index:9999;background:#2a0a1b;color:#f1d486;opacity:.85}
+.pc-pill{position:fixed;right:88px;bottom:16px;z-index:9999;background:#2a0a1b;color:#f1d486;opacity:.85}
 .pc-consent button:focus-visible,.pc-pill:focus-visible{outline:2px solid #fffbf2;outline-offset:2px}
-@media (max-width:600px){.pc-consent,.pc-pill{left:10px;bottom:10px}.pc-consent{max-width:calc(100vw - 86px)}}
+@media (max-width:600px){.pc-consent{left:10px;right:auto;bottom:10px;max-width:calc(100vw - 86px)}.pc-pill{right:74px;bottom:10px}}
 </style>
 <script>
 (function(){var b=document.getElementById('pc-consent'),p=document.getElementById('pc-pill');if(!b)return;var k='prasa_cookie_consent',v=null,m=null;try{v=localStorage.getItem(k);m=sessionStorage.getItem('prasa_cookie_min');}catch(e){}
 function mini(){b.hidden=true;if(p)p.hidden=false;try{sessionStorage.setItem('prasa_cookie_min','1');}catch(e){}}
-if(!v){if(m){if(p)p.hidden=false;}else{b.hidden=false;setTimeout(function(){if(!b.hidden)mini();},60000);}}
+if(!v){if(m){if(p)p.hidden=false;}else{var s=function(){b.hidden=false;setTimeout(function(){if(!b.hidden)mini();},60000);};if(window.innerWidth<1024&&window.scrollY<120){var f=function(){if(window.scrollY>=120){window.removeEventListener('scroll',f);s();}};window.addEventListener('scroll',f,{passive:true});}else{s();}}}
 b.addEventListener('click',function(e){var a=e.target.getAttribute&&e.target.getAttribute('data-pc');if(!a)return;try{localStorage.setItem(k,a==='accept'?'granted':'denied');}catch(x){}b.hidden=true;if(p)p.hidden=true;if(a==='accept'&&window.prasaGA)prasaGA();});
 document.addEventListener('click',function(e){var t=e.target.closest&&e.target.closest('[data-cookie-settings]');if(t){e.preventDefault();b.hidden=false;if(p)p.hidden=true;}});})();
 </script>
