@@ -168,6 +168,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 178 | open | Primary not opened. |
 | 179 | open | Primary not opened. |
 | 180 | open | Primary not opened. |
+| 181 | published | https://www.prasaip.com/worldwide-copyright-termination-bmg-v-vetter/ (23 Oct 2026, merged via PR #9, merge f3d5c79). Run in the owner session. Hostinger cache purged for .com and .in. Article, Knowledge Centre card, JPG and WebP 200 on .com and .in, one canonical to .com, no noindex. GSC indexing requested 23 Oct. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7519246998567288832/ (posted as the page; both mentions link to the correct profiles; image preview shown). Bing skipped. |
+| 182 | open | Secondary only (Digital Music News, ChatGPT Is Eating the World); complaints not opened. |
+| 183 | open | Watch item; no ruling yet. |
+| 184 | open | Primary not opened (LiveLaw Biz only). |
+| 185 | open | Primary opened by scan agent 23 Oct 2026. |
+| 186 | open | Primary opened by scan agent 23 Oct 2026. |
+| 187 | open | Primary not opened (Law360 paywalled). |
+| 188 | open | Primary not opened (LiveLaw Biz digest only). |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -1829,6 +1837,62 @@ Scan notes (19 Oct 2026): No new India SEP ruling (pro tem deposit or otherwise)
 Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is item 168 (Valtrus). Item 143 date conflict resolved: consultation ran 15 Jul to 7 Oct 2025 (not 2026), 47 questions, 93 responses (government response opened 21 Oct 2026).
 
 ---
+
+## Detailed entries added 23 October 2026 (weekday scan)
+
+### 181. BMG Rights Management v Vetter (US S. Ct. No. 25-1391): Fifth Circuit worldwide termination ruling affirmed for lack of quorum
+- **Date:** 19 Oct 2026 · **Jurisdiction / forum:** US Supreme Court; Fifth Circuit No. 25-30108 (12 Jan 2026) · **Area:** Copyright (termination and renewal)
+- **Summary:** Sotomayor, Gorsuch, Barrett and Jackson JJ took no part, so the Court lacked a quorum and affirmed under 28 U.S.C. 2109. The Fifth Circuit held that a s.304(c) termination recaptures the author's rights throughout the world, and that 1909 Act renewal rights are worldwide.
+- **Why it matters:** Worldwide recapture now applies in the Fifth Circuit; the question is open elsewhere.
+- **Primary source:** https://www.supremecourt.gov/orders/courtorders/101926zor_q8l1.pdf ; https://www.ca5.uscourts.gov/opinions/pub/25/25-30108-CV0.pdf (both opened) · **Secondary:** https://ipwatchdog.com/2026/10/21/scotus-summarily-affirms-fifth-circuit-judgment-on-worldwide-copyright-reversion/
+- **Weekday lens:** Fri · **Priority:** High
+
+### 182. Reservoir Media v Suno and v Anthropic (N.D. Cal. 3:26-cv-12305 and 5:26-cv-12308)
+- **Date:** 21 Oct 2026 · **Jurisdiction / forum:** US, N.D. Cal. · **Area:** AI and copyright, DMCA 1201/1202
+- **Summary:** Music publisher suits over 1,050 works (Suno) and 853 works (Anthropic), pairing infringement with circumvention and CMI removal claims. Same week: individual author suits against Meta.
+- **Why it matters:** Shift to individual suits combining output and DMCA claims.
+- **Primary source:** complaints not opened · **Secondary:** https://www.digitalmusicnews.com/2026/10/22/reservoir-media-suno-anthropic-lawsuit/
+- **Weekday lens:** Fri · **Priority:** High
+
+### 183. Concord Music v Anthropic: summary judgment on fair use argued (N.D. Cal., Judge Eumi Lee)
+- **Date:** 21 Oct 2026 · **Jurisdiction / forum:** US, N.D. Cal. · **Area:** AI and copyright
+- **Summary:** Summary judgment and Daubert motions on fair use for training on lyrics heard. No ruling reported.
+- **Why it matters:** Next US fair use ruling on training data after Bartz and Kadrey.
+- **Primary source:** docket not checked · **Secondary:** https://chatgptiseatingtheworld.com/category/concord-music-v-anthropic/
+- **Weekday lens:** Fri · **Priority:** Medium (watch)
+
+### 184. Godrej v Geeken (Delhi HC, CS(COMM) 424/2024, 2026 LLBiz HC(DEL) 1151): no contempt over registered designs
+- **Date:** order 13 Oct 2026 · **Jurisdiction / forum:** Delhi HC (Justice Purushaindra Kumar Kaurav) · **Area:** Designs
+- **Summary:** Undertaking covered stopping manufacture only, so a sales restraint could not be read into it in contempt. Disobedience under O.39 R.2A must be conclusively established.
+- **Why it matters:** Undertakings must expressly cover sale and existing stock.
+- **Primary source:** judgment not opened · **Secondary:** https://www.livelawbiz.com/design/delhi-high-court-rejects-godrej-contempt-plea-against-geeken-seating-in-design-infringement-case-555495
+- **Weekday lens:** Fri · **Priority:** Medium
+
+### 185. EUIPO and Commission 2025 enforcement report: record EUR 6.3bn of detained counterfeits
+- **Date:** 22 Oct 2026 · **Jurisdiction / forum:** EU · **Area:** Enforcement
+- **Summary:** Over 196m articles detained in 2025; China about 41 percent of border detentions; trade marks 57 percent, copyright 43 percent, designs 7 percent by right infringed.
+- **Why it matters:** Current EU customs and enforcement figures for clients.
+- **Primary source:** https://euipo.europa.eu/tunnel-web/secure/webdav/guest/document_library/observatory/documents/reports/2026_EU_Enforcement_report/2025_Joint_Report_on_IPRs_enforcement_en.pdf (opened) · **Secondary:** https://ipwatchdog.com/2026/10/22/euipo-european-commission-report-says-value-of-detained-counterfeits-hit-record-high-in-2025/
+- **Weekday lens:** Tue · **Priority:** Medium
+
+### 186. WIPO extends CLIP creators' rights resource to visual artists
+- **Date:** 14 Oct 2026 · **Jurisdiction / forum:** WIPO · **Area:** Copyright, creators
+- **Summary:** Free CLIP resource now covers painters, sculptors, illustrators, photographers and muralists in seven languages.
+- **Why it matters:** Official resource to point creative clients to.
+- **Primary source:** https://www.wipo.int/pressroom/en/articles/2026/article_0016.html (opened)
+- **Weekday lens:** Fri · **Priority:** Medium
+
+### 187. Insulet v EOFlow: Federal Circuit denies rehearing of reversal of USD 59.4m trade secret verdict
+- **Date:** reported 19 Oct 2026 (order date not confirmed) · **Jurisdiction / forum:** US Federal Circuit · **Area:** Trade secrets
+- **Summary:** Rehearing refused; May 2026 panel reversal stands.
+- **Primary source:** not opened · **Secondary:** https://www.law360.com/articles/2539582
+- **Weekday lens:** Fri · **Priority:** Medium
+
+### 188. Madras HC anti piracy orders: Jailer 2 (Sun TV) and Ranaballi (Mythri Movie Makers)
+- **Date:** 15 Oct 2026 · **Jurisdiction / forum:** Madras HC (Justice P.B. Balaji) · **Area:** Copyright, online piracy
+- **Summary:** Pre release injunction and ISP blocking including mirror, redirect and alphanumeric variants.
+- **Primary source:** orders not opened · **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-12-october-18-2026-555329
+- **Weekday lens:** Fri · **Priority:** Medium
 
 ## Notes
 
