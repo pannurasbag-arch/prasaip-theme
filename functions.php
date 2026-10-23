@@ -387,7 +387,7 @@ add_action('init', function () {
     }
 }, 0);
 
-// Merge duplicate pages: older "choosing a lawyer in Bengaluru" pages point to the current Bengaluru page.
+/* llms.txt: plain-text summary of the firm for AI tools, served from the theme. */ add_action('init', function () { $path = isset($_SERVER['REQUEST_URI']) ? (string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH) : ''; $file = get_template_directory() . '/static/llms.txt'; if ($path === '/llms.txt' && is_readable($file)) { status_header(200); header('Content-Type: text/plain; charset=utf-8'); readfile($file); exit; } }, 0); // Merge duplicate pages: older "choosing a lawyer in Bengaluru" pages point to the current Bengaluru page.
 add_action('template_redirect', function () {
     $path = isset($_SERVER['REQUEST_URI']) ? trim((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH), '/') : '';
     $old = array('choose-the-best-patent-attorney-in-bangalore');
