@@ -50,6 +50,7 @@ function prasa_ip_static_map() {
         'upc-pmac-frand-guidelines' => 'upc-pmac-frand-guidelines.html',
         'uk-sep-consultation-response-frand' => 'uk-sep-consultation-response-frand.html',
         'ai-trade-mark-squatting-guidelines-india' => 'ai-trade-mark-squatting-guidelines-india.html',
+        'worldwide-copyright-termination-bmg-v-vetter' => 'worldwide-copyright-termination-bmg-v-vetter.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
