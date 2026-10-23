@@ -119,7 +119,7 @@ function prasa_ip_render_static($file) {
         return;
     }
     add_filter('rank_math/frontend/disable', '__return_true');
-    $raw = file_get_contents($path);
+    $raw = prasa_ip_add_related_articles(file_get_contents($path), basename($file));
     // Use each page's own curated description wherever Rank Math prints one.
     if (preg_match('/<meta\\s+name="description"\\s+content="([^"]*)"/i', $raw, $desc_match)) {
         $own_description = html_entity_decode($desc_match[1], ENT_QUOTES, 'UTF-8');
@@ -221,7 +221,7 @@ function prasa_ip_extract_static_content($file, $element) {
     return '';
 }
 
-// BreadcrumbList structured data built from the page's visible breadcrumb trail.
+/* Related articles: three articles from the Knowledge Centre that share topic words with this one. */ function prasa_ip_related_words($text) { $stop = array('GUIDE','AND','THE','OF','IN','VS','TO','FOR','ON','AFTER','WHAT','HOW','WHO','CAN','ONE','TWO','STEP','BY','INDIA','US','UK','EU','EUROPE','EUROPEAN','UNION','UNITED','STATES','2026','2025','IS','AN','IT','WHEN','NAME','USE','USING'); $out = array(); foreach (preg_split('/[^A-Z0-9]+/', strtoupper(html_entity_decode($text, ENT_QUOTES, 'UTF-8'))) as $w) { if (strlen($w) < 2 || in_array($w, $stop, true)) { continue; } if (strlen($w) > 3 && substr($w, -1) === 'S') { $w = substr($w, 0, -1); } $out[$w] = true; } return array_keys($out); } function prasa_ip_add_related_articles($raw, $file) { if ($file === 'knowledge-centre.html' || strpos($raw, '<article class="article"') === false || strpos($raw, 'class="related-articles"') !== false) { return $raw; } $kc = get_template_directory() . '/static/knowledge-centre.html'; if (!is_readable($kc)) { return $raw; } preg_match_all('#<article class="blog-card"><p class="eyebrow">([^<]*)</p><h3><a href="([^"]+)">([^<]+)</a></h3>#', file_get_contents($kc), $cards, PREG_SET_ORDER); $self = null; $items = array(); foreach ($cards as $i => $c) { $slug = preg_replace('#^https://www\.prasaip\.com/|/$|\.html$#', '', $c[2]); $item = array('href' => $c[2], 'title' => $c[3], 'slug' => $slug, 'order' => $i, 'words' => prasa_ip_related_words($c[1] . ' ' . $c[3])); if ($slug . '.html' === $file) { $self = $item; } else { $items[] = $item; } } if (!$self || count($items) < 3) { return $raw; } foreach ($items as $k => $it) { $items[$k]['score'] = count(array_intersect($self['words'], $it['words'])); $items[$k]['tie'] = sprintf('%u', crc32($self['slug'] . $it['slug'])); } usort($items, function ($a, $b) { if ($a['score'] !== $b['score']) { return $b['score'] - $a['score']; } if ($a['score'] > 0) { return strcmp(str_pad($a['tie'], 10, '0', STR_PAD_LEFT), str_pad($b['tie'], 10, '0', STR_PAD_LEFT)); } return $a['order'] - $b['order']; }); $list = ''; foreach (array_slice($items, 0, 3) as $it) { $list .= '<li><a href="' . esc_attr($it['href']) . '">' . $it['title'] . '</a></li>'; } $block = '<section class="related-articles" aria-label="Related articles"><h2>Related articles</h2><ul>' . $list . '</ul></section>'; $start = strpos($raw, '<article class="article"'); $end = strpos($raw, '</article>', $start); if ($end === false) { return $raw; } return substr($raw, 0, $end) . $block . substr($raw, $end); } // BreadcrumbList structured data built from the page's visible breadcrumb trail.
 function prasa_ip_breadcrumb_schema($raw) {
     if (!preg_match('/<p class="breadcrumbs">(.*?)<\/p>/s', $raw, $trail)) {
         return '';
