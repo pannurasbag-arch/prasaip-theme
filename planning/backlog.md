@@ -176,6 +176,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 186 | open | Primary opened by scan agent 23 Oct 2026. |
 | 187 | open | Primary not opened (Law360 paywalled). |
 | 188 | open | Primary not opened (LiveLaw Biz digest only). |
+| 189 | published | https://www.prasaip.com/patent-filing-cost-india-us-europe/ (24 Oct 2026, Saturday explainer, merged via PR #10, merge 4e6da0f). Target query "patent filing cost in india" (GSC position 25.7). Hostinger cache purged for .com and .in. Article, Knowledge Centre card, JPG and WebP 200 on .com and .in, one canonical to .com, no noindex. GSC indexing requested 24 Oct. Bing URL submitted 24 Oct. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7519633641363161088/ (posted as the page; both mentions link to the correct profiles; image preview shown). Official fees only (IP India First Schedule, USPTO schedule of 19 Jan 2025, EPO RFees from 1 Apr 2026); review fee figures when any office changes its schedule. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -1893,6 +1894,14 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Summary:** Pre release injunction and ISP blocking including mirror, redirect and alphanumeric variants.
 - **Primary source:** orders not opened · **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-12-october-18-2026-555329
 - **Weekday lens:** Fri · **Priority:** Medium
+
+## Detailed entries added 24 October 2026 (Saturday explainer)
+
+### 189. Explainer: patent filing cost in India, the US and Europe (official fees, 2026)
+- **Date:** 24 Oct 2026 · **Jurisdiction / forum:** India, US, EPO · **Area:** Patent procedure and fees
+- **Summary:** Official fees to file, examine, grant and renew at IP India, the USPTO and the EPO, with discount categories and cost tips.
+- **Primary source:** IP India First Schedule (opened); https://www.uspto.gov/learning-and-resources/fees-and-payment/uspto-fee-schedule (opened); https://www.epo.org/en/legal/epc/2020/EPC_rfees_20260401_en_20260326.pdf (opened)
+- **Weekday lens:** Sat · **Priority:** Medium
 
 ## Notes
 
