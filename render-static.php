@@ -51,6 +51,7 @@ function prasa_ip_static_map() {
         'uk-sep-consultation-response-frand' => 'uk-sep-consultation-response-frand.html',
         'ai-trade-mark-squatting-guidelines-india' => 'ai-trade-mark-squatting-guidelines-india.html',
         'worldwide-copyright-termination-bmg-v-vetter' => 'worldwide-copyright-termination-bmg-v-vetter.html',
+        'patent-filing-cost-india-us-europe' => 'patent-filing-cost-india-us-europe.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
