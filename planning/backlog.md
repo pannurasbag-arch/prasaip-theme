@@ -177,6 +177,16 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 187 | open | Primary not opened (Law360 paywalled). |
 | 188 | open | Primary not opened (LiveLaw Biz digest only). |
 | 189 | published | https://www.prasaip.com/patent-filing-cost-india-us-europe/ (24 Oct 2026, Saturday explainer, merged via PR #10, merge 4e6da0f). Target query "patent filing cost in india" (GSC position 25.7). Hostinger cache purged for .com and .in. Article, Knowledge Centre card, JPG and WebP 200 on .com and .in, one canonical to .com, no noindex. GSC indexing requested 24 Oct. Bing URL submitted 24 Oct. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7519633641363161088/ (posted as the page; both mentions link to the correct profiles; image preview shown). Official fees only (IP India First Schedule, USPTO schedule of 19 Jan 2025, EPO RFees from 1 Apr 2026); review fee figures when any office changes its schedule. |
+| 190 | drafted | Branch pannurasbag-arch-patch-1 (web upload; git push refused, so GitHub named the branch; intended draft/2026-10-26-inventive-step-mosaicing-prior-art-india). Article static/inventive-step-mosaicing-prior-art-india.html, map, card, sitemap committed. Images (WebP, JPG) not yet committed: held in artifact https://claude.ai/artifact/SEvEtSiuocRDc8Yp7vASBg . Combined with Esteve (item 161) as contrast. |
+| 191 | open | Primary not opened. |
+| 192 | open | Primary not opened. |
+| 193 | open | Primary not opened. Next listing 29 Oct 2026. |
+| 194 | open | Primary opened by scan agent 26 Oct 2026. Time sensitive: 7 Nov 2026. |
+| 195 | open | Primary not opened. |
+| 196 | open | Primary not opened. |
+| 197 | open | Primary not opened. |
+| 198 | open | Primary PDF not machine readable. |
+| 199 | open | PDF not available 26 Oct 2026. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -1902,6 +1912,118 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Summary:** Official fees to file, examine, grant and renew at IP India, the USPTO and the EPO, with discount categories and cost tips.
 - **Primary source:** IP India First Schedule (opened); https://www.uspto.gov/learning-and-resources/fees-and-payment/uspto-fee-schedule (opened); https://www.epo.org/en/legal/epc/2020/EPC_rfees_20260401_en_20260326.pdf (opened)
 - **Weekday lens:** Sat · **Priority:** Medium
+
+## Detailed entries added 26 October 2026 (weekday scan and Monday 60 day sweep)
+
+### 190. The North Face Apparel Corp v Controller of Patents and Designs (Madras HC, CMA(PT) No. 22 of 2025; 2026 LLBiz HC (MAD) 329): refusal set aside and grant ordered
+- **Date:** 16 Oct 2026 (order). Reported 23 Oct 2026.
+- **Jurisdiction / forum:** India, Madras High Court (Justice K. Kumaresh Babu), appeal under s.117A
+- **Area:** Patents (inventive step, computer implemented and manufacturing systems)
+- **Summary:** The Controller refused application 202147026139 ("Systems and Methods for End-to-End Article Management") on 16 April 2025 by combining cited documents D21 to D24. The court held that the examiner dissected the invention and compared features one by one instead of assessing the invention as a whole. It found that the use of invisible markers read by a spectrophotometer to track manufacturing and detect discrepancies was overlooked, and that D22 (optically readable codes) was not common general knowledge that could displace it. The refusal was called "wholly unsustainable". The court set it aside and directed the Controller to grant the patent instead of remanding.
+- **Why it matters:** It is a clear judicial rebuke of mosaicing several documents to reject inventive step, and a rare case where the court directs grant outright. Useful for applicants answering multi document obviousness objections in Chennai and elsewhere.
+- **Primary source:** https://www.livelawbiz.com/pdf_upload/2026/10/23/the-north-face-apparel-707903.pdf (Primary opened 26 Oct 2026; reserved 14 Jul 2026, pronounced 16 Oct 2026)
+- **Secondary source:** https://www.livelawbiz.com/patent/madras-high-court-sets-aside-patent-refusal-to-the-north-face-for-garment-management-system-555750
+- **Weekday lens:** Mon
+- **Priority:** High
+
+### 191. Atomberg Technologies Pvt Ltd v Stove Kraft Ltd (Bombay HC DB, Commercial Appeal (L) No. 14941 of 2026; 2026 LLBiz HC(BOM) 597): fan design injunction restored
+- **Date:** Reported 23 Oct 2026 (judgment date not stated in the report)
+- **Jurisdiction / forum:** India, Bombay High Court, Division Bench of Justice Bharati Dangre and Justice Manjusha Deshpande
+- **Area:** Designs and passing off
+- **Summary:** The single judge had refused interim relief on 17 April 2026. The Division Bench allowed the appeal and restored the July 2025 ad interim injunction and the Court Receiver order. It applied the "eye" test to the designs as a whole and refused to break them into minute differences. The novelty lay in the petal shaped blades and their configuration (Design No. 325322-001, Class 23-04, registered 1 January 2020). The Z shaped shaft did not help Stove Kraft because it was not claimed as novel. Stove Kraft produced no prior art showing the combination of features. Passing off was also made out on goodwill evidence and likely confusion through shared online channels.
+- **Why it matters:** An appellate statement on how Indian courts compare registered designs and treat unclaimed features, plus a reminder that passing off can run alongside a design claim. Damages of INR 110 crore are claimed.
+- **Primary source:** Not opened (Primary not opened)
+- **Secondary source:** https://www.livelawbiz.com/design/bombay-high-court-restores-injunction-to-protect-atombergs-fan-design-from-imitation-by-stove-kraft-555780
+- **Weekday lens:** Thu
+- **Priority:** High
+
+### 192. Sukhwinder Kaur @ Radhe Maa v Google LLC (Bombay HC, Leave Petition (L) No. 34593 of 2026; 2026 LLBiz HC(BOM) 598): leave under Clause XII for online personality rights suit
+- **Date:** 9 Oct 2026 (order). Reported 24 Oct 2026.
+- **Jurisdiction / forum:** India, Bombay High Court (Justice Abhay Ahuja)
+- **Area:** Personality rights, jurisdiction
+- **Summary:** The petitioner sought leave under Clause XII of the Letters Patent to sue Google and others in Bombay over online disparagement and misuse of her persona. She relied on residence and activities in Mumbai, accessibility of the content there, platforms earning advertising revenue from local users, and reputational harm suffered locally. The court granted leave. The order decides only jurisdiction and not the merits.
+- **Why it matters:** It shows the Bombay High Court accepting that part of the cause of action arises where online content is accessed and harm is felt. This matters as personality rights claimants choose between Delhi and Bombay.
+- **Primary source:** Not opened (Primary not opened)
+- **Secondary source:** https://www.livelawbiz.com/amp/personality-rights/bombay-high-court-allows-godwoman-radhe-maa-to-pursue-personality-rights-suit-against-google-555832
+- **Weekday lens:** Thu
+- **Priority:** Medium
+
+### 193. Sourav Ganguly & Anr v Masha Sajdeh & Ors (Delhi HC): no stay on the film Doosra, court to watch the film
+- **Date:** 22 and 23 Oct 2026. Next listing 29 Oct 2026.
+- **Jurisdiction / forum:** India, Delhi High Court (Justice Dinesh Bhatt on 22 Oct, Justice Vinod Kumar on 23 Oct per LiveLawBiz)
+- **Area:** Personality rights, film and biopic rights
+- **Summary:** Ganguly and Luv Films LLP allege the Hindi film Doosra exploits his persona without a licence. They say about a third of the trailer uses his footage and that the film conflicts with a 5 August 2021 agreement giving Luv Films exclusive biopic rights. The court refused to stay the theatrical release, issued summons and notice, deferred the interim injunction until pleadings, and directed the defendants to arrange a screening.
+- **Why it matters:** Unlike the recent run of ex parte celebrity orders, the court declined a pre release stay and wants to see the work first. It tests where personality rights end and creative depiction of a public figure begins.
+- **Primary source:** Order of 22 Oct 2026 linked from the report (Primary not opened)
+- **Secondary source:** https://www.livelawbiz.com/personality-rights/delhi-high-court-to-view-hindi-film-doosra-in-sourav-gangulys-personality-rights-case-555820
+- **Weekday lens:** Fri
+- **Priority:** Medium
+
+### 194. USPTO: Patent Public Search (PPUBS) to require sign in with a USPTO account from 7 November 2026
+- **Date:** Announced October 2026. Effective 7 Nov 2026.
+- **Jurisdiction / forum:** US, USPTO
+- **Area:** Patents (search tools, practice)
+- **Summary:** The USPTO Patent Public Search page states that "Beginning November 7, 2026, Patent Public Search (PPUBS) will require users to sign in with a USPTO account". Users without an account are encouraged to create one in advance to avoid interruption.
+- **Why it matters:** PPUBS is the free full text US search tool used by Indian firms, inventors and in-house teams for prior art and FTO work. Anonymous access ends, so teams need accounts set up before 7 November.
+- **Primary source:** https://www.uspto.gov/patents/search/patent-public-search (Primary opened)
+- **Secondary source:** https://synopticip.com/patent-news-roundup-20-october/
+- **Weekday lens:** Tue
+- **Priority:** Medium
+
+### 195. Allen v Stein (US S. Ct. No. 26-114): certiorari denied, ending the Blackbeard shipwreck copyright case against North Carolina
+- **Date:** Reported 20 Oct 2026 (IPWatchdog says the denial came on the Monday order list)
+- **Jurisdiction / forum:** US Supreme Court, from the Fourth Circuit (January 2026)
+- **Area:** Copyright (state sovereign immunity)
+- **Summary:** The Court denied Frederick Allen's petition on pendent appellate jurisdiction and party presentation. That leaves in place the Fourth Circuit ruling that reversed the 2021 reconsideration order, vacated the 2024 ruling as moot and directed dismissal of all claims against the North Carolina defendants with prejudice. The case began with Allen v Cooper (2020), where the Court held that the Copyright Remedy Clarification Act did not abrogate state immunity.
+- **Why it matters:** It closes the main test of whether a state can be sued for copyright infringement under the United States v Georgia due process theory. Rights holders dealing with US state universities and agencies remain largely without a damages remedy.
+- **Primary source:** Supreme Court docket 26-114 (Primary not opened)
+- **Secondary source:** https://ipwatchdog.com/2026/10/20/scotus-ends-decade-long-copyright-case-against-state-of-north-carolina/
+- **Weekday lens:** Tue
+- **Priority:** Low
+
+### 196. FY2026 PTAB data: IPR petitions fall to about 450, institution rate 39%
+- **Date:** 12 Oct 2026 (Patently-O). Corroborating Unified Patents Q3 2026 report of 16 Oct 2026.
+- **Jurisdiction / forum:** US, USPTO PTAB
+- **Area:** Patents (post grant practice)
+- **Summary:** Patently-O reports about 450 IPR petitions in FY2026 against about 1,400 in FY2025, fewer even than FY2013. The institution rate fell from 69% to 39%. Monthly filings dropped from about 110 a month through mid 2025 to between 15 and 46 a month since December 2025, with 37 in September 2026. Unified Patents separately reports Q3 2026 IPR and PGR petitions down 70.1% year on year to 106, district court filings up 15.6% to 1,166, and ex parte reexamination requests at 198 after a record 331 in Q2.
+- **Why it matters:** It quantifies the effect of the Director's discretionary denial regime and settled expectations doctrine. For Indian companies sued in the US, IPR is no longer a dependable defence and reexamination and district court invalidity carry more weight.
+- **Primary source:** USPTO PTAB statistics not opened (Primary not opened)
+- **Secondary source:** https://patentlyo.com/patent/2026/10/inter-partes-review-in-fy2026-petitions-down-by-two-thirds-institutions-down-by-half.html ; https://synopticip.com/patent-news-roundup-20-october/
+- **Weekday lens:** Tue
+- **Priority:** Medium
+
+### 197. Jemella Group (ghd) v ContextLogic (Wish), Higher Regional Court Hamburg, 5 U 58/25: marketplace itself uses the mark
+- **Date:** 27 Aug 2026 (date shown in the judgment reference). Reported by IPKat 21 Oct 2026.
+- **Jurisdiction / forum:** Germany, Oberlandesgericht Hamburg (appeal from the Hamburg Regional Court)
+- **Area:** Trade marks (online marketplace liability)
+- **Summary:** Applying the CJEU Louboutin v Amazon test, the court held that Wish itself used the GHD sign. It relied on the uniform presentation of offers, hidden seller identities, Wish branded order communications, Wish's influence on pricing and its search results for "ghd". Wish could not rely on the hosting safe harbour (Art. 14 E-Commerce Directive, now Art. 6 DSA) because it played an active role. On unfair competition, missing mandatory seller information required structural measures, though not manual checks of every offer.
+- **Why it matters:** It is one of the first appellate rulings to make a marketplace directly liable as a user of the mark after Louboutin. That is useful for brand owners pursuing platforms and as a comparison with Indian intermediary cases.
+- **Primary source:** https://dejure.org/dienste/vernetzung/rechtsprechung?Gericht=OLG%20Hamburg&Datum=27.08.2026&Aktenzeichen=5%20U%2058%2F25 (Primary not opened, reported as not yet published)
+- **Secondary source:** https://ipkitten.blogspot.com/2026/10/be-careful-what-you-wish-for-hamburg.html
+- **Weekday lens:** Wed
+- **Priority:** Medium
+
+### 198. SOCAN v Suno (Canada): performing rights claim over AI music outputs
+- **Date:** Statement of Claim dated 2 Sep 2026 (per the filed document's URL). Reported by IPKat 25 Oct 2026.
+- **Jurisdiction / forum:** Canada (court not identified in the reports seen)
+- **Area:** Copyright and AI (outputs)
+- **Summary:** SOCAN alleges that Suno's outputs are identical or substantially similar to about 150 listed works and that Suno makes them available for on demand streaming. It pleads infringement of the performing right under ss.3(1)(f), 2.4(1.1) and 27(1) of the Copyright Act and authorising infringement by users, and seeks punitive and exemplary damages. The claim targets outputs, not training.
+- **Why it matters:** It is the first collecting society suit against a generative music service in Canada and it focuses on outputs and communication to the public, alongside GEMA and Koda in Europe. It is a useful comparison for IPRS and other Indian societies weighing similar action.
+- **Primary source:** https://www.socan.com/wp-content/uploads/2026/09/ISSUED-Statement-of-Claim-SOCAN-v-Suno-September-2-2026-2.pdf (Primary opened but the PDF had no machine readable text, so court and file number unconfirmed)
+- **Secondary source:** https://ipkitten.blogspot.com/2026/10/does-generative-ai-remix-infringe.html
+- **Weekday lens:** Fri
+- **Priority:** Medium
+
+### 199. CGPDTM public notice: Refund of fee in case of duplicate payments in trade mark applications
+- **Date:** 22 Oct 2026
+- **Jurisdiction / forum:** India, CGPDTM (Trade Marks Registry)
+- **Area:** Trade marks (office practice, fees)
+- **Summary:** IP India listed a public notice titled "Refund of Fee in Case of Duplicate Payments in Trademark Applications" on 22 October 2026. The notice PDF was shown as not available when checked, so the procedure and any deadline could not be confirmed.
+- **Why it matters:** Duplicate fee debits on the e-filing gateway are a common practical problem for agents. Once the PDF is readable, a short practice note on how to claim the refund would serve clients. Verify the content before writing.
+- **Primary source:** https://ipindia.gov.in/dynamic/news-details/151 (Primary opened, PDF not available)
+- **Secondary source:** None found
+- **Weekday lens:** Thu
+- **Priority:** Low
 
 ## Notes
 
