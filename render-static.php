@@ -53,6 +53,7 @@ function prasa_ip_static_map() {
         'worldwide-copyright-termination-bmg-v-vetter' => 'worldwide-copyright-termination-bmg-v-vetter.html',
         'patent-filing-cost-india-us-europe' => 'patent-filing-cost-india-us-europe.html',
         'inventive-step-mosaicing-india-north-face' => 'inventive-step-mosaicing-india-north-face.html',
+        'invention-records-metadata-google-v-valtrus' => 'invention-records-metadata-google-v-valtrus.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
