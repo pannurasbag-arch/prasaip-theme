@@ -155,7 +155,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 165 | open | Primary opened by scan agent 19 Oct 2026. |
 | 166 | open | Primary not opened. |
 | 167 | open | Primary not opened. |
-| 168 | open | Primary opened by scan agent 20 Oct 2026. |
+| 168 | published | https://www.prasaip.com/invention-records-metadata-google-v-valtrus/ (27 Oct 2026, Tuesday lens, merged via PR #12, merge 40b36e1). Run in the owner session. Opinion read; reviewer corrections applied (s.25(1)(a) and 25(2)(a), s.7(2), conception plus diligence). Hostinger cache purged for .com and .in. Both domains verified (200, single canonical to .com, no noindex, KC card). GSC indexing requested. Bing submitted. LinkedIn page post activity 7520696081865732097 with both mentions. |
 | 169 | published | https://www.prasaip.com/ipr-discretionary-denial-settled-expectations/ (20 Oct 2026, merged via PR #6, merge c59a340). Hostinger cache purged for .com and .in. Article, Knowledge Centre first card, JPG and WebP 200 on .com and .in, one canonical to .com, index,follow: pass. Post Inspector title, description and image: pass. GSC indexing requested, Bing submitted. LinkedIn (20 Oct 2026): https://www.linkedin.com/feed/update/urn:li:activity:7518192396493316097/ (posted as the page, both mentions link to profiles, preview image shows). |
 | 170 | open | Primary opened by scan agent 20 Oct 2026 (DMCA holding from secondary). |
 | 171 | open | Primary opened by scan agent 20 Oct 2026. |
@@ -177,7 +177,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 187 | open | Primary not opened (Law360 paywalled). |
 | 188 | open | Primary not opened (LiveLaw Biz digest only). |
 | 189 | published | https://www.prasaip.com/patent-filing-cost-india-us-europe/ (24 Oct 2026, Saturday explainer, merged via PR #10, merge 4e6da0f). Target query "patent filing cost in india" (GSC position 25.7). Hostinger cache purged for .com and .in. Article, Knowledge Centre card, JPG and WebP 200 on .com and .in, one canonical to .com, no noindex. GSC indexing requested 24 Oct. Bing URL submitted 24 Oct. LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7519633641363161088/ (posted as the page; both mentions link to the correct profiles; image preview shown). Official fees only (IP India First Schedule, USPTO schedule of 19 Jan 2025, EPO RFees from 1 Apr 2026); review fee figures when any office changes its schedule. |
-| 190 | published | https://www.prasaip.com/inventive-step-mosaicing-india-north-face/ (26 Oct 2026, merged via PR #11, merge c554fd3). Run in the owner session. Reviewer corrections applied (judgment text checked, LiveLaw Biz PDF). Both domains verified (200, single canonical to .com, no noindex, KC card). GSC indexing requested. Bing submitted. LinkedIn page post activity 7520333522675343360 with both mentions. Hostinger purge not done: hPanel signed out. Earlier unmerged draft branch pannurasbag-arch-patch-1 (slug inventive-step-mosaicing-prior-art-india) is superseded and can be deleted. |
+| 190 | published | https://www.prasaip.com/inventive-step-mosaicing-india-north-face/ (26 Oct 2026, merged via PR #11, merge c554fd3). Run in the owner session. Reviewer corrections applied (judgment text checked, LiveLaw Biz PDF). Both domains verified (200, single canonical to .com, no noindex, KC card). GSC indexing requested. Bing submitted. LinkedIn page post activity 7520333522675343360 with both mentions. Hostinger cache purged for .com and .in (26 Oct, after owner sign in). Superseded draft branch pannurasbag-arch-patch-1 deleted 26 Oct. |
 | 191 | open | Primary not opened. |
 | 192 | open | Primary not opened. |
 | 193 | open | Primary not opened. Next listing 29 Oct 2026. |
@@ -187,6 +187,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 197 | open | Primary not opened. |
 | 198 | open | Primary PDF not machine readable. |
 | 199 | open | PDF not available 26 Oct 2026. |
+| 200 | open | Secondary opened by scan agent 27 Oct 2026 (JUVE); order not opened. |
+| 201 | open | Secondary opened (Patently-O, partly paywalled). |
+| 202 | open | Secondary opened (IPWatchdog). |
+| 203 | open | Secondary opened (IPKat). |
+| 204 | open | Secondary opened (China IP Law Update); draft provisions not opened. |
+| 205 | open | Digest only (LiveLaw Biz); judgment date to confirm. |
+| 206 | open | Digest only (LiveLaw Biz); judgment date to confirm. |
+| 207 | open | Analysis piece (IPWatchdog). |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2024,6 +2032,51 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Secondary source:** None found
 - **Weekday lens:** Thu
 - **Priority:** Low
+
+## Detailed entries added 27 October 2026 (weekday scan)
+
+### 200. Sandoz v Novo Nordisk (UPC Milan central division, semaglutide EP 3 689 365): power to stop withdrawal used to escape a validity ruling
+- **Date:** 26 Oct 2026 (reported) · **Jurisdiction:** UPC · **Area:** Patents (revocation, divisionals)
+- **Summary:** The central division said it has inherent power to stop a patentee withdrawing a patent at the EPO to avoid a validity decision, and to address follow on divisional patents.
+- **Why it matters:** Limits divisional tactics against generics; semaglutide matters to Indian drug makers.
+- **Primary:** not opened · **Secondary:** https://www.juve-patent.com/cases/upc-claims-power-to-stop-patentees-escaping-validity-decisions-via-withdrawal/
+- **Weekday lens:** Wed · **Priority:** High
+
+### 201. USPTO: issue fee to grant time has doubled to about 60 days
+- **Date:** 25 Oct 2026 · **Jurisdiction:** US · **Area:** Patent procedure
+- **Summary:** About 51,000 paid applications waiting; grant now about 60 days after issue fee payment.
+- **Primary:** not opened · **Secondary:** https://patentlyo.com/patent/2026/10/issue-fee-to-grant-the-wait-has-doubled.html
+- **Weekday lens:** Tue · **Priority:** Medium
+
+### 202. Federal Circuit affirms dismissal of pro se suit against Live Nation, Ticketmaster and MLB
+- **Date:** 26 Oct 2026 · **Jurisdiction:** US (Fed. Cir.) · **Area:** Patent litigation procedure
+- **Secondary:** https://ipwatchdog.com/2026/10/26/cafc-affirms-ticketing-companies-motions-to-dismiss-due-to-pro-se-plaintiffs-failure-to-timely-oppose/
+- **Weekday lens:** Tue · **Priority:** Low
+
+### 203. SOCAN v Suno (Canada): claim aimed at AI outputs rather than training
+- **Date:** 25 Oct 2026 · **Jurisdiction:** Canada · **Area:** Copyright and AI
+- **Secondary:** https://ipkitten.blogspot.com/2026/10/does-generative-ai-remix-infringe.html
+- **Weekday lens:** Fri · **Priority:** Medium
+
+### 204. China MOFCOM draft provisions on sanctions against foreign entities for trade secret infringement
+- **Date:** 26 Oct 2026 · **Jurisdiction:** China · **Area:** Trade secrets
+- **Secondary:** https://chinaiplawupdate.com/2026/10/chinas-ministry-of-commerce-releases-draft-provisions-targeting-foreign-entities-over-trade-secret-infringement/
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 205. Universal City Studios v 123MoviesHub (Delhi HC): 63 piracy sites permanently blocked
+- **Date:** week of 19 to 25 Oct 2026 (confirm) · **Jurisdiction:** India · **Area:** Copyright enforcement
+- **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-19-october-25-2026-555954
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 206. Kiehberg v Capital Airgun (Delhi HC): injunction and cancellation of KIEHBERG mark
+- **Date:** week of 19 to 25 Oct 2026 (confirm) · **Jurisdiction:** India · **Area:** Trade marks
+- **Secondary:** same digest as 205
+- **Weekday lens:** Thu · **Priority:** Low
+
+### 207. US decisions strengthen protection for compilation and combination trade secrets (analysis)
+- **Date:** 25 Oct 2026 · **Jurisdiction:** US · **Area:** Trade secrets
+- **Secondary:** https://ipwatchdog.com/2026/10/25/winning-combination-recent-decisions-signal-strengthened-protectability-of-compilation-and-combination-trade-secrets/
+- **Weekday lens:** Thu · **Priority:** Low
 
 ## Notes
 
