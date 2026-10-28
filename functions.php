@@ -387,6 +387,8 @@ add_action('init', function () {
     }
 }, 0);
 
+/* prasaip.in serves the same site: send every request to the same path on www.prasaip.com (one domain for Google and AI tools). */ add_action('init', function () { if (defined('WP_CLI') || wp_doing_cron()) { return; } $host = isset($_SERVER['HTTP_HOST']) ? strtolower((string) $_SERVER['HTTP_HOST']) : ''; $method = isset($_SERVER['REQUEST_METHOD']) ? (string) $_SERVER['REQUEST_METHOD'] : 'GET'; if (in_array($host, array('prasaip.in', 'www.prasaip.in'), true) && in_array($method, array('GET', 'HEAD'), true)) { $uri = isset($_SERVER['REQUEST_URI']) ? (string) wp_unslash($_SERVER['REQUEST_URI']) : '/'; wp_redirect('https://www.prasaip.com' . $uri, 301, 'PRASA IP'); exit; } }, -100);
+
 /* llms.txt: plain-text summary of the firm for AI tools, served from the theme. */ add_action('init', function () { $path = isset($_SERVER['REQUEST_URI']) ? (string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH) : ''; $file = get_template_directory() . '/static/llms.txt'; if ($path === '/llms.txt' && is_readable($file)) { status_header(200); header('Content-Type: text/plain; charset=utf-8'); readfile($file); exit; } }, 0); // Merge duplicate pages: older "choosing a lawyer in Bengaluru" pages point to the current Bengaluru page.
 add_action('template_redirect', function () {
     $path = isset($_SERVER['REQUEST_URI']) ? trim((string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH), '/') : '';
