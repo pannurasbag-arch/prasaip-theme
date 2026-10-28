@@ -12,11 +12,11 @@ function prasa_ip_setup() {
 }
 add_action('after_setup_theme', 'prasa_ip_setup');
 
-// GA4 loads only after the visitor accepts analytics cookies (choice kept in localStorage).
+// GA4 and Microsoft Clarity load only after the visitor accepts analytics cookies (choice kept in localStorage).
 function prasa_ip_ga4_tag() {
     $measurement_id = 'G-YEV19GLG18';
     printf(
-        '<script>window.prasaGA=function(){if(window.prasaGALoaded)return;window.prasaGALoaded=1;var s=document.createElement("script");s.async=1;s.src="https://www.googletagmanager.com/gtag/js?id=%1$s";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag("js",new Date());gtag("config","%1$s",{anonymize_ip:true});};try{if(localStorage.getItem("prasa_cookie_consent")==="granted")prasaGA();}catch(e){}</script>' . "\n",
+        '<script>window.prasaGA=function(){if(window.prasaGALoaded)return;window.prasaGALoaded=1;var s=document.createElement("script");s.async=1;s.src="https://www.googletagmanager.com/gtag/js?id=%1$s";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag("js",new Date());gtag("config","%1$s",{anonymize_ip:true});(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z4tiw12rvw");window.clarity("consent");};try{if(localStorage.getItem("prasa_cookie_consent")==="granted")prasaGA();}catch(e){}</script>' . "\n",
         esc_attr($measurement_id)
     );
 }
