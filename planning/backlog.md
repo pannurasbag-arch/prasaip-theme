@@ -187,7 +187,9 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 197 | open | Primary not opened. |
 | 198 | open | Primary PDF not machine readable. |
 | 199 | open | PDF not available 26 Oct 2026. |
-| 200 | open | Secondary opened by scan agent 27 Oct 2026 (JUVE); order not opened. |
+| 200 | published | https://www.prasaip.com/upc-divisional-game-sandoz-v-novo-nordisk/ (28 Oct 2026, Wednesday lens, merged via PR #13, merge 42a0de1). Run in the owner session. UPC order of 22 Oct 2026 read; reviewer corrections applied (Art 113(2) effect, Request 6 scope, Rule 360 wording). Hostinger cache purged for .com and .in. Both domains verified. GSC indexing requested. Bing submitted. LinkedIn page post activity 7521055330181615617 with both mentions. |
+| 208 | open | Law360 teaser only (paywall). |
+| 209 | open | UPC listing seen; order PDFs did not load. |
 | 201 | open | Secondary opened (Patently-O, partly paywalled). |
 | 202 | open | Secondary opened (IPWatchdog). |
 | 203 | open | Secondary opened (IPKat). |
@@ -2077,6 +2079,18 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Date:** 25 Oct 2026 · **Jurisdiction:** US · **Area:** Trade secrets
 - **Secondary:** https://ipwatchdog.com/2026/10/25/winning-combination-recent-decisions-signal-strengthened-protectability-of-compilation-and-combination-trade-secrets/
 - **Weekday lens:** Thu · **Priority:** Low
+
+## Detailed entries added 28 October 2026 (weekday scan)
+
+### 208. D.N.J. upholds USPTO refusal of patent term extension for two cancer drug patents (US 10,434,103 and 9,108,973; Taiho Oncology per tag)
+- **Date:** 27 Oct 2026 · **Jurisdiction:** US (D.N.J., Judge Quraishi) · **Area:** Patents (PTE)
+- **Secondary:** https://www.law360.com/articles/2543150 (teaser only)
+- **Weekday lens:** Tue · **Priority:** High
+
+### 209. Versuni v Dreame (UPC Hague LD, UPC-CFI-0002594/2026 and 0002595/2026): provisional measures orders
+- **Date:** 27 Oct 2026 · **Jurisdiction:** UPC · **Area:** Patents (interim relief)
+- **Source:** https://www.unifiedpatentcourt.org/en/decisions-and-orders (orders not opened)
+- **Weekday lens:** Wed · **Priority:** Medium
 
 ## Notes
 
