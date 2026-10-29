@@ -55,6 +55,7 @@ function prasa_ip_static_map() {
         'inventive-step-mosaicing-india-north-face' => 'inventive-step-mosaicing-india-north-face.html',
         'invention-records-metadata-google-v-valtrus' => 'invention-records-metadata-google-v-valtrus.html',
         'upc-divisional-game-sandoz-v-novo-nordisk' => 'upc-divisional-game-sandoz-v-novo-nordisk.html',
+        'design-infringement-eye-test-atomberg-v-stove-kraft' => 'design-infringement-eye-test-atomberg-v-stove-kraft.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
