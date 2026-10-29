@@ -190,11 +190,11 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 200 | published | https://www.prasaip.com/upc-divisional-game-sandoz-v-novo-nordisk/ (28 Oct 2026, Wednesday lens, merged via PR #13, merge 42a0de1). Run in the owner session. UPC order of 22 Oct 2026 read; reviewer corrections applied (Art 113(2) effect, Request 6 scope, Rule 360 wording). Hostinger cache purged for .com and .in. Both domains verified. GSC indexing requested. Bing submitted. LinkedIn page post activity 7521055330181615617 with both mentions. |
 | 208 | open | Law360 teaser only (paywall). |
 | 209 | open | UPC listing seen; order PDFs did not load. |
-| 210 | open | Secondary opened (IPWatchdog); complaint not opened. |
-| 211 | open | Secondary opened (SpicyIP); order not opened. |
-| 212 | open | Secondary opened (IPWatchdog). |
-| 213 | open | Secondary opened (IPWatchdog). |
-| 214 | open | Secondary opened (IPKat). |
+| 216 | open | Secondary opened (IPWatchdog); complaint not opened. |
+| 217 | skipped | Duplicate of item 162 (Niva Bupa v Vishal Rattewal). Renumbered from a duplicate 211 on 29 Oct 2026. |
+| 218 | open | Secondary opened (IPWatchdog). |
+| 219 | open | Secondary opened (IPWatchdog). |
+| 220 | open | Secondary opened (IPKat). |
 | 210 | drafted | Branch draft/2026-10-29-drug-trademark-infringement-acnestar (29 Oct 2026, Thursday lens). Judgment text read on Indian Kanoon; reviewer corrections applied. Awaiting owner approval. Scheduled run could not git push; branch built via GitHub web upload, tree verified identical. |
 | 211 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). |
 | 212 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). |
@@ -2143,25 +2143,25 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 
 ## Detailed entries added 29 October 2026 (weekday scan)
 
-### 210. Elvis Presley composition owners v Anthropic (N.D. Cal., filed 23 Oct 2026): lyrics in training and output
+### 216. Elvis Presley composition owners v Anthropic (N.D. Cal., filed 23 Oct 2026): lyrics in training and output
 - **Date:** 28 Oct 2026 (reported) · **Jurisdiction:** US · **Area:** Copyright and AI (274 songs; ss.1201 and 1202 claims). Check overlap with item 182.
 - **Secondary:** https://ipwatchdog.com/2026/10/28/rights-holders-of-elvis-compositions-file-suit-against-anthropic-over-ai-training-and-lyrics-output/
 - **Weekday lens:** Fri · **Priority:** High
 
-### 211. Niva Bupa v Vishal Rattewal (Delhi HC, order 21 Sep 2026): influencer criticism not use in trade; Re. 1 costs
+### 217. Niva Bupa v Vishal Rattewal (Delhi HC, order 21 Sep 2026): influencer criticism not use in trade; Re. 1 costs
 - **Date:** 28 Oct 2026 (reported) · **Jurisdiction:** India · **Area:** Trade marks and free speech
 - **Secondary:** https://spicyip.com/2026/10/can-you-trademark-your-way-out-of-bad-pr-delhi-hc-fines-niva-bupa-re-1-for-trying.html
 - **Weekday lens:** Thu · **Priority:** High
 
-### 212. C4IP urges US Treasury to narrow proposed COINS Act rule extending investment limits to biotech
+### 218. C4IP urges US Treasury to narrow proposed COINS Act rule extending investment limits to biotech
 - **Date:** 28 Oct 2026 · **Jurisdiction:** US/China · **Secondary:** https://ipwatchdog.com/2026/10/28/c4ip-urges-treasury-to-reconsider-proposed-rule-to-extend-coins-act-investment-restrictions-to-biotech/
 - **Weekday lens:** Tue · **Priority:** Medium
 
-### 213. In re Wenkman (Fed. Cir., per curiam): s.101 rejection of bartering method affirmed
+### 219. In re Wenkman (Fed. Cir., per curiam): s.101 rejection of bartering method affirmed
 - **Date:** 28 Oct 2026 · **Jurisdiction:** US · **Secondary:** https://ipwatchdog.com/2026/10/28/federal-circuit-affirms-section-101-rejection-of-pro-se-applicants-bartering-method-claims/
 - **Weekday lens:** Tue · **Priority:** Low
 
-### 214. T-770/25 Adema v CPVO (EU General Court, 14 Oct 2026): plant variety distinctness needs technical data
+### 220. T-770/25 Adema v CPVO (EU General Court, 14 Oct 2026): plant variety distinctness needs technical data
 - **Date:** 28 Oct 2026 (reported) · **Jurisdiction:** EU · **Secondary:** https://ipkitten.blogspot.com/2026/10/eu-general-court-confirms-that-plant.html
 - **Weekday lens:** Wed · **Priority:** Low
 
