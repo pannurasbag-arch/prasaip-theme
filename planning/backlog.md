@@ -190,6 +190,12 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 200 | published | https://www.prasaip.com/upc-divisional-game-sandoz-v-novo-nordisk/ (28 Oct 2026, Wednesday lens, merged via PR #13, merge 42a0de1). Run in the owner session. UPC order of 22 Oct 2026 read; reviewer corrections applied (Art 113(2) effect, Request 6 scope, Rule 360 wording). Hostinger cache purged for .com and .in. Both domains verified. GSC indexing requested. Bing submitted. LinkedIn page post activity 7521055330181615617 with both mentions. |
 | 208 | open | Law360 teaser only (paywall). |
 | 209 | open | UPC listing seen; order PDFs did not load. |
+| 210 | drafted | Branch draft/2026-10-29-drug-trademark-infringement-acnestar (29 Oct 2026, Thursday lens). Judgment text read on Indian Kanoon; reviewer corrections applied. Awaiting owner approval. Scheduled run could not git push; branch built via GitHub web upload, tree verified identical. |
+| 211 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). |
+| 212 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). |
+| 213 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). Parallel order (doc/142739069) not opened. |
+| 214 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). Thin alone; use in a round up. |
+| 215 | open | Primary not opened (LiveLaw only). Next listing 29 Oct 2026. |
 | 201 | open | Secondary opened (Patently-O, partly paywalled). |
 | 202 | open | Secondary opened (IPWatchdog). |
 | 203 | open | Secondary opened (IPKat). |
@@ -2091,6 +2097,44 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Date:** 27 Oct 2026 · **Jurisdiction:** UPC · **Area:** Patents (interim relief)
 - **Source:** https://www.unifiedpatentcourt.org/en/decisions-and-orders (orders not opened)
 - **Weekday lens:** Wed · **Priority:** Medium
+
+## Detailed entries added 29 October 2026 (weekday scan)
+
+### 210. Mankind Consumer Products v Alaina Healthcare (Delhi HC, CS(COMM) 280/2026, I.A. 7346/2026): ACNE SCAR serum enjoined as infringing ACNESTAR
+- **Date:** 16 Oct 2026 · **Jurisdiction:** India (Delhi HC, Justice Purushaindra Kumar Kaurav) · **Area:** Trade marks (pharma and cosmetics)
+- **Summary:** Interim injunction against ACNE SCAR / ACNE + SCAR / ACNESCAR for a serum, as one letter away from and phonetically near identical to ACNESTAR (No. 1352577, Class 5). HEXILAK and MENARINI house marks no cure. Sections 30(2)(a) and 35 rejected because ACNE + SCAR used as the product name. Medicine and cosmetic treated as allied goods, stricter medicines standard (Cadila, Glenmark). Two months to recall stock. Follows Mankind Pharma v Brinton (DB, FAO (COMM) 166/2024, 22 Sep 2025).
+- **Why it matters:** Descriptive words as a product name, house mark defence, drug and cosmetic crossover.
+- **Primary:** https://indiankanoon.org/doc/3887731/ (opened) · **Secondary:** https://www.scconline.com/blog/?p=399345 ; https://spicyip.com/2026/10/spicyip-weekly-review-october-19-october-25.html
+- **Weekday lens:** Thu · **Priority:** High
+
+### 211. Exponent Energy Pvt Ltd v Registrar of Trade Marks (Madras HC, C.M.A.(TM) No. 5 of 2026): EXPONENT refusal set aside for a non speaking order
+- **Date:** 15 Oct 2026 · **Jurisdiction:** India (Madras HC, Dr Justice A.D. Maria Clete) · **Area:** Trade marks (registry practice)
+- **Summary:** Refusal of EXPONENT (Class 42) set aside and remanded. The order did not compare each cited mark, identify overlapping services, or decide the ss. 12, 18(4) and 20 requests. Restricted specification allowed. Decision within three months of first hearing.
+- **Why it matters:** Guidance for appeals against s. 11 refusals.
+- **Primary:** https://indiankanoon.org/doc/24528827/ (opened) · **Secondary:** https://spicyip.com/2026/10/spicyip-weekly-review-october-19-october-25.html
+- **Weekday lens:** Thu · **Priority:** High
+
+### 212. MHG IP Holding Singapore v Evergreen Dealcom (Delhi HC, CS(COMM) 267/2026): summary judgment for ANANTARA
+- **Date:** 15 Oct 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Trade marks / passing off (hospitality, real estate)
+- **Summary:** Order XIII-A summary judgment against ex parte defendants using ANANTARA DOWNTOWN, ANANTARA RESIDENCE(S) and similar. Injunction extends to domains, email addresses, handles and hashtags. No well known finding.
+- **Primary:** https://indiankanoon.org/doc/153760319/ (opened) · **Secondary:** SpicyIP weekly review 19 to 25 Oct 2026
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 213. Experion Developers v Ishu Singh (Delhi HC, CS(COMM) 1152/2026): fake channel partner website blocked within 72 hours
+- **Date:** 16 Oct 2026 · **Jurisdiction:** India (Delhi HC, Justice Tejas Karia) · **Area:** Trade marks / domain names
+- **Summary:** Ex parte injunction against EXPERION EMERELLE RESERVE domain; registrar to block within 72 hours and file registrant details in sealed cover. s. 12A exemption.
+- **Primary:** https://indiankanoon.org/doc/57047997/ (opened) · **Secondary:** SpicyIP weekly review 19 to 25 Oct 2026
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 214. Dr Reddy's Laboratories v Sarita t/a Vensia Herbals (Delhi HC, CS(COMM) 678/2025): bailable warrants for alleged breach of VENSIA injunction
+- **Date:** 16 Oct 2026 · **Jurisdiction:** India (Delhi HC, Justice Vikas Mahajan) · **Area:** Trade marks (contempt)
+- **Primary:** https://indiankanoon.org/doc/196572897/ (opened) · **Secondary:** SpicyIP weekly review 19 to 25 Oct 2026
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 215. Kriti Sanon v BBE Marketing (Delhi HC): court seeks research compilation before a comprehensive personality rights order
+- **Date:** 16 Oct 2026 (next listing 29 Oct 2026) · **Jurisdiction:** India (Delhi HC) · **Area:** Personality rights
+- **Secondary:** https://www.livelaw.in/high-court/delhi-high-court/kriti-sanon-personality-right-protection-plea-555014 (order not opened)
+- **Weekday lens:** Thu · **Priority:** Medium
 
 ## Notes
 
