@@ -126,7 +126,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 136 | open | Primary not opened. |
 | 137 | open | Primary not opened. |
 | 138 | open | Primary not opened. |
-| 139 | open | Primary opened by scan agent 14 Oct 2026. |
+| 139 | published | https://www.prasaip.com/live-sports-piracy-dynamic-injunction-fancode/ (30 Oct 2026, Friday lens, merged via PR #15, merge 817b44d). Run in the owner session. Order read in full on Indian Kanoon; reviewer corrections applied (KYC six weeks, FAPL v BT citation, US ACPA bill not enacted). Hostinger cache purged for .com and .in. GSC indexing requested. Bing not submitted (Webmaster Tools signed out). LinkedIn page post activity 7521779944415354880 with both mentions. |
 | 140 | open | Primary opened by scan agent 14 Oct 2026. |
 | 141 | published | Covered in https://www.prasaip.com/patent-application-abandoned-india-fer-email/ (19 Oct 2026, see item 157). |
 | 142 | open | Primary opened by scan agent 14 Oct 2026. |
@@ -195,6 +195,13 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 218 | open | Secondary opened (IPWatchdog). |
 | 219 | open | Secondary opened (IPWatchdog). |
 | 220 | open | Secondary opened (IPKat). |
+| 221 | open | Seen in 30 Oct scan (The Bookseller); brief not opened. |
+| 222 | open | Seen in 30 Oct scan; complaint not opened. |
+| 223 | open | Seen in 30 Oct scan (SpicyIP). |
+| 224 | open | Seen in 30 Oct scan; order not opened. |
+| 225 | open | Seen in 30 Oct scan; judgment not opened. |
+| 226 | open | Seen in 30 Oct scan (IPWatchdog opinion). Low value alone. |
+| 227 | open | Seen in 30 Oct scan; NPRM not opened. Comments due 7 Dec 2026. |
 | 210 | drafted | Branch draft/2026-10-29-drug-trademark-infringement-acnestar (29 Oct 2026, Thursday lens). Judgment text read on Indian Kanoon; reviewer corrections applied. Awaiting owner approval. Scheduled run could not git push; branch built via GitHub web upload, tree verified identical. |
 | 211 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). |
 | 212 | open | Primary opened by scan agent 29 Oct 2026 (Indian Kanoon). |
@@ -2164,6 +2171,30 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 ### 220. T-770/25 Adema v CPVO (EU General Court, 14 Oct 2026): plant variety distinctness needs technical data
 - **Date:** 28 Oct 2026 (reported) · **Jurisdiction:** EU · **Secondary:** https://ipkitten.blogspot.com/2026/10/eu-general-court-confirms-that-plant.html
 - **Weekday lens:** Wed · **Priority:** Low
+
+## Detailed entries added 30 October 2026 (weekday scan)
+
+### 221. Publishers' amicus brief against OpenAI's fair use defence
+- **Jurisdiction:** US · **Area:** Copyright and AI · **Secondary:** The Bookseller (30 Oct 2026 scan)
+- **Weekday lens:** Fri · **Priority:** Medium
+
+### 222. AI copyright suit count reaches 157 (Poseidon Wave v Black Forest Labs; new author suits v Meta)
+- **Jurisdiction:** US · **Area:** Copyright and AI · **Weekday lens:** Fri · **Priority:** Medium
+
+### 223. SpicyIP on hidden AI prompts in court petitions
+- **Jurisdiction:** India · **Area:** AI and legal practice · **Weekday lens:** Fri · **Priority:** Low
+
+### 224. Greenmount Spices v Wipro (Kerala HC): BRAHMINS mark
+- **Jurisdiction:** India · **Area:** Trade marks · **Weekday lens:** Thu · **Priority:** Medium
+
+### 225. T-650/25 VACUACTIVUS (EU General Court): bad faith filing
+- **Jurisdiction:** EU · **Area:** Trade marks · **Weekday lens:** Wed · **Priority:** Low
+
+### 226. IPWatchdog opinion: who owns memes
+- **Jurisdiction:** US · **Area:** Copyright · **Weekday lens:** Fri · **Priority:** Low
+
+### 227. US Copyright Office 10th triennial s.1201 rulemaking NPRM (comments due 7 Dec 2026)
+- **Jurisdiction:** US · **Area:** Copyright · **Weekday lens:** Fri · **Priority:** Medium
 
 ## Notes
 
