@@ -88,7 +88,7 @@ function prasa_ip_transform_static_html($html) {
     $home = trailingslashit(home_url('/'));
     $html = str_replace(
         array('href="styles.css"', 'src="script.js"', 'src="hero3d.js"', 'href="photo3d.css"', 'href="models3d.css"', 'src="photo3d.js"', 'src="models3d.js"', 'href="favicon.svg"', 'src="assets/', 'srcset="assets/', ' 320w, assets/', 'href="assets/'),
-        array('href="' . esc_url($base . 'styles.css?ver=20261016v4') . '"', 'src="' . esc_url($base . 'script.js?ver=20261015v1') . '"', 'src="' . esc_url($base . 'hero3d.js?ver=20261016v3') . '"', 'href="' . esc_url($base . 'photo3d.css?ver=20261016v1') . '"', 'href="' . esc_url($base . 'models3d.css?ver=20261016v1') . '"', 'src="' . esc_url($base . 'photo3d.js?ver=20261016v1') . '"', 'src="' . esc_url($base . 'models3d.js?ver=20261016v1') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/'), 'srcset="' . esc_url($base . 'assets/'), ' 320w, ' . esc_url($base . 'assets/'), 'href="' . esc_url($base . 'assets/')),
+        array('href="' . esc_url($base . 'styles.css?ver=20261030v1') . '"', 'src="' . esc_url($base . 'script.js?ver=20261015v1') . '"', 'src="' . esc_url($base . 'hero3d.js?ver=20261016v3') . '"', 'href="' . esc_url($base . 'photo3d.css?ver=20261016v1') . '"', 'href="' . esc_url($base . 'models3d.css?ver=20261016v1') . '"', 'src="' . esc_url($base . 'photo3d.js?ver=20261016v1') . '"', 'src="' . esc_url($base . 'models3d.js?ver=20261016v1') . '"', 'href="' . esc_url($base . 'favicon.svg') . '"', 'src="' . esc_url($base . 'assets/'), 'srcset="' . esc_url($base . 'assets/'), ' 320w, ' . esc_url($base . 'assets/'), 'href="' . esc_url($base . 'assets/')),
         $html
     );
     // Theme v2: serif display face and one shared footer for every page.
@@ -304,7 +304,7 @@ function prasa_ip_site_footer() {
         . '<div><img src="' . $logo . '" alt="PRASA IP" width="632" height="395" decoding="async"><p class="footer-tagline">Your Creativity, Our Protection</p><p>Patent, trade mark and IP services for technology companies, research institutions, startups and inventors.</p></div>'
         . '<div><h2>India office</h2><p>PRASA IP LLP<br>481, 5th Cross Road, Kothanur Main Road, RBI Layout, JP Nagar 7th Phase, Bengaluru, Karnataka 560078</p></div>'
         . '<div><h2>US office</h2><p>PRASA IP LLC<br>30 N Gould Street, STE R, Sheridan, Wyoming 82801</p><p><a href="tel:+919113214395">+91 91132 14395</a><br><a href="mailto:contact@prasaip.com">contact@prasaip.com</a></p></div>'
-        . '<nav aria-label="Firm and legal"><h2>Firm</h2><a href="patent-services.html">Patents</a><a href="trademark-services.html">Trade marks</a><a href="knowledge-centre.html">Insights</a><a href="firm.html">About</a><a href="careers.html">Careers</a></nav>'
+        . '<nav aria-label="Firm and legal"><h2>Firm</h2><a href="patent-services.html">Patents</a><a href="trademark-services.html">Trade marks</a><a href="knowledge-centre.html">Insights</a><a href="firm.html">About</a><a href="recognition-events.html">Recognition &amp; Events</a><a href="careers.html">Careers</a></nav>'
         . '<div class="footer-base"><span>&copy; ' . gmdate('Y') . ' PRASA IP. All rights reserved.</span><span><a href="privacy-policy.html">Privacy</a> &nbsp; <a href="terms-of-use.html">Terms</a> &nbsp; <a href="disclaimer.html">Disclaimer</a></span></div>'
         . '</footer>';
 }
