@@ -126,7 +126,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 136 | open | Primary not opened. |
 | 137 | open | Primary not opened. |
 | 138 | open | Primary not opened. |
-| 139 | published | https://www.prasaip.com/live-sports-piracy-dynamic-injunction-fancode/ (30 Oct 2026, Friday lens, merged via PR #15, merge 817b44d). Run in the owner session. Order read in full on Indian Kanoon; reviewer corrections applied (KYC six weeks, FAPL v BT citation, US ACPA bill not enacted). Hostinger cache purged for .com and .in. GSC indexing requested. Bing not submitted (Webmaster Tools signed out). LinkedIn page post activity 7521779944415354880 with both mentions. |
+| 139 | published | https://www.prasaip.com/live-sports-piracy-dynamic-injunction-fancode/ (30 Oct 2026, Friday lens, merged via PR #15, merge 817b44d). Run in the owner session. Order read in full on Indian Kanoon; reviewer corrections applied (KYC six weeks, FAPL v BT citation, US ACPA bill not enacted). Hostinger cache purged for .com and .in. GSC indexing requested. Bing submitted after owner sign in. LinkedIn page post activity 7521779944415354880 with both mentions. |
 | 140 | open | Primary opened by scan agent 14 Oct 2026. |
 | 141 | published | Covered in https://www.prasaip.com/patent-application-abandoned-india-fer-email/ (19 Oct 2026, see item 157). |
 | 142 | open | Primary opened by scan agent 14 Oct 2026. |
