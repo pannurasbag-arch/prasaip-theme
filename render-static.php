@@ -56,6 +56,7 @@ function prasa_ip_static_map() {
         'invention-records-metadata-google-v-valtrus' => 'invention-records-metadata-google-v-valtrus.html',
         'upc-divisional-game-sandoz-v-novo-nordisk' => 'upc-divisional-game-sandoz-v-novo-nordisk.html',
         'design-infringement-eye-test-atomberg-v-stove-kraft' => 'design-infringement-eye-test-atomberg-v-stove-kraft.html',
+        'live-sports-piracy-dynamic-injunction-fancode' => 'live-sports-piracy-dynamic-injunction-fancode.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
