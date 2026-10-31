@@ -58,6 +58,7 @@ function prasa_ip_static_map() {
         'upc-divisional-game-sandoz-v-novo-nordisk' => 'upc-divisional-game-sandoz-v-novo-nordisk.html',
         'design-infringement-eye-test-atomberg-v-stove-kraft' => 'design-infringement-eye-test-atomberg-v-stove-kraft.html',
         'live-sports-piracy-dynamic-injunction-fancode' => 'live-sports-piracy-dynamic-injunction-fancode.html',
+        'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
     );
