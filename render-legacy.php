@@ -75,7 +75,7 @@ function prasa_ip_clean_legacy_content($post) {
         'blockquote' => array(), 'table' => array(), 'thead' => array(), 'tbody' => array(), 'tr' => array(),
         'th' => array(), 'td' => array(), 'figure' => array(), 'figcaption' => array(),
         'a' => array('href' => true, 'title' => true),
-        'img' => array('src' => true, 'alt' => true, 'width' => true, 'height' => true),
+        'img' => array('src' => true, 'srcset' => true, 'sizes' => true, 'alt' => true, 'width' => true, 'height' => true),
     );
     $source = preg_replace('#<h1[^>]*>#i', '<h2>', $source);
     $source = preg_replace('#</h1\s*>#i', '</h2>', $source);
@@ -134,6 +134,7 @@ function prasa_ip_render_legacy_singular() {
         echo '<p class="note legacy-note">This article was first published on our earlier website. For current law and practice, see our <a href="' . esc_url($home . 'knowledge-centre/') . '">Knowledge Centre</a>.</p>';
     }
     echo $content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+    echo prasa_ip_legacy_jsonld($post); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
     echo '</article><aside class="sidebar"><h2>Related services</h2>';
     echo '<a href="' . esc_url($home . 'patent-services/') . '">Patent services</a>';
     echo '<a href="' . esc_url($home . 'trademark-services/') . '">Trade mark services</a>';
@@ -156,3 +157,17 @@ add_filter('template_include', function ($template) {
     }
     return get_template_directory() . '/index.php';
 }, PHP_INT_MAX - 1);
+
+/** JSON-LD blocks saved in the page content, validated and re-encoded so only clean data is printed. */
+function prasa_ip_legacy_jsonld($post) {
+    $out = '';
+    if (preg_match_all('#<script type="application/ld\+json">(.*?)</script>#is', (string) $post->post_content, $m)) {
+        foreach ($m[1] as $json) {
+            $data = json_decode(trim($json), true);
+            if (is_array($data) && isset($data['@context'])) {
+                $out .= '<script type="application/ld+json">' . wp_json_encode($data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) . '</script>';
+            }
+        }
+    }
+    return $out;
+}
