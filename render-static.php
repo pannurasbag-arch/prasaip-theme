@@ -209,7 +209,7 @@ function prasa_ip_render_static($file) {
     wp_footer();
     $footer = ob_get_clean();
     $html = str_replace('</body>', $footer . '</body>', $html);
-    /* Google treats a LegalService without an address as an incomplete local business. Name the firm as an Organization wherever it is only referenced (publisher, provider, employer). */ if (!is_front_page()) { $html = preg_replace_callback('#\{"@type":"LegalService",[^{}]*\}#', function ($m) { return str_replace('"@type":"LegalService"', '"@type":"Organization"', $m[0]); }, $html); } echo $html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+    /* Google treats a LegalService without an address as an incomplete local business. Name the firm as an Organization wherever it is only referenced (publisher, provider, employer). */ if (!is_front_page()) { $html = preg_replace_callback('#\{"@type":"LegalService",[^{}]*\}#', function ($m) { return str_replace('"@type":"LegalService"', '"@type":"Organization"', $m[0]); }, $html); } /* reviewedBy is not valid on Article; contributor is. */ $html = str_replace('"reviewedBy"', '"contributor"', $html); echo $html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 }
 
 function prasa_ip_extract_static_content($file, $element) {
