@@ -215,6 +215,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 205 | open | Digest only (LiveLaw Biz); judgment date to confirm. |
 | 206 | open | Digest only (LiveLaw Biz); judgment date to confirm. |
 | 207 | open | Analysis piece (IPWatchdog). |
+| 228 | drafted | Branch draft/2026-10-31-how-long-does-ip-protection-last (31 Oct 2026, Saturday explainer). Target query from GSC: "which of the following types of intellectual property protection usually has a set term of 20 years?" (position 21.0). Statutes opened; reviewer corrections applied (Indian provisional starts the term, unitary patent renewals, US design term from 13 May 2015, EUTM Art 53). Awaiting owner approval. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2195,6 +2196,14 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 
 ### 227. US Copyright Office 10th triennial s.1201 rulemaking NPRM (comments due 7 Dec 2026)
 - **Jurisdiction:** US · **Area:** Copyright · **Weekday lens:** Fri · **Priority:** Medium
+
+## Detailed entries added 31 October 2026 (Saturday explainer)
+
+### 228. Explainer: how long IP protection lasts (patents, trade marks, designs, copyright) in India, the US and Europe
+- **Date:** 31 Oct 2026 · **Jurisdiction / forum:** India, US, EU, UK, China · **Area:** IP basics
+- **Summary:** Term, start date, renewals, extensions (US PTA and PTE, EU SPC, China compensation) and restoration for each main right, tied to the pending Gunjan Sinha patent term matter and the EU design reform.
+- **Primary source:** Patents Act 1970 ss.53, 60; Trade Marks Act 1999 s.25; Designs Act 2000 s.11; Copyright Act 1957 ss.22, 27; PPVFR Act s.24; 35 U.S.C. 41, 154, 156, 173; 15 U.S.C. 1058; 17 U.S.C. 302; EPC Arts 63, 86; Reg 469/2009 Art 13; Reg 2017/1001 Arts 52, 53; Reg 2024/2822 (new Art 12); Dir 2006/116 Art 1; UK RDA 1949 s.8; China Patent Law Art 42 (all opened)
+- **Weekday lens:** Sat · **Priority:** Medium
 
 ## Notes
 
