@@ -52,6 +52,7 @@ function prasa_ip_static_map() {
         'ai-trade-mark-squatting-guidelines-india' => 'ai-trade-mark-squatting-guidelines-india.html',
         'worldwide-copyright-termination-bmg-v-vetter' => 'worldwide-copyright-termination-bmg-v-vetter.html',
         'patent-filing-cost-india-us-europe' => 'patent-filing-cost-india-us-europe.html',
+        'how-long-does-ip-protection-last' => 'how-long-does-ip-protection-last.html',
         'inventive-step-mosaicing-india-north-face' => 'inventive-step-mosaicing-india-north-face.html',
         'invention-records-metadata-google-v-valtrus' => 'invention-records-metadata-google-v-valtrus.html',
         'upc-divisional-game-sandoz-v-novo-nordisk' => 'upc-divisional-game-sandoz-v-novo-nordisk.html',
