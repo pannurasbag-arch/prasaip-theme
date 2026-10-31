@@ -61,6 +61,7 @@ function prasa_ip_static_map() {
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
+        'patent-questions-founders-ask' => 'patent-questions-founders-ask.html',
     );
 }
 
