@@ -215,7 +215,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 205 | open | Digest only (LiveLaw Biz); judgment date to confirm. |
 | 206 | open | Digest only (LiveLaw Biz); judgment date to confirm. |
 | 207 | open | Analysis piece (IPWatchdog). |
-| 228 | drafted | Branch draft/2026-10-31-how-long-does-ip-protection-last (31 Oct 2026, Saturday explainer). Target query from GSC: "which of the following types of intellectual property protection usually has a set term of 20 years?" (position 21.0). Statutes opened; reviewer corrections applied (Indian provisional starts the term, unitary patent renewals, US design term from 13 May 2015, EUTM Art 53). Awaiting owner approval. |
+| 228 | published | https://www.prasaip.com/how-long-does-ip-protection-last/ (31 Oct 2026, Saturday explainer, merged via PR #16, merge 5c46f17). Target query "which of the following types of intellectual property protection usually has a set term of 20 years?" (GSC position 21.0). Statutes opened; reviewer corrections applied. Hostinger cache purged for .com and .in. Article, JPG and WebP 200 on .com; prasaip.in redirects to .com; one canonical to .com; index,follow; Knowledge Centre first card verified. Post Inspector preview image and title: pass. LinkedIn page post activity 7522146182740029441 with Sanath M V and Praneetha K Rasbag mentions (links verified) and image preview. GSC indexing requested 31 Oct 2026. Bing URL submitted 31 Oct 2026. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
