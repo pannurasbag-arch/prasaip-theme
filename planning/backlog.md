@@ -164,7 +164,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 174 | open | Primary not opened. |
 | 175 | open | Primary not opened. |
 | 176 | open | Primary not opened. |
-| 177 | open | Primary not opened. |
+| 177 | published | https://www.prasaip.com/section-100-government-use-patented-medicines-india/ (2 Nov 2026, Monday lens, merged via PR #18, merge a4ffbc6). Primary opened (Verdictum PDF). Reviewer corrections applied. Both domains verified (200, single canonical to .com, index,follow, KC card, images). Hostinger cache purged for .com and .in. Post Inspector title OK. LinkedIn page post https://www.linkedin.com/feed/update/urn:li:share:7522879110910631937/ with both mentions linked and image preview. GSC indexing requested. Bing submitted. |
 | 178 | open | Primary not opened. |
 | 179 | open | Primary not opened. |
 | 180 | open | Primary not opened. |
@@ -216,6 +216,17 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 206 | open | Digest only (LiveLaw Biz); judgment date to confirm. |
 | 207 | open | Analysis piece (IPWatchdog). |
 | 228 | published | https://www.prasaip.com/how-long-does-ip-protection-last/ (31 Oct 2026, Saturday explainer, merged via PR #16, merge 5c46f17). Target query "which of the following types of intellectual property protection usually has a set term of 20 years?" (GSC position 21.0). Statutes opened; reviewer corrections applied. Hostinger cache purged for .com and .in. Article, JPG and WebP 200 on .com; prasaip.in redirects to .com; one canonical to .com; index,follow; Knowledge Centre first card verified. Post Inspector preview image and title: pass. LinkedIn page post activity 7522146182740029441 with Sanath M V and Praneetha K Rasbag mentions (links verified) and image preview. GSC indexing requested 31 Oct 2026. Bing URL submitted 31 Oct 2026. |
+| 229 | open | Added 2 Nov 2026 scan. |
+| 230 | open | Added 2 Nov 2026 scan. |
+| 231 | open | Added 2 Nov 2026 scan. |
+| 232 | open | Added 2 Nov 2026 scan. |
+| 233 | open | Added 2 Nov 2026 scan. |
+| 234 | open | Added 2 Nov 2026 scan. |
+| 235 | open | Added 2 Nov 2026 scan. |
+| 236 | open | Added 2 Nov 2026 scan. |
+| 237 | open | Added 2 Nov 2026 scan. |
+| 238 | open | Added 2 Nov 2026 scan. |
+| 239 | open | Added 2 Nov 2026 scan. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2204,6 +2215,64 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Summary:** Term, start date, renewals, extensions (US PTA and PTE, EU SPC, China compensation) and restoration for each main right, tied to the pending Gunjan Sinha patent term matter and the EU design reform.
 - **Primary source:** Patents Act 1970 ss.53, 60; Trade Marks Act 1999 s.25; Designs Act 2000 s.11; Copyright Act 1957 ss.22, 27; PPVFR Act s.24; 35 U.S.C. 41, 154, 156, 173; 15 U.S.C. 1058; 17 U.S.C. 302; EPC Arts 63, 86; Reg 469/2009 Art 13; Reg 2017/1001 Arts 52, 53; Reg 2024/2822 (new Art 12); Dir 2006/116 Art 1; UK RDA 1949 s.8; China Patent Law Art 42 (all opened)
 - **Weekday lens:** Sat · **Priority:** Medium
+
+## Detailed entries added 2 November 2026 (weekday scan and Monday 60 day sweep)
+
+### 229. Koninklijke Philips N.V. v Nothing Technology Ltd (Delhi HC, CS(COMM) 1138/2026): notice on interim injunction, comparable licences in sealed cover
+- **Date:** 16 Oct 2026 · **Jurisdiction:** India (Delhi HC, Tejas Karia J) · **Area:** Patents / licensing
+- **Summary:** Suit on IN 294973, IN 375107, IN 251053 and IN 248604. No injunction yet. Licence correspondence and comparable licences to be filed in sealed cover. Confidentiality club notice. Listed 30 Nov 2026. Order does not say the patents are SEPs.
+- **Primary source:** https://indiankanoon.org/doc/69436657/ (Primary opened by scan agent) · **Secondary:** https://spicyip.com/2026/10/spicyip-weekly-review-october-19-october-25.html
+- **Weekday lens:** Mon · **Priority:** High
+
+### 230. SML Ltd v Mohan & Co (Himachal Pradesh HC, OMP 324/2023 in COMS 7/2023): test purchases did not create jurisdiction
+- **Date:** 15 Oct 2026 (reported 24 Oct) · **Jurisdiction:** India (HP HC) · **Area:** Patents / jurisdiction
+- **Primary not opened** (https://indiankanoon.org/doc/179031492/) · **Secondary:** https://www.livelawbiz.com/patent/himachal-pradesh-hc-refuses-interim-relief-to-sml-limited-in-patent-infringement-suit-over-agrochemical-product-zeekasulf-555827
+- **Weekday lens:** Mon · **Priority:** Medium
+
+### 231. Beone Medicines v MSN Laboratories (Delhi HC): zanubrutinib suit disposed of on s.107A undertaking
+- **Date:** 16 Oct 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Patents / pharma
+- **Primary not opened** (https://indiankanoon.org/doc/54208386/) · **Secondary:** SpicyIP weekly review 26 Oct 2026
+- **Weekday lens:** Mon · **Priority:** Low
+
+### 232. Roche v Hetero and Roche v Zydus (Supreme Court, SLPs against Delhi HC discovery order): biosimilar dossier discovery, final hearing listed 3 Nov 2026
+- **Date:** Delhi HC order 18 Feb 2025; SC listing 3 Nov 2026 · **Jurisdiction:** India (SC) · **Area:** Pharma / passing off / discovery
+- **Primary not opened** (https://indiankanoon.org/doc/89410277/) · **Secondary:** https://spicyip.com/2026/10/letting-the-plaintiff-examine-regulators-approvals-unpacking-the-dhcs-cadila-hetero-discovery-order-ahead-of-the-sc-hearing.html
+- **Weekday lens:** Mon · **Priority:** High (time sensitive)
+
+### 233. Glaxo Group v Shreya Life Sciences (Bombay HC, Comm. Misc. Petition 12/2026): LEFOXIN BIOX removed; export only manufacture is use under s.56(1)
+- **Date:** 28 Oct 2026 · **Jurisdiction:** India (Bombay HC) · **Area:** Trade marks
+- **Primary not opened** · **Secondary:** https://www.livelawbiz.com/trademark/bombay-high-court-orders-removal-of-shreya-life-sciences-lefoxin-biox-mark-over-similarity-with-glaxo-lanoxin-556499
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 234. Sunit Shah (Shah Namkeen) v Jabsons Foods (Delhi HC, CS(COMM) 641/2024): HOT MIX injunction confirmed
+- **Date:** 28 Oct 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Trade marks
+- **Primary not opened** · **Secondary:** https://www.livelawbiz.com/trademark/delhi-high-court-upholds-injunction-against-jabsons-foods-over-hot-mix-namkeen-mark-556505
+- **Weekday lens:** Thu · **Priority:** Medium
+
+### 235. ChromaDex v Elysium Health (Fed. Cir.): s.285 fee award of USD 9.1 million reversed
+- **Date:** reported 30 Oct 2026 · **Jurisdiction:** US (Fed. Cir.) · **Area:** Patents / s.101 / fees
+- **Primary not opened** · **Secondary:** https://ipwatchdog.com/2026/10/30/cafc-reverses-9-1-billion-exceptionality-award-holding-myriad-did-not-foreclose-patent-owners-101-argument/ (headline says billion, body says million)
+- **Weekday lens:** Tue · **Priority:** Medium
+
+### 236. Agfa v Gucci (UPC CoA, UPC_CoA_582/2025, EP 3 388 490): patent largely revoked over Gucci's own prior Flora products
+- **Date:** reported 27 Oct 2026 · **Jurisdiction:** UPC · **Area:** Patents / novelty
+- **Primary not opened** · **Secondary:** https://www.juve-patent.com/cases/agfa-loses-most-of-leather-decoration-patent-on-appeal-against-gucci/
+- **Weekday lens:** Wed · **Priority:** Medium
+
+### 237. Edwards Lifesciences v Meril (EPO Board of Appeal, EP 4 151 181): heart valve patent revoked; conflicts with UPC Paris ruling
+- **Date:** hearing 23 Oct 2026 · **Jurisdiction:** EPO / UPC · **Area:** Patents
+- **Primary not opened** · **Secondary:** https://www.juve-patent.com/cases/edwards-suffers-setback-at-epo-in-heart-valve-dispute-with-meril/
+- **Weekday lens:** Wed · **Priority:** Medium
+
+### 238. BT Americas v Palo Alto Networks (Fed. Cir. No. 25-1572): IPR on expired patent affirmed
+- **Date:** 29 Oct 2026 · **Jurisdiction:** US · **Area:** Patents / IPR
+- **Primary not opened** · **Secondary:** https://ipwatchdog.com/2026/10/29/federal-circuit-affirms-ptabs-unpatentability-finding-for-palo-alto-networks/
+- **Weekday lens:** Tue · **Priority:** Low
+
+### 239. Draft India EU FTA, Chapter 10 (IP): copyright provisions
+- **Date:** EU text 15 Sep 2026; SpicyIP 30 Oct 2026 · **Jurisdiction:** India / EU · **Area:** IP policy
+- **Primary not opened** · **Secondary:** https://spicyip.com/2026/10/part-i-ram-routine-and-rights-looking-at-the-ip-chapter-in-the-eu-india-draft-fta.html
+- **Weekday lens:** Wed · **Priority:** Low
 
 ## Notes
 
