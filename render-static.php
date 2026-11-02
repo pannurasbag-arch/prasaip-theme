@@ -20,6 +20,7 @@ function prasa_ip_static_map() {
         'privacy-policy' => 'privacy-policy.html',
         'terms-of-use' => 'terms-of-use.html',
         'disclaimer' => 'disclaimer.html',
+        'contact' => 'contact.html',
         'recentive-ai-patent-eligibility' => 'recentive-ai-patent-eligibility.html',
         'epo-g1-24-claim-interpretation' => 'epo-g1-24-claim-interpretation.html',
         'india-patent-rules-2026' => 'india-patent-rules-2026.html',
