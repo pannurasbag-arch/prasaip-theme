@@ -447,3 +447,75 @@ function prasa_ip_indexnow_on_new_build() {
     ));
 }
 add_action('wp_loaded', 'prasa_ip_indexnow_on_new_build', 20);
+
+/* ---------- Markdown for AI agents (2026-11-03, v2) ---------- */
+// A request sent with "Accept: text/markdown" gets Markdown instead of HTML.
+// Browsers keep receiving the normal HTML pages. Markdown responses are never cached:
+// .htaccess skips the LiteSpeed cache for them, and the LiteSpeed Cache plugin is told not to store them.
+// Set PRASA_IP_MD_HOME to true to also serve the llms.txt summary on the homepage.
+if (!defined('PRASA_IP_MD_HOME')) {
+    define('PRASA_IP_MD_HOME', false);
+}
+
+function prasa_ip_wants_markdown() {
+    $accept = isset($_SERVER['HTTP_ACCEPT']) ? strtolower((string) $_SERVER['HTTP_ACCEPT']) : '';
+    return strpos($accept, 'text/markdown') !== false;
+}
+
+function prasa_ip_send_markdown($status, $body) {
+    do_action('litespeed_control_set_nocache', 'markdown response for AI agents');
+    if (!defined('DONOTCACHEPAGE')) {
+        define('DONOTCACHEPAGE', true);
+    }
+    status_header($status);
+    header('Content-Type: text/markdown; charset=utf-8');
+    header('Vary: Accept', false);
+    header('X-LiteSpeed-Cache-Control: no-cache');
+    header('Cache-Control: no-store, no-cache, max-age=0, private');
+    if (!isset($_SERVER['REQUEST_METHOD']) || $_SERVER['REQUEST_METHOD'] !== 'HEAD') {
+        echo $body;
+    }
+    exit;
+}
+
+add_action('template_redirect', function () {
+    $method = isset($_SERVER['REQUEST_METHOD']) ? (string) $_SERVER['REQUEST_METHOD'] : 'GET';
+    if (is_admin() || !in_array($method, array('GET', 'HEAD'), true)) {
+        return;
+    }
+    if (PRASA_IP_MD_HOME && is_front_page()) {
+        header('Vary: Accept', false);
+    }
+    if (!prasa_ip_wants_markdown()) {
+        return;
+    }
+    if (PRASA_IP_MD_HOME && is_front_page()) {
+        $file = get_template_directory() . '/static/llms.txt';
+        if (is_readable($file)) {
+            prasa_ip_send_markdown(200, (string) file_get_contents($file));
+        }
+        return;
+    }
+    if (is_404() && !prasa_ip_static_file_for_current_request()) {
+        prasa_ip_send_markdown(404, "# Page not found (404)\n\nThere is no page at this address on www.prasaip.com.\n\n- Site summary for AI agents: https://www.prasaip.com/llms.txt\n- Sitemap: https://www.prasaip.com/sitemap_index.xml\n- Homepage: https://www.prasaip.com/\n- Contact: contact@prasaip.com, +91 91132 14395\n");
+    }
+}, 5);
+
+// Keep the .htaccess rule that makes LiteSpeed skip its page cache for Markdown requests (checked once a day).
+add_action('init', function () {
+    if (get_transient('prasa_ip_md_htaccess_ok')) {
+        return;
+    }
+    $file = ABSPATH . '.htaccess';
+    if (!is_readable($file) || !is_writable($file)) {
+        return;
+    }
+    $current = (string) file_get_contents($file);
+    if (strpos($current, '# BEGIN PRASA IP markdown') === false) {
+        $block = "# BEGIN PRASA IP markdown\n<IfModule LiteSpeed>\nRewriteEngine On\nRewriteCond %{HTTP_ACCEPT} text/markdown [NC]\nRewriteRule .* - [E=Cache-Control:no-cache]\n</IfModule>\n# END PRASA IP markdown\n\n";
+        if (file_put_contents($file, $block . $current, LOCK_EX) === false) {
+            return;
+        }
+    }
+    set_transient('prasa_ip_md_htaccess_ok', 1, DAY_IN_SECONDS);
+}, 1);
