@@ -454,7 +454,7 @@ add_action('wp_loaded', 'prasa_ip_indexnow_on_new_build', 20);
 // .htaccess skips the LiteSpeed cache for them, and the LiteSpeed Cache plugin is told not to store them.
 // Set PRASA_IP_MD_HOME to true to also serve the llms.txt summary on the homepage.
 if (!defined('PRASA_IP_MD_HOME')) {
-    define('PRASA_IP_MD_HOME', false);
+    define('PRASA_IP_MD_HOME', true);
 }
 
 function prasa_ip_wants_markdown() {
