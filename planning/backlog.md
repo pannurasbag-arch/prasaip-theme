@@ -227,6 +227,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 237 | open | Added 2 Nov 2026 scan. |
 | 238 | open | Added 2 Nov 2026 scan. |
 | 239 | open | Added 2 Nov 2026 scan. |
+| 240 | published | https://www.prasaip.com/section-1782-discovery-upc-motorola-v-asc/ (3 Nov 2026, Tuesday lens, merged via PR #19, merge 5570a11). Primary opened (ca5.uscourts.gov PDF, full text). Reviewer corrections applied. Both domains verified (200, single canonical to .com, index,follow, KC card, images). Hostinger cache purged for .com and .in. Post Inspector title and image OK. LinkedIn page post urn:li:activity:7523237534806749184 with both mentions linked and image preview. GSC indexing requested. Bing submitted. |
+| 241 | open | Added 3 Nov 2026 scan. Primary opened by scan agent. Nonprecedential. |
+| 242 | open | Added 3 Nov 2026 scan. Primary not opened. |
+| 243 | open | Added 3 Nov 2026 scan. Digest only (LiveLaw Biz). |
+| 244 | open | Added 3 Nov 2026 scan. Digest only (LiveLaw Biz). |
+| 245 | open | Added 3 Nov 2026 scan. Memorandum disposition; primary not opened. |
+| 246 | open | Added 3 Nov 2026 scan. Primary opened by scan agent. Low impact. |
+| 247 | open | Added 3 Nov 2026 scan. Survey; primary not opened. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2273,6 +2281,51 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Date:** EU text 15 Sep 2026; SpicyIP 30 Oct 2026 · **Jurisdiction:** India / EU · **Area:** IP policy
 - **Primary not opened** · **Secondary:** https://spicyip.com/2026/10/part-i-ram-routine-and-rights-looking-at-the-ip-chapter-in-the-eu-india-draft-fta.html
 - **Weekday lens:** Wed · **Priority:** Low
+
+## Detailed entries added 3 November 2026 (weekday scan)
+
+### 240. Motorola Mobility v Advanced Standard Communication (5th Cir. No. 26-10747, 29 Oct 2026, published): s.1782 discovery refused after UPC denied disclosure
+- **Date:** 29 Oct 2026 · **Jurisdiction:** US (5th Cir., Jones, Southwick and Duncan JJ.) · **Area:** Patents / SEP / cross border discovery
+- **Summary:** Reversed N.D. Tex. order compelling ASC's unredacted patent purchase agreement with ZTE for Motorola's FRAND defence in the UPC and Munich. Magistrate judge's s.1782 order is dispositive (de novo review). No "authoritative proof" burden on receptivity. Request premature and an attempt to circumvent the UPC refusal of April 2026.
+- **Primary source:** https://www.ca5.uscourts.gov/opinions/pub/26/26-10747-CV0.pdf · **Secondary:** IPWatchdog Barks and Bites, 30 Oct 2026
+- **Weekday lens:** Tue · **Priority:** High · **Status:** published 3 Nov 2026
+
+### 241. Google LLC v Sonos, Inc. (Fed. Cir. No. 2025-1346, 30 Oct 2026, nonprecedential): DRM claim construction, non infringement affirmed
+- **Date:** 30 Oct 2026 · **Jurisdiction:** US (Fed. Cir., Stoll, Stark, Barker by designation) · **Area:** Patents / claim construction
+- **Summary:** US 7,899,187. "Utilized" requires direct use of the private key. Constructions more likely to make a claim indefinite are avoided.
+- **Primary source:** https://www.cafc.uscourts.gov/opinions-orders/25-1346.OPINION.10-30-2026_2779628.pdf · **Secondary:** IPWatchdog, 2 Nov 2026
+- **Weekday lens:** Tue · **Priority:** Medium
+
+### 242. Center for Gestalt Development v Bowman (7th Cir. No. 25-3336, 26 Oct 2026): compilation copyright does not control separate publication of a component
+- **Date:** 26 Oct 2026 · **Jurisdiction:** US (7th Cir.) · **Area:** Copyright
+- **Primary not opened** · **Secondary:** IPWatchdog Barks and Bites, 30 Oct 2026
+- **Weekday lens:** Fri · **Priority:** Medium
+
+### 243. Arjun Kapoor v Artist Booking Company (Delhi HC, CS(COMM) 454/2026): suit decreed against AI deepfakes and merchandise
+- **Date:** week of 19 to 25 Oct 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Personality rights / AI
+- **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-19-october-25-2026-555954
+- **Weekday lens:** Fri · **Priority:** Medium
+
+### 244. Bisleri International v Meta Platforms (Bombay HC, Suit (L) 37659/2026): disparaging video taken down, dynamic injunction
+- **Date:** week of 26 to 31 Oct 2026 · **Jurisdiction:** India (Bombay HC) · **Area:** Trade marks / disparagement
+- **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-26-october-31-2026-556881
+- **Weekday lens:** Thu · **Priority:** Low
+
+### 245. Roar Spirits v Sutter Home Winery (9th Cir. No. 25-2301, 29 Oct 2026, memorandum): summary judgment on confusion reversed
+- **Date:** 29 Oct 2026 · **Jurisdiction:** US (9th Cir.) · **Area:** Trade marks
+- **Secondary:** IPWatchdog Barks and Bites, 30 Oct 2026
+- **Weekday lens:** Thu · **Priority:** Low
+
+### 246. USPTO information collection notice on DOCX filing (FR Doc 2026-22193, 30 Oct 2026)
+- **Date:** 30 Oct 2026 · **Jurisdiction:** US (USPTO) · **Area:** Patent practice
+- **Summary:** DOCX requirement and non DOCX fee under 37 CFR 1.16(u) continue. Comments due 30 Nov 2026.
+- **Primary source:** https://www.govinfo.gov/content/pkg/FR-2026-10-30/html/2026-22193.htm
+- **Weekday lens:** Tue · **Priority:** Low
+
+### 247. IFRRO survey on generative AI and rightsholder earnings (28 Oct 2026)
+- **Date:** 28 Oct 2026 · **Jurisdiction:** International · **Area:** Copyright / AI
+- **Secondary:** IPWatchdog Barks and Bites, 30 Oct 2026
+- **Weekday lens:** Fri · **Priority:** Low
 
 ## Notes
 
