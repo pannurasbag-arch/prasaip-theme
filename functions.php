@@ -519,3 +519,14 @@ add_action('init', function () {
     }
     set_transient('prasa_ip_md_htaccess_ok', 1, DAY_IN_SECONDS);
 }, 1);
+
+/* IndexNow key file, so Bing and other IndexNow search engines accept URL submissions. */
+add_action('init', function () {
+    $path = isset($_SERVER['REQUEST_URI']) ? (string) wp_parse_url(wp_unslash($_SERVER['REQUEST_URI']), PHP_URL_PATH) : '';
+    if ($path === '/4dd6ae49bf544c09b6b8cf6e7b55bcb5.txt') {
+        status_header(200);
+        header('Content-Type: text/plain; charset=utf-8');
+        echo '4dd6ae49bf544c09b6b8cf6e7b55bcb5';
+        exit;
+    }
+}, 0);
