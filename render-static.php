@@ -167,6 +167,13 @@ function prasa_ip_render_static($file) {
                 if (is_array($node) && isset($node['@type']) && in_array($node['@type'], array('Article', 'BlogPosting', 'NewsArticle', 'FAQPage'), true)) {
                     unset($data[$key]);
                 }
+                // A WebPage can also be typed as FAQPage. Keep the WebPage and drop the old FAQ entries.
+                if (isset($data[$key]) && is_array($node) && isset($node['@type']) && is_array($node['@type']) && in_array('FAQPage', $node['@type'], true)) {
+                    $types = array_values(array_diff($node['@type'], array('FAQPage')));
+                    $node['@type'] = count($types) === 1 ? $types[0] : $types;
+                    unset($node['mainEntity']);
+                    $data[$key] = $node;
+                }
             }
             return $data;
         }, 100);
