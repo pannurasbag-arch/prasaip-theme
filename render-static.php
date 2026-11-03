@@ -60,6 +60,7 @@ function prasa_ip_static_map() {
         'design-infringement-eye-test-atomberg-v-stove-kraft' => 'design-infringement-eye-test-atomberg-v-stove-kraft.html',
         'live-sports-piracy-dynamic-injunction-fancode' => 'live-sports-piracy-dynamic-injunction-fancode.html',
         'section-100-government-use-patented-medicines-india' => 'section-100-government-use-patented-medicines-india.html',
+        'section-1782-discovery-upc-motorola-v-asc' => 'section-1782-discovery-upc-motorola-v-asc.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
