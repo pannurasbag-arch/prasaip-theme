@@ -497,6 +497,21 @@ add_action('template_redirect', function () {
         return;
     }
     if (is_404() && !prasa_ip_static_file_for_current_request()) {
+        // Send agents to the right address first, as WordPress does for browsers:
+        // the bare domain goes to www, and short paths such as /privacy go to the page they match.
+        $host = isset($_SERVER['HTTP_HOST']) ? strtolower((string) $_SERVER['HTTP_HOST']) : '';
+        $uri = isset($_SERVER['REQUEST_URI']) ? (string) $_SERVER['REQUEST_URI'] : '/';
+        if ($host !== '' && $host !== 'www.prasaip.com') {
+            wp_redirect('https://www.prasaip.com' . $uri, 301, 'PRASA IP');
+            exit;
+        }
+        if (function_exists('redirect_guess_404_permalink')) {
+            $guess = redirect_guess_404_permalink();
+            if ($guess) {
+                wp_redirect($guess, 301, 'PRASA IP');
+                exit;
+            }
+        }
         prasa_ip_send_markdown(404, "# Page not found (404)\n\nThere is no page at this address on www.prasaip.com.\n\n- Site summary for AI agents: https://www.prasaip.com/llms.txt\n- Sitemap: https://www.prasaip.com/sitemap_index.xml\n- Homepage: https://www.prasaip.com/\n- Contact: contact@prasaip.com, +91 91132 14395\n");
     }
 }, 5);
