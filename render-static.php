@@ -21,6 +21,7 @@ function prasa_ip_static_map() {
         'terms-of-use' => 'terms-of-use.html',
         'disclaimer' => 'disclaimer.html',
         'contact' => 'contact.html',
+        'choosing-the-right-intellectual-property-lawyer-in-bengaluru' => 'choosing-the-right-intellectual-property-lawyer-in-bengaluru.html',
         'recentive-ai-patent-eligibility' => 'recentive-ai-patent-eligibility.html',
         'epo-g1-24-claim-interpretation' => 'epo-g1-24-claim-interpretation.html',
         'india-patent-rules-2026' => 'india-patent-rules-2026.html',
