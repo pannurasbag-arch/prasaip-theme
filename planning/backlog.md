@@ -235,6 +235,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 245 | open | Added 3 Nov 2026 scan. Memorandum disposition; primary not opened. |
 | 246 | open | Added 3 Nov 2026 scan. Primary opened by scan agent. Low impact. |
 | 247 | open | Added 3 Nov 2026 scan. Survey; primary not opened. |
+| 248 | published | https://www.prasaip.com/employee-inventor-compensation-uk-parsons-v-convatec/ (4 Nov 2026, Wednesday lens, merged via PR #20, merge ff2f31a). Primary opened (National Archives, full text). Reviewer corrections applied. Both domains verified (200, single canonical to .com, index,follow, KC card, images). Hostinger cache purged for .com and .in. Post Inspector title OK. LinkedIn page post urn:li:activity:7523601242569502720 with both mentions linked. GSC indexing requested. Bing submitted. |
+| 249 | open | Added 4 Nov 2026 scan. Primary opened by scan agent. |
+| 250 | open | Added 4 Nov 2026 scan. Primary not opened (ipfray, paywalled). |
+| 251 | open | Added 4 Nov 2026 scan. Primary not opened. |
+| 252 | open | Added 4 Nov 2026 scan. Primary not opened. |
+| 253 | open | Added 4 Nov 2026 scan. Primary not opened. |
+| 254 | open | Added 4 Nov 2026 scan. Primary not opened (SpicyIP). |
+| 255 | open | Added 4 Nov 2026 scan. Drafts not opened (SpicyIP). |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2326,6 +2334,50 @@ Scan note 21 Oct 2026: Google search merging CAFC item reported by IPWatchdog is
 - **Date:** 28 Oct 2026 · **Jurisdiction:** International · **Area:** Copyright / AI
 - **Secondary:** IPWatchdog Barks and Bites, 30 Oct 2026
 - **Weekday lens:** Fri · **Priority:** Low
+
+## Detailed entries added 4 November 2026 (weekday scan)
+
+### 248. Parsons v Convatec [2026] EWCA Civ 1357 (26 Oct 2026): employee inventor compensation, aggregation under s.40(1) and s.106 costs budgeting
+- **Date:** 26 Oct 2026 · **Jurisdiction:** UK (Court of Appeal; Arnold LJ, Baker LJ, Asplin LJ) · **Area:** Patents / employee inventors
+- **Summary:** Benefit of more than one invention or patent may be aggregated under s.40(1). s.106(1) applies to costs budgeting; Convatec budget capped at £4m. Arnold LJ: legislation not fit for purpose.
+- **Primary source:** https://caselaw.nationalarchives.gov.uk/ewca/civ/2026/1357
+- **Weekday lens:** Wed · **Priority:** High · **Status:** published 4 Nov 2026
+
+### 249. Snap Inc v Dolby Laboratories [2026] EWHC 2757 (Pat) (28 Oct 2026): RAND trial on Access Advance pool licence expedited
+- **Date:** 28 Oct 2026 · **Jurisdiction:** UK (Patents Court, Mellor J) · **Area:** Patents / SEP / RAND
+- **Summary:** First trial from 1 Nov 2027 on entitlement to and terms of a RAND licence. Dolby's preliminary issues refused.
+- **Primary source:** https://caselaw.nationalarchives.gov.uk/ewhc/pat/2026/2757
+- **Weekday lens:** Wed · **Priority:** High
+
+### 250. Edwards v Meril (UPC Munich LD): springboard damages theory rejected
+- **Date:** reported 29 Oct 2026 · **Jurisdiction:** UPC · **Area:** Patents / damages
+- **Secondary:** https://ipfray.com/upc-munich-ld-rejects-springboard-damages-theory-in-edwards-v-meril-opens-narrow-path-on-tender-substitutions/
+- **Weekday lens:** Wed · **Priority:** High (verify primary)
+
+### 251. Pfizer v Enanta (UPC Munich LD): Paxlovid patent revoked
+- **Date:** reported 31 Oct 2026 · **Jurisdiction:** UPC · **Area:** Patents / pharma
+- **Secondary:** https://ipfray.com/pfizer-fends-off-paxlovid-patent-suit-upc-munich-ld-invalidates-patent-epo-opposition-division-also-leaning-toward-invalidation/
+- **Weekday lens:** Wed · **Priority:** Medium
+
+### 252. UPC Mannheim LD denies priority for a 5G patent; CoA on confidentiality carry over
+- **Date:** reported 1 Nov 2026 · **Jurisdiction:** UPC · **Area:** Patents / priority / procedure
+- **Secondary:** https://ipfray.com/upc-roundup-1-week-mannheim-ld-denies-5g-patent-priority-hamburg-ld-grants-dreame-pi-coa-clarifies-confidentiality-carry-over-pfizer-defends-and-more/
+- **Weekday lens:** Wed · **Priority:** Medium
+
+### 253. Munich Regional Court: urgency yardstick for German utility models alongside Unitary Patents
+- **Date:** reported 3 Nov 2026 · **Jurisdiction:** Germany · **Area:** Utility models / PI
+- **Secondary:** https://www.juve-patent.com/cases/munich-court-sets-new-urgency-yardstick-for-utility-models-alongside-unitary-patents/
+- **Weekday lens:** Wed · **Priority:** Low
+
+### 254. Cadila v Hetero (Delhi HC): discovery of regulatory approvals in biosimilar dispute
+- **Date:** reported 31 Oct 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Patents / biosimilars
+- **Secondary:** https://spicyip.com/2026/10/letting-the-plaintiff-examine-regulators-approvals-unpacking-the-dhcs-cadila-hetero-discovery-order-ahead-of-the-sc-hearing.html
+- **Weekday lens:** Mon · **Priority:** Medium
+
+### 255. India: draft GUI and Icon Design Guidelines 2026, draft Trade Marks Manual 2026, draft TM Registry AI guidelines
+- **Date:** reported 30 Oct 2026 · **Jurisdiction:** India (CGPDTM) · **Area:** Designs / trade marks
+- **Secondary:** https://spicyip.com/2026/10/can-an-animation-be-a-design-examining-indias-draft-gui-and-icon-design-guidelines-2026.html
+- **Weekday lens:** Fri / Thu · **Priority:** Medium
 
 ## Notes
 
