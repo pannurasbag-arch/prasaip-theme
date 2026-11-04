@@ -35,9 +35,9 @@ if(pageName!=='index'){
 
 // Measure contact intent without treating a click as a completed enquiry.
 document.addEventListener('click',event=>{
-  const link=event.target.closest('a[href^="mailto:"],a[href^="tel:"]');
+  const link=event.target.closest('a[href^="mailto:"],a[href^="tel:"],a[href*="wa.me/"]');
   if(!link||typeof window.gtag!=='function') return;
-  const method=link.protocol==='mailto:'?'email':'phone';
+  const method=link.protocol==='mailto:'?'email':link.protocol==='tel:'?'phone':'whatsapp';
   window.gtag('event','contact_click',{contact_method:method,page_location:location.href});
 });
 
