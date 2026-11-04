@@ -594,3 +594,5 @@ html body *{hyphens:manual!important;-webkit-hyphens:manual!important;word-break
 .section-intro{row-gap:14px!important;margin-bottom:32px!important}
 .section-intro>.eyebrow{margin-bottom:0!important}
 .awards-more{margin:18px 0 0;font-weight:700}
+/* Make links inside key-point boxes, such as the contact box, clearly clickable. */
+.key-points a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
