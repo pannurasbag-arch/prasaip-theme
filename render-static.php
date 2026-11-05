@@ -63,6 +63,7 @@ function prasa_ip_static_map() {
         'section-100-government-use-patented-medicines-india' => 'section-100-government-use-patented-medicines-india.html',
         'section-1782-discovery-upc-motorola-v-asc' => 'section-1782-discovery-upc-motorola-v-asc.html',
         'employee-inventor-compensation-uk-parsons-v-convatec' => 'employee-inventor-compensation-uk-parsons-v-convatec.html',
+        'trademark-licence-arbitration-india-utracon' => 'trademark-licence-arbitration-india-utracon.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
