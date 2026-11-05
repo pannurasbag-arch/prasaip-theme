@@ -242,7 +242,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 252 | open | Added 4 Nov 2026 scan. Primary not opened. |
 | 253 | open | Added 4 Nov 2026 scan. Primary not opened. |
 | 254 | open | Added 4 Nov 2026 scan. Primary not opened (SpicyIP). |
-| 255 | open | Added 4 Nov 2026 scan. Drafts not opened (SpicyIP). |
+| 255 | open | Added 4 Nov 2026 scan. AI guidelines part already published 22 Oct (item 158). TM Manual and GUI design drafts still open. |
+| 256 | open | Added 5 Nov 2026 scan. Primary not opened. |
+| 257 | drafted (draft/2026-11-05-trademark-licence-arbitration-india-utracon) | Added 5 Nov 2026 scan. Primary opened. |
+| 258 | open | Added 5 Nov 2026 scan. Digest only. |
+| 259 | open | Added 5 Nov 2026 scan. Digest only. |
+| 260 | open | Added 5 Nov 2026 scan. Digest only. |
+| 261 | open | Added 5 Nov 2026 scan. Digest only. |
+| 262 | open | Added 5 Nov 2026 scan. Digest only. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2412,3 +2419,36 @@ These were seen only in digests and have not been verified yet.
 - RiseandShine cert grant: 29 Jun vs about 1 Jul 2026;
 - InterDigital v Transsion: 1 Jul (LiveLawBiz) vs 14 Jul (one secondary);
 - Mio/konektra: 4 Dec (most sources) vs 5 Dec 2025 (one secondary).
+
+### 256. Express Publications (Madurai) v The Indian Express (Supreme Court, Diary No. 52430/2026): New Indian Express appeals Bombay HC territorial injunction
+- **Date:** 2 Nov 2026 (hearing) · **Jurisdiction:** India · **Area:** Trade marks / trade names
+- **Summary:** Challenge to a Bombay HC order barring use of the name for events and business outside the southern states covered by a 1995 settlement. Adjourned until after Diwali.
+- **Why it matters:** Whether a territorial split of a shared mark covers promotion as well as sales.
+- **Primary:** not opened · **Secondary:** https://www.livelawbiz.com/trademark/new-indian-express-moves-supreme-court-against-bombay-hc-injunction-restricting-use-of-its-name-outside-southern-india-556901
+- **Weekday lens:** Thu · **Priority:** High
+
+### 257. Utracon Corporation v Ucon PT Structural System (Delhi HC, CS(COMM) 661/2024): trade mark suit against ex licensee referred to arbitration
+- **Date:** 28 Oct 2026 · **Jurisdiction:** India (Delhi HC, Justice Purushaindra Kumar Kaurav) · **Area:** Trade marks / arbitration
+- **Summary:** Section 8 application allowed. Post term use by an ex licensee is an in personam dispute under the licence. Adding a non arbitrable relief does not defeat the clause.
+- **Primary:** https://www.livelawbiz.com/pdf_upload/2026/10/30/utracon-709060.pdf (opened 5 Nov 2026) · **Secondary:** https://www.livelawbiz.com/arbitration/claim-of-trademark-infringement-cannot-be-used-to-avoid-arbitration-in-trademark-licensing-dispute-delhi-high-court-556675
+- **Weekday lens:** Thu · **Priority:** High
+
+### 258. Naivedya Associates v Kriti Nutrients (MP HC DB): s.12A mediation not mandatory where urgent interim relief is sought
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks / procedure
+- **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-october-26-october-31-2026-556881 · **Weekday lens:** Thu · **Priority:** Medium
+
+### 259. Siddhant Ice Creams v John Doe (Bombay HC): fake NATURAL Ice Creams franchise offers restrained
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks / online fraud
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Fri · **Priority:** Medium
+
+### 260. Leena Gandhi Tewari v John Doe (Bombay HC): leave to sue Meta over fake Facebook accounts
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Personality rights
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Tue · **Priority:** Low
+
+### 261. Goldmedal Electricals v Jimmy Thoppilan (Delhi HC, CS(COMM) 445/2026): GOLDMEDAL PLY AND BOARDS restrained
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Mon · **Priority:** Medium
+
+### 262. Dr Reddy's Laboratories v Registrar of Trade Marks (Madras HC, CMA(TM) 31/2025): NICE upheld over NISE
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Wed · **Priority:** Low
