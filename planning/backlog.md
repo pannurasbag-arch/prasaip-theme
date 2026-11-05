@@ -244,7 +244,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 254 | open | Added 4 Nov 2026 scan. Primary not opened (SpicyIP). |
 | 255 | open | Added 4 Nov 2026 scan. AI guidelines part already published 22 Oct (item 158). TM Manual and GUI design drafts still open. |
 | 256 | open | Added 5 Nov 2026 scan. Primary not opened. |
-| 257 | drafted (draft/2026-11-05-trademark-licence-arbitration-india-utracon) | Added 5 Nov 2026 scan. Primary opened. |
+| 257 | published https://www.prasaip.com/trademark-licence-arbitration-india-utracon/ (5 Nov 2026) | Added 5 Nov 2026 scan. Primary opened. PR #21. |
 | 258 | open | Added 5 Nov 2026 scan. Digest only. |
 | 259 | open | Added 5 Nov 2026 scan. Digest only. |
 | 260 | open | Added 5 Nov 2026 scan. Digest only. |
