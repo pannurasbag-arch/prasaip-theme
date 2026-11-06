@@ -21,6 +21,7 @@ function prasa_ip_static_map() {
         'terms-of-use' => 'terms-of-use.html',
         'disclaimer' => 'disclaimer.html',
         'contact' => 'contact.html',
+        'sanath-v-madgula' => 'sanath-v-madgula.html',
         'industrial-design-registration-in-india' => 'industrial-design-registration-in-india.html',
         'choosing-the-right-intellectual-property-lawyer-in-bengaluru' => 'choosing-the-right-intellectual-property-lawyer-in-bengaluru.html',
         'recentive-ai-patent-eligibility' => 'recentive-ai-patent-eligibility.html',
