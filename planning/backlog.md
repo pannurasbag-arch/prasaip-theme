@@ -250,6 +250,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 260 | open | Added 5 Nov 2026 scan. Digest only. |
 | 261 | open | Added 5 Nov 2026 scan. Digest only. |
 | 262 | open | Added 5 Nov 2026 scan. Digest only. |
+| 263 | drafted (draft/2026-11-06-ai-training-copyright-eu-like-company-v-google) | Added 6 Nov 2026 scan. Primary opened. |
+| 264 | open | Added 6 Nov 2026 scan. Primary not opened. |
+| 265 | open | Added 6 Nov 2026 scan. Digest only. Overlaps item 251 (LEFOXIN). |
+| 266 | open | Added 6 Nov 2026 scan. Digest only. Related to item 193. |
+| 267 | open | Added 6 Nov 2026 scan. Digest only. Related to item 224. |
+| 268 | open | Added 6 Nov 2026 scan. Digest only. |
+| 269 | open | Added 6 Nov 2026 scan. Watch item. |
+| 270 | open | Added 6 Nov 2026 scan. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2452,3 +2460,37 @@ These were seen only in digests and have not been verified yet.
 ### 262. Dr Reddy's Laboratories v Registrar of Trade Marks (Madras HC, CMA(TM) 31/2025): NICE upheld over NISE
 - **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks
 - **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Wed · **Priority:** Low
+
+### 263. AG Szpunar's Opinion in Like Company v Google (C-250/25): first CJEU AI and copyright reference
+- **Date:** 3 Nov 2026 · **Jurisdiction:** EU (CJEU, AG Opinion, ECLI:EU:C:2026:919) · **Area:** Copyright / AI / press publishers' right
+- **Summary:** AG proposes that the training questions be declared inadmissible. Provisional view: training involves reproduction and Art 4 TDM can in principle cover it. Chatbot answers reproduce a press publication where accessed unlawfully or where its expression is recognisable enough to replace it.
+- **Primary:** https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:62025CC0250 (opened 6 Nov 2026) · **Secondary:** https://ipkitten.blogspot.com/2026/11/ag-szpunars-opinion-in-like-company-is.html
+- **Weekday lens:** Fri · **Priority:** High
+
+### 264. General Court, Qingdao Ecopure Filter v EUIPO (Waterdrop), T-541/25: bad faith refiling
+- **Date:** reported 5 Nov 2026 · **Jurisdiction:** EU (General Court) · **Area:** Trade marks
+- **Secondary:** https://ipkitten.blogspot.com/2026/11/general-court-confirms-strict-rules-on.html · **Weekday lens:** Wed · **Priority:** Medium
+
+### 265. Glaxo Group v Shreya Life Sciences (Bombay HC): LEFOXIN BIOX removed; manufacture for export is use in India
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Thu · **Priority:** Medium
+
+### 266. Sourav Ganguly v Masha Sajdeh (Delhi HC): scenes with timestamps required before interim relief (film Doosra)
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Personality rights
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Fri · **Priority:** Medium
+
+### 267. Greenmount Spices v Wipro Enterprises (Kerala HC): Brahmin Sambar Powder injunction upheld
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks / trade dress
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Thu · **Priority:** Low
+
+### 268. UPL v Agro Orbit Hub (Delhi HC): marketplace takedown within 72 hours
+- **Date:** late Oct 2026 · **Jurisdiction:** India · **Area:** Trade marks / e-commerce
+- **Secondary:** LiveLaw Biz IPR digest 26 to 31 Oct 2026 · **Weekday lens:** Thu · **Priority:** Low
+
+### 269. Arbutus v Moderna: expedited Federal Circuit argument on the USD 1.3bn LNP judgment
+- **Date:** argued 5 Nov 2026 · **Jurisdiction:** US (Federal Circuit) · **Area:** Patents
+- **Secondary:** https://fedcircuitblog.com/2026/11/04/recent-news-on-the-federal-circuit-610/ · **Weekday lens:** Tue · **Priority:** Medium (watch)
+
+### 270. WIPO Global Forum on IP and AI (9 to 10 Nov 2026) and judges' guide to patent case management
+- **Date:** announced about 2 Nov 2026 · **Jurisdiction:** WIPO · **Area:** AI policy / patent litigation
+- **Secondary:** https://ipkitten.blogspot.com/2026/11/monday-miscellany.html · **Weekday lens:** Fri · **Priority:** Low
