@@ -65,6 +65,7 @@ function prasa_ip_static_map() {
         'section-1782-discovery-upc-motorola-v-asc' => 'section-1782-discovery-upc-motorola-v-asc.html',
         'employee-inventor-compensation-uk-parsons-v-convatec' => 'employee-inventor-compensation-uk-parsons-v-convatec.html',
         'trademark-licence-arbitration-india-utracon' => 'trademark-licence-arbitration-india-utracon.html',
+        'ai-training-copyright-eu-like-company-v-google' => 'ai-training-copyright-eu-like-company-v-google.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
