@@ -250,7 +250,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 260 | open | Added 5 Nov 2026 scan. Digest only. |
 | 261 | open | Added 5 Nov 2026 scan. Digest only. |
 | 262 | open | Added 5 Nov 2026 scan. Digest only. |
-| 263 | drafted (draft/2026-11-06-ai-training-copyright-eu-like-company-v-google) | Added 6 Nov 2026 scan. Primary opened. |
+| 263 | published https://www.prasaip.com/ai-training-copyright-eu-like-company-v-google/ (6 Nov 2026) | Added 6 Nov 2026 scan. Primary opened. PR #22. |
 | 264 | open | Added 6 Nov 2026 scan. Primary not opened. |
 | 265 | open | Added 6 Nov 2026 scan. Digest only. Overlaps item 251 (LEFOXIN). |
 | 266 | open | Added 6 Nov 2026 scan. Digest only. Related to item 193. |
