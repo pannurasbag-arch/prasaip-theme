@@ -258,7 +258,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 268 | open | Added 6 Nov 2026 scan. Digest only. |
 | 269 | open | Added 6 Nov 2026 scan. Watch item. |
 | 270 | open | Added 6 Nov 2026 scan. |
-| 271 | drafted (branch draft/2026-11-07-provisional-patent-application-india-us-europe) | Saturday explainer 7 Nov 2026. Search Console: "provisional patent agents in bangalore" position 13.8. Primary sources opened. |
+| 271 | published https://www.prasaip.com/provisional-patent-application-india-us-europe/ (7 Nov 2026) | Saturday explainer 7 Nov 2026. Search Console: "provisional patent agents in bangalore" position 13.8. Primary sources opened. PR #23. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
