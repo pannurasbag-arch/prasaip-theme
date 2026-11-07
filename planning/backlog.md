@@ -258,6 +258,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 268 | open | Added 6 Nov 2026 scan. Digest only. |
 | 269 | open | Added 6 Nov 2026 scan. Watch item. |
 | 270 | open | Added 6 Nov 2026 scan. |
+| 271 | drafted (branch draft/2026-11-07-provisional-patent-application-india-us-europe) | Saturday explainer 7 Nov 2026. Search Console: "provisional patent agents in bangalore" position 13.8. Primary sources opened. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2494,3 +2495,8 @@ These were seen only in digests and have not been verified yet.
 ### 270. WIPO Global Forum on IP and AI (9 to 10 Nov 2026) and judges' guide to patent case management
 - **Date:** announced about 2 Nov 2026 · **Jurisdiction:** WIPO · **Area:** AI policy / patent litigation
 - **Secondary:** https://ipkitten.blogspot.com/2026/11/monday-miscellany.html · **Weekday lens:** Fri · **Priority:** Low
+
+### 271. Saturday explainer: provisional patent applications in India, the US, Europe and the UK
+- **Date:** 7 Nov 2026 · **Jurisdiction:** India, US, EPO, UK · **Area:** Patent filing procedure
+- **Summary:** What a provisional or first filing secures, the 12 month deadlines (Patents Act 1970 s.9, 35 USC 111(b) and 119(e)), support tests (s.11 fairly based, s.112(a), G 2/98, UK s.5), EPO Rule 40 filings without claims, OJ EPO 1996, 81, G 1/22 and G 2/22, Indian s.39 foreign filing permits.
+- **Primary:** ipindia.gov.in ss.9, 10, 11, 39; law.cornell.edu 35 USC 111, 119; USPTO fee schedule; epo.org Art 87, Guidelines A-II 4.1, F-VI 2.2, OJ 1996, 81, G 1/22 communique; legislation.gov.uk PA 1977 ss.5, 15; Dynamic Drinkware (Fed. Cir. 2015) · **Weekday lens:** Sat · **Priority:** Medium
