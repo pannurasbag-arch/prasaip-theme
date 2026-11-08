@@ -35,9 +35,9 @@ if(pageName!=='index'){
 
 // Measure contact intent without treating a click as a completed enquiry.
 document.addEventListener('click',event=>{
-  const link=event.target.closest('a[href^="mailto:"],a[href^="tel:"],a[href*="wa.me/"]');
+  const link=event.target.closest('a[href^="mailto:"],a[href^="tel:"],a[href*="wa.me/"],a[href*="bookings.cloud.microsoft"]');
   if(!link||typeof window.gtag!=='function') return;
-  const method=link.protocol==='mailto:'?'email':link.protocol==='tel:'?'phone':'whatsapp';
+  const method=link.protocol==='mailto:'?'email':link.protocol==='tel:'?'phone':link.href.indexOf('bookings.cloud.microsoft')!==-1?'booking':'whatsapp';
   window.gtag('event','contact_click',{contact_method:method,page_location:location.href});
 });
 
