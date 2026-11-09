@@ -259,7 +259,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 269 | open | Added 6 Nov 2026 scan. Watch item. |
 | 270 | open | Added 6 Nov 2026 scan. |
 | 271 | published https://www.prasaip.com/provisional-patent-application-india-us-europe/ (7 Nov 2026) | Saturday explainer 7 Nov 2026. Search Console: "provisional patent agents in bangalore" position 13.8. Primary sources opened. PR #23. |
-| 272 | drafted (branch draft/2026-11-09-patent-assignment-standing-to-sue-india-cadila) | Added 9 Nov 2026 scan. Primary opened (Indian Kanoon). |
+| 272 | published https://www.prasaip.com/patent-assignment-standing-to-sue-india-cadila/ (9 Nov 2026) | Added 9 Nov 2026 scan. Primary opened (Indian Kanoon). PR #24. |
 | 273 | open | Added 9 Nov 2026 scan. Decision PDF opened (patentoppositions.org copy). Thin reasoning. |
 | 274 | open | Added 9 Nov 2026 scan. Primary opened (Indian Kanoon). |
 | 275 | open | Added 9 Nov 2026 scan. Primary opened (Indian Kanoon). Round up candidate. |
