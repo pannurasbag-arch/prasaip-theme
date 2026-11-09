@@ -259,6 +259,18 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 269 | open | Added 6 Nov 2026 scan. Watch item. |
 | 270 | open | Added 6 Nov 2026 scan. |
 | 271 | published https://www.prasaip.com/provisional-patent-application-india-us-europe/ (7 Nov 2026) | Saturday explainer 7 Nov 2026. Search Console: "provisional patent agents in bangalore" position 13.8. Primary sources opened. PR #23. |
+| 272 | drafted (branch draft/2026-11-09-patent-assignment-standing-to-sue-india-cadila) | Added 9 Nov 2026 scan. Primary opened (Indian Kanoon). |
+| 273 | open | Added 9 Nov 2026 scan. Decision PDF opened (patentoppositions.org copy). Thin reasoning. |
+| 274 | open | Added 9 Nov 2026 scan. Primary opened (Indian Kanoon). |
+| 275 | open | Added 9 Nov 2026 scan. Primary opened (Indian Kanoon). Round up candidate. |
+| 276 | open | Added 9 Nov 2026 scan. Watch item. Hearings 17, 25, 26 Nov. |
+| 277 | open | Added 9 Nov 2026 scan (60 day sweep). Primary opened. |
+| 278 | open | Added 9 Nov 2026 scan (60 day sweep). Primary opened. Round up candidate. |
+| 279 | open | Added 9 Nov 2026 scan. Primary opened. Verify patent number. |
+| 280 | open | Added 9 Nov 2026 scan. Notice PDF opened. |
+| 281 | open | Added 9 Nov 2026 scan. Notice PDF opened. |
+| 282 | open | Added 9 Nov 2026 scan. Primary not opened. |
+| 283 | open | Added 9 Nov 2026 scan. Primary not opened. Precedential status unverified. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2500,3 +2512,64 @@ These were seen only in digests and have not been verified yet.
 - **Date:** 7 Nov 2026 · **Jurisdiction:** India, US, EPO, UK · **Area:** Patent filing procedure
 - **Summary:** What a provisional or first filing secures, the 12 month deadlines (Patents Act 1970 s.9, 35 USC 111(b) and 119(e)), support tests (s.11 fairly based, s.112(a), G 2/98, UK s.5), EPO Rule 40 filings without claims, OJ EPO 1996, 81, G 1/22 and G 2/22, Indian s.39 foreign filing permits.
 - **Primary:** ipindia.gov.in ss.9, 10, 11, 39; law.cornell.edu 35 USC 111, 119; USPTO fee schedule; epo.org Art 87, Guidelines A-II 4.1, F-VI 2.2, OJ 1996, 81, G 1/22 communique; legislation.gov.uk PA 1977 ss.5, 15; Dynamic Drinkware (Fed. Cir. 2015) · **Weekday lens:** Sat · **Priority:** Medium
+
+## Items added 9 November 2026 scan
+
+### 272. Cadila Healthcare (Zydus) v Dr Abburi Ramaiah: assignor cannot sue after assignment
+- **Date:** 5 Nov 2026 · **Jurisdiction:** India (Telangana HC, DB, T. Vinod Kumar and Anil Kumar Jukanti JJ) · **Area:** Patent assignment / standing
+- **Summary:** CRP 1623/2026 from COS 44/2017. Under s.68 (post 2005) assignment takes effect on execution. s.2(1)(p): one patentee at a time. Plaint rejected under O.VII r.11 for suppressing the 16 Apr 2014 register entry (Patent 239632).
+- **Primary:** https://indiankanoon.org/doc/85677026/ · **Weekday lens:** Mon · **Priority:** High
+
+### 273. Patent Office refuses TB Alliance BPaL combination application 201817014361
+- **Date:** 27 Oct 2026 · **Jurisdiction:** India (Patent Office, Delhi) · **Area:** Pharma / pre grant opposition
+- **Summary:** Refused under s.15 after pre grant oppositions (Tellis and Acharya, DNP+) upheld on s.25(1)(b), (e), (f), (g). Applicant did not attend. Very little reasoning. Decision cites a prima facie date of 07/01/2025 (unexplained).
+- **Primary:** https://cdn.patentoppositions.org/uploads/patent_office_decision/user_uploaded_file/6ae2e236d2708f0005087bd7/pdf_b6fe2790-b58c-013f-0853-0242ac120002.pdf · **Secondary:** https://www.freepressjournal.in/mumbai/indian-patent-office-rejects-tb-drug-patent-boosting-push-for-affordable-mdr-tb-treatment · **Weekday lens:** Mon · **Priority:** High
+
+### 274. Five Fingers Exports v Lohia Corp: injunction set aside for untested scientific adviser report
+- **Date:** 4 Nov 2026 · **Jurisdiction:** India (Allahabad HC, DB) · **Area:** Patent interim injunction
+- **Summary:** Commercial Appeal 11/2026. Varanasi Commercial Court injunction on Patent 431032 set aside and remanded. Reliance on s.115 adviser's conclusion without testing; cursory findings.
+- **Primary:** https://indiankanoon.org/doc/68036362/ · **Weekday lens:** Mon · **Priority:** Medium
+
+### 275. Madras HC: Kobelco, Aventose Energy, Alstom refusals overturned for inadequate reasoning
+- **Date:** 16 and 30 Oct 2026 · **Jurisdiction:** India (Madras HC) · **Area:** s.117A appeals / inventive step
+- **Summary:** Kobelco (CMA(PT) 26/2024): two part claim format not a ground; remand. Aventose (CMA(PT) 62/2024): grant directed. Alstom (CMA(PT) 63/2024): remand to a different officer. Follows item 190.
+- **Primary:** https://indiankanoon.org/doc/90516434/ ; https://indiankanoon.org/doc/3362541/ ; https://indiankanoon.org/doc/100746700/ · **Weekday lens:** Mon · **Priority:** Medium
+
+### 276. Delhi HC SEP pro tem watch: InterDigital v TCL, Malikie v Oppo, Panoptis v Oppo
+- **Date:** orders 13, 14, 28 Oct 2026 · **Jurisdiction:** India (Delhi HC, Tejas Karia J) · **Area:** SEP / FRAND / pro tem security
+- **Summary:** Pro tem applications pending. TCL relies on a Shenzhen rate setting suit. Hearings 17 Nov (InterDigital v TCL), 25 Nov (Malikie v Oppo), 26 Nov (Panoptis v Oppo). Related: Navigate v Nothing (CS(COMM) 792/2026).
+- **Primary:** https://indiankanoon.org/doc/29762677/ ; https://indiankanoon.org/doc/10936116/ ; https://indiankanoon.org/doc/70518657/ · **Weekday lens:** Mon · **Priority:** High (write after rulings)
+
+### 277. Orion Engineered Carbons v Patent Office: wrong form in post grant opposition corrected
+- **Date:** 16 Oct 2026 · **Jurisdiction:** India (Delhi HC, Vikas Mahajan J) · **Area:** Post grant opposition procedure
+- **Summary:** W.P.(C)-IPD 42/2026. Opposition to Patent 470059 filed on Form 30 with lower fee. Correction allowed under Rule 137; fee shortfall within 3 weeks.
+- **Primary:** https://indiankanoon.org/doc/188345713/ · **Weekday lens:** Mon · **Priority:** Medium
+
+### 278. Arsian Organic v Controller of Patents: no criminal process for patent infringement (interim)
+- **Date:** 16 Sep 2026 · **Jurisdiction:** India (Bombay HC, Somasekhar Sundaresan J) · **Area:** Revocation / misuse of police process
+- **Summary:** Ex parte interim order restraining patentee from using criminal process pending revocation petition. No merits view. 4 Oct order not found.
+- **Primary:** https://indiankanoon.org/doc/143933640/ · **Weekday lens:** Mon · **Priority:** Low
+
+### 279. Bharat Bhogilal Patel v Raymond: revocation issue framed on counterclaim
+- **Date:** 2 Nov 2026 · **Jurisdiction:** India (Bombay HC) · **Area:** Revocation by counterclaim
+- **Summary:** Comm IP Suit 153/2018 with CC 12/2019. Aloys Wobben objection rejected. Patent number given as 188787 and 188767 (verify). Relates to item 87.
+- **Primary:** https://indiankanoon.org/doc/151997809/ · **Weekday lens:** Mon · **Priority:** Low
+
+### 280. CGPDTM special drive: trade mark oppositions pending up to 2010 listed for final hearing
+- **Date:** 2 Nov 2026 · **Jurisdiction:** India (Trade Marks Registry) · **Area:** Trade mark procedure
+- **Summary:** 466 page master list across all five offices. In person hearings where contacts outdated; adjournments only in exceptional cases, within 7 days.
+- **Primary:** https://ipindia.gov.in/storage/uploads/others/WgPaWxkZPjk2RPctr95qUQavRvusVPkBmcPRrx8e.pdf · **Weekday lens:** Thu · **Priority:** Medium
+
+### 281. IP India: ePCT v4.18 search fee reduction option for ISA/IN
+- **Date:** listed 28 Oct 2026 · **Jurisdiction:** India / WIPO · **Area:** PCT procedure
+- **Summary:** ISA/IN fee reduction option moved to the International Search section; automatic for natural persons, proof needed for startups, small entities and educational institutions.
+- **Primary:** https://ipindia.gov.in/storage/uploads/others/Dq2yaOUsr2IHN9q4sNt6JeYsRocVN0qxDcsUW26n.pdf · **Weekday lens:** Fri · **Priority:** Low
+
+### 282. ZTE and Samsung withdraw UPC Mannheim SEP actions in apparent settlement
+- **Date:** reported 6 Nov 2026 · **Jurisdiction:** UPC / Germany · **Area:** SEP / FRAND
+- **Summary:** Withdrawals by mutual agreement after UK and Chongqing rate setting. Terms undisclosed.
+- **Secondary:** https://www.juve-patent.com/cases/zte-and-samsung-withdraw-upc-infringement-actions-in-apparent-settlement/ · **Weekday lens:** Wed · **Priority:** Medium
+
+### 283. Google v DDC Technology (Fed. Cir.): PTAB non obviousness findings affirmed
+- **Date:** about 5 Nov 2026 · **Jurisdiction:** US (CAFC) · **Area:** PTAB / obviousness
+- **Secondary:** https://ipwatchdog.com/2026/11/05/federal-circuit-upholds-ptab-findings-that-google-failed-to-prove-vr-viewer-patent-claims-obvious/ · **Weekday lens:** Tue · **Priority:** Low
