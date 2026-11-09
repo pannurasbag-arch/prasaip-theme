@@ -326,6 +326,7 @@ function prasa_ip_site_footer() {
         . '<div><h2>India office</h2><p>PRASA IP LLP<br>481, 5th Cross Road, Kothanur Main Road, RBI Layout, JP Nagar 7th Phase, Bengaluru, Karnataka 560078</p></div>'
         . '<div><h2>US office</h2><p>PRASA IP LLC<br>30 N Gould Street, STE R, Sheridan, Wyoming 82801</p><p><a href="tel:+919113214395">+91 91132 14395</a><br><a href="mailto:contact@prasaip.com">contact@prasaip.com</a></p></div>'
         . '<nav aria-label="Firm and legal"><h2>Firm</h2><a href="patent-services.html">Patents</a><a href="trademark-services.html">Trade marks</a><a href="knowledge-centre.html">Insights</a><a href="firm.html">About</a><a href="recognition-events.html">Recognition &amp; Events</a><a href="careers.html">Careers</a></nav>'
+        . prasa_ip_newsletter_form()
         . '<div class="footer-base"><span>&copy; ' . gmdate('Y') . ' PRASA IP. All rights reserved.</span><span><a href="privacy-policy.html">Privacy</a> &nbsp; <a href="terms-of-use.html">Terms</a> &nbsp; <a href="disclaimer.html">Disclaimer</a></span></div>'
         . '</footer>';
 }

@@ -5,6 +5,7 @@ if (!defined('ABSPATH')) {
 
 require_once get_template_directory() . '/render-static.php';
 require_once get_template_directory() . '/render-legacy.php';
+require_once get_template_directory() . '/newsletter.php';
 
 function prasa_ip_setup() {
     add_theme_support('post-thumbnails');

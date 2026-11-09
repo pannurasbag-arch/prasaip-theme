@@ -596,3 +596,18 @@ html body *{hyphens:manual!important;-webkit-hyphens:manual!important;word-break
 .awards-more{margin:18px 0 0;font-weight:700}
 /* Make links inside key-point boxes, such as the contact box, clearly clickable. */
 .key-points a{font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.site-footer .footer-newsletter{grid-column:1/-1;display:grid;grid-template-columns:minmax(220px,1fr) minmax(0,2fr);gap:12px 40px;align-items:start;padding:28px 0 6px;border-top:1px solid rgba(227,196,107,.25)}
+.site-footer .footer-newsletter h2{margin:0 0 6px}.site-footer .footer-newsletter>div>p{margin:0}.nl-form .nl-consent a{display:inline;color:#f1d486;text-decoration:underline}
+.nl-form{display:grid;grid-template-columns:minmax(0,2fr) minmax(120px,1fr) auto;gap:10px;align-items:end}
+.nl-form .nl-label{grid-row:1;font-size:12px;color:#cbb3c0}
+.nl-form input[type=email],.nl-form select{width:100%;box-sizing:border-box;padding:12px 14px;border:1px solid rgba(227,196,107,.45);border-radius:6px;background:rgba(255,255,255,.06);color:#fff;font:15px "DM Sans",sans-serif}
+.nl-form select option{color:#2a0a1b}
+.nl-form input[type=email]{grid-column:1;grid-row:2}.nl-form select{grid-column:2;grid-row:2}
+.nl-form button{grid-column:3;grid-row:2;padding:12px 22px;border:0;border-radius:6px;background:linear-gradient(135deg,#f1d486,#d7ad4d);color:#3d0a24;font:700 15px "DM Sans",sans-serif;cursor:pointer}
+.nl-form button:hover{filter:brightness(1.06)}
+.nl-form .nl-consent{grid-column:1/-1;display:flex;gap:8px;align-items:flex-start;font-size:13px;line-height:1.5;color:#e9dbe2}
+.nl-form .nl-consent input{margin-top:3px}
+.nl-form .nl-msg{grid-column:1/-1;margin:0;font-size:14px}.nl-form .nl-good{color:#f1d486}.nl-form .nl-warn{color:#ffb4c8}
+.nl-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+@media(max-width:900px){.site-footer .footer-newsletter{grid-template-columns:1fr}}
+@media(max-width:600px){.nl-form{grid-template-columns:1fr}.nl-form .nl-label,.nl-form input[type=email],.nl-form select,.nl-form button{grid-column:1;grid-row:auto}}
