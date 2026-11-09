@@ -23,7 +23,7 @@ function prasa_ip_newsletter_form() {
         . '<input type="hidden" name="action" value="prasa_ip_subscribe">'
         . '<input type="hidden" name="nl_ts" value="" data-nl-ts>'
         . '<input type="hidden" name="nl_back" value="" data-nl-back>'
-        . '<div class="nl-hp" aria-hidden="true"><label>Company website<input type="text" name="nl_website" tabindex="-1" autocomplete="off"></label></div>'
+        . '<div class="nl-hp" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden"><label>Company website<input type="text" name="nl_website" tabindex="-1" autocomplete="off"></label></div>'
         . '<label class="nl-label" for="nl-email">Email address</label>'
         . '<input id="nl-email" type="email" name="nl_email" required maxlength="190" autocomplete="email" placeholder="you@company.com">'
         . '<label class="nl-label" for="nl-edition">Edition</label>'
