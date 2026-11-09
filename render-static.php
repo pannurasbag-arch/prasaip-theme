@@ -68,6 +68,7 @@ function prasa_ip_static_map() {
         'trademark-licence-arbitration-india-utracon' => 'trademark-licence-arbitration-india-utracon.html',
         'ai-training-copyright-eu-like-company-v-google' => 'ai-training-copyright-eu-like-company-v-google.html',
         'provisional-patent-application-india-us-europe' => 'provisional-patent-application-india-us-europe.html',
+        'patent-assignment-standing-to-sue-india-cadila' => 'patent-assignment-standing-to-sue-india-cadila.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
