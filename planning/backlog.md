@@ -271,7 +271,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 281 | open | Added 9 Nov 2026 scan. Notice PDF opened. |
 | 282 | open | Added 9 Nov 2026 scan. Primary not opened. |
 | 283 | open | Added 9 Nov 2026 scan. Primary not opened. Precedential status unverified. |
-| 284 | drafted (branch draft/2026-11-10-software-licence-trade-secrets-ssc-v-arcesium) | Added 10 Nov 2026 scan. Primary opened. |
+| 284 | published https://www.prasaip.com/software-licence-trade-secrets-ssc-v-arcesium/ (10 Nov 2026) | Added 10 Nov 2026 scan. Primary opened. PR #27. |
 | 285 | open | Added 10 Nov 2026 scan. Primary opened (GAO). |
 | 286 | open | Added 10 Nov 2026 scan. Watch item. Updates items 64 and 221. |
 | 287 | open | Added 10 Nov 2026 scan. Primary not opened. |
