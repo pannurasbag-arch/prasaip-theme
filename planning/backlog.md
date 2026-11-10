@@ -271,6 +271,14 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 281 | open | Added 9 Nov 2026 scan. Notice PDF opened. |
 | 282 | open | Added 9 Nov 2026 scan. Primary not opened. |
 | 283 | open | Added 9 Nov 2026 scan. Primary not opened. Precedential status unverified. |
+| 284 | drafted (branch draft/2026-11-10-software-licence-trade-secrets-ssc-v-arcesium) | Added 10 Nov 2026 scan. Primary opened. |
+| 285 | open | Added 10 Nov 2026 scan. Primary opened (GAO). |
+| 286 | open | Added 10 Nov 2026 scan. Watch item. Updates items 64 and 221. |
+| 287 | open | Added 10 Nov 2026 scan. Primary not opened. |
+| 288 | open | Added 10 Nov 2026 scan. Unverified on official source. |
+| 289 | open | Added 10 Nov 2026 scan. Primary not opened. Parties not identified. |
+| 290 | open | Added 10 Nov 2026 scan. Primary not opened. |
+| 291 | open | Added 10 Nov 2026 scan. Evergreen candidate. USPTO bulletin not opened. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2573,3 +2581,42 @@ These were seen only in digests and have not been verified yet.
 ### 283. Google v DDC Technology (Fed. Cir.): PTAB non obviousness findings affirmed
 - **Date:** about 5 Nov 2026 · **Jurisdiction:** US (CAFC) · **Area:** PTAB / obviousness
 - **Secondary:** https://ipwatchdog.com/2026/11/05/federal-circuit-upholds-ptab-findings-that-google-failed-to-prove-vr-viewer-patent-claims-obvious/ · **Weekday lens:** Tue · **Priority:** Low
+
+## Items added 10 November 2026 scan
+
+### 284. SS&C Technologies v Arcesium (2d Cir. No. 25-2049): DTSA claim against former software reseller revived
+- **Date:** 3 Nov 2026 · **Jurisdiction:** US (2d Cir., Sack, Livingston, Carney JJ) · **Area:** Trade secrets / software licensing
+- **Summary:** Reversed dismissal. Broad "use" (Oakwood Labs), licensing under confidentiality is a reasonable measure (VBS Distribution), boundaries test for specificity, no fact finding on internal emails at 12(b)(6).
+- **Primary:** https://ww3.ca2.uscourts.gov/decisions/OPN/25-2049_opn.pdf · **Weekday lens:** Tue · **Priority:** High
+
+### 285. GAO-27-108491: USPTO backlog reduction puts examiner retention and quality at risk
+- **Date:** 5 Nov 2026 · **Jurisdiction:** US (USPTO) · **Area:** Patent examination policy
+- **Summary:** Backlog about 756k (Aug 2026), target under 599k unlikely before 2031; examiner attrition 7.6% FY2025; pendency to final decision up 11% since Jan 2025.
+- **Primary:** https://www.gao.gov/products/gao-27-108491 · **Weekday lens:** Tue · **Priority:** Medium
+
+### 286. In re OpenAI Copyright Infringement Litigation (S.D.N.Y. MDL): amicus briefs on fair use summary judgment
+- **Date:** briefs 30 Oct 2026, replies due 20 Nov · **Jurisdiction:** US · **Area:** Copyright / AI
+- **Secondary:** https://ipwatchdog.com/2026/11/02/openai-touts-briefs-backing-fair-use-for-ai-training/ · **Weekday lens:** Fri · **Priority:** Medium (write after ruling)
+
+### 287. Casa Tradición v Casa Azul Spirits (5th Cir. No. 24-20255): no confusion finding vacated
+- **Date:** 5 Nov 2026 · **Jurisdiction:** US (5th Cir.) · **Area:** Trade marks
+- **Primary:** https://www.ca5.uscourts.gov/opinions/pub/24/24-20255-CV0.pdf · **Weekday lens:** Thu · **Priority:** Low
+
+### 288. Greg Dolin sworn in as USPTO Solicitor
+- **Date:** reported 6 Nov 2026 · **Jurisdiction:** US (USPTO) · **Area:** Institutional · Relates to item 133
+- **Secondary:** https://ipwatchdog.com/2026/11/06/bites-barks-cafc-hears-arguments-in-modernas-covid-19-vaccine-appeal-and-ftc-complaint-over-amazon/ · **Weekday lens:** Tue · **Priority:** Low
+
+### 289. Director Review IPR2026-00374, Paper 18: patent owner's discretionary denial request refused
+- **Date:** 26 Oct 2026 · **Jurisdiction:** US (PTAB) · **Area:** Procedure
+- **Secondary:** https://www.wilmerhale.com/en/insights/client-alerts/20261106-ptab-uspto-update · **Weekday lens:** Tue · **Priority:** Low
+
+### 290. Chanel v What Goes Around Comes Around (2d Cir. No. 25-722, summary order): USD 4m statutory damages affirmed
+- **Date:** 3 Nov 2026 · **Jurisdiction:** US (2d Cir.) · **Area:** Trade marks / luxury resale
+- **Primary:** https://ww3.ca2.uscourts.gov/decisions/SUM/25-722_so.pdf · **Weekday lens:** Thu · **Priority:** Low
+
+### 291. USPTO PCT Informed Examination Request (PIER) Pilot: random selection of s.371 national stage applications
+- **Date:** effective 9 Apr 2026 to 9 Apr 2027 · **Jurisdiction:** US (USPTO) · **Area:** PCT national stage
+- **Summary:** Selected applicants must file PTO/SB/478 to examine, defer 12 months (no PTA) or abandon. Relevant to Indian PCT applicants entering the US.
+- **Secondary:** https://ipwatchdog.com/2026/11/08/pier-pressure-what-applicants-need-to-know-about-the-usptos-pier-pilot-program/ · **Weekday lens:** Tue · **Priority:** Medium
+
+Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.cafc.uscourts.gov/opinions-orders/25-1315.OPINION.11-5-2026_2782410.pdf); items 146 and 49 distributed for SCOTUS conference 4 Dec 2026; item 149 Copyright Office deadlines extended to 18 Dec 2026 and 29 Jan 2027; item 269 argued 5 Nov 2026.
