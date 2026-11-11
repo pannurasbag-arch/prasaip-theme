@@ -236,7 +236,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 246 | open | Added 3 Nov 2026 scan. Primary opened by scan agent. Low impact. |
 | 247 | open | Added 3 Nov 2026 scan. Survey; primary not opened. |
 | 248 | published | https://www.prasaip.com/employee-inventor-compensation-uk-parsons-v-convatec/ (4 Nov 2026, Wednesday lens, merged via PR #20, merge ff2f31a). Primary opened (National Archives, full text). Reviewer corrections applied. Both domains verified (200, single canonical to .com, index,follow, KC card, images). Hostinger cache purged for .com and .in. Post Inspector title OK. LinkedIn page post urn:li:activity:7523601242569502720 with both mentions linked. GSC indexing requested. Bing submitted. |
-| 249 | open | Added 4 Nov 2026 scan. Primary opened by scan agent. |
+| 249 | drafted (branch draft/2026-11-11-sep-pool-licence-rand-trial-snap-v-dolby) | Added 4 Nov 2026 scan. Primary opened 11 Nov 2026. |
 | 250 | open | Added 4 Nov 2026 scan. Primary not opened (ipfray, paywalled). |
 | 251 | open | Added 4 Nov 2026 scan. Primary not opened. |
 | 252 | open | Added 4 Nov 2026 scan. Primary not opened. |
@@ -279,6 +279,17 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 289 | open | Added 10 Nov 2026 scan. Primary not opened. Parties not identified. |
 | 290 | open | Added 10 Nov 2026 scan. Primary not opened. |
 | 291 | open | Added 10 Nov 2026 scan. Evergreen candidate. USPTO bulletin not opened. |
+| 292 | open | Added 11 Nov 2026 scan. Primary not found (UPC site errors). Secondary opened. |
+| 293 | open | Added 11 Nov 2026 scan. Primary not opened. |
+| 294 | open | Added 11 Nov 2026 scan. Primary opened. |
+| 295 | open | Added 11 Nov 2026 scan. Primary not opened. Not FRAND. |
+| 296 | open | Added 11 Nov 2026 scan. Primary not opened. |
+| 297 | open | Added 11 Nov 2026 scan. Primary not opened. |
+| 298 | open | Added 11 Nov 2026 scan. Primary not opened. |
+| 299 | open | Added 11 Nov 2026 scan. Written decision not yet published. Related to item 250. |
+| 300 | open | Added 11 Nov 2026 scan. Primary opened. |
+| 301 | open | Added 11 Nov 2026 scan. Primary opened. |
+| 302 | open | Added 11 Nov 2026 scan. Primary opened in part. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2620,3 +2631,57 @@ These were seen only in digests and have not been verified yet.
 - **Secondary:** https://ipwatchdog.com/2026/11/08/pier-pressure-what-applicants-need-to-know-about-the-usptos-pier-pilot-program/ · **Weekday lens:** Tue · **Priority:** Medium
 
 Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.cafc.uscourts.gov/opinions-orders/25-1315.OPINION.11-5-2026_2782410.pdf); items 146 and 49 distributed for SCOTUS conference 4 Dec 2026; item 149 Copyright Office deadlines extended to 18 Dec 2026 and 29 Jan 2027; item 269 argued 5 Nov 2026.
+
+## Items added 11 November 2026 scan
+
+### 292. Ericsson v ASUS (UPC Milan LD): first successful FRAND defence at the UPC
+- **Date:** 6 Nov 2026 · **Jurisdiction:** UPC (Milan LD; Perrotti, Zana, Lopes, Norrenbrock) · **Area:** SEP / FRAND
+- **Summary:** EP3076673 invalid. EP2727342 valid and infringed, but injunction refused because Ericsson gave no pre suit notice of infringement (Huawei v ZTE). Declaration, damages and accounts only. No declaration of essentiality.
+- **Secondary:** https://ipfray.com/upcs-first-ever-successful-frand-defense-milan-ld-sides-with-asus-against-ericsson/ · **Weekday lens:** Wed · **Priority:** High (get decision from UPC site first)
+
+### 293. Netflix v DivX (UPC CoA 176/2026 and 177/2026): no suspension of injunction despite EPO revocation
+- **Date:** 2 Nov 2026 · **Jurisdiction:** UPC Court of Appeal · **Area:** Patents / parallel EPO proceedings
+- **Summary:** Opposition Division revocation of EP4213033 not final, so no suspension of enforcement and no duty to stay.
+- **Secondary:** MLex 3 Nov 2026; Hoyng Rokh Monegier UPC decisions week 45 · **Weekday lens:** Wed · **Priority:** High
+
+### 294. Aviator v Spribe [2026] EWHC 2840 (BP): English court tries foreign passing off claims
+- **Date:** 6 Nov 2026 · **Jurisdiction:** UK (Tappin J) · **Area:** Unfair competition / jurisdiction
+- **Summary:** England clearly more appropriate forum for passing off and unfair competition claims in 9 foreign countries, refused for 28 others. Rome II: foreign law on availability of injunction, English law on how granted. Partial interim injunction.
+- **Primary:** https://caselaw.nationalarchives.gov.uk/ewhc/bp/2026/2840 · **Secondary:** IPKat 8 Nov 2026 · **Weekday lens:** Wed or Thu · **Priority:** High
+
+### 295. Nexperia BV v Nexperia China (Hague District Court): Chinese anti suit order not to be enforced in the EU
+- **Date:** 2 Nov 2026 (rectified 5 Nov) · **Jurisdiction:** Netherlands · **Area:** Anti suit injunctions (corporate control dispute)
+- **Summary:** Jiangsu High Court interim order of 31 Mar 2026 provisionally treated as an anti suit injunction breaching Art 6 ECHR. Penalty EUR 1m a day, capped at EUR 100m. Trade mark claims failed for lack of urgency. ECLI:NL:RBDHA:2026:32607.
+- **Secondary:** dhkv.nl weekly review week 45 · **Weekday lens:** Wed · **Priority:** Medium
+
+### 296. Amycel (UPC CoA 935/2025): default judgment set aside
+- **Date:** 2 Nov 2026 · **Jurisdiction:** UPC Court of Appeal · **Area:** Procedure
+- **Summary:** Rule 356 set aside cannot be refused on general discretion. Rule 356.3 notice must be express. Remitted to The Hague LD.
+- **Secondary:** ipfray 4 Nov 2026 · **Weekday lens:** Wed · **Priority:** Medium
+
+### 297. UPC CoA cost rulings: Yealink v Barco (84/2026) and Guardant v Sophia (49/2026)
+- **Date:** 3 and 5 Nov 2026 · **Jurisdiction:** UPC Court of Appeal · **Area:** Costs
+- **Summary:** Cost application before the merits decision inadmissible. Value ceiling guidelines misapplied. Costs must be detailed, reasonable and proportionate.
+- **Secondary:** Hoyng Rokh Monegier week 45 · **Weekday lens:** Wed · **Priority:** Medium
+
+### 298. Silimed v Polytech (OLG Munich 6 W 773/26 e): detention order against manager set aside
+- **Date:** reported 5 Nov 2026 · **Jurisdiction:** Germany · **Area:** Enforcement / UPC opt out dispute
+- **Secondary:** https://www.juve-patent.com/ (5 Nov 2026) · **Weekday lens:** Wed · **Priority:** Medium
+
+### 299. EPO Board of Appeal revokes Edwards EP4151181
+- **Date:** hearing 23 Oct 2026, reported 28 Oct · **Jurisdiction:** EPO · **Area:** Patents / parallel UPC proceedings
+- **Summary:** Revoked in full, overturning the Opposition Division. Undercuts the Paris CD injunction against Meril (appeal hearing 13 May 2027). Related to item 250.
+- **Secondary:** JUVE Patent 28 Oct 2026 · **Weekday lens:** Wed · **Priority:** Medium
+
+### 300. Thomas Pink v Victoria's Secret [2026] EWHC 2817 (BP): coexistence agreement and anti suit relief
+- **Date:** 5 Nov 2026 · **Jurisdiction:** UK · **Area:** Trade marks / coexistence agreements
+- **Primary:** https://caselaw.nationalarchives.gov.uk/ewhc/bp/2026/2817 · **Weekday lens:** Thu · **Priority:** Low
+
+### 301. Conex v Sanbra Fyffe [2026] EWHC 2861 (Pat): Shorter Trials Scheme, claims limited to 10
+- **Date:** 6 Nov 2026 · **Jurisdiction:** UK (Mellor J) · **Area:** Patents / case management
+- **Primary:** https://caselaw.nationalarchives.gov.uk/ewhc/pat/2026/2861 · **Weekday lens:** Wed · **Priority:** Low
+
+### 302. ABD Maestro v Great Galleon (Delhi HC, CS(COMM) 987/2026 and batch): 17 IP suits returned for lack of territorial jurisdiction
+- **Date:** 3 Nov 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Trade marks / jurisdiction
+- **Summary:** Online availability, trap purchases and GST registration do not found jurisdiction. Infringement and passing off must each found jurisdiction.
+- **Primary:** https://delhihighcourt.nic.in/app/showFileJudgment/59603112026SC9872026_202903.pdf · **Secondary:** LiveLaw · **Weekday lens:** Thu · **Priority:** High
