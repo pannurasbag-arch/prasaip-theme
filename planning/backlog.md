@@ -236,7 +236,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 246 | open | Added 3 Nov 2026 scan. Primary opened by scan agent. Low impact. |
 | 247 | open | Added 3 Nov 2026 scan. Survey; primary not opened. |
 | 248 | published | https://www.prasaip.com/employee-inventor-compensation-uk-parsons-v-convatec/ (4 Nov 2026, Wednesday lens, merged via PR #20, merge ff2f31a). Primary opened (National Archives, full text). Reviewer corrections applied. Both domains verified (200, single canonical to .com, index,follow, KC card, images). Hostinger cache purged for .com and .in. Post Inspector title OK. LinkedIn page post urn:li:activity:7523601242569502720 with both mentions linked. GSC indexing requested. Bing submitted. |
-| 249 | drafted (branch draft/2026-11-11-sep-pool-licence-rand-trial-snap-v-dolby) | Added 4 Nov 2026 scan. Primary opened 11 Nov 2026. |
+| 249 | published https://www.prasaip.com/sep-pool-licence-rand-trial-snap-v-dolby/ (11 Nov 2026) | Added 4 Nov 2026 scan. Primary opened 11 Nov 2026. PR #28. |
 | 250 | open | Added 4 Nov 2026 scan. Primary not opened (ipfray, paywalled). |
 | 251 | open | Added 4 Nov 2026 scan. Primary not opened. |
 | 252 | open | Added 4 Nov 2026 scan. Primary not opened. |
