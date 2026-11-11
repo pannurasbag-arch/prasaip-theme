@@ -7,6 +7,6 @@ if ($file) {
 }
 prasa_ip_legacy_header();
 ?>
-<main class="content-page"><div class="wrap"><article class="article"><p class="eyebrow">404</p><h1>Page not found</h1><p>The requested page may have moved. Continue to the homepage or review our intellectual property services.</p><p><a class="button gold" href="<?php echo esc_url(home_url('/')); ?>">Go to homepage</a></p></article></div></main>
+<main class="content-page"><div class="wrap"><article class="article"><p class="eyebrow">404</p><h1>Page not found</h1><p>The requested page may have moved. Continue to the homepage or review our intellectual property services.</p><p><a class="button gold" href="<?php echo esc_url(home_url('/')); ?>">Go to homepage</a></p><p><a href="<?php echo esc_url(home_url('/patent-services/')); ?>">Patent services</a> · <a href="<?php echo esc_url(home_url('/trademark-services/')); ?>">Trade mark services</a> · <a href="<?php echo esc_url(home_url('/knowledge-centre/')); ?>">Knowledge Centre</a> · <a href="<?php echo esc_url(home_url('/#contact')); ?>">Contact</a></p></article></div></main>
 <?php prasa_ip_legacy_footer();
 

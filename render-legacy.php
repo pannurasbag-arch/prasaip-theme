@@ -40,7 +40,7 @@ function prasa_ip_shell_parts() {
         $head_links .= $m[0];
     }
     $top = '';
-    if (preg_match('/<body[^>]*>(.*?)<main>/s', $html, $m)) {
+    if (preg_match('/<body[^>]*>(.*?)<main[\s>]/s', $html, $m)) {
         $top = $m[1];
     }
     $bottom = '';
