@@ -289,7 +289,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 299 | open | Added 11 Nov 2026 scan. Written decision not yet published. Related to item 250. |
 | 300 | open | Added 11 Nov 2026 scan. Primary opened. |
 | 301 | open | Added 11 Nov 2026 scan. Primary opened. |
-| 302 | drafted (branch draft/2026-11-12-trademark-suit-territorial-jurisdiction-delhi-abd-maestro) | Added 11 Nov 2026 scan. Full judgment read 12 Nov 2026. |
+| 302 | published 12 Nov 2026 (https://www.prasaip.com/trademark-suit-territorial-jurisdiction-delhi-abd-maestro/) | Added 11 Nov 2026 scan. Full judgment read 12 Nov 2026. LinkedIn urn:li:share:7526497190098128896. |
 | 303 | open | Added 12 Nov 2026 scan. Primary opened. |
 | 304 | open | Added 12 Nov 2026 scan. Primary not opened. Decision date unverified. |
 | 305 | open | Added 12 Nov 2026 scan. Secondary only. Next hearing 2 Dec 2026. |
