@@ -289,7 +289,16 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 299 | open | Added 11 Nov 2026 scan. Written decision not yet published. Related to item 250. |
 | 300 | open | Added 11 Nov 2026 scan. Primary opened. |
 | 301 | open | Added 11 Nov 2026 scan. Primary opened. |
-| 302 | open | Added 11 Nov 2026 scan. Primary opened in part. |
+| 302 | drafted (branch draft/2026-11-12-trademark-suit-territorial-jurisdiction-delhi-abd-maestro) | Added 11 Nov 2026 scan. Full judgment read 12 Nov 2026. |
+| 303 | open | Added 12 Nov 2026 scan. Primary opened. |
+| 304 | open | Added 12 Nov 2026 scan. Primary not opened. Decision date unverified. |
+| 305 | open | Added 12 Nov 2026 scan. Secondary only. Next hearing 2 Dec 2026. |
+| 306 | open | Added 12 Nov 2026 scan. Secondary only. |
+| 307 | open | Added 12 Nov 2026 scan. Secondary only. |
+| 308 | open | Added 12 Nov 2026 scan. Secondary only. Not precedential. |
+| 309 | open | Added 12 Nov 2026 scan. Secondary only. Order list not opened. |
+| 310 | open | Added 12 Nov 2026 scan. Docketing only. |
+| 311 | open | Added 12 Nov 2026 scan. Secondary only. Judgment date unverified. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2685,3 +2694,50 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Date:** 3 Nov 2026 · **Jurisdiction:** India (Delhi HC) · **Area:** Trade marks / jurisdiction
 - **Summary:** Online availability, trap purchases and GST registration do not found jurisdiction. Infringement and passing off must each found jurisdiction.
 - **Primary:** https://delhihighcourt.nic.in/app/showFileJudgment/59603112026SC9872026_202903.pdf · **Secondary:** LiveLaw · **Weekday lens:** Thu · **Priority:** High
+
+## Items added 12 November 2026 scan (window 9 to 12 Nov)
+
+### 303. TV Today Network v Global Weather Productions, CS(COMM) 738/2026 (Delhi HC): anti suit injunction against US copyright suit
+- **Date:** order 5 Nov 2026, reported 11 Nov · **Bench:** Tejas Karia J · **Area:** Copyright / anti suit injunction
+- **Summary:** Defendants restrained from pursuing N.D. Cal. 3:26-cv-02367 over weather footage. US suit prima facie vexatious. Short use prima facie fair dealing under s.52(1)(a)(iii).
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/11/11/tvtoday-network-710899.pdf
+- **Lens:** Fri · **Priority:** High
+
+### 304. TRUTH SOCIAL EUTM invalid for bad faith, R2260/2025-4 (EUIPO Fourth Board of Appeal)
+- **Date:** reported 10 Nov 2026 (decision date 19 Oct inferred from file name, unverified) · **Area:** Trade marks / bad faith
+- **Primary (not opened):** https://euipo.europa.eu/copla/trademark/data/018584534/download/CLW/APL/2026/EN/20261019_R2260_2025-4.pdf
+- **Secondary:** https://ipkitten.blogspot.com/2026/11/truth-social-trade-mark-invalidated.html
+- **Lens:** Thu · **Priority:** Medium High
+
+### 305. CULT trade mark rectification ahead of Cult.fit IPO, OP(TM) 51/2026 (Madras HC)
+- **Date:** reported 11 Nov 2026, adjourned to 2 Dec · **Area:** Trade marks / title / IPO disclosure
+- **Secondary:** https://www.livelawbiz.com/trademark/madras-high-court-issues-notice-on-plea-to-cancel-cult-trademark-registration-ahead-of-cultfit-ipo-558135
+- **Lens:** Thu · **Priority:** Medium (watch)
+
+### 306. Online impersonation injunctions: MDH v Ashok Kumar, CS(COMM) 1191/2026 and Titan v John Doe, CS(COMM) 1203/2026 (Delhi HC)
+- **Date:** orders 5 Nov 2026 · **Area:** Trade marks / online enforcement
+- **Secondary:** https://www.livelawbiz.com/trademark/delhi-high-court-orders-suspension-of-fake-mdh-dealership-websites-impersonating-well-known-mdh-masala-mark-558110
+- **Lens:** Thu · **Priority:** Low Medium
+
+### 307. Devans v Cartel Bros (GODFATHER), CS(COMM) 346/2026 (Delhi HC): settlement
+- **Date:** 6 Nov 2026 · **Area:** Trade marks / settlement terms
+- **Secondary:** https://livelawbiz.com/trademark/delhi-high-court-records-settlement-between-devans-modern-breweries-and-cartel-bros-over-godfather-whisky-label-558104
+- **Lens:** Thu · **Priority:** Low
+
+### 308. In re Advanced Hair Restoration (NO SHAVE FUE), TTAB, not precedential
+- **Date:** 9 Nov 2026 · **Area:** Trade marks / genericness (US)
+- **Secondary:** http://thettablog.blogspot.com/2026/11/ttab-finds-no-shave-fue-to-be-generic.html
+- **Lens:** Tue · **Priority:** Low
+
+### 309. Genuine Enabling Technology v Sony, No. 26-397: cert denied on s.112(f) "why" requirement
+- **Date:** 9 Nov 2026 · **Area:** Patents (US)
+- **Secondary:** https://ipwatchdog.com/2026/11/09/scotus-denies-appeal-seeking-to-clarify-federal-circuits-why-requirement-for-establishing-section-112f-equivalency/
+- **Lens:** Tue · **Priority:** Low
+
+### 310. WIPO Madrid Information Notices 45/2026 (Colombia individual fee) and 46/2026 (non working days 2027)
+- **Date:** 9 Nov 2026 · **Primary listing:** https://www.wipo.int/en/web/madrid-system/notices
+- **Lens:** Thu · **Priority:** Low (docketing)
+
+### 311. Pfizer v Samsung Bioepis [2026] FCA 1244 (Federal Court of Australia): ENBREL process patent not infringed
+- **Date:** reported 9 Nov 2026, judgment date unverified · **Area:** Patents / biologics
+- **Lens:** Sat · **Priority:** Low
