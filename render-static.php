@@ -71,6 +71,7 @@ function prasa_ip_static_map() {
         'patent-assignment-standing-to-sue-india-cadila' => 'patent-assignment-standing-to-sue-india-cadila.html',
         'software-licence-trade-secrets-ssc-v-arcesium' => 'software-licence-trade-secrets-ssc-v-arcesium.html',
         'sep-pool-licence-rand-trial-snap-v-dolby' => 'sep-pool-licence-rand-trial-snap-v-dolby.html',
+        'trademark-suit-territorial-jurisdiction-delhi-abd-maestro' => 'trademark-suit-territorial-jurisdiction-delhi-abd-maestro.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
