@@ -115,6 +115,8 @@ function prasa_ip_transform_static_html($html) {
     // Social profiles: X and YouTube icons after LinkedIn in the top bar, and all three in the Organization sameAs.
     if (strpos($html, 'topbar-x') === false) {
         $html = preg_replace('#(<a class="topbar-linkedin".*?</a>)#s', '$1' . prasa_ip_social_topbar_links(), $html, 1);
+        // On phones the top bar is too narrow for three icons, so X and YouTube show only in the footer there.
+        $html = preg_replace('#</head>#', '<style>@media(max-width:600px){.topbar-x,.topbar-youtube{display:none!important}}</style></head>', $html, 1);
     }
     $html = preg_replace('#"sameAs":\s*\["https://www\.linkedin\.com/company/prasaip-llp/?"\]#', '"sameAs": ["https://www.linkedin.com/company/prasaip-llp", "https://x.com/prasa_ip", "https://www.youtube.com/@prasa_ip"]', $html);
     // Accessibility: skip link to the main content.
