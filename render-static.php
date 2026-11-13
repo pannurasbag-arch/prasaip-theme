@@ -112,6 +112,11 @@ function prasa_ip_transform_static_html($html) {
     // Theme v2: serif display face and one shared footer for every page.
     $html = str_replace('family=Manrope:wght@400;600;700;800', 'family=Manrope:wght@400;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400', $html);
     $html = preg_replace('#<footer>.*?</footer>#s', prasa_ip_site_footer(), $html, 1);
+    // Social profiles: X and YouTube icons after LinkedIn in the top bar, and all three in the Organization sameAs.
+    if (strpos($html, 'topbar-x') === false) {
+        $html = preg_replace('#(<a class="topbar-linkedin".*?</a>)#s', '$1' . prasa_ip_social_topbar_links(), $html, 1);
+    }
+    $html = preg_replace('#"sameAs":\s*\["https://www\.linkedin\.com/company/prasaip-llp/?"\]#', '"sameAs": ["https://www.linkedin.com/company/prasaip-llp", "https://x.com/prasa_ip", "https://www.youtube.com/@prasa_ip"]', $html);
     // Accessibility: skip link to the main content.
     if (strpos($html, 'class="skip-link"') === false) {
         $html = preg_replace('#<main(\s|>)#', '<main id="main"$1', $html, 1);
@@ -323,10 +328,17 @@ add_filter('rank_math/sitemap/index', function ($xml) {
     return $xml . '<sitemap><loc>' . esc_url(get_template_directory_uri() . '/static/sitemap.xml') . '</loc><lastmod>' . $lastmod . '</lastmod></sitemap>';
 });
 
+function prasa_ip_social_topbar_links() {
+    $x = '<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
+    $yt = '<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.6 15.6V8.4l6.2 3.6z"/></svg>';
+    return '<a class="topbar-linkedin topbar-x" href="https://x.com/prasa_ip" target="_blank" rel="noopener" aria-label="PRASA IP on X">' . $x . '</a>'
+        . '<a class="topbar-linkedin topbar-youtube" href="https://www.youtube.com/@prasa_ip" target="_blank" rel="noopener" aria-label="PRASA IP on YouTube">' . $yt . '</a>';
+}
+
 function prasa_ip_site_footer() {
     $logo = esc_url(get_template_directory_uri() . '/static/assets/prasa-ip-logo-r.webp');
     return '<footer class="site-footer">'
-        . '<div><img src="' . $logo . '" alt="PRASA IP" width="632" height="395" decoding="async"><p class="footer-tagline">Your Creativity, Our Protection</p><p>Patent, trade mark and IP services for technology companies, research institutions, startups and inventors.</p></div>'
+        . '<div><img src="' . $logo . '" alt="PRASA IP" width="632" height="395" decoding="async"><p class="footer-tagline">Your Creativity, Our Protection</p><p>Patent, trade mark and IP services for technology companies, research institutions, startups and inventors.</p><p class="footer-social">Follow us: <a href="https://www.linkedin.com/company/prasaip-llp/" target="_blank" rel="noopener">LinkedIn</a> &middot; <a href="https://x.com/prasa_ip" target="_blank" rel="noopener">X</a> &middot; <a href="https://www.youtube.com/@prasa_ip" target="_blank" rel="noopener">YouTube</a></p></div>'
         . '<div><h2>India office</h2><p>PRASA IP LLP<br>481, 5th Cross Road, Kothanur Main Road, RBI Layout, JP Nagar 7th Phase, Bengaluru, Karnataka 560078</p></div>'
         . '<div><h2>US office</h2><p>PRASA IP LLC<br>30 N Gould Street, STE R, Sheridan, Wyoming 82801</p><p><a href="tel:+919113214395">+91 91132 14395</a><br><a href="mailto:contact@prasaip.com">contact@prasaip.com</a></p></div>'
         . '<nav aria-label="Firm and legal"><h2>Firm</h2><a href="patent-services.html">Patents</a><a href="trademark-services.html">Trade marks</a><a href="knowledge-centre.html">Insights</a><a href="firm.html">About</a><a href="recognition-events.html">Recognition &amp; Events</a><a href="careers.html">Careers</a></nav>'
