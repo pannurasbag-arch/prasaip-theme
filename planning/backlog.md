@@ -290,7 +290,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 300 | open | Added 11 Nov 2026 scan. Primary opened. |
 | 301 | open | Added 11 Nov 2026 scan. Primary opened. |
 | 302 | published 12 Nov 2026 (https://www.prasaip.com/trademark-suit-territorial-jurisdiction-delhi-abd-maestro/) | Added 11 Nov 2026 scan. Full judgment read 12 Nov 2026. LinkedIn urn:li:share:7526497190098128896. |
-| 303 | open | Added 12 Nov 2026 scan. Primary opened. |
+| 303 | drafted (branch draft/2026-11-13-anti-suit-injunction-us-copyright-youtube-tv-today) | Added 12 Nov 2026 scan. Primary opened. |
 | 304 | open | Added 12 Nov 2026 scan. Primary not opened. Decision date unverified. |
 | 305 | open | Added 12 Nov 2026 scan. Secondary only. Next hearing 2 Dec 2026. |
 | 306 | open | Added 12 Nov 2026 scan. Secondary only. |
@@ -299,6 +299,10 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 309 | open | Added 12 Nov 2026 scan. Secondary only. Order list not opened. |
 | 310 | open | Added 12 Nov 2026 scan. Docketing only. |
 | 311 | open | Added 12 Nov 2026 scan. Secondary only. Judgment date unverified. |
+| 312 | open | Added 13 Nov 2026 scan. Notice PDF opened. |
+| 313 | open | Added 13 Nov 2026 scan. Details PDF unavailable. |
+| 314 | open | Added 13 Nov 2026 scan. Primary not opened. Routine notice. |
+| 315 | open | Added 13 Nov 2026 scan. Secondary not opened. Plan only, no effective date. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2741,3 +2745,21 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 311. Pfizer v Samsung Bioepis [2026] FCA 1244 (Federal Court of Australia): ENBREL process patent not infringed
 - **Date:** reported 9 Nov 2026, judgment date unverified · **Area:** Patents / biologics
 - **Lens:** Sat · **Priority:** Low
+
+## Items added 13 November 2026 scan (window 11 to 13 Nov)
+
+### 312. CGPDTM public notice: no unauthorised commercial use of IP India name, logo, content and databases (including IP Lex)
+- **Date:** notice dated 10 Nov 2026, posted 11 Nov · **Jurisdiction:** India (CGPDTM) · **Area:** Copyright / Government data / legal tech
+- **Summary:** Bars copying, scraping, mirroring or republishing IP India resources (IP Lex, e Registers, Journals, manuals, orders, forms) for commercial gain, and use of the names "IP India", "IP Lex" or the logo. Seven days to comply. Bona fide non commercial use with credit allowed. Cites no specific statute.
+- **Why it matters:** Affects legal tech, AI and database providers. Raises the s.52(1)(q) Government works question.
+- **Primary (opened):** https://ipindia.gov.in/storage/uploads/others/n5VgKh9iNvopzN2XoXnRP9yqWPS4wVXbrIPFxwt5.pdf · **Secondary:** https://ipindia.gov.in/dynamic/news-details/157
+- **Lens:** Fri or Sat · **Priority:** High
+
+### 313. CGPDTM weekly open house sessions for startups
+- **Date:** posted 11 Nov 2026 · **Primary:** https://ipindia.gov.in/dynamic/news-details/158 (details PDF unavailable) · **Lens:** Mon or Sat · **Priority:** Low
+
+### 314. USPTO 60 day information collection notice, International Design Applications (Hague), 0651-0075
+- **Date:** 9 Nov 2026 · **Primary (not opened):** https://www.govinfo.gov/content/pkg/FR-2026-11-09/html/2026-22798.htm · **Lens:** Fri · **Priority:** Low
+
+### 315. UKIPO plan for tougher examination of anti competitive design filings
+- **Date:** reported 4 Nov 2026, no effective date · **Secondary (not opened):** https://www.worldtrademarkreview.com/article/ukipo-targets-anti-competitive-design-filings-tougher-examination · **Lens:** Fri or Wed · **Priority:** Low (watch)
