@@ -290,7 +290,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 300 | open | Added 11 Nov 2026 scan. Primary opened. |
 | 301 | open | Added 11 Nov 2026 scan. Primary opened. |
 | 302 | published 12 Nov 2026 (https://www.prasaip.com/trademark-suit-territorial-jurisdiction-delhi-abd-maestro/) | Added 11 Nov 2026 scan. Full judgment read 12 Nov 2026. LinkedIn urn:li:share:7526497190098128896. |
-| 303 | drafted (branch draft/2026-11-13-anti-suit-injunction-us-copyright-youtube-tv-today) | Added 12 Nov 2026 scan. Primary opened. |
+| 303 | published https://www.prasaip.com/anti-suit-injunction-us-copyright-youtube-tv-today/ (13 Nov 2026) | Added 12 Nov 2026 scan. Primary opened. PR #30. LinkedIn urn:li:share:7526862163211235328. |
 | 304 | open | Added 12 Nov 2026 scan. Primary not opened. Decision date unverified. |
 | 305 | open | Added 12 Nov 2026 scan. Secondary only. Next hearing 2 Dec 2026. |
 | 306 | open | Added 12 Nov 2026 scan. Secondary only. |
