@@ -299,7 +299,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 309 | open | Added 12 Nov 2026 scan. Secondary only. Order list not opened. |
 | 310 | open | Added 12 Nov 2026 scan. Docketing only. |
 | 311 | open | Added 12 Nov 2026 scan. Secondary only. Judgment date unverified. |
-| 312 | drafted (branch draft/2026-11-14-reuse-ip-india-data-government-works-copyright) | Added 13 Nov 2026 scan. Notice PDF opened. Saturday explainer 14 Nov 2026. |
+| 312 | published https://www.prasaip.com/reuse-ip-india-data-government-works-copyright/ (14 Nov 2026) | Added 13 Nov 2026 scan. Notice PDF opened. Saturday explainer. PR #31. LinkedIn urn:li:share:7527223632511586304. |
 | 313 | open | Added 13 Nov 2026 scan. Details PDF unavailable. |
 | 314 | open | Added 13 Nov 2026 scan. Primary not opened. Routine notice. |
 | 315 | open | Added 13 Nov 2026 scan. Secondary not opened. Plan only, no effective date. |
