@@ -73,6 +73,7 @@ function prasa_ip_static_map() {
         'sep-pool-licence-rand-trial-snap-v-dolby' => 'sep-pool-licence-rand-trial-snap-v-dolby.html',
         'trademark-suit-territorial-jurisdiction-delhi-abd-maestro' => 'trademark-suit-territorial-jurisdiction-delhi-abd-maestro.html',
         'anti-suit-injunction-us-copyright-youtube-tv-today' => 'anti-suit-injunction-us-copyright-youtube-tv-today.html',
+        'reuse-ip-india-data-government-works-copyright' => 'reuse-ip-india-data-government-works-copyright.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
