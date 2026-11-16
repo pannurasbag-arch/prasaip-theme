@@ -303,6 +303,9 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 313 | open | Added 13 Nov 2026 scan. Details PDF unavailable. |
 | 314 | open | Added 13 Nov 2026 scan. Primary not opened. Routine notice. |
 | 315 | open | Added 13 Nov 2026 scan. Secondary not opened. Plan only, no effective date. |
+| 316 | drafted (branch draft/2026-11-16-combination-patent-revocation-non-working-india-bull-agro) | Added 16 Nov 2026 scan. Judgment PDF opened. |
+| 317 | open | Added 16 Nov 2026 scan. Report opened, order PDF not opened. Order date unclear. |
+| 318 | open | Added 16 Nov 2026 scan. Headline only. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2763,3 +2766,23 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 
 ### 315. UKIPO plan for tougher examination of anti competitive design filings
 - **Date:** reported 4 Nov 2026, no effective date · **Secondary (not opened):** https://www.worldtrademarkreview.com/article/ukipo-targets-anti-competitive-design-filings-tougher-examination · **Lens:** Fri or Wed · **Priority:** Low (watch)
+
+
+## Items added 16 November 2026 scan (window 13 to 16 Nov, plus Monday sweep)
+
+### 316. Bull Agro Implements v Ashlyn Antony, OP (PT) No. 4 of 2024 (Madras HC IPD): combination patent upheld, non working not a s.64 ground
+- **Date:** 13 Nov 2026, reported 14 Nov · **Bench:** P.B. Balaji J · **Area:** Patents / revocation
+- **Summary:** Revocation petition against baler patent IN 458805 dismissed. New combination of known features patentable. Non working is not a ground under s.64.
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/11/14/bull-agro-711478.pdf · **Secondary:** https://www.livelawbiz.com/patent/patent-cannot-be-denied-merely-because-its-features-are-known-if-combination-is-novel-madras-high-court-558479
+- **Lens:** Mon · **Priority:** High
+
+### 317. Helsinn Healthcare v Intas, CS(COMM) 1219/2026 (Delhi HC): interim injunction, NO CINV combipack
+- **Date:** reported 12 Nov 2026, order date unclear · **Bench:** M.P.S. Arora J · **Area:** Patents / pharma interim relief
+- **Summary:** Packaging two tablets together no defence. Novelty attack needs full trial.
+- **Primary (not opened):** https://www.livelawbiz.com/pdf_upload/2026/11/12/helsinn-711149.pdf · **Secondary:** https://www.livelawbiz.com/patent/delhi-high-court-restrains-intas-from-selling-chemotherapy-induced-nausea-drug-in-helsinn-patent-suit-558250
+- **Lens:** Mon · **Priority:** Medium High
+
+### 318. Series 5 Labs v Tummoc contempt (Karnataka HC): interim injunction confined to BMTC and DTC
+- **Date:** reported 2 Oct 2026 · **Area:** Patents / scope of injunction
+- **Secondary (headline only):** https://www.livelawbiz.com/ipr/no-contempt-in-using-tummoc-app-in-goa-interim-injunction-in-series-5-labs-patent-suit-was-confined-to-bmtc-dtc-karnataka-high-court-552862
+- **Lens:** Mon · **Priority:** Low
