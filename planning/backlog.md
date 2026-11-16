@@ -303,7 +303,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 313 | open | Added 13 Nov 2026 scan. Details PDF unavailable. |
 | 314 | open | Added 13 Nov 2026 scan. Primary not opened. Routine notice. |
 | 315 | open | Added 13 Nov 2026 scan. Secondary not opened. Plan only, no effective date. |
-| 316 | drafted (branch draft/2026-11-16-combination-patent-revocation-non-working-india-bull-agro) | Added 16 Nov 2026 scan. Judgment PDF opened. |
+| 316 | published https://www.prasaip.com/combination-patent-revocation-non-working-india-bull-agro/ (16 Nov 2026) | Added 16 Nov 2026 scan. Judgment PDF opened. PR #32. LinkedIn urn:li:share:7527940508942508032. |
 | 317 | open | Added 16 Nov 2026 scan. Report opened, order PDF not opened. Order date unclear. |
 | 318 | open | Added 16 Nov 2026 scan. Headline only. |
 
