@@ -306,6 +306,13 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 316 | published https://www.prasaip.com/combination-patent-revocation-non-working-india-bull-agro/ (16 Nov 2026) | Added 16 Nov 2026 scan. Judgment PDF opened. PR #32. LinkedIn urn:li:share:7527940508942508032. |
 | 317 | open | Added 16 Nov 2026 scan. Report opened, order PDF not opened. Order date unclear. |
 | 318 | open | Added 16 Nov 2026 scan. Headline only. |
+| 319 | drafted (branch draft/2026-11-17-ipr-institution-ptab-merits-substantial-majority) | Added 17 Nov 2026 scan. Memo PDF opened. Updates item on discretionary denial (published 20 Oct). |
+| 320 | open | Added 17 Nov 2026 scan. Opinion PDF opened by scan agent. Precedential per court list. |
+| 321 | open | Added 17 Nov 2026 scan. Opinion PDF opened by scan agent. |
+| 322 | open | Added 17 Nov 2026 scan. Secondary only. Judgment URL not found. |
+| 323 | open | Added 17 Nov 2026 scan. Secondary only. Judgment date unverified. |
+| 324 | open | Added 17 Nov 2026 scan. Complaints only. No case numbers. |
+| 325 | open | Added 17 Nov 2026 scan. Digest only. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2786,3 +2793,43 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Date:** reported 2 Oct 2026 · **Area:** Patents / scope of injunction
 - **Secondary (headline only):** https://www.livelawbiz.com/ipr/no-contempt-in-using-tummoc-app-in-goa-interim-injunction-in-series-5-labs-patent-suit-was-confined-to-bmtc-dtc-karnataka-high-court-552862
 - **Lens:** Mon · **Priority:** Low
+
+
+## Items added 17 November 2026 scan (window 3 to 17 Nov, Tuesday US lens)
+
+### 319. USPTO memo: merits based IPR and PGR institution returned to PTAB panels
+- **Date:** 10 Nov 2026, effective 16 Nov 2026 · **Area:** US patents / PTAB
+- **Summary:** Director keeps discretionary review. Three judge panels decide the merits stage. Denial if petition fails for a substantial majority of challenged claims. Equipoise counts against petitioner. Different panel for trial.
+- **Primary (opened):** https://www.uspto.gov/sites/default/files/documents/returning_merits_based_considerations_to_ptab.pdf · **Secondary:** https://content.govdelivery.com/accounts/USPTO/bulletins/4326248
+- **Lens:** Tue · **Priority:** High · **Note:** add an update line to /ipr-discretionary-denial-settled-expectations/.
+
+### 320. In re Netlist (Fed. Cir. Nos. 2025-1286, 2025-1296), precedential: "inoperable for intended purpose" argument narrowed
+- **Date:** 13 Nov 2026 · **Bench:** Dyk, Linn, Chen · **Area:** US patents / obviousness
+- **Summary:** PTAB obviousness rulings on US 11,093,417 and 9,858,215 affirmed. Question is whether the combination works for the claimed invention's purpose. In re Gordon read narrowly.
+- **Primary:** https://www.cafc.uscourts.gov/opinions-orders/25-1286.OPINION.11-13-2026_2786049.pdf · **Secondary:** https://ipwatchdog.com/2026/11/16/federal-circuit-upholds-ptab-obviousness-ruling-against-memory-module-patents/
+- **Lens:** Tue · **Priority:** High
+
+### 321. Traxcell v Cellco (Fed. Cir. No. 2025-1496): Rule 60(d)(1) action cannot undo an affirmed s.285 fee award in another court
+- **Date:** 16 Nov 2026 · **Bench:** Dyk, Chen, Stoll · **Area:** US patents / fees
+- **Primary:** https://www.cafc.uscourts.gov/opinions-orders/25-1496.OPINION.11-16-2026_2786749.pdf
+- **Lens:** Tue · **Priority:** Medium
+
+### 322. Ontario Court of Appeal: Canadian news publishers' suit against OpenAI stays in Ontario
+- **Date:** 13 Nov 2026 · **Area:** Copyright / AI / jurisdiction · **Note:** parallel to ANI v OpenAI (Delhi HC)
+- **Secondary:** https://techtimes.com/articles/330797/20261116/ontario-appeal-court-keeps-openai-copyright-suit-canada-where-us-fair-use-does-not-apply.htm
+- **Lens:** Fri · **Priority:** Medium
+
+### 323. CJEU C-579/24 Austro-Mechana: Article 17 DSM authorisation covers platform reproductions
+- **Date:** unverified (reported 14 Nov 2026) · **Area:** EU copyright / platforms
+- **Secondary:** IPKat (Rosati, 14 Nov 2026)
+- **Lens:** Fri · **Priority:** Medium
+
+### 324. New Suno complaints (N.D. Cal.): ELVIS Act voice claims added to training data claims
+- **Date:** 6 Nov 2026 · **Area:** Copyright / AI / publicity
+- **Secondary:** https://ipwatchdog.com/2026/11/13/bites-barks-netlist-fails-appeal-of-ptabs-mtc-ruling-and-cjeu-ag-says-general-court-erred-in-reversing-e1-5-b/
+- **Lens:** Fri · **Priority:** Low
+
+### 325. Taxmann v Commercial Law Publishers, CS(COMM) 1133/2026 (Delhi HC): ex parte injunction over copied headnotes
+- **Date:** week of 9 to 15 Nov 2026 · **Area:** India copyright
+- **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-november-09-november-15-2026-558566
+- **Lens:** Fri · **Priority:** Low
