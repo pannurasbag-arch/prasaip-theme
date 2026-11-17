@@ -306,7 +306,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 316 | published https://www.prasaip.com/combination-patent-revocation-non-working-india-bull-agro/ (16 Nov 2026) | Added 16 Nov 2026 scan. Judgment PDF opened. PR #32. LinkedIn urn:li:share:7527940508942508032. |
 | 317 | open | Added 16 Nov 2026 scan. Report opened, order PDF not opened. Order date unclear. |
 | 318 | open | Added 16 Nov 2026 scan. Headline only. |
-| 319 | drafted (branch draft/2026-11-17-ipr-institution-ptab-merits-substantial-majority) | Added 17 Nov 2026 scan. Memo PDF opened. Updates item on discretionary denial (published 20 Oct). |
+| 319 | published https://www.prasaip.com/ipr-institution-ptab-merits-substantial-majority/ (17 Nov 2026) | Added 17 Nov 2026 scan. Memo PDF opened. PR #33. LinkedIn urn:li:share:7528316662870208512. Update line for the 20 Oct discretionary denial article still pending owner decision. |
 | 320 | open | Added 17 Nov 2026 scan. Opinion PDF opened by scan agent. Precedential per court list. |
 | 321 | open | Added 17 Nov 2026 scan. Opinion PDF opened by scan agent. |
 | 322 | open | Added 17 Nov 2026 scan. Secondary only. Judgment URL not found. |
