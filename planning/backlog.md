@@ -313,7 +313,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 323 | open | Added 17 Nov 2026 scan. Secondary only. Judgment date unverified. |
 | 324 | open | Added 17 Nov 2026 scan. Complaints only. No case numbers. |
 | 325 | open | Added 17 Nov 2026 scan. Digest only. |
-| 326 | drafted (branch draft/2026-11-18-nutella-jar-shape-trademark-infringement-india) | OWNER REQUEST 17 Nov 2026: Adity Kumari blog "Beyond the label", Nutella jar case. Takes the 18 Nov slot. Judgment PDF opened. PR #34. |
+| 326 | published https://www.prasaip.com/nutella-jar-shape-trademark-infringement-india/ (18 Nov 2026) | OWNER REQUEST 17 Nov 2026: Adity Kumari blog "Beyond the label", Nutella jar case. Takes the 18 Nov slot. Judgment PDF opened. PR #34. LinkedIn urn:li:share:7528663033628221440 (Adity Kumari tagged). |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
