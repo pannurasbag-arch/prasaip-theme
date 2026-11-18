@@ -313,6 +313,7 @@ Rule: before writing any item, open and verify the primary source yourself. Item
 | 323 | open | Added 17 Nov 2026 scan. Secondary only. Judgment date unverified. |
 | 324 | open | Added 17 Nov 2026 scan. Complaints only. No case numbers. |
 | 325 | open | Added 17 Nov 2026 scan. Digest only. |
+| 326 | drafted (branch draft/2026-11-18-nutella-jar-shape-trademark-infringement-india) | OWNER REQUEST 17 Nov 2026: Adity Kumari blog "Beyond the label", Nutella jar case. Takes the 18 Nov slot. Judgment PDF opened. PR #34. |
 
 # PRASA IP: Verified Theme Backlog (Oct 2025 to 29 Sep 2026)
 
@@ -2833,3 +2834,11 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Date:** week of 9 to 15 Nov 2026 · **Area:** India copyright
 - **Secondary:** https://www.livelawbiz.com/ipr/livelawbiz-ipr-weekly-digest-november-09-november-15-2026-558566
 - **Lens:** Fri · **Priority:** Low
+
+
+## Item added 18 November 2026 (owner request)
+
+### 326. OWNER REQUEST: Beyond the label, the Nutella jar case (author Adity Kumari)
+- **Date:** Delhi HC DB 6 Jan 2026, RFA(OS)(COMM) 1/2026 · **Area:** India trade marks / shape marks
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/judgmentabhimanyu-prakash-v-ferrero-spadelhc-645502.pdf
+- **Lens:** Thu (published Wed 18 Nov as the owner requested) · **Priority:** High
