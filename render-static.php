@@ -76,6 +76,7 @@ function prasa_ip_static_map() {
         'reuse-ip-india-data-government-works-copyright' => 'reuse-ip-india-data-government-works-copyright.html',
         'combination-patent-revocation-non-working-india-bull-agro' => 'combination-patent-revocation-non-working-india-bull-agro.html',
         'ipr-institution-ptab-merits-substantial-majority' => 'ipr-institution-ptab-merits-substantial-majority.html',
+        'nutella-jar-shape-trademark-infringement-india' => 'nutella-jar-shape-trademark-infringement-india.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
