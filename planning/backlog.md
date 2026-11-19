@@ -2802,7 +2802,7 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Date:** 10 Nov 2026, effective 16 Nov 2026 · **Area:** US patents / PTAB
 - **Summary:** Director keeps discretionary review. Three judge panels decide the merits stage. Denial if petition fails for a substantial majority of challenged claims. Equipoise counts against petitioner. Different panel for trial.
 - **Primary (opened):** https://www.uspto.gov/sites/default/files/documents/returning_merits_based_considerations_to_ptab.pdf · **Secondary:** https://content.govdelivery.com/accounts/USPTO/bulletins/4326248
-- **Lens:** Tue · **Priority:** High · **Note:** add an update line to /ipr-discretionary-denial-settled-expectations/.
+- **Lens:** Tue · **Priority:** High · **Note:** update line added to /ipr-discretionary-denial-settled-expectations/ on 19 Nov 2026 (commit c46db43).
 
 ### 320. In re Netlist (Fed. Cir. Nos. 2025-1286, 2025-1296), precedential: "inoperable for intended purpose" argument narrowed
 - **Date:** 13 Nov 2026 · **Bench:** Dyk, Linn, Chen · **Area:** US patents / obviousness
@@ -2849,7 +2849,7 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 327. Kailash Chand Surana v Shiv Mangal Singh (Madras HC): NAKODA deity name mark, dishonest adoption
 - **Date:** 13 Nov 2026, P.B. Balaji J, O.A. 273 and 274/2026 in C.S.(Comm Div) 95/2026 · **Area:** India trade marks
 - **Primary (opened):** https://images.assettype.com/barandbench/2026-11-17/cr4e3lwf/Kailash_Chand_Surana_Vs_Shiv_Mangal_Singh.pdf
-- **Status:** DRAFTED 19 Nov 2026 as deity-name-trademark-india-nakoda (PR #35), awaiting approve · **Priority:** High
+- **Status:** PUBLISHED 19 Nov 2026 at https://www.prasaip.com/deity-name-trademark-india-nakoda/ (PR #35, LinkedIn urn:li:share:7529036684429189120) · **Priority:** High
 
 ### 328. Amitabh Bachchan v Rajat Nagi, CS(COMM) 819/2022 (Delhi HC): final decree on personality rights
 - **Date:** 5 Nov 2026 · **Area:** India personality rights (Order XXIII r 3, Order VIII r 10, John Doe decrees)
