@@ -2842,3 +2842,31 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Date:** Delhi HC DB 6 Jan 2026, RFA(OS)(COMM) 1/2026 · **Area:** India trade marks / shape marks
 - **Primary (opened):** https://www.livelawbiz.com/pdf_upload/judgmentabhimanyu-prakash-v-ferrero-spadelhc-645502.pdf
 - **Lens:** Thu (published Wed 18 Nov as the owner requested) · **Priority:** High
+
+
+## Items added 19 November 2026 (Thursday scan, trade marks and personality rights)
+
+### 327. Kailash Chand Surana v Shiv Mangal Singh (Madras HC): NAKODA deity name mark, dishonest adoption
+- **Date:** 13 Nov 2026, P.B. Balaji J, O.A. 273 and 274/2026 in C.S.(Comm Div) 95/2026 · **Area:** India trade marks
+- **Primary (opened):** https://images.assettype.com/barandbench/2026-11-17/cr4e3lwf/Kailash_Chand_Surana_Vs_Shiv_Mangal_Singh.pdf
+- **Status:** DRAFTED 19 Nov 2026 as deity-name-trademark-india-nakoda (PR #35), awaiting approve · **Priority:** High
+
+### 328. Amitabh Bachchan v Rajat Nagi, CS(COMM) 819/2022 (Delhi HC): final decree on personality rights
+- **Date:** 5 Nov 2026 · **Area:** India personality rights (Order XXIII r 3, Order VIII r 10, John Doe decrees)
+- **Note:** Judgment PDF not yet opened. Compare with Kriti Sanon interim framework.
+- **Lens:** Thu · **Priority:** High
+
+### 329. Saravanan Hari v Blinkit (Madras HC, PB Balaji J): fan persona in a Blinkit advert
+- **Date:** order reported 16 Nov 2026 · **Area:** India personality rights (non celebrity public persona)
+- **Secondary:** Bar and Bench, LawChakra · **Lens:** Thu · **Priority:** Medium
+
+### 330. Rekha Gupta v Aam Aadmi Party (Delhi HC, Manoj Jain J): AI depictions of the Chief Minister taken down
+- **Date:** reported 12 Nov 2026 · **Area:** personality, dignity and AI content
+- **Secondary:** LawBeat · **Lens:** Thu or Fri · **Priority:** Medium
+
+### 331. Goldmedal Electricals v Bashir Ahmed Bhat, CS(COMM) 1199/2026 (Delhi HC): GREAT MEDAL restrained
+- **Date:** 5 Nov 2026 · **Area:** India passing off (own registration no defence)
+- **Secondary:** SpicyIP weekly review · **Lens:** Thu · **Priority:** Low
+
+### 332. WIPO Madrid information notices 44 and 47 of 2026
+- **Area:** Madrid System procedure · **Lens:** Thu · **Priority:** Low
