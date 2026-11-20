@@ -2877,7 +2877,7 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 333. Godpower Media v John Doe(s) (Bombay HC): Ramayana film, takedown within 3 hours of notice
 - **Date:** 2 Nov 2026 (Jamdar J) and 6 Nov 2026 (Chavan J, vacation), IA (L) 37234/2026 in Comm IP Suit (L) 37230/2026 · **Area:** India copyright, piracy injunctions
 - **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/11/07/godpower-710367.pdf and https://www.livelawbiz.com/pdf_upload/2026/11/03/godpower-media-709542.pdf
-- **Status:** DRAFTED 20 Nov 2026 as film-piracy-takedown-3-hours-india-ramayana (PR #37), awaiting approve · **Priority:** High
+- **Status:** PUBLISHED 20 Nov 2026 at https://www.prasaip.com/film-piracy-takedown-3-hours-india-ramayana/ (PR #37, LinkedIn urn:li:share:7529402488911880194) · **Priority:** High
 
 ### 334. US Copyright Office final rule: new fee schedule from 5 January 2027
 - **Date:** 17 Nov 2026 (NewsNet Issue 1100) · **Area:** US copyright registration costs
