@@ -2870,3 +2870,24 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 
 ### 332. WIPO Madrid information notices 44 and 47 of 2026
 - **Area:** Madrid System procedure · **Lens:** Thu · **Priority:** Low
+
+
+## Items added 20 November 2026 (Friday scan, copyright, AI, designs)
+
+### 333. Godpower Media v John Doe(s) (Bombay HC): Ramayana film, takedown within 3 hours of notice
+- **Date:** 2 Nov 2026 (Jamdar J) and 6 Nov 2026 (Chavan J, vacation), IA (L) 37234/2026 in Comm IP Suit (L) 37230/2026 · **Area:** India copyright, piracy injunctions
+- **Primary (opened):** https://www.livelawbiz.com/pdf_upload/2026/11/07/godpower-710367.pdf and https://www.livelawbiz.com/pdf_upload/2026/11/03/godpower-media-709542.pdf
+- **Status:** DRAFTED 20 Nov 2026 as film-piracy-takedown-3-hours-india-ramayana (PR #37), awaiting approve · **Priority:** High
+
+### 334. US Copyright Office final rule: new fee schedule from 5 January 2027
+- **Date:** 17 Nov 2026 (NewsNet Issue 1100) · **Area:** US copyright registration costs
+- **Primary (opened by scan):** https://copyright.gov/newsnet/2026/1100.html
+- **Lens:** Fri or Sat · **Priority:** Medium
+
+### 335. Bartz v Anthropic settlement: first payments week of 23 November 2026
+- **Area:** US AI and copyright · **Secondary:** https://authorsguild.org/news/anthropic-settlement-update-check-your-claim-by-november-20/
+- **Lens:** Fri · **Priority:** Low
+
+### 336. Indonesia: platforms object to AI and copyright law revisions (publisher payments)
+- **Date:** 11 Nov 2026 · **Area:** AI and copyright policy, comparison with DPIIT proposal · **Primary not opened**
+- **Lens:** Fri · **Priority:** Low
