@@ -79,6 +79,7 @@ function prasa_ip_static_map() {
         'nutella-jar-shape-trademark-infringement-india' => 'nutella-jar-shape-trademark-infringement-india.html',
         'deity-name-trademark-india-nakoda' => 'deity-name-trademark-india-nakoda.html',
         'film-piracy-takedown-3-hours-india-ramayana' => 'film-piracy-takedown-3-hours-india-ramayana.html',
+        'patent-agent-vs-patent-attorney-india-us-europe' => 'patent-agent-vs-patent-attorney-india-us-europe.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
