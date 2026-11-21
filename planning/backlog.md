@@ -2891,3 +2891,12 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 336. Indonesia: platforms object to AI and copyright law revisions (publisher payments)
 - **Date:** 11 Nov 2026 · **Area:** AI and copyright policy, comparison with DPIIT proposal · **Primary not opened**
 - **Lens:** Fri · **Priority:** Low
+
+
+## Item added 21 November 2026 (Saturday explainer)
+
+### 337. Saturday explainer: patent agent or patent attorney? India, the US and Europe
+- **Date:** 21 Nov 2026 · **Area:** patent practice, representation before IP India, USPTO, EPO, UK
+- **Primary (opened):** Patents Act ss.125 to 132 and rule 110 (IP India), PAE 2026 notices, 37 CFR Part 11, EPC Art. 134, CDPA s.276
+- **Search Console:** "patent attorney register" (pos. 10), "registered patent lawyers" (pos. 25), "patent agents in india" (pos. 15)
+- **Status:** PUBLISHED 21 Nov 2026 at https://www.prasaip.com/patent-agent-vs-patent-attorney-india-us-europe/ (PR #39, LinkedIn urn:li:share:7529785588955336704)
