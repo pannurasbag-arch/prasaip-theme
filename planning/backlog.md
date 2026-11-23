@@ -2907,7 +2907,7 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 338. Appealing a patent refusal in India: Skillz, Glisten and TVS
 - **Date:** 1 Oct, 11 Nov and 12 Nov 2026 · **Area:** patent prosecution, s.117A appeals, s.14 hearing notice, remand
 - **Primary (opened):** Skillz Platform v Asst Controller, CMA(PT) 57/2024 (Mad HC); Glisten LLC v Asst Controller, C.A.(COMM.IPD-PAT) 21/2026 (Del HC); TVS Motor v Dy Controller, CMA(PT) 61/2024 (Mad HC)
-- **Status:** DRAFTED 23 Nov 2026, PR #40, awaiting owner approval. Slug patent-refusal-appeal-india-remand-skillz-glisten
+- **Status:** PUBLISHED 23 Nov 2026 at https://www.prasaip.com/patent-refusal-appeal-india-remand-skillz-glisten/ (PR #40, LinkedIn urn:li:activity:7530523609736372224)
 
 ### 339. Five Fingers Exports v Lohia: Allahabad HC Division Bench
 - **Date:** 4 Nov 2026 · **Area:** commercial IP appeal, Commercial Appeal 11/2026 · **Primary not opened**
