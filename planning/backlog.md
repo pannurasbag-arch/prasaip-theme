@@ -2900,3 +2900,27 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Primary (opened):** Patents Act ss.125 to 132 and rule 110 (IP India), PAE 2026 notices, 37 CFR Part 11, EPC Art. 134, CDPA s.276
 - **Search Console:** "patent attorney register" (pos. 10), "registered patent lawyers" (pos. 25), "patent agents in india" (pos. 15)
 - **Status:** PUBLISHED 21 Nov 2026 at https://www.prasaip.com/patent-agent-vs-patent-attorney-india-us-europe/ (PR #39, LinkedIn urn:li:share:7529785588955336704)
+
+
+## Items added 23 November 2026 (Monday, India patents)
+
+### 338. Appealing a patent refusal in India: Skillz, Glisten and TVS
+- **Date:** 1 Oct, 11 Nov and 12 Nov 2026 · **Area:** patent prosecution, s.117A appeals, s.14 hearing notice, remand
+- **Primary (opened):** Skillz Platform v Asst Controller, CMA(PT) 57/2024 (Mad HC); Glisten LLC v Asst Controller, C.A.(COMM.IPD-PAT) 21/2026 (Del HC); TVS Motor v Dy Controller, CMA(PT) 61/2024 (Mad HC)
+- **Status:** DRAFTED 23 Nov 2026, PR #40, awaiting owner approval. Slug patent-refusal-appeal-india-remand-skillz-glisten
+
+### 339. Five Fingers Exports v Lohia: Allahabad HC Division Bench
+- **Date:** 4 Nov 2026 · **Area:** commercial IP appeal, Commercial Appeal 11/2026 · **Primary not opened**
+- **Lens:** Mon/Thu · **Priority:** Medium
+
+### 340. Arunachalaa v Sukumar: review petition in an IP matter
+- **Date:** 2026 · **Area:** REV.PET(IPD) 2/2026, Delhi HC · **Primary not opened**
+- **Lens:** Thu · **Priority:** Low
+
+### 341. Draft Trade Marks Registry guidelines on AI and squatting (Stryten v Nidhi Agarwal)
+- **Date:** next listed 14 Dec 2026 · **Area:** trade mark squatting, AI use at the Registry · **Primary not opened**
+- **Lens:** Thu · **Priority:** High (revisit after 14 Dec listing)
+
+### 342. Amala Earth v Registrar of Trade Marks
+- **Date:** 2026 · **Area:** C.A.(COMM.IPD-TM) 16/2025, Delhi HC, refusal appeal · **Primary not opened**
+- **Lens:** Thu · **Priority:** Medium
