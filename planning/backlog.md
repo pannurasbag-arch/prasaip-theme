@@ -2931,7 +2931,7 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 343. Cocona v VF Outdoor (Fed. Cir. Nos. 2025-1458, 2025-1462): MVTR range indefinite where test methods give different results
 - **Date:** 17 Nov 2026 · **Bench:** Lourie, Stoll, Stark (Stark J) · **Area:** US patents / indefiniteness / parameter claims
 - **Primary (opened):** https://www.cafc.uscourts.gov/opinions-orders/25-1458.OPINION.11-17-2026_2787561.pdf · **Secondary:** https://ipwatchdog.com/2026/11/18/federal-circuit-affirms-indefiniteness-breathable-membrane-patent-claims-over-unspecified-measurement-method/
-- **Status:** DRAFTED 24 Nov 2026, branch draft/2026-11-24-parameter-claims-measurement-method-cocona, awaiting owner approval
+- **Status:** PUBLISHED 24 Nov 2026 at https://www.prasaip.com/parameter-claims-measurement-method-cocona-v-vf-outdoor/ (PR #42, LinkedIn urn:li:activity:7530838949636968449)
 
 ### 344. USPTO Patent Public Search to require a USPTO.gov login from 4 Dec 2026
 - **Date:** notice c. 21 Nov 2026 · **Area:** US practice / searching · **Primary:** https://www.uspto.gov/PatentPublicSearch
