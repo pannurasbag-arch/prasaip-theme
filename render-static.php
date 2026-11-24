@@ -81,6 +81,7 @@ function prasa_ip_static_map() {
         'film-piracy-takedown-3-hours-india-ramayana' => 'film-piracy-takedown-3-hours-india-ramayana.html',
         'patent-agent-vs-patent-attorney-india-us-europe' => 'patent-agent-vs-patent-attorney-india-us-europe.html',
         'patent-refusal-appeal-india-remand-skillz-glisten' => 'patent-refusal-appeal-india-remand-skillz-glisten.html',
+        'parameter-claims-measurement-method-cocona-v-vf-outdoor' => 'parameter-claims-measurement-method-cocona-v-vf-outdoor.html',
         'patent-filing-report-2026-india-world' => 'patent-filing-report-2026-india-world.html',
         'iphone-duo-trademark-duolingo-surface-duo' => 'iphone-duo-trademark-duolingo-surface-duo.html',
         'gui-icon-design-registration-india' => 'gui-icon-design-registration-india.html',
