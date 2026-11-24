@@ -2924,3 +2924,29 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 342. Amala Earth v Registrar of Trade Marks
 - **Date:** 2026 · **Area:** C.A.(COMM.IPD-TM) 16/2025, Delhi HC, refusal appeal · **Primary not opened**
 - **Lens:** Thu · **Priority:** Medium
+
+
+## Items added 24 November 2026 scan (window 10 to 24 Nov, Tuesday US lens)
+
+### 343. Cocona v VF Outdoor (Fed. Cir. Nos. 2025-1458, 2025-1462): MVTR range indefinite where test methods give different results
+- **Date:** 17 Nov 2026 · **Bench:** Lourie, Stoll, Stark (Stark J) · **Area:** US patents / indefiniteness / parameter claims
+- **Primary (opened):** https://www.cafc.uscourts.gov/opinions-orders/25-1458.OPINION.11-17-2026_2787561.pdf · **Secondary:** https://ipwatchdog.com/2026/11/18/federal-circuit-affirms-indefiniteness-breathable-membrane-patent-claims-over-unspecified-measurement-method/
+- **Status:** DRAFTED 24 Nov 2026, branch draft/2026-11-24-parameter-claims-measurement-method-cocona, awaiting owner approval
+
+### 344. USPTO Patent Public Search to require a USPTO.gov login from 4 Dec 2026
+- **Date:** notice c. 21 Nov 2026 · **Area:** US practice / searching · **Primary:** https://www.uspto.gov/PatentPublicSearch
+- **Lens:** Tue · **Priority:** Medium (time sensitive, before 4 Dec)
+
+### 345. US Copyright Office final fee schedule, effective 5 Jan 2027
+- **Date:** NewsNet 1100, 17 Nov 2026 · **Area:** US copyright fees · **Primary:** https://www.copyright.gov/newsnet/2026/1100.html · **Note:** effective date conflict in some reports, verify
+- **Lens:** Fri · **Priority:** Medium
+
+### 346. SCOTUS denies two s.101 petitions (Innovaport v Target, No. 26-322; Oasis Tooling v Siemens, No. 26-504)
+- **Date:** 16 Nov 2026 · **Primary:** https://www.supremecourt.gov/orders/courtorders/111626zor_cb7d.pdf
+- **Lens:** Tue · **Priority:** Medium
+
+### 347. Watchlist: Intel v Squires, SCOTUS No. 26-73 (Fintiv discretionary denial), conference 4 Dec 2026
+- **Primary:** https://www.supremecourt.gov/docket/docketfiles/html/public/26-73.html · **Lens:** Tue · **Priority:** Medium (check order list 7 to 8 Dec)
+
+### 348. Flinn AI patent suits against Anthropic and OpenAI over attention mechanism patents (D. Del., filed 12 Nov 2026)
+- **Primary not opened** · **Secondary:** IPWatchdog 13 Nov 2026 · **Lens:** Tue · **Priority:** Low
