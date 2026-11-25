@@ -13,11 +13,22 @@ function prasa_ip_setup() {
 }
 add_action('after_setup_theme', 'prasa_ip_setup');
 
-// GA4 and Microsoft Clarity load only after the visitor accepts analytics cookies (choice kept in localStorage).
+// GA4 with Google Consent Mode v2 (advanced). gtag loads on every page with all
+// storage denied by default, so GA4 receives cookieless, anonymous pings and models
+// visits. No analytics or advertising cookies are set until the visitor clicks Accept.
+// Ad storage, ad user data and ad personalisation always stay denied (no ads are run).
+// Microsoft Clarity still loads only after Accept.
 function prasa_ip_ga4_tag() {
     $measurement_id = 'G-YEV19GLG18';
     printf(
-        '<script>window.prasaGA=function(){if(window.prasaGALoaded)return;window.prasaGALoaded=1;var s=document.createElement("script");s.async=1;s.src="https://www.googletagmanager.com/gtag/js?id=%1$s";document.head.appendChild(s);window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};gtag("js",new Date());gtag("config","%1$s",{anonymize_ip:true});(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z4tiw12rvw");window.clarity("consent");};try{if(localStorage.getItem("prasa_cookie_consent")==="granted")prasaGA();}catch(e){}</script>' . "\n",
+        '<script>window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments);};'
+        . 'gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",functionality_storage:"denied",personalization_storage:"denied",security_storage:"granted",wait_for_update:500});'
+        . 'gtag("set","ads_data_redaction",true);gtag("set","url_passthrough",false);'
+        . 'window.prasaClarity=function(){if(window.prasaClarityLoaded)return;window.prasaClarityLoaded=1;(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","z4tiw12rvw");window.clarity("consent");};'
+        . 'window.prasaGA=function(){gtag("consent","update",{analytics_storage:"granted"});window.prasaClarity();};'
+        . 'try{if(localStorage.getItem("prasa_cookie_consent")==="granted")prasaGA();}catch(e){}'
+        . 'gtag("js",new Date());gtag("config","%1$s",{anonymize_ip:true});</script>'
+        . '<script async src="https://www.googletagmanager.com/gtag/js?id=%1$s"></script>' . "\n",
         esc_attr($measurement_id)
     );
 }
@@ -28,7 +39,7 @@ add_action('wp_head', 'prasa_ip_ga4_tag', 20);
 function prasa_ip_cookie_notice() {
     ?>
 <div class="pc-consent" id="pc-consent" role="region" aria-label="Cookie notice" hidden>
-  <p>Analytics cookies are used only if you accept. <a href="/privacy-policy/">Privacy</a></p>
+  <p>Analytics cookies are set only if you accept. Without them we count visits anonymously, with no cookies. <a href="/privacy-policy/">Privacy</a></p>
   <div class="pc-consent__btns"><button type="button" data-pc="decline">Decline</button><button type="button" data-pc="accept">Accept</button></div>
 </div>
 <button type="button" class="pc-pill" id="pc-pill" data-cookie-settings hidden>Cookies</button>
