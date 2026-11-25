@@ -2950,3 +2950,43 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 
 ### 348. Flinn AI patent suits against Anthropic and OpenAI over attention mechanism patents (D. Del., filed 12 Nov 2026)
 - **Primary not opened** · **Secondary:** IPWatchdog 13 Nov 2026 · **Lens:** Tue · **Priority:** Low
+
+## Items added 25 November 2026 scan (window 11 to 25 Nov, Wednesday Europe/UK lens)
+
+### 349. Dr Reddy's v Boehringer Ingelheim [2026] EWHC 2944 (Pat): empagliflozin compound patent and SPC invalid for lack of plausibility, crystal form patent valid
+- **Date:** 17 Nov 2026 · **Bench:** Meade LJ · **Area:** UK patents / plausibility / SPC / polymorphs
+- **Primary (opened):** https://caselaw.nationalarchives.gov.uk/ewhc/pat/2026/2944 · **Secondary:** https://legalblogs.wolterskluwer.com/patent-blog/disclosure-v-detective-work-will-the-supreme-court-ultimately-re-open-the-case-on-plausibility/
+- **Status:** DRAFTED 25 Nov 2026, branch draft/2026-11-25-plausibility-empagliflozin
+
+### 350. SharkNinja v Groupe SEB (UPC Düsseldorf LD, UPC_CFI_2862/2026): PI two days after grant, parent company claim dismissed
+- **Date:** reported 23 Nov 2026 · **Primary not opened** · **Secondary:** https://www.juve-patent.com/cases/seb-misses-out-on-holiday-business-as-upc-grants-sharkninja-pi-against-freezi/
+- **Lens:** Wed · **Priority:** High
+
+### 351. BSH v Arçelik/Beko (UPC Munich LD, UPC_CFI_770/2025): group sales companies jointly and severally liable
+- **Date:** 11 Nov 2026 · **Primary (opened, German):** https://upc.law/wp-content/uploads/2026/11/770-2025.pdf
+- **Lens:** Wed · **Priority:** Medium
+
+### 352. Light Guide Optics v Biolitec (UPC Milan CD, UPC_CFI_292/2026): parameter range anticipated where any reasonable method puts prior art inside
+- **Date:** 11 Nov 2026 · **Primary not opened:** https://upc.law/wp-content/uploads/2026/11/CD-Milan-UPC_CFI_292-2026_20261111.pdf
+- **Lens:** Wed · **Priority:** Medium (pairs with Cocona, item 343)
+
+### 353. UPC CoA, Vossius v Huawei/HP (UPC_CoA_190/2026): limits on use of pleadings obtained by file access
+- **Date:** 17 Nov 2026 · **Primary not opened** · **Lens:** Wed · **Priority:** Low
+
+### 354. Getty Images v Stability AI: Court of Appeal hearing 11 to 12 Nov 2026, judgment awaited
+- **Secondary:** https://ipkitten.blogspot.com/2026/11/guest-post-getty-images-v-stability-ai.html · **Lens:** Fri · **Priority:** Medium (watch for judgment)
+
+### 355. Nokia v Paramount/Warner Bros: UK RAND trial on video codec licences, 18 Nov to 11 Dec 2026
+- **Secondary:** JUVE Patent · **Lens:** Wed · **Priority:** Medium (watch for judgment)
+
+### 356. UK to rejoin EU plant variety rights system (UK EU summit, 20 Nov 2026)
+- **Primary not opened** · **Secondary:** https://ipkitten.blogspot.com/2026/11/uk-eu-reset-deal-to-bring-unity-for.html · **Lens:** Fri · **Priority:** Medium
+
+### 357. Jaguar Land Rover v BYD (Hague District Court, 20 Nov 2026): EU design injunction against Ti7, UK design claims fail
+- **Primary not opened** · **Secondary:** https://ipfray.com/ · **Lens:** Fri · **Priority:** Medium
+
+### 358. EPO notice on description amendments after G 1/25 (10 Nov 2026)
+- **Primary not opened** · **Secondary:** https://www.lewissilkin.com/insights/2026/11/16/inconsistencies-in-inconsistency-the-epos-new-notice-regarding-g1-25-102o9ow · **Lens:** Wed · **Priority:** High (verify on epo.org)
+
+### 359. AG Szpunar opinion in Like Company, C-250/25 (3 Nov 2026): TDM exception and LLM training
+- **Secondary:** https://ipkitten.blogspot.com/2026/11/ag-szpunars-opinion-in-like-company-is.html · **Lens:** Fri · **Priority:** High (verify on curia)
