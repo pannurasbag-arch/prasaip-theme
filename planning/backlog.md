@@ -2956,7 +2956,7 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 ### 349. Dr Reddy's v Boehringer Ingelheim [2026] EWHC 2944 (Pat): empagliflozin compound patent and SPC invalid for lack of plausibility, crystal form patent valid
 - **Date:** 17 Nov 2026 · **Bench:** Meade LJ · **Area:** UK patents / plausibility / SPC / polymorphs
 - **Primary (opened):** https://caselaw.nationalarchives.gov.uk/ewhc/pat/2026/2944 · **Secondary:** https://legalblogs.wolterskluwer.com/patent-blog/disclosure-v-detective-work-will-the-supreme-court-ultimately-re-open-the-case-on-plausibility/
-- **Status:** DRAFTED 25 Nov 2026, branch draft/2026-11-25-plausibility-empagliflozin
+- **Status:** PUBLISHED 25 Nov 2026 at https://www.prasaip.com/plausibility-patent-uk-dr-reddys-v-boehringer-empagliflozin/ (PR #44, LinkedIn urn:li:activity:7531206796468871168)
 
 ### 350. SharkNinja v Groupe SEB (UPC Düsseldorf LD, UPC_CFI_2862/2026): PI two days after grant, parent company claim dismissed
 - **Date:** reported 23 Nov 2026 · **Primary not opened** · **Secondary:** https://www.juve-patent.com/cases/seb-misses-out-on-holiday-business-as-upc-grants-sharkninja-pi-against-freezi/
