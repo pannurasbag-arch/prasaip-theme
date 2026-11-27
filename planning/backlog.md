@@ -2983,10 +2983,18 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Primary not opened** · **Secondary:** https://ipkitten.blogspot.com/2026/11/uk-eu-reset-deal-to-bring-unity-for.html · **Lens:** Fri · **Priority:** Medium
 
 ### 357. Jaguar Land Rover v BYD (Hague District Court, 20 Nov 2026): EU design injunction against Ti7, UK design claims fail
-- **Primary not opened** · **Secondary:** https://ipfray.com/ · **Lens:** Fri · **Priority:** Medium
+- **Primary (opened):** https://uitspraken.rechtspraak.nl/details?id=ECLI%3ANL%3ARBDHA%3A2026%3A34365 · **Lens:** Fri · **Priority:** Medium
+- **Status:** PUBLISHED 27 Nov 2026 (PR #48, 3796e1e). Company LinkedIn urn:li:share:7531947659667005441. GSC requested, Bing and IndexNow submitted.
 
 ### 358. EPO notice on description amendments after G 1/25 (10 Nov 2026)
 - **Primary not opened** · **Secondary:** https://www.lewissilkin.com/insights/2026/11/16/inconsistencies-in-inconsistency-the-epos-new-notice-regarding-g1-25-102o9ow · **Lens:** Wed · **Priority:** High (verify on epo.org)
 
 ### 359. AG Szpunar opinion in Like Company, C-250/25 (3 Nov 2026): TDM exception and LLM training
 - **Secondary:** https://ipkitten.blogspot.com/2026/11/ag-szpunars-opinion-in-like-company-is.html · **Lens:** Fri · **Priority:** High (verify on curia)
+
+## Items added 26 November 2026 scan (Thursday trade mark and litigation lens)
+
+### 360. Sotkon SP SLU v Western Imaginary Transcon & 9 connected suits (Delhi HC, CS(COMM) 484/2021): ten IP plaints returned, Section 20(b) leave refused, forum conveniens applied to patent suits
+- **Date:** 19 Nov 2026 · **Bench:** Purushaindra Kumar Kaurav J · **Area:** Indian IP litigation / territorial jurisdiction / patents, designs, trade marks
+- **Primary (opened, full judgment text):** https://www.livelawbiz.com/ipr/delhi-high-court-returns-10-more-ip-suits-saying-online-listings-alone-cannot-justify-filing-cases-in-delhi-559436
+- **Status:** PUBLISHED 27 Nov 2026 (PR #47, a574dfc). GSC already indexed, Bing and IndexNow submitted. Company LinkedIn urn:li:share:7531940583163162624.
