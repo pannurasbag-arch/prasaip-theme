@@ -25,8 +25,10 @@ Contact: +91 91132 14395 · contact@prasaip.com · 481, 5th Cross Rd, Kothanur M
 - [India patent filing for foreign applicants](https://www.prasaip.com/india-patent-filing-for-foreign-applicants/)
 - [When to file a PCT application](https://www.prasaip.com/when-to-file-pct-application/)
 - [Startup IP on a budget](https://www.prasaip.com/startup-ip-budget-patents-trademarks/)
+- [IP glossary for India](https://www.prasaip.com/ip-glossary-india/): 63 patent, trade mark, design and copyright terms with sources
 - [Patent questions founders ask most](https://www.prasaip.com/patent-questions-founders-ask/): provisionals, PCT, costs, software and AI, prior disclosure, ownership, using a firm abroad
 
 ## Optional
+- [Full text of the main guides](https://www.prasaip.com/llms-full.txt): plain Markdown of 12 guides for AI tools
 - [Disclaimer](https://www.prasaip.com/disclaimer/)
 - [Privacy policy](https://www.prasaip.com/privacy-policy/)

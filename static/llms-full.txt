@@ -1,0 +1,1766 @@
+# PRASA IP
+
+> PRASA IP is an intellectual property law firm in JP Nagar, Bengaluru (Bangalore), India, with a US office (PRASA IP LLC). Patent and trade mark attorneys for technology companies, led by Praneetha K Rasbag and Sanath V Madgula, registered Indian patent agents and advocates.
+
+Contact: +91 91132 14395 · contact@prasaip.com · 481, 5th Cross Rd, Kothanur Main Rd, RBI Layout, JP Nagar, Bengaluru, Karnataka 560078, India
+
+This file collects the full text of PRASA IP's main guides in plain Markdown for AI assistants and search agents. Each section names its source page. The pages on prasaip.com are the authoritative version and are updated more often than this file. Nothing here is legal advice for a specific matter.
+
+Last compiled: 28 November 2026
+
+## Contents
+
+- Patent Filing Steps in India: Forms and Fees (https://www.prasaip.com/patent-filing-procedure-in-india-step-by-step-guide/)
+- Patent Cost in India 2026, vs US and Europe (https://www.prasaip.com/patent-filing-cost-india-us-europe/)
+- Provisional patent application: India, US, Europe (https://www.prasaip.com/provisional-patent-application-india-us-europe/)
+- India Patent Filing for US and European Companies (https://www.prasaip.com/india-patent-filing-for-foreign-applicants/)
+- When to File a PCT Application: Cost and Timing (https://www.prasaip.com/when-to-file-pct-application/)
+- Patent Questions Founders Ask: US, Europe and India (https://www.prasaip.com/patent-questions-founders-ask/)
+- Software and AI Patents in India (Section 3(k)) (https://www.prasaip.com/software-ai-patents-india/)
+- Types of Intellectual Property: India, US and EU (https://www.prasaip.com/types-of-intellectual-property-protection/)
+- Design Registration in India: Process, Fees, Term (https://www.prasaip.com/industrial-design-registration-in-india/)
+- How Long Does IP Last? Terms and Renewals (https://www.prasaip.com/how-long-does-ip-protection-last/)
+- Startup IP on a Budget: What to Patent First (https://www.prasaip.com/startup-ip-budget-patents-trademarks/)
+- Patent Filing in Bangalore: Agents and Attorneys (https://www.prasaip.com/ip-law-firm-bengaluru/)
+
+---
+
+## Patent Filing Steps in India: Forms and Fees
+
+Source: https://www.prasaip.com/patent-filing-procedure-in-india-step-by-step-guide/
+
+Updated 27 November 202614 minute readBy Sanath V Madgula, reviewed by Praneetha K Rasbag
+To file a patent in India, file Form 1 and a specification on the IP India portal. Then request examination within 31 months, answer the examination report and pay renewals after grant. Most avoidable losses happen before the first form is filed, when an invention is disclosed too early or described too thinly.
+This guide follows an Indian patent application from the first invention discussion to grant and the years after grant. It reflects the Patents Act, 1970 and the Patents Rules, 2003 as amended by the Patents (Amendment) Rules, 2024, which took effect on 15 March 2024. Forms and official fees change from time to time, so each step should be checked against the current IP India material at the time of filing.
+
+### How to file a patent in India: the short answer
+
+- Keep the invention confidential and check that it is patentable.
+
+- Run a prior-art search to see what is genuinely new.
+
+- Draft a provisional or complete specification in Form 2.
+
+- File online on the IP India portal with Form 1, Form 2, Form 3, Form 5 and the official fee.
+
+- Request examination in Form 18 within 31 months of the priority date. The application is published at 18 months, or earlier with Form 9.
+
+- Answer the First Examination Report within six months, attend a hearing if one is offered, and pay renewal fees after grant.
+
+#### Forms, deadlines and official fees at a glance
+
+Official e-filing fees from the First Schedule to the Patents Rules, 2003. The lower rate applies to individuals, startups, small entities and educational institutions. Fees are for a specification of up to 30 pages and 10 claims; extra pages and claims cost more. Professional fees are separate.
+| | Step | Form | Deadline | Lower rate | Higher rate
+| Provisional or complete application | Form 1, Form 2, Form 3, Form 5 (Form 28 for the lower fee) | Any time before public disclosure. Complete specification within 12 months of a provisional | ₹1,600 | ₹8,000
+| Early publication (optional) | Form 9 | Any time after filing | ₹2,500 | ₹12,500
+| Request for examination | Form 18 | Within 31 months of the priority date | ₹4,000 | ₹20,000
+| Expedited examination (eligible applicants only) | Form 18A | Instead of Form 18 | ₹8,000 | ₹60,000
+| Response to the First Examination Report | Reply, with amended claims if needed | Within 6 months, extendable by 3 months | No official fee for the reply itself | No official fee for the reply itself
+| Renewal after grant | Renewal fee | Each year from the 3rd year | From ₹800 a year | From ₹4,000 a year
+
+Our patent filing cost guide compares these fees with the USPTO and the EPO.
+
+### Before filing. Is the invention patentable?
+
+An invention must be new, involve an inventive step and be capable of industrial application. These requirements come from section 2(1)(j) of the Act. Section 3 then lists subject matter that is not an invention at all. It includes a mathematical or business method, a computer programme per se and an algorithm under section 3(k), a mere new form of a known substance without enhanced efficacy under section 3(d), and methods of medical treatment under section 3(i).
+Software and AI inventions are not excluded as a class. The question is whether the claims define a technical solution to a technical problem rather than a program or method in the abstract. The way the specification explains the technical effect often decides the outcome.
+Keep the invention confidential until an application is on file. Section 31 gives only a narrow grace period for specified disclosures, such as display at an exhibition notified by the Government or a paper read before a learned society. A product launch, investor pitch or conference talk outside those categories can destroy novelty in India and in many other countries.
+
+### Step 1. Search the prior art
+
+A patentability search tests the invention against earlier patents and publications before money is spent on drafting. It also shows which features are genuinely new, which helps the drafter place the claims correctly. A search cannot find unpublished applications, so it reduces risk rather than removing it.
+
+### Step 2. Choose the filing route
+
+The route depends on how ready the invention is and where protection is needed.
+
+- Provisional application. A provisional specification secures a filing date for an invention that is still developing. The complete specification must follow within 12 months under section 9(1). If it does not, the application is treated as abandoned.
+
+- Complete application. A complete specification with claims can be filed directly when the invention is fully worked out.
+
+- Convention application. An applicant who first filed in a convention country can file in India within 12 months of that first filing and claim its priority under section 135.
+
+- PCT route. An international application under the Patent Cooperation Treaty keeps options open in many countries. Entry into the Indian national phase is due within 31 months from the priority date.
+
+### Step 3. Draft the specification
+
+The specification is filed in Form 2. A complete specification must describe the invention fully, disclose the best method of performing it known to the applicant and end with claims that define the scope of protection. These requirements appear in section 10. The claims must be clear and must be fairly based on what the description discloses.
+Good drafting anticipates examination. The description should support fallback positions, explain the technical advantage and use consistent terminology across the claims, description and drawings. It is very hard to add support later. Amendments under section 59 cannot introduce matter that was not in the application as filed.
+
+### Step 4. File the application
+
+Applications are filed online through the IP India portal at the appropriate patent office. The office is chosen by the applicant's residence or place of business, or by the place where the invention originated. Applicants with no place of business in India use their address for service in India. The Chennai office covers Karnataka, Kerala, Tamil Nadu, Andhra Pradesh, Telangana, Puducherry and Lakshadweep. Delhi and Mumbai cover the northern and western states, and Kolkata covers the rest.
+Documents usually filed with an Indian patent application
+- Form 1, the application itself, with applicant and inventor details.
+
+- Form 2, the provisional or complete specification with drawings and abstract.
+
+- Form 3, the statement and undertaking about corresponding foreign applications under section 8.
+
+- Form 5, the declaration as to inventorship, filed with the complete specification or within the permitted time after it.
+
+- Form 26, the power of attorney, where a patent agent files on the applicant's behalf.
+
+- Proof of right to apply, where the applicant is not the inventor, such as an assignment.
+
+- A certified copy of the priority document for a convention application, where required.
+
+Official fees depend on the applicant. Natural persons, startups, small entities and educational institutions pay reduced fees. Other applicants pay the standard rate. The current schedule is published by IP India.
+
+### Foreign filing permission for inventions made in India
+
+Section 39 restricts residents of India from applying for a patent outside India without written permission from the Patent Office. Permission is not needed where an application for the same invention was filed in India at least six weeks before the foreign filing and no secrecy direction was issued. Permission can be requested in Form 25. Breaching section 39 can lead to the Indian application being treated as abandoned and to penalties, so the first foreign filing should never be made without checking this point.
+
+### Step 5. Publication
+
+An application is ordinarily published in the Patent Office Journal after 18 months from the filing date or the priority date, whichever is earlier. An applicant can request early publication in Form 9. The application is then usually published within one month of the request.
+From the date of publication, the applicant has the same privileges and rights as if a patent had been granted on that date. Proceedings for infringement can only begin after grant. This is the effect of section 11A(7), and it is one reason applicants choose early publication.
+
+### Step 6. Request examination
+
+An application is not examined unless the applicant files a request for examination in Form 18. For applications filed on or after 15 March 2024, the request is due within 31 months from the priority date or the filing date, whichever is earlier. The earlier limit was 48 months. An application without a timely request is treated as withdrawn under section 11B.
+Expedited examination is available through Form 18A for eligible applicants. The categories include startups, small entities, applicants who chose India as the International Searching Authority or International Preliminary Examining Authority, certain government entities, and applications where at least one natural person applicant is female. Expedited examination moves quickly and leaves little time to prepare responses, so the claims should be ready before it is requested.
+
+### Step 7. Respond to the First Examination Report
+
+The examiner's objections are sent to the applicant in the First Examination Report, usually called the FER. The applicant has six months from the date of the FER to put the application in order for grant. That period can be extended by up to three months on a request in Form 4. If the application is not put in order in time, it is deemed abandoned under section 21.
+The 2024 amendments also require an updated Form 3 within three months of the FER, covering foreign applications filed after the Indian application. A careful response addresses every objection, explains the technical distinctions from the cited art and proposes amendments that have clear support in the specification.
+
+### Step 8. Hearing
+
+If objections remain after the written response, the Controller will generally offer a hearing under section 14 before refusing the application. Hearings can be attended by video conference. Written submissions must usually be filed within fifteen days after the hearing. The Controller then decides whether to grant or refuse the application.
+
+### Step 9. Pre grant opposition
+
+Any person may file a representation opposing the grant under section 25(1) after publication and before grant. The grounds include lack of novelty, obviousness, non patentable subject matter and failure to disclose foreign application details. The Rules also bar grant before six months from publication, which gives third parties time to oppose.
+
+### Step 10. Grant and life after grant
+
+Once the Controller is satisfied, the patent is granted and the grant is published in the Journal. The term is 20 years from the date of filing of the application under section 53. For a PCT national phase application, that date is the international filing date.
+
+- Post grant opposition. An interested person may oppose within one year from the date of publication of the grant under section 25(2).
+
+- Renewal fees. Annual renewal fees keep the patent in force. Arrears that fall due before grant must be paid within the time the Rules allow after grant. Paying at least four years in advance electronically attracts a ten per cent reduction.
+
+- Statement of working. The patentee must file Form 27 once for every period of three financial years, starting with the financial year after grant. It is due within six months after the end of each period.
+
+- Records. Assignments must be in writing under section 68. They and licences should be registered with the Patent Office under section 69, because an unregistered document may not be admitted as evidence of title.
+
+### How long does it take?
+
+There is no fixed timetable. Publication follows at 18 months unless it is brought forward. Examination starts only after a request and depends on the backlog in the relevant technology group. Expedited examination can produce a decision far faster than the regular route. The single most controllable factor is the quality of the specification and the response, because every avoidable objection adds a round of correspondence.
+
+### Frequently asked questions
+
+#### Who can file a patent application in India?
+
+Under section 6 of the Patents Act, the person claiming to be the true and first inventor can apply. So can that inventor's assignee, or the legal representative of a deceased inventor. Any of them may apply alone or jointly with others.
+
+#### What are the stages from filing to grant of a patent in India?
+
+Filing, publication at 18 months, a request for examination within 31 months, the First Examination Report and the reply within six months. A hearing may follow. The Controller then grants or refuses the patent, and renewals keep it in force.
+
+#### How much does it cost to file a patent in India?
+
+In official fees, an individual, startup or small entity pays ₹1,600 to file online and ₹4,000 to request examination, so ₹5,600 in total for a specification of up to 30 pages and 10 claims. A large company pays ₹8,000 and ₹20,000. Drafting and attorney fees are separate and usually cost more than the official fees.
+
+#### How long does it take to get a patent in India?
+
+Through the regular route, commonly two to four years from filing, depending on the technology group. Through expedited examination, eligible applicants can sometimes be granted within a year.
+
+#### Can I file a patent application in India myself?
+
+Yes. An applicant can file and prosecute an application in its own name. Only a registered patent agent may practise as an agent before the Patent Office, although advocates may appear at hearings. Most applicants use an agent because drafting and prosecution decisions affect the value of the patent for its whole life. Our guide to choosing an intellectual property lawyer explains how to check an agent's registration.
+
+#### Is a provisional application worth filing?
+
+It is useful when the invention needs a date before it is complete or before a disclosure that cannot be delayed. It is not a shortcut. Features that are not described in the provisional specification do not receive its date.
+
+#### Does an Indian patent protect the invention in other countries?
+
+No. Patents are territorial. Protection abroad needs separate filings, usually through the Paris Convention within 12 months or through the PCT. Check section 39 first if the invention was made in India.
+
+#### What is the difference between patent filing and patent registration?
+
+People often use the words interchangeably. Filing starts the process. A patent is granted only after examination, and the Patent Office then records it in the register of patents.
+
+#### How do I file a patent application online in India?
+
+Applications are filed through the IP India online filing portal. The applicant or patent agent registers on the portal, uploads Forms 1, 2, 3 and 5 with the specification and drawings, signs them with a digital signature certificate and pays the official fee online. The portal issues a filing receipt with the application number and filing date. Paper filing is still possible but costs more.
+
+#### Can I patent an idea in India?
+
+Not an idea on its own. A patent protects an invention described in enough detail for a skilled person to carry it out, which is the sufficiency requirement in section 10. Once you can explain how the idea works, a provisional application can secure a filing date while development continues.
+
+#### How do I patent a product in India?
+
+Patent the technical features that make the product work, such as its structure, mechanism, circuit or manufacturing process, rather than the product name or appearance. The appearance can be protected separately through design registration and the name through a trade mark. File before the product is launched, shown to investors or sold, because public disclosure can destroy novelty.
+
+#### Can I file a patent in India for free?
+
+No. Official fees apply to every application, but natural persons, startups, small entities and educational institutions pay reduced fees. Startups can also request expedited examination at a reduced fee. The government's SIPP scheme, which paid patent agents' fees for startups, lapsed on 31 March 2026 and no replacement has been announced.
+
+### Official sources
+
+- The Patents Act, 1970, published by IP India
+
+- Patents Rules and amendments, published by IP India
+
+- IP India patent forms and official fees
+
+- Summary of the Patents (Amendment) Rules, 2024 by AZB and Partners
+
+### Related articles
+
+- Patent filing cost in India, the US and Europe
+
+- India patent rules and filing practice in 2026
+
+- When to file a PCT application
+
+---
+
+## Patent Cost in India 2026, vs US and Europe
+
+Source: https://www.prasaip.com/patent-filing-cost-india-us-europe/
+
+By Praneetha K RasbagPublished 24 October 2026Updated 23 November 20268 minute read
+Filing a patent application in India costs ₹1,600 in official fees online for an individual, startup, small entity or educational institution, and ₹8,000 for any other applicant. A provisional application pays the same ₹1,600 or ₹8,000, and the complete specification filed after it costs nothing extra up to 30 pages and 10 claims. Examination is a separate request costing ₹4,000 or ₹20,000.
+These official fees are far lower than in the US or Europe, and the gap is largest for startups and small entities. But official fees are only one part of the budget, and each office charges in a different way.
+This guide sets out the main official fees at each office as they stand in October 2026. It does not include attorney fees, drafting, translations or currency conversion. Those usually cost more than the official fees themselves.
+Key points
+- In India, a startup or small entity can file and request examination online for ₹5,600 in official fees. A large company pays ₹28,000.
+
+- At the USPTO, filing, search, examination and issue fees for a large entity total $3,290. Small entities pay 40 percent and micro entities 20 percent of that.
+
+- At the EPO, the main fees up to grant total about €5,595 from 1 April 2026, before claims fees and renewal fees.
+
+- Renewal fees over the life of a patent usually cost more than getting the patent granted.
+
+- Every office charges extra for long specifications or many claims, so drafting choices affect cost.
+
+### India: official fees under the Patents Rules
+
+The First Schedule to the Patents Rules, 2003 sets the fees. There are two rates. The lower rate applies to a natural person, a startup, a small entity or an educational institution. The higher rate applies to everyone else, including any application where such a person files jointly with a large company. Paper filing costs about 10 percent more than online filing.
+
+#### Filing and examination
+
+- Application for a patent (Form 1): ₹1,600 at the lower rate and ₹8,000 at the higher rate, for online filing.
+
+- The base fee covers up to 30 pages and 10 claims. Each extra sheet costs ₹160 or ₹800. Each claim above 10 costs ₹320 or ₹1,600.
+
+- Request for examination (Form 18): ₹4,000 or ₹20,000. A request made under rule 20(4)(ii) costs ₹5,600 or ₹28,000.
+
+- Request for expedited examination (Form 18A): ₹8,000 or ₹60,000. Expedited examination is open only to specified categories of applicant.
+
+- Request for early publication (Form 9): ₹2,500 or ₹12,500.
+
+So a startup filing a complete specification of 30 pages with 10 claims pays ₹5,600 to file and request examination. A large company pays ₹28,000 for the same application. A startup or small entity claims the lower rate by filing Form 28 with supporting evidence. Foreign companies can qualify as startups or small entities if they meet the definitions in the Rules.
+
+#### Provisional patent cost in India
+
+A provisional application is filed on Form 1 with a provisional specification on Form 2. The official fee is the same as for any application: ₹1,600 online at the lower rate and ₹8,000 at the higher rate. Paper filing costs ₹1,750 or ₹8,800.
+The complete specification must follow within 12 months. Under entry 2 of the First Schedule, filing it carries no fee up to 30 pages and 10 claims. Extra sheets and claims are charged at the same rates as above.
+So the official cost of a provisional route for a startup is ₹1,600 at filing, then ₹4,000 when examination is requested. Drafting and attorney fees are separate. Our guide on when to file a PCT application explains what to decide before the 12 month deadline.
+
+#### Renewal fees
+
+Renewal fees start in the third year, counted from the date of the patent. They rise in four bands.
+
+- Years 3 to 6: ₹800 or ₹4,000 a year.
+
+- Years 7 to 10: ₹2,400 or ₹12,000 a year.
+
+- Years 11 to 15: ₹4,800 or ₹24,000 a year.
+
+- Years 16 to 20: ₹8,000 or ₹40,000 a year.
+
+Keeping a patent alive for the full 20 years costs ₹76,800 in renewal fees at the lower rate. At the higher rate it costs ₹3,84,000. Our step by step guide to filing a patent in India explains where each fee falls in the process.
+
+### United States: USPTO fees
+
+The USPTO fee schedule effective 19 January 2025 is still current. It has three tiers. Small entities pay 40 percent of the large entity fee. Micro entities pay 20 percent. Small entity status depends mainly on size and on not having licensed the invention to a large entity. Micro entity status adds limits on income and on earlier filings.
+
+- Basic filing fee for a utility application: $350, $140 or $70.
+
+- Search fee: $770, $308 or $154.
+
+- Examination fee: $880, $352 or $176.
+
+- Issue fee on allowance: $1,290, $516 or $258.
+
+- Provisional application: $325, $130 or $65.
+
+- Each claim over 20: $200. Each independent claim over three: $600. Both are at the large entity rate.
+
+- A surcharge of $400 for a large entity applies to applications not filed electronically.
+
+So the core fees from filing to grant total $3,290 for a large entity, $1,316 for a small entity and $658 for a micro entity. After grant, maintenance fees fall due at 3.5, 7.5 and 11.5 years. For a large entity they are $2,150, $4,040 and $8,280. Small and micro entities pay the same reduced percentages.
+
+### Europe: EPO fees from 1 April 2026
+
+The EPO adjusted its fees on 1 April 2026. A European patent application pays the following main fees.
+
+- Filing fee for online filing: €135. Each page above 35 costs €17 more.
+
+- Search fee: €1,595.
+
+- Designation fee: €720, covering all designated states.
+
+- Examination fee: €2,010 for a direct European application. A Euro PCT application without a supplementary search report pays €2,240.
+
+- Fee for grant: €1,135.
+
+- Claims fee: €290 for each claim from the 16th to the 50th, and €720 from the 51st.
+
+These main fees total about €5,595 up to grant. Renewal fees are payable to the EPO while the application is pending. They start in the third year counted from the filing date. The third year fee is €725 and the fee reaches €1,865 from the tenth year.
+A 30 percent reduction applies to several fees for microenterprises, natural persons, non profit bodies, universities and public research organisations. The applicant must have filed fewer than five European applications in the previous five years. Small and medium enterprises do not qualify. After grant, the patent is either validated country by country or registered as a Unitary Patent. Each route has its own renewal and translation costs.
+
+### How the three systems compare
+
+- Who gets a discount. India gives the lower rate to individuals, startups, small entities and educational institutions. The discount is often 80 percent. The US gives 60 percent off to small entities and 80 percent off to micro entities. The EPO gives 30 percent off to a narrower group.
+
+- When examination is paid. India charges for examination only when the applicant asks for it, within 31 months from priority. The US charges search and examination fees on filing. They may be paid later with a surcharge. The EPO examination and designation fees fall due within six months after the search report is published.
+
+- Renewals. India and the EPO charge annual fees. The US charges three maintenance fees after grant.
+
+- Size of the application. All three charge for extra pages and claims. India counts sheets above 30 and claims above 10. The EPO counts claims above 15. The US counts claims above 20 and independent claims above three.
+
+For an Indian startup, the official fees for the Indian application are small. The real cost lies in drafting, in responding to examination reports and in filing abroad. Our guide to protecting startup IP on a budget covers how to stage those costs, and our note on when to file a PCT application covers the timing of foreign filings.
+At a glance | | Point | India | United States | EPO
+| Discount | Often 80% for individuals, startups, small entities and educational institutions | 60% small entity, 80% micro entity | 30% for a narrower group
+| Examination fee | Only on request, within 31 months from priority | Due on filing, or later with a surcharge | Within six months after the search report
+| Renewals | Annual fees | Three maintenance fees after grant | Annual fees
+| Excess fees | Sheets above 30, claims above 10 | Claims above 20, independent claims above three | Claims above 15
+
+### Practical steps to control cost
+
+- Check whether you qualify for the lower rate in India, small or micro entity status in the US, or the EPO reduction. File the required declaration at the start.
+
+- Draft claims with care. In India, keep to 10 claims where you can. At the EPO, keep to 15. In the US, keep to 20 claims and three independent claims.
+
+- Decide early whether expedited examination in India is worth its higher fee for your applicant category.
+
+- Budget for renewal fees before grant. They grow each year and can exceed the cost of filing.
+
+- Review the portfolio each year and drop patents that no longer protect a product or a licence.
+
+Our patent services cover drafting and filing in India, and our international filing support covers the US, the EPO and PCT routes.
+
+### Frequently asked questions
+
+#### How much does a provisional patent cost in India?
+
+The official fee is ₹1,600 online for an individual, startup or small entity and ₹8,000 for others. Filing the complete specification later costs nothing extra up to 30 pages and 10 claims.
+
+#### What is the patent filing cost in India for a startup?
+
+The official fees to file online and request examination are ₹5,600 for a complete specification up to 30 pages and 10 claims. Attorney and drafting fees are extra.
+
+#### How much does a US patent cost in official fees?
+
+Filing, search, examination and issue fees total $3,290 for a large entity, $1,316 for a small entity and $658 for a micro entity. Extra claims and maintenance fees cost more.
+
+#### How much are EPO fees in 2026?
+
+From 1 April 2026 the main fees are €135 to file online, €1,595 for search, €720 for designation, €2,010 for examination and €1,135 for grant.
+
+### Official source
+
+- IP India, patent forms and official fees (First Schedule)
+
+- USPTO fee schedule
+
+- EPO Rules relating to Fees, as in force from 1 April 2026
+
+- EPO fee reductions
+
+### Related articles
+
+- Startup IP on a budget. What to patent first
+
+- India patent rules and filing practice in 2026
+
+- Patent filing in India for US and European companies
+
+---
+
+## Provisional patent application: India, US, Europe
+
+Source: https://www.prasaip.com/provisional-patent-application-india-us-europe/
+
+By Sanath V MadgulaPublished 7 November 20268 minute read
+What does a provisional patent application actually protect? It fixes a filing date for what it describes, and nothing more. India and the US both offer a provisional application with a 12 month life. The EPO and the UK IPO have no separate provisional form, but an early filing there works in much the same way.
+The value of any first filing depends on one question. Does the later application claim something the first filing clearly described? If it does, the claim keeps the early date. If it does not, the claim falls back to the later date, and anything published in between can be cited against it.
+Key points
+- In India, a complete specification must follow a provisional within 12 months. Otherwise section 9(1) of the Patents Act, 1970 deems the application abandoned.
+
+- In the US, a provisional needs no claims and lapses 12 months after filing under 35 U.S.C. § 111(b). The later application must normally be filed within that period. A petition can extend it by two months for unintentional delay.
+
+- The EPO has no provisional form. It accepts a US or Indian provisional as a priority filing, and an EPO filing without claims still receives a date.
+
+- In every system, a claim keeps the early date only if the first filing supports it. A short provisional rarely supports the claims that matter.
+
+- Indian residents need a foreign filing permit, or an Indian filing made at least six weeks earlier, before filing a first application abroad.
+
+### What a provisional application is
+
+A provisional application is a first filing that describes the invention without claims or the other formal parts. It is not examined. Its only job is to fix a date. Within 12 months the applicant files the full application, which is examined and granted. The provisional then matters only as evidence of what was described, and when.
+
+### India: provisional and complete specifications
+
+Section 9(1) of the Patents Act, 1970 requires a complete specification within 12 months of a provisional one. If it is not filed in time, the application is deemed to be abandoned. Section 10(1) says every specification, provisional or complete, must describe the invention and carry a title. The requirement for claims and an abstract in section 10(4) applies only to the complete specification.
+The priority date of each claim is decided under section 11. A claim in the complete specification that is fairly based on the matter disclosed in the provisional gets the provisional filing date. A claim that is not fairly based on it gets the date of the complete specification.
+Under section 9(2), several related provisionals by one applicant may be covered by one complete specification, with the 12 months running from the earliest. Under section 9(4), the Controller may cancel the provisional on request before grant and postdate the application to the complete specification.
+The Indian provisional route is for national first filings only. Section 9(1) excludes convention applications and PCT national phase applications. The official fee is the same Form 1 fee as any application. Our step by step guide to filing a patent in India sets out the forms, fees and later deadlines.
+
+### United States: the provisional application under section 111(b)
+
+Under 35 U.S.C. § 111(b), a provisional must contain a specification meeting section 112(a) and any drawings required by section 113. Claims are not required. The filing date is the date the specification is received. The application is abandoned 12 months after filing and cannot be revived after that period.
+Section 119(e)(1) gives a later nonprovisional or PCT application the benefit of the provisional date. Three conditions apply. The later application must be filed within 12 months. It must name an inventor in common and refer specifically to the provisional. The provisional must describe the claimed invention in the manner section 112(a) requires, except for best mode. The statute lets the USPTO extend the 12 months by two more months where the delay was unintentional.
+The official fee is low. The current USPTO filing fee for a provisional is $325, $130 or $65, by entity size. A size fee applies above 100 sheets.
+The early date is not presumed. In Dynamic Drinkware v National Graphics (Fed. Cir. 4 September 2015, No. 2015‑1214), the court refused to presume that a prior art patent was entitled to its provisional date. The petitioner relying on that date had to prove that the provisional supported the claims. Support is therefore tested only when it matters, often in litigation or an inter partes review.
+
+### Europe: no provisional, but an early first filing works
+
+The European Patent Convention has no provisional application. Under Article 87(1) EPC, a filing in a Paris Convention state or WTO member gives 12 months of priority for the same invention. Under Article 87(3), any filing that establishes a filing date counts, whatever later happens to it. A 1996 notice of the EPO President (OJ EPO 1996, 81) confirms that a US provisional gives a right of priority.
+The EPO can itself act as the first filing office. Under Rule 40(1) EPC, a filing date needs only a request for a patent, applicant details and a description. Claims can follow later under Rule 58. An applicant can therefore file a description at the EPO and use it as a priority basis within 12 months.
+The priority test is strict. The EPO Guidelines apply the test from G 2/98. The claimed subject matter must be directly and unambiguously derivable from the priority document as a whole. A broad statement of the idea will not carry a narrower claim that adds a feature described only later.
+Ownership also matters. In G 1/22 and G 2/22 of 10 October 2023, the Enlarged Board held that the EPO may assess entitlement to priority. It held that an applicant who claims priority correctly is presumed to be entitled to it, and the presumption is rebuttable. This helps where a US provisional was filed in the inventors' names and the later application in the company's name. Clear assignments remain the safer course.
+
+### United Kingdom
+
+The UK IPO also has no provisional form. Under section 15(1) of the Patents Act 1977, a filing date needs a request, applicant details and a description. Claims and the abstract must follow within the prescribed period under section 15(10). Under section 5(2), an invention supported by matter disclosed in an earlier application filed in the previous 12 months takes that earlier date. A late declaration can be allowed where the failure to file within 12 months was unintentional.
+
+### Where the routes differ
+
+- Name and form. India and the US have a named provisional application. The EPO and the UK use an ordinary first filing without claims.
+
+- Support standard. India asks whether a claim is fairly based on the provisional. The US asks whether the provisional meets the written description and enablement requirements of section 112(a). The EPO asks whether the claim is directly and unambiguously derivable. The UK asks whether the invention is supported by matter disclosed. The EPO test is usually the hardest to meet.
+
+- Late filing. The US statute allows two extra months for unintentional delay. The EPO can restore the priority period if all due care was taken. The request and the European filing must both follow within two months. Section 9(1) of the Indian Act states the 12 months as a fixed period with deemed abandonment.
+
+- Where to file first. Section 39 of the Indian Act bars an Indian resident from filing abroad without a written permit. The exception is an Indian application filed at least six weeks earlier with no secrecy direction in force.
+
+### Practical steps
+
+- Write the provisional as if it were the complete. Describe every embodiment, alternative and parameter range you may later want to claim. Include working examples and drawings. Add draft claims even where they are optional, because they show what you regarded as the invention.
+
+- File again before each disclosure. If the design changes before a launch, a pitch or a paper, file a further provisional. In India, section 9(2) allows related provisionals to be covered by one complete specification.
+
+- Keep the ownership chain clean. Take written assignments from inventors before the first filing. Name the same applicant in later filings where possible.
+
+- Plan the foreign route before you file. Indian residents should file first in India or obtain a section 39 permit. Use the 12 month window to decide on a PCT application or direct national filings. Our note on when to file a PCT application covers that choice.
+
+- Diarise 12 months from the first filing. A later provisional does not restart the period for matter already disclosed.
+
+For foreign applicants filing in India, see our guide to India patent filing for foreign applicants. For official fees in each office, see our patent filing cost comparison.
+
+### Frequently asked questions
+
+#### How long is a provisional patent application valid?
+
+Twelve months in both India and the US. In India the complete specification must be filed within that period. In the US the later application must be filed within 12 months to claim the provisional date.
+
+#### Can a US provisional application be used to claim priority in India or Europe?
+
+Yes. A US provisional fixes a filing date, so a later Indian or European application can claim its priority within 12 months. Each claim keeps that date only if the provisional supports it.
+
+#### Does a provisional patent application need claims?
+
+No. Neither Indian nor US law requires claims in a provisional. Claims are required in the complete or nonprovisional application. Including draft claims in the provisional is still good practice.
+
+### Official source
+
+- The Patents Act, 1970, section 9 (IP India)
+
+- The Patents Act, 1970, section 11 (IP India)
+
+- 35 U.S.C. § 111 and 35 U.S.C. § 119
+
+- USPTO fee schedule
+
+- Article 87 EPC and EPO Guidelines A‑II, 4.1 (date of filing)
+
+- Notice of the EPO President on US provisional applications, OJ EPO 1996, 81
+
+- EPO press communiqué on G 1/22 and G 2/22, 10 October 2023
+
+- Patents Act 1977, section 15 and section 5
+
+- Dynamic Drinkware v National Graphics, Fed. Cir. 2015
+
+### Related articles
+
+- How to file a patent in India, step by step
+
+- When to file a PCT application
+
+- Patent filing in India for US and European companies
+
+---
+
+## India Patent Filing for US and European Companies
+
+Source: https://www.prasaip.com/india-patent-filing-for-foreign-applicants/
+
+India national phaseParis ConventionProsecution and compliance
+India is one of the largest markets and manufacturing bases for technology, pharmaceuticals and consumer products. For US and European companies, an Indian patent is often the right that matters most when products are made, sold or copied here.
+PRASA IP works with in house patent teams, foreign patent firms and founders who need patents in India. We handle Indian filing, prosecution and reporting through registered Indian patent agents and IP attorneys, and we report in the format that US and European teams expect. This page explains how a foreign applicant enters India and where Indian practice differs from USPTO and EPO practice.
+
+### Two routes into India
+
+#### PCT national phase
+
+Most foreign applicants reach India through the Patent Cooperation Treaty. The Indian national phase must be entered within 31 months from the priority date. Treat this as a fixed deadline. Relief after a missed national phase date is limited and uncertain, so the docket should carry an early internal reminder.
+
+#### Paris Convention application
+
+An applicant that first filed in the United States, at the EPO or in a European national office can file directly in India within 12 months and claim that priority. A US provisional application can serve as the priority filing. This route suits applicants who need an Indian application quickly or who did not file a PCT application.
+
+### What we need to enter India
+
+Documents and information for an Indian filing
+- The application as published, or the claims you want to pursue, in English.
+
+- Applicant and inventor names, addresses and nationalities.
+
+- A power of attorney in favour of the Indian patent agent, in Form 26.
+
+- Proof of the applicant's right to apply, such as an assignment from the inventors, where the applicant is a company.
+
+- A certified copy of the priority document for a Paris Convention filing, where it is not available to the Patent Office electronically.
+
+- Details of corresponding applications in other countries for Form 3.
+
+- An address for service in India, which is normally the agent's address.
+
+Official fees are calculated on the number of pages and claims, with additional fees above 30 pages and 10 claims. A preliminary amendment before entry can reduce cost and bring the claims into a form that suits Indian law. Companies that meet the definition of a startup or small entity in the Rules, including qualifying foreign entities, pay reduced fees.
+
+#### Official fees for a foreign company
+
+Indian official fees are low by US and European standards. The table shows e-filing fees from the First Schedule to the Patents Rules. Approximate US dollar amounts use ₹88 to US$1 and are rounded.
+| | Item | Large entity | Startup or small entity
+| Application (Form 1) | ₹8,000 (about US$90) | ₹1,600 (about US$18)
+| Each page above 30 | ₹800 | ₹160
+| Each claim above 10 | ₹1,600 | ₹320
+| Request for examination (Form 18) | ₹20,000 (about US$230) | ₹4,000 (about US$45)
+| Expedited examination (Form 18A) | ₹60,000 (about US$680) | ₹8,000 (about US$90)
+| Permission to file abroad (Form 25) | ₹8,000 | ₹1,600
+| Power of attorney (Form 26) | No fee | No fee
+| Annual renewal, years 3 to 6 | ₹4,000 a year | ₹800 a year
+
+Startup and small entity rates are also available to qualifying foreign companies with suitable evidence. Professional fees for drafting, prosecution and hearings are separate; see our comparison of patent costs in India, the US and Europe.
+
+### Inventors in India: the foreign filing licence
+
+Many US and European companies run R&D teams in India. If any inventor is resident in India, section 39 of the Patents Act applies before anything is filed abroad, including a US provisional, an EP application or a PCT application.
+
+- Option 1: file in India first. File an Indian application, wait six weeks, and file abroad if no secrecy direction has issued in that time.
+
+- Option 2: ask for permission. File Form 25 with the Indian Patent Office and file abroad once written permission is granted. The Controller is required to dispose of the request within 21 days, and requests are normally dealt with faster.
+
+- Defence and atomic energy inventions need the prior consent of the Central Government, which takes longer.
+
+The consequences of getting this wrong are serious. An Indian application filed in breach of section 39 is treated as abandoned, a granted Indian patent can be revoked under section 64(1)(n), and section 118 provides for a fine, imprisonment of up to two years, or both. The Delhi High Court confirmed in Puneet Kaushik v Union of India that a PCT application filed directly as a first filing still needs permission.
+If the invention was also made partly in the United States, a USPTO foreign filing licence under 35 U.S.C. section 184 may be needed as well. Joint US and Indian inventor teams should agree the first filing country and the licences before anyone files. We regularly obtain Form 25 permissions for foreign companies with Indian inventors.
+
+### Request examination at entry
+
+For applications filed on or after 15 March 2024, the request for examination is due within 31 months from the priority date. That is the same date as the PCT national phase deadline. In practice, most national phase applications therefore request examination when they enter India. Older PCT applications with an international filing date before 15 March 2024 had a 48 month limit.
+
+### Where Indian practice differs from US and European practice
+
+#### Section 3 exclusions
+
+Section 3(k) excludes mathematical and business methods, computer programmes per se and algorithms. Claims that pass in the United States can fail here if they read as software in the abstract. The Patent Office and the Delhi High Court look for a technical effect or technical contribution, which is closer to EPO reasoning than to US subject matter eligibility law. Section 3(d) restricts claims to new forms of known substances unless they show enhanced efficacy. Section 3(i) excludes methods of treatment of humans and animals, so US method of treatment claims usually need to be recast.
+
+#### Section 8 disclosure of foreign applications
+
+India requires applicants to disclose corresponding foreign applications in Form 3 and to keep that information current. Under the 2024 amendments, an updated statement is due within three months of the First Examination Report. The Controller can also require details of foreign search and examination. Failure to comply is a ground for opposition and revocation, so we track every family member and update Form 3 at the right time.
+
+#### Claim amendments
+
+Section 59 allows amendments only by way of disclaimer, correction, explanation or incorporation of actual fact. The amended matter must be disclosed in substance in the specification, and amended claims must fall within the scope of the existing claims. Courts have taken a more liberal view of that second condition before grant, but examiners still apply section 59 closely. Claims copied from a granted US or EP patent are a useful starting point, but they still need to be checked against the Indian specification and Indian objections.
+
+### Prosecution timeline in India
+
+- Examination. The First Examination Report sets out objections. The applicant has six months to respond, extendable by up to three months.
+
+- Hearing. If objections remain, the Controller generally offers a hearing, which can be held by video conference. Written submissions follow within fifteen days.
+
+- Opposition. Third parties can file a pre grant opposition after publication. Grant cannot occur until six months after publication.
+
+- Grant and term. The patent lasts 20 years from the international filing date for a PCT national phase application, or from the Indian filing date for a direct filing.
+
+### After grant
+
+Foreign patentees carry the same duties as Indian ones. Annual renewal fees keep the patent in force. A statement of working in Form 27 is due once for every period of three financial years, within six months after the period ends. Section 146 allows the Controller to ask for further information about commercial working. Missing these obligations can weaken the patent in licensing or enforcement.
+Patent disputes in India are heard by the High Courts and district courts under the Commercial Courts Act, 2015. The Delhi High Court has had a dedicated Intellectual Property Division since 2021, and the Madras High Court set up one in 2023. Both have developed a substantial body of patent case law, including on standard essential patents.
+
+### How we work with US and European teams
+
+- Instructions accepted from in house counsel, foreign patent firms and founders.
+
+- Reporting in English with clear recommendations, deadlines and cost estimates for each action.
+
+- Responses prepared by professionals with engineering and legal training, who understand US and EPO prosecution histories and can use them in India.
+
+- Docketing of Indian deadlines alongside the rest of the family, including Form 3 and Form 27.
+
+Indian companies filing abroad can read about our US, EP and PCT patent support. For the Indian procedure from first filing to grant, see our step by step guide to patent filing in India.
+
+### Common mistakes foreign applicants make in India
+
+- Treating the 31 month deadline as flexible. Relief for a missed national phase entry is narrow. Docket it with an internal reminder at month 28.
+
+- Forgetting the request for examination. For applications filed on or after 15 March 2024 it is due at 31 months, the same day as national phase entry. A missed request means the application is treated as withdrawn.
+
+- Late or incomplete Form 3. Section 8 disclosures of foreign applications must be kept current. Gaps are a ground for opposition and revocation years later.
+
+- Not filing the original power of attorney or assignment in time. Keep signed originals ready before entry.
+
+- Entering with US method of treatment or software claims unchanged. Sections 3(i) and 3(k) will lead to objections. A preliminary amendment at entry saves a round of examination.
+
+- Filing abroad first when an inventor lives in India. Section 39 applies even if the applicant is a foreign company.
+
+- Missing Form 27. The statement of working is due once every three financial years after grant.
+
+### Frequently asked questions
+
+#### Can a US or European company file a patent in India without an Indian agent?
+
+A foreign applicant must give an address for service in India. In practice, foreign companies appoint a registered Indian patent agent, who files and prosecutes the application and receives official correspondence.
+
+#### Is the 31 month national phase deadline extendable?
+
+It should be treated as fixed. Some relief provisions exist, but they are narrow and their outcome is uncertain.
+
+#### Can we use our granted US or EP claims in India?
+
+Often, with adjustments. The claims must be supported by the Indian specification, must avoid section 3 exclusions and must meet the limits on amendment in section 59.
+
+#### Our company is in the US but one inventor lives in India. Do we need Indian permission?
+
+Yes. Section 39 depends on the inventor being resident in India, not on where the applicant company is based. File in India first and wait six weeks, or obtain written permission in Form 25 before filing abroad.
+
+#### Do we need to file Form 27 every year?
+
+No. Since the 2024 amendments, Form 27 is filed once for every period of three financial years after grant.
+
+### Official sources
+
+- The Patents Act, 1970, published by IP India
+
+- Patents Rules and amendments, published by IP India
+
+- IP India patent forms and official fees
+
+- WIPO Patent Cooperation Treaty resources
+
+- IP India: patent forms and official fees
+
+- The Patents Act, 1970, section 39
+
+### Related articles
+
+- Patent portfolio trends: what companies are doing differently
+
+- Patent filing cost in India, the US and Europe
+
+- India patent rules and filing practice in 2026
+
+---
+
+## When to File a PCT Application: Cost and Timing
+
+Source: https://www.prasaip.com/when-to-file-pct-application/
+
+By Sanath V MadgulaPublished 29 September 202610 minute read
+A PCT application is not a world patent. It is a way to buy time and a first opinion on patentability before committing to expensive national filings. Whether it saves money depends on how many countries you need and how quickly you need a grant.
+The Patent Cooperation Treaty lets an applicant file one international application that has effect in more than 150 contracting states. The applicant receives an international search report and a written opinion, then decides later which countries to enter. Those benefits are real. So are the extra fees and the extra time. This article explains when the PCT route earns its cost and when a direct filing is the better choice.
+
+### How the PCT timeline works
+
+- Month 0. The first application sets the priority date. It might be a US or Indian provisional application, a first filing at the EPO, or a national filing such as one at the UK IPO.
+
+- Month 12. The PCT application must be filed to claim that priority. Direct filings under the Paris Convention share the same 12 month limit.
+
+- About month 16. The International Searching Authority usually issues the international search report and written opinion by this point. The applicant can amend the claims under Article 19 within two months of the report or by month 16, whichever is later.
+
+- Month 18. WIPO publishes the application.
+
+- Month 22. The usual last date to demand international preliminary examination under Chapter II, which allows argument and amendment before an examiner.
+
+- Month 30 or 31. National phase entry. Most countries, including the United States, China and Japan, apply 30 months from priority. India and the EPO allow 31 months. China accepts entry up to 32 months on payment of a surcharge.
+
+### When a PCT application makes sense
+
+A useful rule of thumb is to consider the PCT when protection may be needed in more than three countries, or when the countries are not yet known. For a small number of certain markets, direct filings are often cheaper and faster. The PCT usually earns its cost in these situations.
+
+- Many markets. One filing preserves rights everywhere for up to 30 or 31 months. National fees, translations and local attorney costs are deferred until the business knows where it sells.
+
+- Uncertain markets or funding. A startup that expects to raise money or find a licensee can postpone the largest costs by about 18 months.
+
+- A useful search early. The search report and written opinion show the strength of the claims before national spending begins. A negative opinion is cheap information. It can justify narrowing the claims or dropping the application before costs multiply.
+
+- Faster examination later. A positive written opinion or preliminary examination report can support accelerated examination in many offices through the PCT Patent Prosecution Highway.
+
+### When a PCT application wastes money
+
+If the applicant will only ever file in one or two countries, the PCT adds international fees and roughly 18 months of delay before national examination begins. The patent term does not pause for that delay. In India, the United States and Europe, the term generally runs 20 years from the filing date of the application, which for a PCT national phase is the international filing date. By the time a PCT application enters the national phase, about a year and a half of the term has already run. If examination then takes several years, the granted patent may have well under 15 years left. The United States partly compensates for office delays through patent term adjustment, but India and Europe do not.
+For one or two known markets, filing directly in those countries within the 12 month priority year usually gives a quicker grant and lower total cost. The same logic applies when a fast grant matters commercially, for example to enforce against an early copier.
+
+### Choose the International Searching Authority deliberately
+
+The receiving office decides which International Searching Authorities are available. Applicants filing in Europe normally receive an EPO search. US applicants filing at the USPTO can choose among several authorities, and many choose the USPTO, the EPO or the Korean office depending on cost and target markets. Applicants filing at the Indian Patent Office can choose the Indian Patent Office, the EPO, the USPTO, the Japan Patent Office, the Swedish, Austrian and Australian offices or CNIPA. The choice affects cost and later strategy.
+
+- Indian Patent Office. The search fee is much lower, with a further reduction for eligible applicants. Choosing India as ISA or IPEA is also a ground for expedited examination in the Indian national phase.
+
+- EPO. The search fee is higher. If the application later enters the European phase, the EPO does not run a supplementary European search, which saves that fee and time. An EPO opinion is also widely accepted for PCT PPH requests.
+
+- Other authorities. The best choice often follows the most important market, because a positive opinion from a partner office is most useful where that office has a PPH arrangement.
+
+### Using a positive search to cut prosecution cost
+
+#### United States
+
+The USPTO accepts PCT PPH requests based on a positive written opinion or preliminary examination report from partner authorities. Track One prioritized examination is not available when a PCT application enters the US national stage under 35 U.S.C. section 371. It becomes available only later, with a request for continued examination. An applicant who wants Track One from the start can instead file a bypass continuation of the PCT application under section 111(a).
+
+#### Europe
+
+When the EPO was the search authority, the European phase can move quickly because no new search is needed. The applicant can also request accelerated prosecution under PACE without an official fee, or use a PPH request based on work from a partner office. After grant, choosing a Unitary Patent gives one renewal fee for the 18 participating EU states, while countries such as the UK, Spain and Poland still need a national European patent and national renewal fees.
+
+#### PCT Patent Prosecution Highway in general
+
+Under PCT PPH programmes, an applicant whose claims were found novel, inventive and industrially applicable in the written opinion or preliminary examination report can ask participating national offices to accelerate examination. The national claims must correspond to the claims found allowable. Offices such as the USPTO, the EPO, the JPO, KIPO and CNIPA take part in PPH networks, although the partner offices and conditions differ. The result is usually fewer office actions and lower attorney costs.
+
+#### India
+
+India is not a member of the Global PPH. Its PPH arrangement with the Japan Patent Office was launched in December 2019 as a three year pilot, with limits on technology fields and annual numbers. Check with IP India whether it is still accepting requests before relying on it. For Indian national phase applications, the practical fast route is expedited examination in Form 18A. Eligible grounds include choosing India as ISA or IPEA and startup status.
+
+#### South East Asia
+
+The ASEAN Patent Examination Co-operation, known as ASPEC, lets applicants in Brunei, Cambodia, Indonesia, Laos, Malaysia, the Philippines, Singapore, Thailand and Vietnam use the search and examination results of one participating office to support examination in another. A PCT version accepts a written opinion or preliminary examination report prepared by an ASEAN authority, which currently means Singapore or the Philippines. ASPEC+, launched in April 2026, lets several participating offices work on the same application together with committed timelines for the first office action.
+
+### Cost savers inside the PCT route
+
+- Use Article 19 or Chapter II amendments to fix claims once, before they are copied into many national applications.
+
+- Natural persons who are nationals and residents of India qualify for a 90 per cent reduction in certain PCT fees. Companies do not.
+
+- Check foreign filing licence rules in the country where the invention was made. For inventions made in the United States, 35 U.S.C. section 184 requires a foreign filing licence before filing abroad within six months of a US filing, or before any first filing abroad. The USPTO normally grants it with the filing receipt of a US application. Several European countries have their own rules. The UK restricts first filings abroad for certain sensitive inventions. France requires European and PCT applications by French applicants to be filed through INPI unless they claim a French priority. Germany restricts inventions that contain state secrets.
+
+- In India, section 39 of the Patents Act applies. If the PCT claims priority from an Indian application, file it only after six weeks have passed with no secrecy direction. If the PCT is the first filing, even at the Indian Patent Office as receiving office, obtain written permission in Form 25 first. The Delhi High Court confirmed this in Puneet Kaushik v Union of India.
+
+- Decide country by country at month 28, not month 30, so translations and local instructions are not rushed.
+
+Foreign applicants entering India from a PCT application can read our page on India patent filing for foreign applicants. Indian companies can read about our US, EP and PCT patent support. Startups watching every rupee should also see our note on protecting IP on a startup budget.
+
+### Frequently asked questions
+
+#### Is a PCT application worth it for only one foreign country?
+
+Usually not. A direct filing in that country within 12 months of the first application is normally cheaper and leads to an earlier grant. The PCT may still help if the applicant needs an early search opinion or more time to decide.
+
+#### Does a PCT application extend the 20 year patent term?
+
+No. In most countries the term runs from the international filing date. The PCT delays national examination, so it shortens the period during which a granted patent can be enforced.
+
+#### Can a positive PCT search report speed up examination in India?
+
+Not through the Global PPH, because India is not a member, and its PPH programme with Japan is limited. Applicants who chose the Indian Patent Office as ISA or IPEA can request expedited examination in the Indian national phase.
+
+### Official sources
+
+- WIPO Patent Cooperation Treaty resources
+
+- WIPO PCT fee tables
+
+- USPTO Track One prioritized examination
+
+- Unified Patent Court member states
+
+- IPOS guide to the ASEAN Patent Examination Co-operation
+
+- Baker McKenzie note on the launch of ASPEC+
+
+- FICPI report on the India and Japan PPH programme
+
+- The Patents Act, 1970, published by IP India
+
+### Related articles
+
+- How to file a patent in India, step by step
+
+- Provisional patent applications in India, the US and Europe
+
+- India patent rules and filing practice in 2026
+
+---
+
+## Patent Questions Founders Ask: US, Europe and India
+
+Source: https://www.prasaip.com/patent-questions-founders-ask/
+
+Founders in the US, UK and Europe ask the same patent questions again and again in online forums: what to file first, what it costs, whether software counts, and what happens if they have already launched. This page answers the most common ones in plain English.
+The answers are written by PRASA IP's patent team, which includes in-house USPTO-registered and EPO-qualified patent attorneys and registered Indian patent agents. They are general information, not legal advice for your situation; patent rights depend on the facts, the dates and the countries involved.
+Published 31 October 202612 minute read18 questions
+On this page
+
+- Filing strategy
+
+- Cost and budget
+
+- Software and AI
+
+- Disclosure and timing
+
+- Working with a firm outside your country
+
+- Ownership and doing it yourself
+
+### Filing strategy
+
+#### Should I file a provisional application first?
+
+Usually yes, if you need a filing date quickly and the product is still changing. A US provisional application secures a priority date for 12 months, and it costs far less than a full application. The catch: it only protects what it actually describes. A one-page sketch gives you a date for very little. Write it as close to a full specification as you can, with drawings and every variation you can think of.
+
+#### Which country should I file in first?
+
+Normally the country where the invention was made, and for most US founders that means the USPTO. The US and India both restrict filing abroad first. An invention made in the US needs a USPTO foreign filing licence before it is filed abroad, unless a US application was filed at least six months earlier. An Indian resident needs permission, or an Indian application filed at least six weeks earlier, under section 39 of the Patents Act. If inventors sit in both countries, plan the first filing before anyone files.
+
+#### What is a PCT application, and do I need one?
+
+A PCT application is a single international filing that keeps your options open in more than 150 countries. You file it within 12 months of your first application. It does not give you a worldwide patent: you still enter each country (the national phase) at around 30 or 31 months from your first filing date. Its value is time. You get roughly 18 more months to raise money and test the market before you pay for each country. Our guide on when to file a PCT application explains when it saves money.
+
+#### Which countries should I protect in?
+
+Pick the places where you sell, where competitors manufacture, and where an acquirer or licensee would care. For most technology startups that is the US first, then Europe through the EPO, then a short list such as the UK, China, Japan, Korea or India. Covering every country is rarely worth it. Covering the two or three markets that make up most of your revenue usually is.
+
+### Cost and budget
+
+#### How much does a patent really cost?
+
+Official fees are the smaller part. Most of the cost is professional time: drafting the application, then answering the examiner's objections, often two or three rounds of them. A US patent taken from filing to grant typically runs into five figures in US dollars, and protection in several countries multiplies that. Spreading the spend over three to five years is normal, because each stage is paid when it falls due. See our patent filing cost comparison for India, the US and Europe.
+
+#### Is there a cheaper way to do it?
+
+Yes, without cutting quality where it matters:
+
+- Use the fee discounts you qualify for. The USPTO cuts most fees by 60% for small entities and 80% for micro entities. In India, startups recognised by DPIIT pay reduced official fees and can ask for expedited examination.
+
+- Spend on drafting, save elsewhere. A well-drafted first application avoids paying twice later. Searches, formalities and docketing can be done more efficiently.
+
+- Use the PCT to delay costs while you find out which markets matter.
+
+- Work with a team that has lower overheads. Firms like ours draft and prosecute from India, with US and European filings handled by our in-house USPTO-registered and EPO-qualified patent attorneys. The same work can cost much less than a large US or European firm charges.
+
+More ideas are in our note on protecting IP on a startup budget.
+
+#### Is a $199 provisional worth it?
+
+Rarely. A provisional is only as good as its description. If it leaves out the features you later claim, those features get no benefit from the early date. A cheap filing can be worse than none, because it creates false confidence. Pay for a proper description, or at least have a patent professional review what you wrote before you file it.
+
+### Software and AI
+
+#### Can I patent software or an AI model?
+
+Often yes, but not the code or the idea alone. Every major office asks what the software actually does technically:
+
+- United States: claims must not be directed to an abstract idea. If they are, they need an inventive concept beyond it (the Alice test). Claims tied to a specific technical improvement, such as faster processing, less memory or better security, fare best.
+
+- Europe (EPO) and the UK: a computer program “as such” is excluded. An invention that produces a further technical effect is patentable, though the UK applies its own test.
+
+- India: section 3(k) excludes a “computer programme per se”. Inventions with a technical contribution, especially those tied to hardware or a technical process, can be patented.
+
+For recent US practice, read our note on US patent eligibility declarations.
+
+#### What about AI inventions specifically?
+
+Protect the technical method, not the business outcome. Strong AI applications describe a specific training method, model architecture or data pipeline, and the measurable technical result it produces. An application that says “use machine learning to predict X” is weak everywhere. Also note: in the US, UK and Europe, a person must be named as inventor; an AI system cannot be. Our article on AI patent examination guidelines in India covers the Indian approach.
+
+### Disclosure and timing
+
+#### I already launched, demoed or published it. Can I still get a patent?
+
+Possibly in the US, probably not in Europe. The rules differ by country:
+| | Where | Grace period for your own disclosure
+| United States | 12 months from your own public disclosure
+| Europe (EPO) and UK | Effectively none; only narrow exceptions (abuse, certain official exhibitions)
+| India | Limited to specific cases, such as notified exhibitions or papers read before a learned society
+
+If you have disclosed, act fast and file in the US before the 12 months run out. Assume Europe is lost for whatever you showed, though later improvements can still be protected.
+
+#### Does an NDA protect me if I show investors?
+
+Yes, a confidential disclosure under an NDA is not a public disclosure. Many investors will not sign one, though. The safer order is to file first and pitch second. A provisional filed before the pitch gives you a date, and then you can talk freely.
+
+#### How long does it take to get a patent granted?
+
+Typically two to four years in the US and three to five at the EPO, depending on the technology. Most offices offer fast tracks. The USPTO has prioritised examination for an extra fee, and India offers expedited examination to startups and some other applicants.
+
+### Working with a firm outside your country
+
+#### Can a US, UK or European company use a patent firm based in India?
+
+Yes, and many already do, for drafting, searches, prosecution support and patent analytics. What matters is who signs and files before each office. US filings and USPTO responses must come from a USPTO-registered practitioner. EPO work needs a professional representative before the EPO for non-European applicants. At PRASA IP those filings are handled by our in-house USPTO-registered and EPO-qualified patent attorneys. We also have in-house counsel for Singapore, Indonesia, Malaysia, South Africa and the UAE. You deal with one team instead of a chain of agents. See our international patent support.
+
+#### Is the quality the same?
+
+It depends on the people, not the postcode. Ask who will actually draft your application and what their technical background is. Ask for redacted samples of granted claims in your field, and how many rounds of examiner objections their applications usually need. A good firm answers all three without hesitation. Our guide to choosing an intellectual property lawyer explains how to check a professional's registration.
+
+#### Is my invention safe if I send it abroad?
+
+Use the same safeguards you would at home: an engagement letter with confidentiality terms and secure file transfer. Check export-control rules first. A US-made invention needs a foreign filing licence before it is sent abroad for filing, and some technologies (defence, encryption, dual-use) carry extra export restrictions.
+
+### Ownership and doing it yourself
+
+#### Can I file a patent myself?
+
+You can file a provisional yourself, and some founders do. The risks come later. Claims and examiner responses decide what your patent actually covers, and that is where self-drafted applications usually go wrong. Middle ground: draft the technical description yourself, then pay a professional to review it and write the claims. Our step-by-step patent filing guide shows each stage.
+
+#### My co-founder, contractor or university helped. Who owns the invention?
+
+Whoever contributed to the claimed invention is an inventor. Ownership follows the contracts: an employment agreement, a contractor agreement or a written assignment. Without a signed assignment, a contractor can keep rights in what they invented, even if you paid for it. Get assignments signed before you file. Investors check this in due diligence, and gaps are expensive to fix later.
+
+#### Do patents help with fundraising?
+
+They can. A filed application shows investors you own something defensible, and it gives a buyer something to acquire. Investors look at quality more than numbers: one well-drafted application covering your core product counts for more than five thin ones.
+Have a question that is not here? Send it to our patent team and we will tell you what applies to your invention and your markets.
+
+### Official sources
+
+- USPTO MPEP 140: foreign filing licences
+
+- The Patents Act, 1970, section 39
+
+- USPTO fee schedule
+
+- WIPO Patent Cooperation Treaty resources
+
+### Related articles
+
+- Startup IP on a budget. What to patent first
+
+- How to file a patent in India, step by step
+
+- Enablement of method of treatment claims after Teva v Lilly
+
+---
+
+## Software and AI Patents in India (Section 3(k))
+
+Source: https://www.prasaip.com/software-ai-patents-india/
+
+PRASA IP drafts and prosecutes patent applications for software, AI and machine learning inventions in India, the US and through the PCT. We are a Bengaluru firm in JP Nagar, led by two registered Indian patent agents who are also advocates: Praneetha K Rasbag and Sanath V Madgula.
+
+### At a glance
+
+- What we handle: AI and machine learning, data processing, networking and telecom, cybersecurity, embedded and IoT systems, fintech platforms, medical software and semiconductor design tools.
+
+- Where we file: India, the United States (through PRASA IP LLC), and other countries through the PCT and foreign associates.
+
+- Work we do: invention capture, patentability searches, drafting, responses to First Examination Reports, hearings before the Controller, and US and European filing strategy.
+
+- How to reach us: online appointments or a meeting at our JP Nagar office in Bengaluru. Call +91 91132 14395.
+
+### Can software be patented in India?
+
+Yes, in many cases. Section 3(k) of the Patents Act, 1970 says that "a mathematical or business method or a computer programme per se or algorithms" are not inventions. The important words are per se. Indian courts have held that a computer-implemented invention is not excluded just because it runs as software. What matters is whether it makes a technical contribution or has a technical effect.
+
+- Ferid Allani v Union of India (Delhi High Court, 2019) confirmed that inventions based on computer programs can be patented if they show a technical effect or technical contribution.
+
+- Later Delhi High Court decisions, including Microsoft Technology Licensing v Assistant Controller, Raytheon v Controller General, OpenTV v Controller and Blackberry v Assistant Controller, have refined how "algorithm", "per se" and "business method" are read.
+
+- The Patent Office's 2025 Guidelines for Examination of Computer Related Inventions draw on these cases. They give examiners a non-exhaustive list of technical effects, such as faster processing, reduced memory access time, improved signal transmission, better control of a machine, stronger network security and improved image or signal processing.
+
+### What the Patent Office looks for
+
+- A technical problem. What limitation existed in the earlier system: speed, accuracy, resource use, security, reliability or control of hardware?
+
+- A technical solution. Which data structure, processing step, model architecture, training method or system interaction solves it?
+
+- A technical effect you can show. Measured improvements, comparisons or worked examples make the effect easier to argue.
+
+- A claim that recites the mechanism. Claims that only describe collecting data, running a model and producing a result are more likely to be treated as an algorithm or business method.
+
+### AI and machine learning inventions
+
+For AI inventions the specification must also be detailed enough for a skilled person to carry out the invention. The 2025 Guidelines follow the Madras High Court's approach in Caleb Suresh Motupalli v Controller of Patents on sufficiency of disclosure. In practice, describe:
+
+- the model type and architecture, and why it was chosen;
+
+- the training data, how it is prepared and labelled, and the features used;
+
+- the training process and how the model is validated;
+
+- how the model's output controls or improves a technical system.
+
+We cover how examiners themselves may use AI in our note on India's AI guidelines for patent examination, and US eligibility in Recentive v Fox.
+
+### Drafting for India, the US and Europe together
+
+Most software clients file in more than one country. One specification can serve all of them if it is written for the strictest reader from the start.
+
+- India: technical effect and contribution, read with Section 3(k) and the CRI Guidelines.
+
+- United States: eligibility under 35 U.S.C. § 101, where a claimed improvement to computer technology matters.
+
+- Europe: technical character and inventive step assessed on the features that contribute to a technical solution.
+
+We draft method, system and, where useful, storage-medium claims, with dependent claims that hold real fallback positions. See when to file a PCT application for timing.
+
+### Answering a First Examination Report
+
+Section 3(k) objections are common for software applications. A good response:
+
+- identifies the technical problem and effect from the original specification, without adding new matter;
+
+- amends the claims to recite the technical features that produce the effect;
+
+- relies on the relevant court decisions and the CRI Guidelines where they fit the facts;
+
+- is filed within the 6 month deadline (extendable by 3 months), with a hearing requested if needed.
+
+### How our fees are structured
+
+- By stage. Patentability search, invention capture, drafting, filing, examination responses and hearings are quoted separately, in writing, before work starts.
+
+- Official fees at cost. Government fees follow the IP India schedule and are lower for individuals, startups and small entities.
+
+- Foreign filings. US, European and PCT costs are estimated as a programme so you can plan around funding.
+
+### Common questions
+
+#### Is software patentable in India?
+
+Software that shows a technical effect or technical contribution can be patented. A computer program per se, a pure algorithm, a mathematical method or a business method cannot.
+
+#### Can I patent an AI model in India?
+
+A model that solves a technical problem in a technical way may be patentable, if the application discloses enough detail for a skilled person to reproduce it. A model described only by its business result is unlikely to be granted.
+
+#### Should I file in India or the US first?
+
+It depends on where you will sell, raise money and enforce. Indian residents generally need a foreign filing permit, or must file in India first, before filing abroad. We plan the order with you.
+
+#### Do I need to visit your office?
+
+No. Most software clients work with us online. You are welcome to meet us at our JP Nagar office in Bengaluru.
+
+### Talk to our team
+
+Send us a short description of the problem your software solves and how it works. We will tell you whether a patent is realistic before you spend on drafting. Call +91 91132 14395 or use the contact details on our home page.
+
+Discuss a software invention
+
+---
+
+## Types of Intellectual Property: India, US and EU
+
+Source: https://www.prasaip.com/types-of-intellectual-property-protection/
+
+By Praneetha K RasbagUpdated 23 October 202610 minute read
+Intellectual property is a family of separate rights. Each one protects a different kind of creation, arises in a different way and lasts for a different time. Choosing the right one starts with knowing what each right actually covers.
+In the United States the common shorthand is the four types of intellectual property. These are patents, trademarks, copyrights and trade secrets. Indian law recognises those four and adds several specialised rights, including industrial designs, geographical indications, semiconductor layout designs and plant varieties. This guide explains each type under Indian law and notes how the same right works in the United States and the European Union.
+The main types of intellectual property at a glance
+- Patents protect technical inventions. Granted after examination. 20 years in India.
+
+- Trade marks protect brand names, logos and other signs. Registration lasts 10 years and can be renewed indefinitely.
+
+- Copyright protects software, writing, art, music and films. Arises automatically. Generally life of the author plus 60 years in India.
+
+- Industrial designs protect how a product looks. Registered. 10 years, extendable once by 5 years.
+
+- Trade secrets protect confidential information. No registration. Lasts while the information stays secret.
+
+- Geographical indications protect goods linked to a place, such as Darjeeling tea. Registered. 10 years, renewable.
+
+- Semiconductor layout-designs protect integrated circuit layouts. Registered. 10 years.
+
+- Plant varieties protect new plant varieties. Registered. 15 years, or 18 years for trees and vines.
+
+### What are intellectual property rights?
+
+Intellectual property rights, often shortened to IPR, are legal rights over creations of the mind. They cover inventions, brands, creative works, designs and valuable confidential information. Each right lets its owner stop others from using the protected subject matter without permission, within the limits the law sets.
+Three features are common to almost every intellectual property right. The right is exclusive, so the owner decides who may use it. It is territorial, so a right granted in India does not by itself apply in the United States or Europe. Most rights are also limited in time. Patents, designs and copyright expire, while trade marks can be renewed indefinitely and trade secrets last while they stay confidential.
+The WTO Agreement on Trade Related Aspects of Intellectual Property Rights, known as TRIPS, sets minimum standards that member countries must provide. India, the United States and the EU member states are all WTO members, which is why the main rights look broadly similar across these jurisdictions even though the details differ.
+
+### Patents. Protection for inventions
+
+A patent protects a technical invention, such as a product, process, machine or composition, that is new, inventive and industrially applicable. It gives the owner the right to stop others from making, using, selling or importing the claimed invention in the country that granted it.
+
+- India. Governed by the Patents Act, 1970. A patent must be applied for, examined and granted. The term is 20 years from the filing date. Section 3 excludes certain subject matter, including computer programmes per se, business methods and mathematical methods.
+
+- United States. Utility patents last 20 years from filing. Design patents protect ornamental designs and, for applications filed on or after 13 May 2015, last 15 years from grant. Plant patents cover new asexually reproduced plant varieties.
+
+- Europe. A European patent is granted centrally by the European Patent Office and then takes effect country by country. Since 1 June 2023 a Unitary Patent can also be registered, covering participating EU states under one right enforced before the Unified Patent Court.
+
+### Trade marks. Protection for brands
+
+A trade mark is a sign that tells customers who stands behind goods or services. It can be a word, logo, shape, colour combination or sound. Its job is to indicate origin, so a mark that merely describes the product is hard to protect.
+
+- India. Governed by the Trade Marks Act, 1999. Registration lasts ten years and can be renewed indefinitely for further ten year periods. Unregistered marks are protected through the common law action of passing off, which depends on proving goodwill.
+
+- United States. Rights arise from use in commerce. Federal registration with the USPTO under the Lanham Act adds nationwide notice and procedural advantages. Registrations are renewed every ten years, with a declaration of continued use due between the fifth and sixth years.
+
+- Europe. An EU trade mark filed with the EUIPO covers all EU member states in one registration and lasts ten years, renewable. National marks remain available in each country.
+
+### Copyright. Protection for creative and software works
+
+Copyright protects original literary, artistic, musical and dramatic works, films, sound recordings and computer software. It protects the expression of an idea, not the idea itself. Copyright arises automatically when the work is created.
+
+- India. Governed by the Copyright Act, 1957. Registration with the Copyright Office is optional but gives useful evidence of ownership. For most literary, artistic, musical and dramatic works, the term is the life of the author plus 60 years.
+
+- United States. The term is generally the life of the author plus 70 years. Registration is optional for protection. For United States works, registration, or a refusal by the Copyright Office, is required before suing for infringement.
+
+- Europe. Terms are harmonised at the life of the author plus 70 years for most works. There is no EU wide registration system.
+
+### Industrial designs. Protection for appearance
+
+A registered design protects the visual appearance of a product, such as its shape, pattern, ornamentation or configuration. It does not protect how the product works. Function belongs to patents.
+
+- India. Governed by the Designs Act, 2000. The design must be new or original and must not have been published before filing. Protection lasts ten years and can be extended once by five years.
+
+- United States. Product appearance is protected through design patents, described above.
+
+- Europe. A registered EU design lasts up to 25 years in five year terms. An unregistered EU design gives three years of protection against copying from the date the design is first made available in the EU. Since 1 May 2025 the former Community design is called the EU design.
+
+### Trade secrets. Protection for confidential know how
+
+A trade secret is commercially valuable information that is kept confidential through reasonable measures. Recipes, source code, customer lists, manufacturing parameters and pricing models are common examples. Protection lasts as long as the secret is kept, and it is lost once the information becomes public.
+
+- India. There is no dedicated trade secrets statute. Protection comes from contracts such as confidentiality and employment agreements and from the equitable law of breach of confidence. The Law Commission of India recommended a specific law in its 289th Report in 2024.
+
+- United States. The Defend Trade Secrets Act of 2016 created a federal civil action. Most states have also adopted the Uniform Trade Secrets Act.
+
+- Europe. The Trade Secrets Directive (EU) 2016/943 sets common rules for unlawful acquisition, use and disclosure across member states.
+
+### Rights that are specific to certain goods and technologies
+
+#### Geographical indications
+
+A geographical indication identifies goods as coming from a particular place where a quality or reputation is linked to that origin. Darjeeling tea and Mysore silk are registered Indian examples. The Geographical Indications of Goods (Registration and Protection) Act, 1999 governs registration, which lasts ten years and is renewable.
+
+#### Semiconductor integrated circuit layout designs
+
+The Semiconductor Integrated Circuits Layout-Design Act, 2000 protects original layout designs of integrated circuits. Protection lasts ten years from the filing date or the date of first commercial exploitation anywhere, whichever is earlier. The register is little used, but it matters for chip design companies with Indian operations.
+
+#### Plant varieties
+
+The Protection of Plant Varieties and Farmers' Rights Act, 2001 protects new plant varieties. Protection lasts 18 years for trees and vines and 15 years for other crops. The Act also preserves specific rights for farmers.
+Which right fits the asset?
+- A new technical feature or process points to a patent.
+
+- A product name, logo or brand identity points to a trade mark.
+
+- Software code, content, artwork or text points to copyright.
+
+- A distinctive product shape or pattern points to a registered design.
+
+- Valuable information that competitors cannot see points to trade secret protection.
+
+- Most products need several rights at once. A consumer device can involve patents, a design, a brand and copyright in its software.
+
+### Frequently asked questions
+
+#### What are the four types of intellectual property?
+
+The usual list is patents, trademarks, copyrights and trade secrets. It is a convenient summary rather than a legal definition. India and the EU also protect designs, geographical indications and other specialised rights.
+
+#### What is the meaning of IPR?
+
+IPR stands for intellectual property rights. The term covers the legal rights that protect inventions, brands, creative works, designs and confidential business information.
+
+#### Which intellectual property rights must be registered in India?
+
+Patents, registered designs, geographical indications, layout designs and plant variety rights exist only through registration. Copyright arises automatically. Trade marks can be protected without registration through passing off, but registration makes enforcement far simpler.
+
+#### Can one product be protected by more than one right?
+
+Yes. A smartphone can carry thousands of patents, registered designs for its shape, trade marks for its name and logo, and copyright in its software. The rights overlap because they protect different aspects of the same product.
+
+#### How many types of intellectual property rights are there in India?
+
+Indian law protects eight main types: patents, trade marks, copyright, industrial designs, geographical indications, semiconductor integrated circuit layout-designs, plant varieties and trade secrets. Each has its own statute except trade secrets, which are protected through contracts and the law of confidence. Lists of four, five or seven types are summaries that group or leave out some of these.
+
+#### What are some examples of intellectual property?
+
+A patented battery chemistry, the name and logo of a product, the source code of an app, the shape of a bottle, a customer list kept confidential, and Darjeeling tea as a geographical indication are all examples. One product often involves several of them at once.
+
+#### What is the difference between IP and IPR?
+
+IP, intellectual property, is the creation itself, such as an invention, a brand or a piece of software. IPR, intellectual property rights, are the legal rights that let the owner control how that creation is used. In everyday use the two terms are often used interchangeably. Which professional you need depends on the right involved; our guide to choosing an intellectual property lawyer explains when you need a patent agent, a trade mark agent or an advocate.
+
+#### Does Indian protection extend to other countries?
+
+No. Intellectual property rights are territorial. International treaties such as the Paris Convention, the PCT, the Madrid Protocol and the Hague Agreement simplify filing abroad, but protection still arises country by country or region by region.
+
+### Official sources
+
+- The Patents Act, 1970, published by IP India
+
+- The Trade Marks Act, 1999, published by IP India
+
+- WTO overview of the TRIPS Agreement
+
+- USPTO overview of patents, trademarks, copyrights and trade secrets
+
+- European Patent Office guide to the Unitary Patent
+
+- EUIPO guide to EU designs
+
+- European Commission IP Helpdesk note on the proposed Indian trade secrets bill
+
+### Related articles
+
+- Intellectual property lawyer in India: how to choose
+
+- Can you reuse IP India data and judgments?
+
+- Startup IP on a budget. What to patent first
+
+---
+
+## Design Registration in India: Process, Fees, Term
+
+Source: https://www.prasaip.com/industrial-design-registration-in-india/
+
+Updated 6 November 20268 minute readBy Sanath V Madgula, reviewed by Praneetha K Rasbag, Advocate
+Talk to us about your designCall +91 91132 14395, message us on WhatsApp or email contact@prasaip.com. Monday to Friday, 9:30 am to 6:30 pm IST. You can also book a call online.
+
+PRASA IP helps product companies, hardware startups and manufacturers in Bengaluru and across India register designs and enforce them. A design registration is often the quickest and least expensive way to stop copies of a product's look.
+Design registration in India at a glance
+- Law: the Designs Act, 2000 and the Designs Rules, 2001.
+
+- What it protects: the visual appearance of an article, judged by the eye. Not how it works.
+
+- Application: Form 1, filed online with the Design Office.
+
+- Official filing fee: ₹1,000 for an individual, startup or small entity, ₹4,000 for other applicants.
+
+- Term: 10 years, extendable once by 5 years, so 15 years in total.
+
+- Priority: file in India within 6 months of a first filing abroad to claim its date.
+
+- Classification: the Locarno International Classification.
+
+### What a design registration protects
+
+Under the Designs Act, 2000, a design is the visual appearance of an article, judged by the eye. It must be:
+
+- New or original, and not published or used anywhere in the world before the filing or priority date.
+
+- Significantly distinguishable from known designs or combinations of known designs.
+
+- Applied to an article by an industrial process, whether manual, mechanical or chemical.
+
+A design registration does not protect how a product works. Functional or mechanical features need a patent, and brand names and logos need a trade mark. Many products need more than one. Our overview of the types of intellectual property explains which right covers what.
+
+### Screen designs, GUIs and icons
+
+Graphical user interfaces and icons were refused inconsistently for years. In March 2026 the Calcutta High Court held that there is no blanket exclusion for GUIs, and the Designs Office has since published draft guidelines on how it will examine them. Our article on GUI and icon design registration in India explains what the draft says and what it leaves open.
+
+### Before you file
+
+- Keep it confidential. Showing the design publicly, at a launch, online or to buyers without a confidentiality agreement, can destroy novelty. Exhibition at a notified exhibition has a limited grace period, so check before relying on it.
+
+- Search earlier designs. We search the Indian design register and other sources to see whether similar designs already exist.
+
+- Choose the class. India follows the Locarno International Classification, and the application must name the class and the article.
+
+- Prepare the views. Clear drawings or photographs from each relevant angle define the scope of protection, so they matter as much as the application form.
+
+### Forms and official fees
+
+| | Step | Form | Individual, startup or small entity | Other applicants
+| Application for registration | Form 1 | ₹1,000 | ₹4,000
+| Claim startup or small entity status | Form 24 | Filed with the application, with proof of status
+| Extension for a further 5 years | Form 3 | ₹2,000 | ₹8,000
+| Restoration of a lapsed design, within 1 year of lapse, plus the extension fee | Form 4 | ₹1,000 | ₹4,000
+
+To pay the lower fees, a startup must hold DPIIT recognition under the Startup India scheme and a small entity must have Udyam registration. The extension must be filed before the first 10 years end. Search, preparation of the representations and professional fees are extra.
+
+### The registration process in India
+
+- Filing. We file the application with the representations, the statement of novelty and any disclaimer at the Design Office, part of the Office of the Controller General of Patents, Designs and Trade Marks.
+
+- Examination. An examiner checks the application against the Act and may raise objections.
+
+- Response. We answer objections in writing and, if needed, at a hearing. The application must be put in order for acceptance within the period set by the Designs Rules.
+
+- Registration and publication. Once accepted, the design is registered and published in the official journal, and a certificate is issued.
+
+Registration takes effect from the date of filing, or the priority date for a convention application. If you have already filed abroad, an Indian application claiming priority must be made within 6 months of the first filing.
+
+### How long protection lasts
+
+A registered design is protected for 10 years. It can be extended once, by 5 years, if the extension fee is paid before the first term ends, giving 15 years in total. We track renewal dates for our clients.
+
+### Enforcing a registered design
+
+Copying a registered design, or an obvious imitation of it, on the same class of article is piracy under the Designs Act. Remedies include an injunction and damages through the courts. A registered design can also be challenged by a cancellation petition, so a careful search and accurate filing make the registration stronger. Our note on the eye test in design infringement shows how courts compare designs.
+
+### Common questions
+
+#### How much does design registration cost in India?
+
+The official fee for a design application on Form 1 is ₹1,000 for an individual, startup or small entity and ₹4,000 for other applicants. Search, drawings and professional fees are extra.
+
+#### How long does a registered design last in India?
+
+10 years, extendable once by 5 years, so 15 years in total. The extension must be filed on Form 3 before the first 10 years end and costs ₹2,000 for an individual, startup or small entity and ₹8,000 for other applicants.
+
+#### Can I register a design after launching the product?
+
+Usually not. Once a design has been published or sold, it is generally no longer new. File before launch, or check the facts with us quickly if the design has already been shown.
+
+#### Can one product have both a design and a patent?
+
+Yes. A design covers the appearance and a patent covers the technical function. Hardware products often benefit from both.
+
+#### Is a design registration the same as copyright?
+
+No. Copyright in an artistic work used as a design for industrial production can be limited, so a registered design is usually the right protection for a mass-produced product's appearance.
+
+#### Do I need to visit the office?
+
+No. Filing is online and we work with clients across India by video call. You are welcome to meet us at our JP Nagar office in Bengaluru.
+
+### What happens when you contact us
+
+- Confidentiality first. We first need a confidentiality agreement in place. Please ask us and we will send one.
+
+- Assessment and quote. We review the design and tell you which rights fit, in which countries, with the official and professional fees for each stage.
+
+- Work begins. Once you approve the scope, the partner handling your matter starts the search, drawings and filing.
+
+Our founders handle each matter directly. Praneetha K Rasbag is an Advocate and registered patent agent, and Sanath V Madgula is an Advocate and registered patent agent.
+Discuss your design
+
+### Official sources
+
+- Office of the Controller General of Patents, Designs and Trade Marks
+
+### Related articles
+
+- GUI and icon design registration in India
+
+- EU design ban on the BYD Ti7: Jaguar Land Rover v BYD
+
+- EU trade mark and design practice in 2026
+
+---
+
+## How Long Does IP Last? Terms and Renewals
+
+Source: https://www.prasaip.com/how-long-does-ip-protection-last/
+
+By Praneetha K RasbagPublished 31 October 2026Updated 25 November 20267 minute read
+A patent lasts 20 years, a trade mark 10 renewable years, an Indian design up to 15 years and Indian copyright life plus 60 years. In the US and the EU, copyright runs for life plus 70 years. Patents and trade marks stay alive only if renewal or maintenance fees are paid on time.
+The details decide real value. When does the clock start? What keeps the right alive? Can the term be extended? This guide answers those questions for India, the United States and Europe, with notes on the UK and China where the rules differ.
+Key points
+- Patents last 20 years from the filing date in India, the US, at the EPO and in China. Renewal or maintenance fees must be paid to keep them in force.
+
+- India has no patent term adjustment for office delay. The US and China do. The Supreme Court of India is now examining the question.
+
+- Trade marks are registered for 10 years at a time in India, the US and the EU. They can be renewed without limit.
+
+- Registered designs last up to 15 years in India and the US, and up to 25 years in the EU and the UK.
+
+- Copyright lasts for the author's life plus 60 years in India, and life plus 70 years in the US and the EU.
+
+### Patents: 20 years from filing, if you pay to keep them
+
+#### India
+
+Section 53 of the Patents Act, 1970 sets the term at 20 years from the date of filing of the application. For a PCT application entering India, the term runs from the international filing date. Where a complete specification follows a provisional one, the 20 years run from the date the provisional was filed. So in India the provisional starts the clock.
+The patent ceases to have effect if a renewal fee is not paid within the prescribed period. Section 60 allows an application to restore a lapsed patent within 18 months from the date it ceased to have effect. Restoration is not automatic.
+India has no provision to add time when the Patent Office takes years to grant. A patent granted in year 8 still expires in year 20. The Supreme Court has agreed to examine this issue in Gunjan Sinha v Union of India. Our note on patent term adjustment in India explains what is at stake.
+
+#### United States
+
+Under 35 U.S.C. 154(a)(2), a utility patent ends 20 years from the US filing date. If the application claims the benefit of an earlier US or PCT application, the term runs from the earliest such filing. This differs from India. Claiming priority from a US provisional application does not start the clock.
+Two mechanisms can add time. Patent term adjustment under section 154(b) adds days lost to USPTO delay, such as a patent issuing more than three years after filing. Patent term extension under section 156 restores part of the time lost to regulatory review of a drug or similar product. That extension cannot exceed five years, and the remaining term after approval cannot exceed 14 years in total.
+US utility patents carry three maintenance fees, due 3.5, 7.5 and 11.5 years after grant. A six month grace period with a surcharge follows each due date. Design patents work differently. For applications filed since 13 May 2015, they last 15 years from grant under section 173. They carry no maintenance fees.
+
+#### Europe
+
+Article 63(1) of the European Patent Convention sets the term of a European patent at 20 years from the date of filing. Article 63(2) lets member states extend protection for products that need marketing authorisation. In the EU this is done through supplementary protection certificates under Regulation (EC) No 469/2009. A certificate can last up to five years, plus six months where the paediatric rules apply.
+Renewal fees for a European application are paid to the EPO from the third year. Under Article 86(2), that obligation ends with the fee for the year in which the grant is published. After grant, renewal fees are paid in each country where the patent is validated. For a European patent with unitary effect, they are paid to the EPO.
+
+#### China
+
+Article 42 of the Chinese Patent Law gives invention patents 20 years, utility models 10 years and designs 15 years, all from the filing date. Since the 2020 amendment, China compensates for unreasonable delay where an invention patent is granted more than four years after filing and three years after the request for examination. New drug patents can also receive up to five years of extra term, capped at 14 years of effective term after approval.
+
+### Trade marks: 10 years at a time, renewable without limit
+
+A trade mark can last indefinitely if it is renewed, and in some countries used.
+
+- India. Section 25 of the Trade Marks Act, 1999 registers a mark for 10 years. It can be renewed for further periods of 10 years. If a mark is removed for failure to pay the renewal fee, the Registrar may restore it on an application made after six months and within one year from expiry.
+
+- United States. A registration lasts 10 years under 15 U.S.C. 1058. The owner must also file a declaration of use between the fifth and sixth years after registration, and again with each 10 year renewal. Without it the registration is cancelled.
+
+- European Union. Under Article 52 of Regulation (EU) 2017/1001, an EU trade mark is registered for 10 years from the filing date. Under Article 53, renewal is requested in the six months before expiry.
+
+The practical difference is the US use requirement. An Indian or EU registration can be renewed without filing proof of use at renewal. A US registration cannot. See our trade mark services page for how registrations work in each system.
+
+### Designs: 15 years in India and the US, 25 in Europe
+
+Design protection shows the widest gap between the major systems.
+
+- India. Section 11 of the Designs Act, 2000 gives 10 years from registration. One extension of five years is available, for a maximum of 15 years.
+
+- United States. A design patent filed since 13 May 2015 lasts 15 years from grant, with no maintenance fees.
+
+- European Union. The design reform, Regulation (EU) 2024/2822, restated the term of a registered EU design. It lasts five years from filing and can be renewed in five year periods up to 25 years. Our note on the EUIPO trade mark and design changes covers the wider reform.
+
+- United Kingdom. Section 8 of the Registered Designs Act 1949 gives five years at first, with four further periods of five years. The maximum is 25 years.
+
+- China. Designs last 15 years from filing.
+
+For a product with a long market life, such as furniture or an appliance, the extra decade in Europe matters.
+
+### Copyright: life plus 60 or life plus 70
+
+Copyright needs no registration in any of these systems. Its term depends on the author's life.
+
+- India. Under section 22 of the Copyright Act, 1957, copyright in a literary, dramatic, musical or artistic work published in the author's lifetime lasts until 60 years from the start of the calendar year after the author dies. A sound recording is protected for 60 years from the start of the calendar year after publication, under section 27.
+
+- United States. Under 17 U.S.C. 302, copyright lasts for the author's life plus 70 years. A work made for hire lasts 95 years from first publication or 120 years from creation, whichever ends first.
+
+- European Union. The Term Directive, 2006/116/EC, sets the author's life plus 70 years.
+
+So a work may be free to use in India while it is still protected in the US and Europe.
+
+### Other rights at a glance
+
+- Plant varieties in India. Registration under the Protection of Plant Varieties and Farmers' Rights Act, 2001 lasts up to 18 years for trees and vines. Other crops get a shorter total term.
+
+- Trade secrets. There is no registration and no fixed term. Protection lasts only while the information stays confidential.
+
+Our guide to the types of intellectual property protection explains what each right covers.
+
+### Practical steps
+
+- Docket every renewal and maintenance date from the day you file. Most rights are lost through missed fees, not through litigation.
+
+- For patents, count the 20 years from the filing date. Do not count from grant, except for US design patents.
+
+- If a US patent took long to grant, check the patent term adjustment printed on it. For a pharmaceutical product, assess term extension in the US and supplementary protection in Europe early.
+
+- Keep evidence of use for every US trade mark. You will need it in the sixth year and at each renewal.
+
+- For a design with a long commercial life, consider European and UK filings, where protection can run to 25 years.
+
+### Frequently asked questions
+
+#### Which type of intellectual property protection has a set term of 20 years?
+
+A patent. In India, the US, Europe and China, a patent for an invention lasts 20 years from the filing date, provided renewal or maintenance fees are paid. Some systems add time for office delay or regulatory approval.
+
+#### How long does a patent last in India?
+
+Twenty years from the date of filing, under section 53 of the Patents Act, 1970. For a PCT national phase application, the term runs from the international filing date. Renewal fees must be paid to keep the patent in force.
+
+#### Does a trade mark ever expire?
+
+Only if it is not renewed, or in some systems if it is not used. In India, the US and the EU, a registration lasts 10 years and can be renewed again and again.
+
+#### When does intellectual property need to be renewed?
+
+It depends on the right. An Indian patent ceases if a renewal fee is not paid within the prescribed period, under section 53(2) of the Patents Act, 1970. A trade mark is renewed every 10 years in India, the US and the EU. A US registration also needs a declaration of use between the fifth and sixth years. An Indian design gets one five year extension after the first 10 years. Copyright needs no renewal.
+
+#### Can a lapsed IP right be restored?
+
+Sometimes. In India, an application to restore a lapsed patent can be made within 18 months under section 60. A trade mark removed for non renewal can be restored on an application made after six months and within one year from expiry, under section 25.
+
+### Official source
+
+- Patents Act, 1970, section 53
+
+- Patents Act, 1970, section 60
+
+- Trade Marks Act, 1999, section 25
+
+- Designs Act, 2000, section 11
+
+- Copyright Act, 1957, section 22
+
+- Copyright Act, 1957, section 27
+
+- Protection of Plant Varieties and Farmers' Rights Act, 2001, section 24
+
+- 35 U.S.C. 154
+
+- 35 U.S.C. 156
+
+- 35 U.S.C. 173
+
+- 35 U.S.C. 41
+
+- 15 U.S.C. 1058
+
+- 17 U.S.C. 302
+
+- EPC, Article 63
+
+- EPC, Article 86
+
+- Regulation (EC) No 469/2009 on supplementary protection certificates
+
+- Regulation (EU) 2017/1001 on the EU trade mark
+
+- Regulation (EU) 2024/2822 amending the EU design regulation
+
+- Directive 2006/116/EC on the term of copyright
+
+- Registered Designs Act 1949, section 8
+
+- Patent Law of the People's Republic of China (2020), via WIPO Lex
+
+### Related articles
+
+- Can you reuse IP India data and judgments?
+
+- Types of intellectual property compared
+
+- Design protection for brands
+
+---
+
+## Startup IP on a Budget: What to Patent First
+
+Source: https://www.prasaip.com/startup-ip-budget-patents-trademarks/
+
+By Sanath V MadgulaPublished 29 September 20269 minute read
+A large patent and trade mark portfolio can look impressive in a pitch deck. For an early startup it can also become a recurring bill that grows every year, in every country, whether or not the product survives.
+Patents and trade marks are not one time costs. Each patent family carries drafting and filing fees, examination fees, attorney fees for every office action, and renewal fees that usually rise with age. Each country multiplies the bill. A startup that files widely in its first year can find that its IP budget competes with hiring and product work just when cash matters most. The answer is not to avoid IP. It is to file for what the business actually needs, in the order it needs it. The principles below apply whether the company is based in India, the United States or Europe, and the country notes show where the rules differ.
+
+### Start with the business question, not the filing question
+
+Before any application, ask what the company must stop competitors from doing in the next three to five years. The answer is usually narrower than the list of everything the engineers have built. A patent is worth its cost when it protects the feature that customers pay for, when copying would hurt the business, and when the company would realistically enforce it or license it.
+Five questions before filing a patent
+- Is the invention central to how the company earns revenue or raises money?
+
+- Could you detect a competitor using it? Features inside a product are easier to police than server side processes.
+
+- Will it still matter when the patent is granted, which often takes several years?
+
+- Would you enforce it, license it or rely on it in a sale of the company?
+
+- Could secrecy protect it better than publication in a patent?
+
+If most answers are no, a patent is probably not the right spend yet. Good records, confidentiality and a clear ownership chain may protect the company better for a fraction of the cost.
+
+### Do not disclose before you decide
+
+Grace periods for an inventor's own disclosure differ sharply between major markets. The United States gives inventors one year from their own public disclosure to file. Japan also allows one year. Europe applies absolute novelty, with only narrow exceptions for evident abuse and certain officially recognised exhibitions. India's grace period covers only specified disclosures, and China's is similarly limited. A demo, investor deck on a public site or conference talk can therefore keep US rights alive while destroying European and Indian rights. If protection outside the United States may be needed, file before any public disclosure.
+
+### Protect the brand first, but keep the filing narrow
+
+A startup uses its name from the first day it trades. A clearance search before launch costs far less than a rebrand after an objection or a demand letter. File in the classes that cover what the company sells now and what it will sell soon. Filing in many classes for products that may never exist adds fees and can invite oppositions without adding real protection.
+
+- India. Applications can be filed for marks proposed to be used, so there is no need to wait for sales.
+
+- United States. An intent to use application reserves priority before launch. Registration follows only after the applicant proves use in commerce, and USPTO fees are charged per class.
+
+- European Union. One EU trade mark covers all member states. The official fee for a second class is small, but each class from the third onwards costs noticeably more. The United Kingdom needs its own filing since Brexit.
+
+- China. Trade mark rights go to the first filer. Startups that manufacture or source in China should file there early, before a supplier or distributor registers the brand.
+
+The Paris Convention gives six months from the first trade mark filing to claim priority in other countries. Once the target markets are clear, one international application under the Madrid Protocol can extend a home application or registration to many member countries, including India, the United States, the European Union, the United Kingdom, China and Japan. Our trade mark services page explains the process.
+
+### Stage patent spending so each step buys a decision
+
+Patent procedure in the major offices lets a startup spend in stages and decide as it learns.
+
+- Secure a cheap first filing. A US provisional application or an Indian provisional specification secures a filing date at a lower cost. There is no provisional application at the EPO, but a first filing in a European national office can serve the same purpose. The UK IPO, for example, gives a filing date to a description filed without claims or fees. Whatever the office, the first filing must describe the invention fully, because features left out do not get its date.
+
+- Decide at month 12. The priority year ends 12 months after the first filing. By then, file the complete or non provisional application at home and decide whether protection abroad is worth pursuing. A PCT application keeps foreign options open for up to 30 or 31 months from the priority date.
+
+- Enter only the markets that matter. Choose countries where the company sells, manufactures or expects to be copied. Every country added means years of fees and local attorney costs.
+
+- Use a Unitary Patent where it fits. In Europe, a Unitary Patent covers the 18 EU states that have ratified the Unified Patent Court Agreement for one renewal fee. It is often cheaper than validating separately in four or more of those states. The United Kingdom, Spain, Switzerland and several others still need national validation.
+
+Our guide on when to file a PCT application explains when that route saves money and when a direct filing is better. The Indian patent filing guide covers each Indian step and deadline. Our guide to choosing an intellectual property lawyer explains how to compare advisers and quotes.
+
+### Check national security clearance before filing abroad
+
+Several countries require permission before an invention made there is first filed abroad. The United States requires a foreign filing licence before an invention made there is filed abroad. It is usually granted in the filing receipt of a US application, and once six months have passed since the US filing no licence is needed unless a secrecy order was issued. India requires permission under section 39 of the Patents Act unless an Indian application was filed at least six weeks earlier. China requires a confidentiality examination for inventions completed in China, and breaching it can invalidate the Chinese patent. The United Kingdom has a similar rule for certain sensitive inventions. A distributed team with inventors in several countries should settle the filing sequence before anything is filed.
+
+### Use every fee concession you qualify for
+
+#### United States
+
+The USPTO gives small entities a 60 per cent reduction and micro entities an 80 per cent reduction on many patent fees. Micro entity status has income and filing history limits, with a separate route linked to US universities. Eligibility must hold at every fee payment, so it should be checked and recorded carefully. Track One prioritised examination can bring a final decision within about a year for an additional fee, which is also reduced for small and micro entities.
+
+#### Europe
+
+Since 1 April 2024, the EPO has cut many fees by 30 per cent for micro enterprises, natural persons, non profit organisations, universities and public research organisations. It is available only if the applicant has filed fewer than five European applications in the five years before the application concerned. SMEs that are not micro enterprises do not qualify.
+
+#### India
+
+Startups recognised by DPIIT, natural persons, small entities and educational institutions pay reduced official patent fees. The Startup India portal describes the startup patent rebate as 80 per cent and the trade mark rebate as 50 per cent compared with other companies. Startups can also request expedited examination. The Start-ups Intellectual Property Protection scheme, known as SIPP, reimbursed the professional fees of empanelled facilitators. Published commentary reports that it ended on 31 March 2026, with no extension announced by mid 2026. The official fee concessions are separate and continue.
+
+#### PCT
+
+WIPO reduces certain PCT fees by 90 per cent for natural persons who are nationals and residents of listed countries, including India. The reduction does not apply to companies. The choice of International Searching Authority also changes the search fee considerably.
+
+### Prune the portfolio every year
+
+Renewal fees are where portfolios quietly drain cash. US maintenance fees fall due at three and a half, seven and a half and eleven and a half years after grant. A European application carries annual renewal fees at the EPO from the third year while it is pending, and after grant in each validated country, except in the participating EU states when a Unitary Patent is chosen. Indian renewal fees are payable every year and increase over the life of the patent.
+Review the portfolio at least once a year. Ask whether each right still covers the product, still matters in that country and still supports a licence, a sale or investor diligence. Letting a weak right lapse is a sound business decision, not a failure.
+
+### Low cost protection that every startup needs
+
+- Written IP assignment clauses for founders, employees and contractors. Investors in every major market check ownership before they check patents. Some countries add their own rules, such as statutory compensation for employee inventors in Germany.
+
+- Confidentiality agreements before sharing technical detail with partners, vendors or potential investors.
+
+- Dated invention records, design files and code repositories that show who created what and when.
+
+- Trade secret discipline for algorithms, data and processes that customers never see. The US Defend Trade Secrets Act and the EU Trade Secrets Directive both protect only information kept under reasonable secrecy measures. India relies on contract and the law of confidence.
+
+- An open source policy, so that licence obligations do not undermine proprietary code.
+
+Copyright in software code and content arises automatically in India, the United States and Europe. In the United States, registration is required before suing over a US work, and early registration improves the remedies available. Our overview of the types of intellectual property explains which right fits which asset.
+
+### Frequently asked questions
+
+#### Do investors expect a startup to have patents?
+
+Not always. Investors in India, the United States and Europe look first for clean ownership of the technology and brand, a clearance search for the name and a sensible filing plan. A few well chosen applications usually impress more than a large, unfocused portfolio.
+
+#### Should a startup file a patent before launching the product?
+
+If the launch will disclose the invention and a patent may be needed outside the United States, file first. The US grace period does not protect rights in Europe, India or China.
+
+#### How many trade mark classes should a startup file in?
+
+File in the classes that cover the goods and services the company offers now or will offer soon. Add classes as the business expands.
+
+### Official sources
+
+- USPTO guidance on micro entity status
+
+- USPTO prioritised examination FAQ
+
+- EPO fee reductions for smaller applicants
+
+- Unified Patent Court member states
+
+- Startup India intellectual property benefits for recognised startups
+
+- IP India patent forms and official fees
+
+- WIPO note on the 90 per cent reduction in PCT fees
+
+- Commentary on the end of the SIPP scheme by S.S. Rana and Co.
+
+### Related articles
+
+- Patent questions founders ask most, answered
+
+- Patent filing cost in India, the US and Europe
+
+- How to file a patent in India, step by step
+
+---
+
+## Patent Filing in Bangalore: Agents and Attorneys
+
+Source: https://www.prasaip.com/ip-law-firm-bengaluru/
+
+Talk to us about your matterCall +91 91132 14395, message us on WhatsApp or email contact@prasaip.com. Monday to Friday, 9:30 am to 6:30 pm IST. You can also book a call online.
+
+### Patent filing in Bangalore: office, steps and official fees
+
+Applicants in Karnataka file with the Patent Office, Chennai. Rule 4 of the Patents Rules, 2003 fixes the office by where the applicant resides, has a place of business, or where the invention originated. There is no Patent Office branch in Bengaluru, but filing, examination and hearings are online.
+
+- Provisional application. Form 1 with a provisional specification on Form 2. The official fee online is ₹1,600 for an individual, startup, small entity or educational institution, and ₹8,000 for others.
+
+- Complete specification. It must follow within 12 months of the provisional under section 9(1). There is no extra fee up to 30 pages and 10 claims.
+
+- Examination. A separate request on Form 18 costs ₹4,000 or ₹20,000. Without it, the application is not examined.
+
+- Who may file. An applicant may file in person or through a registered patent agent. You can check any agent on the IP India register of patent agents.
+
+Professional fees for drafting and filing are separate from these official fees. Our guide to patent filing cost in India sets out the full fee schedule. Updated 24 November 2026.
+
+### Patent agents and IP services in Bangalore
+
+A filing is one step in an intellectual property strategy. The right starting point may be a patentability review, a trademark clearance search, a filing plan before public disclosure, or an assessment of an existing portfolio. Our team works with inventors, founders, in-house counsel, research groups and foreign associates to define the question first, then the appropriate work and jurisdiction.
+
+PRASA IP is based in JP Nagar, Bengaluru (Bangalore). Our founders are registered Indian patent agents and IP attorneys, and they handle each matter directly. We assist clients in India and abroad: our team includes USPTO-registered and EPO-qualified patent attorneys and in-house counsel for Singapore, Indonesia, Malaysia, South Africa and the UAE. We do not assume that every invention needs a patent or that a filing alone answers a client's commercial risk.
+
+### Patent lawyers for drafting, filing and prosecution
+
+As a patent service provider for startups in Bangalore, we often prepare a filing plan before a product launch, a public demo or an investor pitch. We help founders decide between a provisional and a complete application and plan the costs of later filings.
+
+Our patent lawyers are registered Indian patent agents with engineering backgrounds, so the person who discusses your invention also drafts and prosecutes it. Patent work begins with the technical disclosure. We discuss the inventive concept, implementation, alternatives, prior art and intended markets before deciding how to structure claims and a specification. Our patent services include searches, Indian filing and examination support, drafting and prosecution support, freedom-to-operate and invalidity analysis, and portfolio review.
+
+For an Indian First Examination Report, we review each objection against the application as filed, cited references and pending claims. US and European applications are drafted and prosecuted by our in-house USPTO-registered and EPO-qualified patent attorneys. See our US, EP and PCT support for the scope of cross-border work.
+
+### Trademark search, registration and brand protection
+
+A name chosen for a product or company should be assessed before it becomes difficult to change. Our trademark practice covers searches, identification of relevant goods and services, Indian applications, examination responses, hearings, opposition support, renewals and portfolio management. We also coordinate protection in other markets through appropriate filing routes and local counsel.
+
+We distinguish a search for earlier marks from a broader clearance opinion, and a registry objection from an opposition by another rights holder. The advice and evidence needed differ for each stage. Our trade mark infringement examples show how disputes play out.
+
+### SEPs, claim charts and commercial analysis
+
+For technology portfolios, PRASA IP prepares element-by-element claim charts, patent-to-standard mapping and evidence-of-use analysis. We examine the claim language, technical standard or product documentation, and any gaps in the available evidence. This supports assessment of standard essential patents, infringement questions, licensing discussions and defensive positions. These matters require a defined claim set, territory, product or standard version and purpose of the analysis.
+
+### Copyright, designs and other rights
+
+Inventions and brands are not the whole portfolio. Depending on the subject matter, we can assist with copyright, industrial designs, geographical indications and semiconductor layout-design matters, as well as related agreements and IP portfolio planning. The appropriate protection depends on what was created, who owns it, where it will be used and what has already been disclosed. See our guides to copyright for businesses, design protection and trade secrets.
+
+### Work with the responsible professionals
+
+PRASA IP is led by founding partners Praneetha K Rasbag and Sanath V Madgula, whose technical and legal backgrounds inform the firm's work with inventors and legal teams. Our technology experience spans software, AI, telecommunications, electronics, semiconductors, robotics, mechanical systems, medtech and other areas. The assigned team and scope are confirmed for each matter. If you are comparing firms, read our guide to choosing an intellectual property lawyer.
+
+### Common questions
+
+#### When should I consult a patent professional?
+
+Ideally before a public demonstration, publication, sale or disclosure outside an appropriate confidentiality arrangement. Bring a technical description, drawings if available, the dates of any disclosures and a list of intended countries. The possible effect of disclosure depends on the jurisdiction and facts.
+
+#### Can a Bengaluru firm support US or European patent matters?
+
+Yes. We provide drafting, claim analysis, prosecution support and coordination. Representation before the USPTO and the EPO is handled by our in-house USPTO-registered and EPO-qualified patent attorneys.
+
+#### Does a trademark application guarantee registration?
+
+No. The Registry examines the application, and third parties may oppose it. A pre-filing search and carefully prepared application can help identify issues, but the outcome depends on the mark, goods or services, prior rights and evidence.
+
+#### What happens at the first discussion?
+
+We identify the subject matter, relevant deadlines, jurisdictions and the decision you need to make. Before receiving unpublished technical material, we can agree the engagement scope and a secure transfer method.
+
+#### How do I choose the best patent agents in Bangalore?
+
+Check that the agent is on the IP India register of patent agents, has a technical background close to your invention, and will draft and prosecute the application personally. Ask for a written, stage-by-stage quote. Our guide to choosing an IP lawyer lists the checks.
+
+#### Where is a patent application from Bangalore filed?
+
+Applicants in Karnataka file with the Chennai branch of the Indian Patent Office, and filing, examination and hearings are almost entirely online. Patent registration in Bangalore follows the same steps as anywhere in India; see our step-by-step patent filing guide.
+
+### Bengaluru office and contact
+
+481, 5th Cross Road, Kothanur Main Road, RBI Layout, JP Nagar 7th Phase, Bengaluru, Karnataka 560078. To arrange a discussion, call +91 91132 14395 or see our contact page.
+Office hours: Monday to Friday, 9:30 am to 6:30 pm. Get directions on Google Maps.
+
+### What happens when you contact us
+
+- Confidentiality first. We first need a confidentiality agreement in place. Please ask us and we will send one.
+
+- Assessment and quote. We review what you share and tell you which rights fit, in which countries, with the official and professional fees for each stage.
+
+- Work begins. Once you approve the scope, the partner handling your matter starts the search, drafting or filing.
+
+Discuss your matter
+
+---
+
