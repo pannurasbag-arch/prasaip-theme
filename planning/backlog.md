@@ -2998,3 +2998,8 @@ Updates noted 10 Nov 2026: item 283 Google v DDC opinion opened (https://www.caf
 - **Date:** 19 Nov 2026 · **Bench:** Purushaindra Kumar Kaurav J · **Area:** Indian IP litigation / territorial jurisdiction / patents, designs, trade marks
 - **Primary (opened, full judgment text):** https://www.livelawbiz.com/ipr/delhi-high-court-returns-10-more-ip-suits-saying-online-listings-alone-cannot-justify-filing-cases-in-delhi-559436
 - **Status:** PUBLISHED 27 Nov 2026 (PR #47, a574dfc). GSC already indexed, Bing and IndexNow submitted. Company LinkedIn urn:li:share:7531940583163162624.
+
+### 361. Saturday explainer: intellectual property search, free patent, trade mark and design databases (India, US, Europe, UK)
+- **Date:** 28 Nov 2026 · **Lens:** Saturday general IP knowledge · **Target queries (GSC, 3 months):** "intellectual property search" (pos 14.7), "ipr public search" (34.8), "ip trademark search" (7.9), "intellectual property search india" (18.5). These currently land on navigating-intellectual-property-india, which is a general overview and does not answer them.
+- **Primary (opened 28 Nov):** IP India patent public search (fields checked), IP India Search Existing Trademarks page (TM search and AI/ML search), TM public search now OTP login, IP India design search, USPTO PPUBS notice (Sept 2022), USPTO TESS retirement (30 Nov 2023).
+- **Status:** DRAFT 28 Nov 2026, slug intellectual-property-search-free-databases, byline Sanath. Awaiting owner approve.
